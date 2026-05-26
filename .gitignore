@@ -1,0 +1,12 @@
+.DS_Store
+**/.DS_Store
+.claude/
+docs/
+questions/
+references/
+course-zh/
+**/images/
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
