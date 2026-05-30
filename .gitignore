@@ -10,3 +10,4 @@ __pycache__/
 *.pyc
 Thumbs.db
 desktop.ini
+.git-credentials
