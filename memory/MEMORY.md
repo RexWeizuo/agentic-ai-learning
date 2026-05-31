@@ -1,4 +1,4 @@
-# Memory Index
+﻿# Memory Index
 
 ## 学习方法
 - [Pair Study 方法论](learning-methods/pair-study-methodology.md) — 初学+复习两阶段流程
@@ -16,11 +16,15 @@
 - [Quiz 工作流](quiz-workflow.md) — 小任务人工处理规则
 - [Day 1-2 错误记录](mistakes-2026-05-26.md) — 冗余操作总结
 
+## 每日追踪（新）
+- [Pulse Check 仪表盘](pulse-check.md) — 连续天数、完成率、疲劳预警
+- [每日计划](daily-sessions/) — 每日任务 + 实际时间线
+
 ## 复习计划
 - [三层复习体系](review-schedule/README.md) — 章节→全书→四科强化
 
 ## 408-OS
-- [第三章总览](study-progress/408-OS-第三章/README.md) — 内存管理全 5 节
+- [第三章总览](study-progress/408-OS-第三章/README.md) — 内存管理共 5 节
 - [3.1 程序装入](study-progress/408-OS-第三章/3.1-程序装入.md)
 - [3.2 分区管理](study-progress/408-OS-第三章/3.2-分区管理.md)
 - [3.3 分页分段](study-progress/408-OS-第三章/3.3-分页分段.md)
@@ -36,3 +40,6 @@
 
 ## 408-OS-第四章
 - [第四章总览](study-progress/408-OS-第四章/README.md) — I/O 管理，4.1 学习中
+
+## 自动化
+- [Cron 自动续期](C:\Users\scott\.claude\projects\D--learn-agentic-ai-system-course-main\memory\cron-auto-renew.md) — 会话启动时检查和续期定时任务
