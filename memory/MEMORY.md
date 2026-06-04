@@ -3,10 +3,13 @@
 ## 学习方法
 - [Pair Study 方法论](learning-methods/pair-study-methodology.md) — 初学+复习两阶段流程
 - [学习方法收集](learning-methods/README.md) — 每周一个学习方法
+- [错题优先原则](review-priority-rule.md) — 复习错题 > 推进新课，Agent 必须监督
 
 ## 用户
 - [用户画像](user_profile.md) — 考研学生，408+数学+英语
 - [学习路径](user-learning-path.md) — 三科学习路线
+- [日常作息](daily-rhythm.md) — 睡眠/起床/到馆节奏，疲劳信号
+- [项目理念](project-philosophy.md) — 追踪一切行动，发现伪学习，修正前进
 - [随时记录反馈](feedback_record_immediately.md) — 每次问答后立即写日志
 
 ## 项目
@@ -16,7 +19,10 @@
 - [Quiz 工作流](quiz-workflow.md) — 小任务人工处理规则
 - [Day 1-2 错误记录](mistakes-2026-05-26.md) — 冗余操作总结
 
-## 每日追踪（新）
+## 学习系统
+- [学习系统升级](learning-system.md) — 50-10-汇报节奏、周节奏、Codex实时搭档
+
+## 每日追踪
 - [Pulse Check 仪表盘](pulse-check.md) — 连续天数、完成率、疲劳预警
 - [每日计划](daily-sessions/) — 每日任务 + 实际时间线
 
