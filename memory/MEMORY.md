@@ -19,6 +19,9 @@
 - [Quiz 工作流](quiz-workflow.md) — 小任务人工处理规则
 - [Day 1-2 错误记录](mistakes-2026-05-26.md) — 冗余操作总结
 
+## 工具/配置
+- [QWEN 图片模型](qwen-image-model.md) — 图片任务用 qwen3.6-plus，免费额度
+
 ## 学习系统
 - [学习系统升级](learning-system.md) — 50-10-汇报节奏、周节奏、Codex实时搭档
 
