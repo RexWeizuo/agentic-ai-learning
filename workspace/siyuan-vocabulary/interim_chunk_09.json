@@ -1,0 +1,506 @@
+{
+  "groups": [
+    {
+      "name": "法律与司法",
+      "words": [
+        "judgment",
+        "judicial",
+        "jurisdiction",
+        "jury",
+        "lawsuit",
+        "magistrate",
+        "liability",
+        "liable"
+      ],
+      "type": "主题",
+      "note": "法庭、审判与法律责任相关核心词汇"
+    },
+    {
+      "name": "新闻与出版",
+      "words": [
+        "journal",
+        "journalist",
+        "magazine",
+        "media",
+        "manuscript",
+        "leaflet",
+        "letter",
+        "issue"
+      ],
+      "type": "主题",
+      "note": "媒体、出版物与发行相关词汇"
+    },
+    {
+      "name": "商业与经济",
+      "words": [
+        "investment",
+        "management",
+        "manager",
+        "merchandise",
+        "lucrative",
+        "loan",
+        "lease",
+        "leadership"
+      ],
+      "type": "主题",
+      "note": "投资、管理、借贷与商业运营词汇"
+    },
+    {
+      "name": "词根 man/manu (手)",
+      "words": [
+        "manifest",
+        "manipulate",
+        "manoeuvre",
+        "manual",
+        "manufacture",
+        "mandate"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 manus (手)，引申为操作、制造、命令"
+    },
+    {
+      "name": "词族 mechan (机械)",
+      "words": [
+        "machine",
+        "machinery",
+        "mechanic",
+        "mechanical",
+        "mechanism"
+      ],
+      "type": "词族",
+      "note": "机械、机构及其派生词"
+    },
+    {
+      "name": "词根 loc (地方)",
+      "words": [
+        "local",
+        "locality",
+        "locate",
+        "location"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 locus (地方、位置)"
+    },
+    {
+      "name": "词族 limit (限制与边缘)",
+      "words": [
+        "limit",
+        "limitation",
+        "limited",
+        "margin",
+        "marginal"
+      ],
+      "type": "词族",
+      "note": "界限、限制及边缘概念的近义与派生词"
+    },
+    {
+      "name": "词根 magn/max (大与放大)",
+      "words": [
+        "magnificent",
+        "magnify",
+        "magnitude",
+        "massive",
+        "maximum"
+      ],
+      "type": "词根",
+      "note": "表示巨大、放大或最大值的词根与近义词"
+    },
+    {
+      "name": "词族 lay (放置/层)",
+      "words": [
+        "layer",
+        "layman",
+        "layoff",
+        "layout"
+      ],
+      "type": "词族",
+      "note": "lay 的派生词，涵盖层次、外行、解雇与布局"
+    },
+    {
+      "name": "词族 line (线/布)",
+      "words": [
+        "line",
+        "linear",
+        "linen",
+        "liner"
+      ],
+      "type": "词族",
+      "note": "line 的派生词及形近词（linen 词源不同但形近）"
+    },
+    {
+      "name": "词族 live (生活/生命)",
+      "words": [
+        "lively",
+        "liver",
+        "living",
+        "living room"
+      ],
+      "type": "词族",
+      "note": "live 的派生词，涵盖活泼、肝脏、生活与客厅"
+    },
+    {
+      "name": "词根 medi (中间/媒介)",
+      "words": [
+        "mediate",
+        "medieval",
+        "meditation",
+        "medium"
+      ],
+      "type": "词根",
+      "note": "medi 相关词，注意 medieval (中世纪) 和 meditation (冥想) 的词源差异"
+    },
+    {
+      "name": "词族 liter (文学/读写)",
+      "words": [
+        "literacy",
+        "literally",
+        "literary",
+        "literature"
+      ],
+      "type": "词族",
+      "note": "源自 littera (字母)，涵盖读写能力与文学"
+    },
+    {
+      "name": "连接与结合",
+      "words": [
+        "join",
+        "joint",
+        "junction",
+        "link",
+        "knit",
+        "knot"
+      ],
+      "type": "主题",
+      "note": "表示连接、结合、打结的动作与名词"
+    },
+    {
+      "name": "地理与空间方位",
+      "words": [
+        "latitude",
+        "longitude",
+        "lunar",
+        "landscape",
+        "lane"
+      ],
+      "type": "主题",
+      "note": "经纬度、月球的及地理景观相关词汇"
+    },
+    {
+      "name": "词根 leg (法律/读/遗赠)",
+      "words": [
+        "legacy",
+        "legal",
+        "legislation",
+        "legitimate"
+      ],
+      "type": "词根",
+      "note": "leg/lex 词根，涵盖法律、立法及遗赠"
+    },
+    {
+      "name": "词根 liber/libr (自由/书)",
+      "words": [
+        "liberal",
+        "liberty",
+        "library",
+        "license"
+      ],
+      "type": "词根",
+      "note": "liber (自由) 与 libr (书) 词根，license 为形近词"
+    },
+    {
+      "name": "液体与流动",
+      "words": [
+        "liquid",
+        "liquor",
+        "juice",
+        "leak"
+      ],
+      "type": "主题",
+      "note": "液体、汁液及泄漏相关词汇"
+    },
+    {
+      "name": "词族 luck (运气)",
+      "words": [
+        "luck",
+        "lucky",
+        "lottery",
+        "lure"
+      ],
+      "type": "词族",
+      "note": "运气、彩票及诱惑（lure 常与运气/风险语境相关）"
+    },
+    {
+      "name": "易混淆 lo 开头",
+      "words": [
+        "loyal",
+        "loyalty",
+        "lord",
+        "lofty"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近的 lo 开头词汇，注意词义区分"
+    },
+    {
+      "name": "词根 mem (记忆/成员)",
+      "words": [
+        "memory",
+        "memorial",
+        "memorandum",
+        "member"
+      ],
+      "type": "词根",
+      "note": "mem 词根，涵盖记忆、备忘录及成员"
+    },
+    {
+      "name": "婚姻与女性",
+      "words": [
+        "marry",
+        "marital",
+        "maid",
+        "maiden"
+      ],
+      "type": "主题",
+      "note": "婚姻状态及未婚女性相关词汇"
+    },
+    {
+      "name": "逻辑与语言",
+      "words": [
+        "logic",
+        "logical",
+        "linguistic",
+        "language"
+      ],
+      "type": "主题",
+      "note": "逻辑学与语言学核心词汇"
+    },
+    {
+      "name": "易混淆 le 开头",
+      "words": [
+        "lapse",
+        "lean",
+        "leap",
+        "learn"
+      ],
+      "type": "易混淆",
+      "note": "le 开头易混淆动词，注意 lapse (流逝/失效) 与 leap (跳跃)"
+    },
+    {
+      "name": "易混淆 mer 开头",
+      "words": [
+        "mercury",
+        "mercy",
+        "mere",
+        "mentor"
+      ],
+      "type": "易混淆",
+      "note": "mer 开头形近词，涵盖水银、仁慈、仅仅与导师"
+    },
+    {
+      "name": "易混淆 lu 开头",
+      "words": [
+        "lumber",
+        "litter",
+        "lump",
+        "luxury"
+      ],
+      "type": "易混淆",
+      "note": "lu 开头词汇，注意 lumber (木材) 与 lump (块/肿块)"
+    },
+    {
+      "name": "易混淆 la 开头",
+      "words": [
+        "lake",
+        "lawn",
+        "lamb",
+        "lame"
+      ],
+      "type": "易混淆",
+      "note": "la 开头基础词汇，注意 lame (跛足的/不完全的)"
+    },
+    {
+      "name": "易混淆 in 开头",
+      "words": [
+        "inward",
+        "invisible",
+        "invoke",
+        "involve"
+      ],
+      "type": "易混淆",
+      "note": "in 开头动词与形容词，注意 invoke (援引/祈求) 与 involve (包括/陷入)"
+    },
+    {
+      "name": "易混淆 ir 开头",
+      "words": [
+        "irrigate",
+        "irritate",
+        "irony",
+        "irrespective"
+      ],
+      "type": "易混淆",
+      "note": "ir 开头词汇，注意 irrigate (灌溉) 与 irritate (激怒)"
+    },
+    {
+      "name": "近义 少与低",
+      "words": [
+        "least",
+        "less",
+        "little",
+        "lower"
+      ],
+      "type": "近义",
+      "note": "表示数量少、程度低或位置低的比较级与基础词"
+    }
+  ],
+  "ungrouped": [
+    "investment",
+    "isle",
+    "isolate",
+    "item",
+    "itself",
+    "ivory",
+    "jargon",
+    "jealous",
+    "jolly",
+    "jump",
+    "junk",
+    "juvenile",
+    "keen",
+    "kidnap",
+    "kidney",
+    "kilogram",
+    "kilometre",
+    "kindergarten",
+    "kindness",
+    "king",
+    "kingdom",
+    "kiss",
+    "kneel",
+    "knob",
+    "knowledge",
+    "label",
+    "laboratory",
+    "lace",
+    "lame",
+    "lantern",
+    "laptop",
+    "largely",
+    "laser",
+    "lash",
+    "last",
+    "late",
+    "lately",
+    "latent",
+    "lateral",
+    "Latin",
+    "laugh",
+    "launch",
+    "lazy",
+    "leading",
+    "least",
+    "leisure",
+    "lemon",
+    "lend",
+    "lens",
+    "lesson",
+    "lest",
+    "lever",
+    "levy",
+    "lick",
+    "likelihood",
+    "likely",
+    "likewise",
+    "limb",
+    "limp",
+    "list",
+    "litre",
+    "little",
+    "lobby",
+    "lock",
+    "locker",
+    "locomotive",
+    "lodge",
+    "loom",
+    "loop",
+    "loosen",
+    "loud",
+    "lounge",
+    "lovely",
+    "lover",
+    "lubricate",
+    "lunch",
+    "lyric",
+    "magic",
+    "magnet",
+    "magnetic",
+    "mainland",
+    "maintain",
+    "maintenance",
+    "majesty",
+    "malignant",
+    "mammal",
+    "marathon",
+    "marble",
+    "marine",
+    "mark",
+    "marvelous",
+    "Marxist",
+    "masculine",
+    "massacre",
+    "masterpiece",
+    "mate",
+    "mathematical",
+    "mature",
+    "maybe",
+    "meadow",
+    "meaning",
+    "means",
+    "meantime",
+    "meeting",
+    "melody",
+    "melon",
+    "melt",
+    "membership",
+    "menace",
+    "mend",
+    "merchandise"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "法律与司法",
+      "likely_in_other_chunks": [
+        "sue",
+        "court",
+        "verdict",
+        "attorney"
+      ]
+    },
+    {
+      "my_group": "词根 man/manu (手)",
+      "likely_in_other_chunks": [
+        "manuscript",
+        "manual",
+        "emancipate"
+      ]
+    },
+    {
+      "my_group": "词根 loc (地方)",
+      "likely_in_other_chunks": [
+        "allocate",
+        "dislocate",
+        "locomotive"
+      ]
+    },
+    {
+      "my_group": "词根 magn/max (大与放大)",
+      "likely_in_other_chunks": [
+        "major",
+        "majority",
+        "magnate"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 250,
+    "grouped": 128
+  }
+}

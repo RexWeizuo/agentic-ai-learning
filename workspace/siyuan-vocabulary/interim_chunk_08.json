@@ -1,0 +1,479 @@
+{
+  "groups": [
+    {
+      "name": "history 词族",
+      "words": [
+        "historian",
+        "historic",
+        "historical",
+        "history"
+      ],
+      "type": "词族",
+      "note": "注意 historic (历史上著名的/有历史意义的) 与 historical (历史学的/关于历史的) 的区别。"
+    },
+    {
+      "name": "identify 词族",
+      "words": [
+        "identical",
+        "identification",
+        "identify",
+        "identity"
+      ],
+      "type": "词族",
+      "note": "identical 强调完全相同；identity 指身份或同一性。"
+    },
+    {
+      "name": "imagine 词族",
+      "words": [
+        "image",
+        "imaginary",
+        "imagination",
+        "imaginative"
+      ],
+      "type": "词族",
+      "note": "imaginary 指虚构的、假想的；imaginative 指富有想象力的。"
+    },
+    {
+      "name": "intellect 词族",
+      "words": [
+        "intellectual",
+        "intelligence",
+        "intelligent",
+        "intelligible"
+      ],
+      "type": "词族",
+      "note": "intelligible 意为可理解的、易懂的，不要与 intelligent (聪明的) 混淆。"
+    },
+    {
+      "name": "inter- 前缀 (交互/之间)",
+      "words": [
+        "interact",
+        "intercourse",
+        "interface",
+        "interfere",
+        "interference",
+        "intermediate",
+        "interval",
+        "intervene",
+        "interview"
+      ],
+      "type": "词根",
+      "note": "inter- 表示在...之间、相互。注意 interfere (干涉/妨碍) 与 intervene (介入/调停) 的语境差异。"
+    },
+    {
+      "name": "in- 开头易混淆词",
+      "words": [
+        "intimate",
+        "intimidate",
+        "intricate",
+        "intrigue",
+        "intrude",
+        "invalid",
+        "invaluable"
+      ],
+      "type": "易混淆",
+      "note": "intimate (亲密的/暗示) vs intimidate (恐吓)；invalid (无效的/病人) vs invaluable (无价的/极宝贵的)。"
+    },
+    {
+      "name": "内部/内在",
+      "words": [
+        "inner",
+        "interior",
+        "internal",
+        "inherent",
+        "intrinsic",
+        "inland"
+      ],
+      "type": "近义词",
+      "note": "inner/internal/interior 多指物理或抽象的内部；inherent/intrinsic 强调事物固有的、本质的内在属性。"
+    },
+    {
+      "name": "伤害/损害",
+      "words": [
+        "hurt",
+        "impair",
+        "injure",
+        "inflict"
+      ],
+      "type": "近义词",
+      "note": "impair 侧重削弱或损害功能；inflict 强调把痛苦、伤害强加于人 (inflict sth on sb)。"
+    },
+    {
+      "name": "巨大/极多",
+      "words": [
+        "huge",
+        "immense",
+        "infinite",
+        "innumerable"
+      ],
+      "type": "近义词",
+      "note": "immense 强调体积或程度极大；innumerable 强调数量多得数不清。"
+    },
+    {
+      "name": "暗示/指示",
+      "words": [
+        "hint",
+        "implication",
+        "implicit",
+        "imply",
+        "indicate",
+        "indication",
+        "indicative"
+      ],
+      "type": "近义词",
+      "note": "imply 是动词 (暗示)；implication 是名词 (含义/牵连)；implicit 是形容词 (含蓄的/盲从的)。"
+    },
+    {
+      "name": "启发/阐明",
+      "words": [
+        "illuminate",
+        "illustrate",
+        "illustration",
+        "inspiration",
+        "inspire"
+      ],
+      "type": "近义词",
+      "note": "illuminate 侧重照明或阐明深奥的道理；illustrate 侧重用例子或图表来说明。"
+    },
+    {
+      "name": "犯罪/侵入/违法",
+      "words": [
+        "hijack",
+        "hostage",
+        "illegal",
+        "invade",
+        "invasion"
+      ],
+      "type": "主题场景",
+      "note": "法律与冲突场景核心词。hijack (劫持)；hostage (人质)。"
+    },
+    {
+      "name": "医学/生理/健康",
+      "words": [
+        "hormone",
+        "hygiene",
+        "immune",
+        "infect",
+        "infectious",
+        "influenza",
+        "inhale",
+        "inject"
+      ],
+      "type": "主题场景",
+      "note": "医学与生物场景。immune (免疫的/不受影响的)；hygiene (卫生)。"
+    },
+    {
+      "name": "经济/商业/工业",
+      "words": [
+        "holder",
+        "industrial",
+        "industrialise",
+        "inflation",
+        "infrastructure",
+        "input",
+        "insurance",
+        "insure",
+        "invest",
+        "inventory"
+      ],
+      "type": "主题场景",
+      "note": "经济与商业场景。infrastructure (基础设施)；inventory (存货清单/详细目录)。"
+    },
+    {
+      "name": "心理/情绪/性格",
+      "words": [
+        "hesitate",
+        "hopeful",
+        "horrible",
+        "horror",
+        "hysterical",
+        "impatient",
+        "indifferent",
+        "indignant",
+        "indignation"
+      ],
+      "type": "主题场景",
+      "note": "描述心理状态与情绪。indignant (愤慨的) 强调因不公而愤怒；hysterical (歇斯底里的)。"
+    },
+    {
+      "name": "思想/认知/直觉",
+      "words": [
+        "hypothesis",
+        "ideology",
+        "ideal",
+        "intuition",
+        "instinct"
+      ],
+      "type": "主题场景",
+      "note": "认知与哲学场景。hypothesis (假设)；ideology (意识形态/思想体系)。"
+    },
+    {
+      "name": "增加/推动/提高",
+      "words": [
+        "hoist",
+        "hike",
+        "increase",
+        "increasingly",
+        "impetus",
+        "impulse",
+        "improve",
+        "incentive",
+        "induce"
+      ],
+      "type": "近义词",
+      "note": "impetus 和 incentive 都含有动力、动机的意思；hike 可指价格或数量的大幅上升。"
+    },
+    {
+      "name": "混合/整合/同质",
+      "words": [
+        "homogeneous",
+        "hybrid",
+        "incorporate",
+        "integrate",
+        "integral",
+        "integrity"
+      ],
+      "type": "近义词",
+      "note": "homogeneous (同种的/同质的) 反义为 heterogeneous；integrity 除了正直，还有完整性的意思。"
+    },
+    {
+      "name": "居住/家庭/室内",
+      "words": [
+        "household",
+        "inhabit",
+        "inhabitant",
+        "indoor"
+      ],
+      "type": "主题场景",
+      "note": "household 指一家人或家庭的；inhabit 是及物动词，直接加地点 (inhabit the island)。"
+    },
+    {
+      "name": "时间/迅速/临时",
+      "words": [
+        "instant",
+        "instantaneous",
+        "interim",
+        "hurry"
+      ],
+      "type": "近义词",
+      "note": "instantaneous 强调瞬间发生的、猝发的；interim 指暂时的、过渡期的 (in the interim)。"
+    },
+    {
+      "name": "调查/解释/洞察",
+      "words": [
+        "inspect",
+        "investigate",
+        "insight",
+        "interpret"
+      ],
+      "type": "近义词",
+      "note": "inspect 侧重检查、视察；investigate 侧重深入调查；insight 指深刻的洞察力。"
+    },
+    {
+      "name": "模仿/虚构/假象",
+      "words": [
+        "imitate",
+        "imitation",
+        "illusion",
+        "hypocrisy"
+      ],
+      "type": "近义词",
+      "note": "illusion 指错觉或幻想；hypocrisy 指伪善、虚伪。"
+    },
+    {
+      "name": "开始/创新/引入",
+      "words": [
+        "inaugurate",
+        "initiate",
+        "initiative",
+        "initial",
+        "introduce",
+        "introduction",
+        "innovation",
+        "invent",
+        "invention"
+      ],
+      "type": "近义词",
+      "note": "inaugurate 指举行就职典礼或开创；initiative 指主动权或首创精神。"
+    },
+    {
+      "name": "影响/事件/结果",
+      "words": [
+        "impact",
+        "influence",
+        "influential",
+        "incidence",
+        "incident",
+        "incidentally"
+      ],
+      "type": "近义词",
+      "note": "incidence 指发生率；incident 指事件或事变；incidentally 意为顺便提一句。"
+    },
+    {
+      "name": "态度/尊严/款待",
+      "words": [
+        "hostile",
+        "honor",
+        "honorable",
+        "hospitality",
+        "humble",
+        "humiliate"
+      ],
+      "type": "主题场景",
+      "note": "hospitality 指好客、款待；humiliate 指使蒙羞、屈辱，与 humble (谦逊的) 词根同源但感情色彩不同。"
+    },
+    {
+      "name": "自然/物理/地理",
+      "words": [
+        "hydrogen",
+        "horsepower",
+        "horizon",
+        "horizontal",
+        "hollow",
+        "hill",
+        "highway"
+      ],
+      "type": "主题场景",
+      "note": "自然与物理基础词汇。horizon (地平线/眼界)；horizontal (水平的)。"
+    }
+  ],
+  "ungrouped": [
+    "heroic",
+    "heroin",
+    "herself",
+    "hide",
+    "hierarchy",
+    "highlight",
+    "highly",
+    "himself",
+    "hinder",
+    "hinge",
+    "hitherto",
+    "holiday",
+    "homework",
+    "horn",
+    "hose",
+    "hound",
+    "hover",
+    "however",
+    "howl",
+    "huddle",
+    "human",
+    "humanity",
+    "humid",
+    "humidity",
+    "humor",
+    "hunger",
+    "hurl",
+    "ice cream",
+    "icon",
+    "idiom",
+    "idiot",
+    "idle",
+    "ignite",
+    "ignorance",
+    "ignorant",
+    "ignore",
+    "illiterate",
+    "impart",
+    "imperative",
+    "imperial",
+    "implement",
+    "impose",
+    "impossible",
+    "impress",
+    "impression",
+    "impressive",
+    "inch",
+    "incline",
+    "include",
+    "inclusive",
+    "incredible",
+    "incur",
+    "independence",
+    "independent",
+    "index",
+    "indulge",
+    "inertia",
+    "inevitable",
+    "infant",
+    "infer",
+    "inference",
+    "inferior",
+    "infrared",
+    "ingenious",
+    "ingredient",
+    "inherit",
+    "inhibit",
+    "injure",
+    "injury",
+    "innocent",
+    "insert",
+    "install",
+    "installation",
+    "instalment",
+    "instance",
+    "instead",
+    "institution",
+    "instruct",
+    "instrumental",
+    "insulate",
+    "insult",
+    "intact",
+    "intend",
+    "intense",
+    "intensity",
+    "intensive",
+    "intention",
+    "interest",
+    "interesting",
+    "intermittent",
+    "intersection",
+    "intimate",
+    "inverse",
+    "invert"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "history 词族",
+      "likely_in_other_chunks": [
+        "story",
+        "prehistoric",
+        "historiography"
+      ]
+    },
+    {
+      "my_group": "inter- 前缀 (交互/之间)",
+      "likely_in_other_chunks": [
+        "international",
+        "internet",
+        "interpret",
+        "interrupt"
+      ]
+    },
+    {
+      "my_group": "医学/生理/健康",
+      "likely_in_other_chunks": [
+        "disease",
+        "virus",
+        "medical",
+        "symptom",
+        "diagnose"
+      ]
+    },
+    {
+      "my_group": "经济/商业/工业",
+      "likely_in_other_chunks": [
+        "economy",
+        "market",
+        "commerce",
+        "profit",
+        "revenue"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 308,
+    "grouped": 155
+  }
+}

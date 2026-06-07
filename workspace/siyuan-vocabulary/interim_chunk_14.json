@@ -1,0 +1,439 @@
+{
+  "groups": [
+    {
+      "name": "成功与继承词族",
+      "words": [
+        "succeed",
+        "success",
+        "successful",
+        "succession",
+        "successive",
+        "successor"
+      ],
+      "type": "词族",
+      "note": "围绕 success 派生的动词、形容词和名词，注意 succession (连续/继承) 与 successor (继承者) 的拼写。"
+    },
+    {
+      "name": "super- 前缀 (超级/在上)",
+      "words": [
+        "super",
+        "superficial",
+        "superfluous",
+        "superior",
+        "superiority",
+        "supersonic",
+        "superstition",
+        "supervise",
+        "supreme"
+      ],
+      "type": "词根",
+      "note": "super- 表示“在...之上、超过、超级”。注意 superficial (表面的) 和 superfluous (多余的) 的区分。"
+    },
+    {
+      "name": "sub- 前缀 (在...下/次级)",
+      "words": [
+        "submarine",
+        "submerge",
+        "subordinate",
+        "subscribe",
+        "subsequent",
+        "subsidy",
+        "substitute",
+        "suburb",
+        "subway"
+      ],
+      "type": "词根",
+      "note": "sub- 表示“在...下面、次级、接近”。subordinate (下级的) 和 subsequent (随后的) 是考研高频词。"
+    },
+    {
+      "name": "sym/syn- 前缀 (共同/相同)",
+      "words": [
+        "symmetry",
+        "sympathetic",
+        "sympathise",
+        "symphony",
+        "symposium",
+        "synthesis"
+      ],
+      "type": "词根",
+      "note": "sym-/syn- 表示“共同、相同”。symposium (研讨会) 和 synthesis (综合) 常出现在学术阅读中。"
+    },
+    {
+      "name": "stat/sta 系列易混淆词",
+      "words": [
+        "station",
+        "stationary",
+        "stationery",
+        "statue",
+        "status",
+        "statute",
+        "statistics",
+        "statesman"
+      ],
+      "type": "易混淆",
+      "note": "重点区分：stationary (静止的) vs stationery (文具)；statue (雕像) vs status (地位) vs statute (法令)。"
+    },
+    {
+      "name": "st/str 形近易混淆词",
+      "words": [
+        "stain",
+        "strain",
+        "strand",
+        "strap",
+        "strip",
+        "stripe"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近但意思不同：stain (污点), strain (拉紧/压力), strand (股/海滨), strap (皮带), strip (长条/剥夺), stripe (条纹)。"
+    },
+    {
+      "name": "步伐与行走动作",
+      "words": [
+        "step",
+        "stride",
+        "stroll",
+        "stumble",
+        "stagger",
+        "stalk"
+      ],
+      "type": "主题",
+      "note": "描述不同行走状态的动词：stride (大步走), stroll (闲逛), stumble (绊倒), stagger (蹒跚), stalk (潜行/高视阔步)。"
+    },
+    {
+      "name": "医疗与生理症状",
+      "words": [
+        "surgeon",
+        "surgery",
+        "symptom",
+        "syndrome",
+        "therapy",
+        "tissue"
+      ],
+      "type": "主题",
+      "note": "医学场景核心词汇。注意 symptom (单一症状) 与 syndrome (综合征/并发症状) 的区别。"
+    },
+    {
+      "name": "sur- 前缀 (超过/在上面)",
+      "words": [
+        "surpass",
+        "surplus",
+        "surprise",
+        "surrender",
+        "surveillance",
+        "survey",
+        "survive",
+        "survival"
+      ],
+      "type": "词根",
+      "note": "sur- 是 super- 的变体，表示“超过、在上面”。surveillance (监视) 和 surplus (过剩) 是考研重点。"
+    },
+    {
+      "name": "疲劳与艰辛",
+      "words": [
+        "tedious",
+        "tiresome",
+        "strenuous",
+        "toil"
+      ],
+      "type": "近义",
+      "note": "表示令人疲倦或需要付出巨大努力的词。tedious 侧重“冗长乏味”，strenuous 侧重“费劲的/艰苦的”。"
+    },
+    {
+      "name": "tele- 词根 (远/通讯)",
+      "words": [
+        "telegraph",
+        "telephone",
+        "telescope",
+        "television"
+      ],
+      "type": "词根",
+      "note": "tele- 表示“远距离”。这组词是现代通讯与光学仪器的基础词汇。"
+    },
+    {
+      "name": "惊吓与威胁",
+      "words": [
+        "startle",
+        "stun",
+        "threat",
+        "threaten"
+      ],
+      "type": "近义",
+      "note": "表示使人害怕或受到威胁的词。startle (使惊吓), stun (使震惊/打昏), threat/threaten (威胁)。"
+    },
+    {
+      "name": "terr 词根 (恐惧/土地)",
+      "words": [
+        "terrify",
+        "terror",
+        "terrific",
+        "territory"
+      ],
+      "type": "词根",
+      "note": "terr- 有两个来源：恐惧 (terrify, terror) 和 土地 (territory)。terrific 原意为“可怕的”，现多指“极好的”。"
+    },
+    {
+      "name": "刺、戳与扎",
+      "words": [
+        "stab",
+        "sting",
+        "stitch",
+        "thrust",
+        "thorn"
+      ],
+      "type": "近义",
+      "note": "与尖锐物体或刺痛感相关的词。stab (刺/戳), sting (叮/刺痛), stitch (缝合/剧痛), thrust (猛推/刺), thorn (荆棘)。"
+    },
+    {
+      "name": "商业与经济术语",
+      "words": [
+        "tariff",
+        "stock",
+        "stake",
+        "tenant",
+        "token"
+      ],
+      "type": "主题",
+      "note": "经济场景词汇。tariff (关税), stock (股票/库存), stake (股份/赌注), tenant (承租人), token (代币/象征)。"
+    },
+    {
+      "name": "tend/tens 词根 (伸展/倾向)",
+      "words": [
+        "tend",
+        "tendency",
+        "tension",
+        "tentative"
+      ],
+      "type": "词根",
+      "note": "词根 tend/tens 表示“伸展、倾向”。tension (紧张/张力), tentative (试验性的/犹豫的)。"
+    },
+    {
+      "name": "坚固与稳定",
+      "words": [
+        "stability",
+        "stable",
+        "steady",
+        "sturdy",
+        "stiff"
+      ],
+      "type": "近义",
+      "note": "表示稳固、不易动摇的形容词。sturdy (强健的/结实的), stiff (坚硬的/生硬的)。"
+    },
+    {
+      "name": "堆积与储存",
+      "words": [
+        "stack",
+        "store",
+        "stuff",
+        "staple"
+      ],
+      "type": "近义",
+      "note": "与物品存放或大量聚集相关。stack (堆叠), store (贮藏), stuff (原料/东西), staple (主要产物/常用品)。"
+    },
+    {
+      "name": "学术与思考",
+      "words": [
+        "theoretical",
+        "thesis",
+        "theme",
+        "thoughtful"
+      ],
+      "type": "主题",
+      "note": "学术研究与思考场景。thesis (论文/论点), theme (主题), theoretical (理论的)。"
+    },
+    {
+      "name": "停止与停滞",
+      "words": [
+        "stay",
+        "suspend",
+        "stagnant",
+        "stagnate"
+      ],
+      "type": "近义",
+      "note": "表示不流动或暂停的状态。suspend (暂停/悬挂), stagnant (停滞的/不景气的), stagnate (使停滞)。"
+    }
+  ],
+  "ungrouped": [
+    "spot",
+    "spouse",
+    "spray",
+    "sprinkle",
+    "sprout",
+    "spur",
+    "square",
+    "squirrel",
+    "staircase",
+    "stale",
+    "stall",
+    "stance",
+    "standpoint",
+    "statement",
+    "static",
+    "steer",
+    "stereo",
+    "stereotype",
+    "stern",
+    "steward",
+    "stipulate",
+    "stir",
+    "stocking",
+    "stool",
+    "stoop",
+    "storey",
+    "stove",
+    "straightforward",
+    "strategy",
+    "straw",
+    "streamline",
+    "strict",
+    "strife",
+    "striking",
+    "strive",
+    "stroke",
+    "structure",
+    "stubborn",
+    "student",
+    "study",
+    "style",
+    "subjective",
+    "submit",
+    "substance",
+    "substantial",
+    "subtle",
+    "suck",
+    "suffice",
+    "sufficient",
+    "suicide",
+    "suite",
+    "sulphur",
+    "summarise",
+    "summit",
+    "summon",
+    "sunrise",
+    "supplement",
+    "suppress",
+    "surge",
+    "surname",
+    "surroundings",
+    "susceptible",
+    "suspect",
+    "suspicion",
+    "suspicious",
+    "sustain",
+    "swamp",
+    "swan",
+    "swarm",
+    "sway",
+    "sweet",
+    "swell",
+    "swim",
+    "switch",
+    "sword",
+    "systematic",
+    "tablet",
+    "taboo",
+    "tackle",
+    "tactic",
+    "talent",
+    "talk",
+    "tall",
+    "tame",
+    "tangible",
+    "tangle",
+    "tanker",
+    "taxi",
+    "teach",
+    "teacher",
+    "tease",
+    "technician",
+    "temper",
+    "temperament",
+    "tempo",
+    "temporal",
+    "temporary",
+    "temptation",
+    "tender",
+    "term",
+    "terminal",
+    "terminate",
+    "test",
+    "testify",
+    "testimony",
+    "textbook",
+    "textile",
+    "texture",
+    "thank",
+    "thanksgiving",
+    "themselves",
+    "thereafter",
+    "thereby",
+    "thermal",
+    "thermometer",
+    "thick",
+    "thigh",
+    "thin",
+    "thorough",
+    "threshold",
+    "thrift",
+    "thrill",
+    "thrive",
+    "throne",
+    "thumb",
+    "ticket",
+    "tide",
+    "tiger",
+    "tile",
+    "tilt",
+    "timber",
+    "timely",
+    "timid",
+    "together",
+    "tolerance",
+    "tolerant"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "成功与继承词族",
+      "likely_in_other_chunks": [
+        "inherit",
+        "heir",
+        "achieve"
+      ]
+    },
+    {
+      "my_group": "super- 前缀 (超级/在上)",
+      "likely_in_other_chunks": [
+        "superb",
+        "superimpose",
+        "supernatural"
+      ]
+    },
+    {
+      "my_group": "sub- 前缀 (在...下/次级)",
+      "likely_in_other_chunks": [
+        "subconscious",
+        "subdue",
+        "subject"
+      ]
+    },
+    {
+      "my_group": "stat/sta 系列易混淆词",
+      "likely_in_other_chunks": [
+        "state",
+        "static",
+        "establish"
+      ]
+    },
+    {
+      "my_group": "医疗与生理症状",
+      "likely_in_other_chunks": [
+        "diagnose",
+        "prescription",
+        "pharmacy"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 305,
+    "grouped": 111
+  }
+}

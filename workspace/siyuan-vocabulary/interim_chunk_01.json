@@ -1,0 +1,581 @@
+{
+  "groups": [
+    {
+      "name": "act 词族",
+      "words": [
+        "action",
+        "activate",
+        "active",
+        "activity",
+        "actor"
+      ],
+      "type": "词族",
+      "note": "共享词根 act（行动/做），注意 activate 和 activity 的拼写与词性变化。"
+    },
+    {
+      "name": "apply 词族",
+      "words": [
+        "apply",
+        "application",
+        "applicable",
+        "appliance"
+      ],
+      "type": "词族",
+      "note": "apply 的派生词，注意 appliance 意为“家用电器/器械”，与 application（应用/申请）区分。"
+    },
+    {
+      "name": "art 词族",
+      "words": [
+        "artist",
+        "artistic",
+        "artificial",
+        "artefact"
+      ],
+      "type": "词族",
+      "note": "共享词根 art（艺术/技艺），artificial 意为“人造的”，artefact 意为“人工制品”。"
+    },
+    {
+      "name": "arch 词族",
+      "words": [
+        "arch",
+        "architect",
+        "architecture",
+        "archeology"
+      ],
+      "type": "词族",
+      "note": "共享词根 arch（拱/古老/建筑），注意 architect（建筑师）与 architecture（建筑学）的后缀区别。"
+    },
+    {
+      "name": "accord 词族",
+      "words": [
+        "accord",
+        "accordance",
+        "according to",
+        "accordingly"
+      ],
+      "type": "词族",
+      "note": "accord 派生词组，according to 是介词短语，accordingly 是副词（因此/相应地）。"
+    },
+    {
+      "name": "允许与接纳",
+      "words": [
+        "accept",
+        "acceptance",
+        "admit",
+        "admission",
+        "allow",
+        "allowance",
+        "approve",
+        "approval"
+      ],
+      "type": "词族",
+      "note": "动词与名词/形容词的词族对应，allowance 常指“津贴/限额”，admission 可指“入场费/承认”。"
+    },
+    {
+      "name": "建议与提倡",
+      "words": [
+        "advise",
+        "advice",
+        "advisable",
+        "advocate"
+      ],
+      "type": "词族",
+      "note": "advise 是动词，advice 是名词，advisable 是形容词（明智的），advocate 提倡/主张。"
+    },
+    {
+      "name": "分析与类比",
+      "words": [
+        "analyse",
+        "analysis",
+        "analytic",
+        "analog",
+        "analogy"
+      ],
+      "type": "词族",
+      "note": "analyse/analysis/analytic 为分析词族；analog/analogy 为类比词族，注意 analogy 的发音和拼写。"
+    },
+    {
+      "name": "联盟与外来",
+      "words": [
+        "alien",
+        "alienate",
+        "align",
+        "alliance",
+        "ally"
+      ],
+      "type": "词族",
+      "note": "alien（外来的/外星人）派生 alienate（疏远）；align/alliance/ally 为联盟/结盟词族。"
+    },
+    {
+      "name": "航空与交通",
+      "words": [
+        "aerial",
+        "aeroplane",
+        "aircraft",
+        "airline",
+        "airport",
+        "aisle",
+        "ambulance"
+      ],
+      "type": "主题",
+      "note": "交通与航空场景词汇，aisle 指“过道/走廊”，ambulance 为“救护车”。"
+    },
+    {
+      "name": "学术与学科",
+      "words": [
+        "academic",
+        "academy",
+        "adjective",
+        "adverb",
+        "alphabet",
+        "arithmetic",
+        "algorithm",
+        "archive"
+      ],
+      "type": "主题",
+      "note": "学校、语言、数学与计算机学科相关词汇，archive 指“档案/存档”。"
+    },
+    {
+      "name": "身体与生理",
+      "words": [
+        "abdomen",
+        "artery",
+        "ankle",
+        "appetite",
+        "adolescent",
+        "adult",
+        "animal",
+        "ancestor"
+      ],
+      "type": "主题",
+      "note": "身体部位、生理阶段与生物相关词汇，abdomen（腹部），artery（动脉）。"
+    },
+    {
+      "name": "行政与法律",
+      "words": [
+        "administer",
+        "administration",
+        "agency",
+        "agenda",
+        "agent",
+        "accuse",
+        "arrest",
+        "accountant"
+      ],
+      "type": "主题",
+      "note": "政府管理、法律与商业行政场景，accuse（控告），arrest（逮捕）。"
+    },
+    {
+      "name": "丰富与充足",
+      "words": [
+        "abound",
+        "abundant",
+        "affluent",
+        "adequate",
+        "ample",
+        "accumulate",
+        "aggregate"
+      ],
+      "type": "近义",
+      "note": "表示“大量、充足、丰富”的近义词，accumulate 和 aggregate 侧重“积累/总计”。"
+    },
+    {
+      "name": "改变与调整",
+      "words": [
+        "alter",
+        "amend",
+        "accommodate",
+        "adjust",
+        "adapt",
+        "adopt"
+      ],
+      "type": "近义",
+      "note": "表示“改变、适应、调整”的动词，注意 adapt（适应）与 adopt（采用）的拼写区别。"
+    },
+    {
+      "name": "痛苦与焦虑",
+      "words": [
+        "agony",
+        "anguish",
+        "anxiety",
+        "anxious",
+        "appal",
+        "afraid"
+      ],
+      "type": "近义",
+      "note": "表示极度痛苦、焦虑或恐惧的词汇，agony 和 anguish 程度极深，appal 意为“使惊骇”。"
+    },
+    {
+      "name": "承认与宣称",
+      "words": [
+        "acknowledge",
+        "affirm",
+        "allege",
+        "announce",
+        "ascertain",
+        "ascribe"
+      ],
+      "type": "近义",
+      "note": "表示“承认、断言、宣称”的动词，allege 常指“无证据的宣称”，ascribe 意为“归因于”。"
+    },
+    {
+      "name": "赞美与欣赏",
+      "words": [
+        "acclaim",
+        "admire",
+        "applaud",
+        "applause",
+        "appreciate",
+        "amuse"
+      ],
+      "type": "近义",
+      "note": "表示赞赏、喝彩或娱乐的词汇，applaud 是动词，applause 是名词。"
+    },
+    {
+      "name": "增加与加速",
+      "words": [
+        "addition",
+        "additional",
+        "amplify",
+        "advance",
+        "accelerate",
+        "advent"
+      ],
+      "type": "近义",
+      "note": "表示增加、放大或前进的词汇，amplify 指“放大/详述”，advent 指“来临/出现”。"
+    },
+    {
+      "name": "伴随与附加",
+      "words": [
+        "accompany",
+        "accessory",
+        "appendix",
+        "affiliate",
+        "adhere"
+      ],
+      "type": "近义",
+      "note": "表示“伴随、附加、依附”的词汇，accessory 指“附件/从犯”，appendix 指“附录/阑尾”。"
+    },
+    {
+      "name": "情绪与反应",
+      "words": [
+        "amaze",
+        "annoy",
+        "anger",
+        "affect",
+        "alarm",
+        "alert"
+      ],
+      "type": "近义",
+      "note": "表示引起某种情绪或反应的动词，affect 意为“影响/感动”，alarm 意为“使惊恐”。"
+    },
+    {
+      "name": "时间与周期",
+      "words": [
+        "ancient",
+        "antique",
+        "anniversary",
+        "annual",
+        "aftermath",
+        "afterward"
+      ],
+      "type": "近义",
+      "note": "与时间、周期、历史相关的词汇，aftermath 指“后果/余波”，annual 指“每年的”。"
+    },
+    {
+      "name": "空间与区域",
+      "words": [
+        "angle",
+        "area",
+        "arena",
+        "apartment",
+        "acre",
+        "apart"
+      ],
+      "type": "主题",
+      "note": "表示空间、区域、角度的词汇，arena 指“竞技场/舞台”，acre 是面积单位“英亩”。"
+    },
+    {
+      "name": "军事与冲突",
+      "words": [
+        "army",
+        "arrow",
+        "array",
+        "aggressive",
+        "agitate"
+      ],
+      "type": "主题",
+      "note": "与军队、武器、冲突相关的词汇，array 可指“阵列/大批”，agitate 指“煽动/使不安”。"
+    },
+    {
+      "name": "出现与唤醒",
+      "words": [
+        "appear",
+        "appearance",
+        "apparent",
+        "arise",
+        "arouse"
+      ],
+      "type": "近义",
+      "note": "表示“出现、显露、唤醒”的词汇，arise 多指问题/情况出现，arouse 指唤醒/引起（情感）。"
+    },
+    {
+      "name": "接近与邻近",
+      "words": [
+        "approach",
+        "approximate",
+        "access",
+        "adjacent"
+      ],
+      "type": "近义",
+      "note": "表示“接近、邻近、入口”的词汇，adjacent 指“毗连的”，approximate 指“大约的/近似的”。"
+    },
+    {
+      "name": "ad- 动词易混",
+      "words": [
+        "address",
+        "addict",
+        "adhere",
+        "admire"
+      ],
+      "type": "易混淆",
+      "note": "ad- 前缀动词，拼写相近但意思不同：address（地址/演说），addict（使上瘾），adhere（粘着/坚持）。"
+    },
+    {
+      "name": "angel/angle 形近",
+      "words": [
+        "angel",
+        "angle",
+        "ankle",
+        "anchor"
+      ],
+      "type": "易混淆",
+      "note": "拼写极度相似的形近词：angel（天使），angle（角度），ankle（踝），anchor（锚）。"
+    },
+    {
+      "name": "a- 状态方位",
+      "words": [
+        "aboard",
+        "abroad",
+        "absent",
+        "aside",
+        "asleep",
+        "ahead",
+        "alone"
+      ],
+      "type": "易混淆",
+      "note": "a- 开头的状态或方位副词/形容词，aboard（在船上/飞机上）与 abroad（在国外）极易混淆。"
+    },
+    {
+      "name": "am- 形容词易混",
+      "words": [
+        "ambiguous",
+        "ambitious",
+        "amiable",
+        "amateur"
+      ],
+      "type": "易混淆",
+      "note": "am- 开头的形容词/名词，ambiguous（模棱两可），ambitious（有雄心的），amiable（和蔼的）。"
+    }
+  ],
+  "ungrouped": [
+    "abandon",
+    "abide",
+    "ability",
+    "abnormal",
+    "abolish",
+    "abrupt",
+    "absolute",
+    "absorb",
+    "abstract",
+    "absurd",
+    "abuse",
+    "accent",
+    "accident",
+    "accomplish",
+    "accustom",
+    "ache",
+    "acid",
+    "acquaint",
+    "acquaintance",
+    "acquire",
+    "acquisition",
+    "actual",
+    "acute",
+    "addict",
+    "address",
+    "adequate",
+    "adjective",
+    "adolescent",
+    "adore",
+    "advance",
+    "advantage",
+    "adventure",
+    "adverb",
+    "adverse",
+    "advertise",
+    "affair",
+    "affect",
+    "affection",
+    "afford",
+    "aftermath",
+    "afterward",
+    "again",
+    "aggravate",
+    "agree",
+    "agreeable",
+    "agriculture",
+    "air conditioning",
+    "alcohol",
+    "algorithm",
+    "allege",
+    "allegiance",
+    "alleviate",
+    "alloy",
+    "alphabet",
+    "alternate",
+    "alternative",
+    "altitude",
+    "aluminum",
+    "always",
+    "ambassador",
+    "ambition",
+    "ambitious",
+    "ambulance",
+    "amend",
+    "amiable",
+    "amid",
+    "amount",
+    "amplify",
+    "analog",
+    "analogy",
+    "analyse",
+    "analysis",
+    "analytic",
+    "ancestor",
+    "anchor",
+    "ancient",
+    "anecdote",
+    "angel",
+    "anger",
+    "angle",
+    "anguish",
+    "animal",
+    "ankle",
+    "anniversary",
+    "announce",
+    "annoy",
+    "annual",
+    "anonymous",
+    "antenna",
+    "anticipate",
+    "antique",
+    "anxiety",
+    "anxious",
+    "anywhere",
+    "apart",
+    "apartment",
+    "apologise",
+    "apology",
+    "appal",
+    "apparatus",
+    "apparent",
+    "appeal",
+    "appear",
+    "appearance",
+    "appendix",
+    "appetite",
+    "applaud",
+    "applause",
+    "appliance",
+    "applicable",
+    "application",
+    "apply",
+    "appoint",
+    "appointment",
+    "appraisal",
+    "appreciate",
+    "approach",
+    "appropriate",
+    "approval",
+    "approve",
+    "approximate",
+    "apt",
+    "arbitrary",
+    "arch",
+    "archeology",
+    "architect",
+    "architecture",
+    "archive",
+    "area",
+    "arena",
+    "argue",
+    "argument",
+    "arise",
+    "arithmetic",
+    "army",
+    "arouse",
+    "arrange",
+    "array",
+    "arrest",
+    "arrival",
+    "arrive",
+    "arrogant",
+    "arrow",
+    "artefact",
+    "artery",
+    "article",
+    "articulate",
+    "artificial",
+    "artist",
+    "artistic",
+    "ascend",
+    "ascertain",
+    "ascribe",
+    "ashamed",
+    "ashore",
+    "aside",
+    "asleep"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "act 词族",
+      "likely_in_other_chunks": [
+        "react",
+        "interact",
+        "transaction",
+        "exact"
+      ]
+    },
+    {
+      "my_group": "arch 词族",
+      "likely_in_other_chunks": [
+        "hierarchy",
+        "monarch",
+        "patriarch"
+      ]
+    },
+    {
+      "my_group": "允许与接纳",
+      "likely_in_other_chunks": [
+        "permission",
+        "grant",
+        "consent",
+        "concede"
+      ]
+    },
+    {
+      "my_group": "分析与类比",
+      "likely_in_other_chunks": [
+        "diagnose",
+        "evaluate",
+        "compare",
+        "metaphor"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 250,
+    "grouped": 158
+  }
+}

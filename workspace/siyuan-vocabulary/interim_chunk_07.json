@@ -1,0 +1,442 @@
+{
+  "groups": [
+    {
+      "name": "前缀 fore-/forth- (向前/在前)",
+      "words": [
+        "fore",
+        "forecast",
+        "forehead",
+        "foremost",
+        "foresee",
+        "forth",
+        "forthcoming",
+        "forward"
+      ],
+      "type": "词根",
+      "note": "fore- 表示“前面、预先”，forth 表示“向前、向外”，注意 foresee 和 forecast 的近义关系。"
+    },
+    {
+      "name": "词根 form-/fram- (形状/结构)",
+      "words": [
+        "formal",
+        "format",
+        "formation",
+        "formula",
+        "formulate",
+        "frame",
+        "framework"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 forma（形状），frame 和 framework 侧重于物理或抽象的“框架、结构”。"
+    },
+    {
+      "name": "词根 fract-/frag- (破碎)",
+      "words": [
+        "fraction",
+        "fracture",
+        "fragile",
+        "fragment"
+      ],
+      "type": "词根",
+      "note": "fract 和 frag 同源，表示“打破、破碎”。fraction 是分数/小部分，fragile 是易碎的。"
+    },
+    {
+      "name": "词根 flu-/fluct- (流动)",
+      "words": [
+        "fluent",
+        "fluid",
+        "flush",
+        "fluctuate"
+      ],
+      "type": "词根",
+      "note": "flu- 表示“流动”，fluent 指语言流利，fluid 指流体，fluctuate 指像波浪一样起伏波动。"
+    },
+    {
+      "name": "词根 gen- (产生/种类/基因)",
+      "words": [
+        "gene",
+        "generate",
+        "generator",
+        "genetic",
+        "genius",
+        "gender",
+        "generalise"
+      ],
+      "type": "词根",
+      "note": "gen- 表示“出生、产生、种类”。gene/genetic 与基因相关，generate 是产生，genius 原指守护神/天赋。"
+    },
+    {
+      "name": "词根 graph-/gram- (写/画/重量)",
+      "words": [
+        "gram",
+        "grammar",
+        "graph",
+        "graphic"
+      ],
+      "type": "词根",
+      "note": "gram/graph 表示“写、画、记录”。graph 是图表，graphic 是生动的/图形的，grammar 是语法规则。"
+    },
+    {
+      "name": "合成词/词根 hand- (手)",
+      "words": [
+        "handbook",
+        "handful",
+        "handicap",
+        "handle",
+        "handwriting"
+      ],
+      "type": "词族",
+      "note": "hand- 构成的合成词。handicap 原指手里拿着帽子乞讨，后引申为“障碍、不利条件”。"
+    },
+    {
+      "name": "词族 hard- (硬/困难)",
+      "words": [
+        "harden",
+        "hardly",
+        "hardship",
+        "hardware"
+      ],
+      "type": "词族",
+      "note": "hard 的派生词。注意 hardly 意思是“几乎不”，而 hardship 是“艰难、困苦”，hardware 是“硬件”。"
+    },
+    {
+      "name": "近义词 (巨大/宏大)",
+      "words": [
+        "giant",
+        "gigantic",
+        "grand",
+        "great"
+      ],
+      "type": "近义",
+      "note": "都表示“大”。giant/gigantic 侧重体型或规模巨大，grand 侧重宏伟、庄重，great 侧重伟大、重要。"
+    },
+    {
+      "name": "主题/近义 (发光与视觉)",
+      "words": [
+        "flare",
+        "glare",
+        "glitter",
+        "glow",
+        "glimpse"
+      ],
+      "type": "近义",
+      "note": "与光和视觉相关。flare 是闪耀/爆发，glare 是刺眼的光，glitter 是闪烁，glow 是红光/发热，glimpse 是一瞥。"
+    },
+    {
+      "name": "主题 (法律与犯罪)",
+      "words": [
+        "fraud",
+        "gaol",
+        "guilt",
+        "guilty"
+      ],
+      "type": "主题",
+      "note": "法律场景核心词。fraud 是欺诈，gaol 是监狱（英式拼写，同 jail），guilt/guilty 是罪行/有罪的。"
+    },
+    {
+      "name": "近义词 (群/帮/集合)",
+      "words": [
+        "flock",
+        "herd",
+        "gang",
+        "galaxy"
+      ],
+      "type": "近义",
+      "note": "表示“群”。flock 多指羊群/鸟群，herd 指牛/象等兽群，gang 指一帮人，galaxy 指星系或一群显赫人物。"
+    },
+    {
+      "name": "词族/近义 (问候/打招呼)",
+      "words": [
+        "greet",
+        "greeting",
+        "hail",
+        "hello"
+      ],
+      "type": "词族",
+      "note": "greet 是动词问候，greeting 是名词。hail 除了冰雹，也有“欢呼、打招呼”之意。"
+    },
+    {
+      "name": "易混淆 (gr- 开头的动词/名词)",
+      "words": [
+        "grief",
+        "grieve",
+        "grim",
+        "grin",
+        "grind",
+        "grip",
+        "groan",
+        "grope"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近的 gr- 词汇。grief/grieve 是悲伤，grim 是冷酷，grin 是露齿笑，grind 是磨，grip 是紧握，groan 是呻吟，grope 是摸索。"
+    },
+    {
+      "name": "易混淆 (hel- 开头的词)",
+      "words": [
+        "helicopter",
+        "hell",
+        "helmet",
+        "helpful"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近。helicopter 直升机，hell 地狱，helmet 头盔，helpful 有帮助的。"
+    },
+    {
+      "name": "易混淆 (her- 开头的词)",
+      "words": [
+        "herald",
+        "herb",
+        "herd",
+        "heritage"
+      ],
+      "type": "易混淆",
+      "note": "herald 是先驱/使者，herb 是药草，herd 是兽群，heritage 是遗产。注意词义完全不同。"
+    },
+    {
+      "name": "易混淆 (fun- 开头的词)",
+      "words": [
+        "function",
+        "fund",
+        "fundamental",
+        "funeral",
+        "funny"
+      ],
+      "type": "易混淆",
+      "note": "function 是功能，fund 是资金，fundamental 是基础的，funeral 是葬礼，funny 是好笑的。"
+    },
+    {
+      "name": "易混淆 (fur-/fus- 开头的词)",
+      "words": [
+        "furnace",
+        "furnish",
+        "furious",
+        "fuse"
+      ],
+      "type": "易混淆",
+      "note": "furnace 是火炉，furnish 是提供/布置，furious 是狂怒的，fuse 是保险丝/熔化。"
+    },
+    {
+      "name": "易混淆 (go- 开头的词)",
+      "words": [
+        "government",
+        "governor",
+        "gown",
+        "gossip"
+      ],
+      "type": "易混淆",
+      "note": "government 政府，governor 州长/总督，gown 长袍/睡衣，gossip 闲聊/流言。"
+    },
+    {
+      "name": "词根 geo- 及 ge- 易混淆",
+      "words": [
+        "geography",
+        "geology",
+        "geometry",
+        "germ",
+        "gesture",
+        "ghost"
+      ],
+      "type": "词根",
+      "note": "前三个是 geo-（地球）词根：地理、地质、几何。后三个是 ge- 开头：细菌、手势、鬼魂。"
+    },
+    {
+      "name": "易混淆 (gu- 开头的词)",
+      "words": [
+        "guidance",
+        "guideline",
+        "guild",
+        "guitar",
+        "gulf",
+        "gymnasium"
+      ],
+      "type": "易混淆",
+      "note": "guidance 指导，guideline 方针，guild 协会，guitar 吉他，gulf 海湾/隔阂，gymnasium 体育馆。"
+    },
+    {
+      "name": "易混淆 (ha- 开头的词)",
+      "words": [
+        "habitat",
+        "hail",
+        "halt",
+        "hamper",
+        "hang",
+        "harassment",
+        "harmony",
+        "harness",
+        "harsh",
+        "hazard"
+      ],
+      "type": "易混淆",
+      "note": "ha- 开头的高频词。habitat 栖息地，hamper 阻碍，harassment 骚扰，harness 马具/利用，hazard 危险。"
+    },
+    {
+      "name": "易混淆 (he- 开头的词)",
+      "words": [
+        "headquarters",
+        "heal",
+        "healthy",
+        "hearing",
+        "heat",
+        "heave",
+        "hedge",
+        "heighten",
+        "heir",
+        "hemisphere"
+      ],
+      "type": "易混淆",
+      "note": "he- 开头词汇。headquarters 总部，heave 举起/起伏，hedge 树篱/套期保值，heir 继承人，hemisphere 半球。"
+    }
+  ],
+  "ungrouped": [
+    "finding",
+    "finish",
+    "finite",
+    "fireman",
+    "fireplace",
+    "fiscal",
+    "fisherman",
+    "fixture",
+    "flap",
+    "flatter",
+    "flavor",
+    "flaw",
+    "flee",
+    "fleet",
+    "flexible",
+    "fling",
+    "flourish",
+    "foam",
+    "focus",
+    "folk",
+    "follow",
+    "following",
+    "football",
+    "footstep",
+    "force",
+    "foreign",
+    "foreigner",
+    "forest",
+    "forge",
+    "forget",
+    "formidable",
+    "foster",
+    "foul",
+    "foundation",
+    "fragrant",
+    "franchise",
+    "frank",
+    "freedom",
+    "freelance",
+    "freeze",
+    "freight",
+    "frequency",
+    "fresh",
+    "friction",
+    "friendly",
+    "friendship",
+    "fright",
+    "fringe",
+    "frog",
+    "frontier",
+    "frost",
+    "frown",
+    "fruitful",
+    "frustrate",
+    "fulfil",
+    "fume",
+    "further",
+    "fuss",
+    "futile",
+    "gadget",
+    "gain",
+    "gallery",
+    "gallon",
+    "gamble",
+    "game",
+    "garment",
+    "gasp",
+    "gauge",
+    "gaze",
+    "gear",
+    "generous",
+    "genre",
+    "gently",
+    "genuine",
+    "giggle",
+    "glacier",
+    "glad",
+    "glamor",
+    "glass",
+    "glide",
+    "global",
+    "gloomy",
+    "glorious",
+    "glue",
+    "goal",
+    "golden",
+    "golf",
+    "goodbye",
+    "goodness",
+    "gorgeous",
+    "grab",
+    "grace",
+    "graceful",
+    "gracious",
+    "grade",
+    "grant",
+    "grape",
+    "gratitude",
+    "grave",
+    "gravity",
+    "graze",
+    "grease",
+    "greedy",
+    "greenhouse",
+    "gross",
+    "ground",
+    "grown-up",
+    "growth",
+    "guarantee",
+    "guess",
+    "hamburger",
+    "haste",
+    "hasty",
+    "hatch",
+    "hatred",
+    "haul",
+    "hawk",
+    "headline",
+    "hence",
+    "henceforth"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "前缀 fore-/forth- (向前/在前)",
+      "likely_in_other_chunks": [
+        "before",
+        "forefront",
+        "foretell"
+      ]
+    },
+    {
+      "my_group": "词根 gen- (产生/种类/基因)",
+      "likely_in_other_chunks": [
+        "generation",
+        "genuine",
+        "genocide"
+      ]
+    },
+    {
+      "my_group": "词根 fract-/frag- (破碎)",
+      "likely_in_other_chunks": [
+        "infraction",
+        "fragility",
+        "suffrage"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 250,
+    "grouped": 127
+  }
+}

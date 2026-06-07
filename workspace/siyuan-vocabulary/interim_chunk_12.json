@@ -1,0 +1,442 @@
+{
+  "groups": [
+    {
+      "name": "词根 radi- (辐射/光线)",
+      "words": [
+        "radiant",
+        "radiate",
+        "radioactive",
+        "radius"
+      ],
+      "type": "词根",
+      "note": "radi- 表示光线、辐射，注意 radioactive 和 radius 的拼写与衍生义。"
+    },
+    {
+      "name": "质量与数量评估",
+      "words": [
+        "qualification",
+        "qualify",
+        "qualitative",
+        "quantify",
+        "quantitative"
+      ],
+      "type": "主题",
+      "note": "qual- 关乎质量与资格，quant- 关乎数量与定量，考研阅读中常对比出现。"
+    },
+    {
+      "name": "恢复、挽回与修复",
+      "words": [
+        "reclaim",
+        "recovery",
+        "redeem",
+        "restore",
+        "retrieve"
+      ],
+      "type": "近义",
+      "note": "均含有“恢复原状、挽回损失或取回”之意，注意 reclaim(开垦/回收) 与 retrieve(检索/挽回) 的语境差异。"
+    },
+    {
+      "name": "叛乱、暴动与反抗",
+      "words": [
+        "rebel",
+        "rebellion",
+        "revolt",
+        "riot"
+      ],
+      "type": "近义",
+      "note": "表示反抗或暴乱，rebel/rebellion 侧重反叛政权，revolt 侧重起义或反感，riot 侧重群体暴乱。"
+    },
+    {
+      "name": "更新、复兴与复苏",
+      "words": [
+        "renaissance",
+        "renew",
+        "renovate",
+        "revive"
+      ],
+      "type": "近义",
+      "note": "均含“使重新焕发生机”之意，renaissance 特指文艺复兴或大复兴，renovate 多指建筑翻新。"
+    },
+    {
+      "name": "限制、抑制与压抑",
+      "words": [
+        "repression",
+        "restrain",
+        "restraint",
+        "restrict"
+      ],
+      "type": "近义",
+      "note": "restrain/restraint 侧重自我克制或物理束缚，restrict 侧重规则限制，repression 侧重心理或政治压抑。"
+    },
+    {
+      "name": "商业、交易与财务",
+      "words": [
+        "purchase",
+        "quota",
+        "quote",
+        "retail",
+        "revenue",
+        "rent",
+        "repay",
+        "refund"
+      ],
+      "type": "主题",
+      "note": "经济类阅读核心词，注意 quote(报价/引用) 与 quota(配额) 的形近义异。"
+    },
+    {
+      "name": "语言、文学与出版",
+      "words": [
+        "propaganda",
+        "pronoun",
+        "prose",
+        "rhetoric",
+        "publication",
+        "publicity",
+        "publish"
+      ],
+      "type": "主题",
+      "note": "涵盖文学体裁(prose)、语法(pronoun)、修辞(rhetoric)及出版宣传(publicity/propaganda)。"
+    },
+    {
+      "name": "情绪、态度与性格",
+      "words": [
+        "rage",
+        "rash",
+        "reckless",
+        "reluctant",
+        "resent",
+        "reproach",
+        "rejoice"
+      ],
+      "type": "主题",
+      "note": "描述人物心理与行为倾向，注意 rash(轻率的) 与 reckless(鲁莽的) 的近义辨析。"
+    },
+    {
+      "name": "物理动作：推拉与击打",
+      "words": [
+        "pull",
+        "push",
+        "punch",
+        "puff",
+        "propel"
+      ],
+      "type": "主题",
+      "note": "基础物理动作，propel 强调推进/驱使，puff 强调喷气/喘息。"
+    },
+    {
+      "name": "数量增减与强化",
+      "words": [
+        "reduce",
+        "reduction",
+        "redundant",
+        "reinforce"
+      ],
+      "type": "主题",
+      "note": "reduce/reduction 为减少，redundant 为多余/冗余(常考贬义)，reinforce 为加强/增援。"
+    },
+    {
+      "name": "拒绝、反驳与抗议",
+      "words": [
+        "refusal",
+        "refuse",
+        "refute",
+        "protest"
+      ],
+      "type": "主题",
+      "note": "refuse/refusal 为一般拒绝，refute 为驳斥/反驳(论点)，protest 为抗议。"
+    },
+    {
+      "name": "退回、撤退与返回",
+      "words": [
+        "recede",
+        "recession",
+        "retreat",
+        "return"
+      ],
+      "type": "主题",
+      "note": "recede 指后退/减弱，recession 常指经济衰退，retreat 指军队撤退或逃避。"
+    },
+    {
+      "name": "保留与储存",
+      "words": [
+        "retain",
+        "retention",
+        "reservation",
+        "reservoir"
+      ],
+      "type": "词根",
+      "note": "均含“保留、储存”之意，reservoir 为水库/储备，reservation 为预定/保留地。"
+    },
+    {
+      "name": "代表、反映与参考",
+      "words": [
+        "represent",
+        "representative",
+        "reflection",
+        "reference"
+      ],
+      "type": "主题",
+      "note": "represent 为代表，reflection 为反映/反思，reference 为参考/提及。"
+    },
+    {
+      "name": "释放、减轻与休闲",
+      "words": [
+        "release",
+        "recreation",
+        "relief",
+        "relieve"
+      ],
+      "type": "主题",
+      "note": "release 为释放/发行，relief/relieve 为减轻(痛苦/负担)，recreation 为娱乐/消遣。"
+    },
+    {
+      "name": "区域、范围与距离",
+      "words": [
+        "region",
+        "realm",
+        "reach",
+        "remote"
+      ],
+      "type": "主题",
+      "note": "region 为地区，realm 为领域/王国，reach 为范围/触及，remote 为遥远的。"
+    },
+    {
+      "name": "罕见、随机与奇特",
+      "words": [
+        "rare",
+        "rarely",
+        "queer",
+        "random"
+      ],
+      "type": "主题",
+      "note": "rare/rarely 表稀有，queer 表奇怪/反常，random 表随机/随意。"
+    },
+    {
+      "name": "记忆、识别与评论",
+      "words": [
+        "recollect",
+        "recognize",
+        "recognition",
+        "remember",
+        "remark"
+      ],
+      "type": "主题",
+      "note": "recollect 侧重回想，recognize 侧重认出/认可，remark 为评论/注意到。"
+    },
+    {
+      "name": "正直、纠正与严格",
+      "words": [
+        "rectangle",
+        "rectify",
+        "rigid",
+        "rigorous"
+      ],
+      "type": "词根",
+      "note": "rect- 意为直/正确(rectify 纠正)，rig- 意为僵硬/严格(rigid 刚性的，rigorous 严密的)。"
+    },
+    {
+      "name": "询问、探索与要求",
+      "words": [
+        "query",
+        "quest",
+        "questionnaire",
+        "requirement"
+      ],
+      "type": "主题",
+      "note": "query 为疑问/查询，quest 为探索/追求，questionnaire 为问卷。"
+    }
+  ],
+  "ungrouped": [
+    "promise",
+    "promising",
+    "promote",
+    "prompt",
+    "prone",
+    "proof",
+    "propagate",
+    "property",
+    "prophet",
+    "proportion",
+    "proposal",
+    "propose",
+    "proposition",
+    "prosecute",
+    "prospect",
+    "prospective",
+    "prosper",
+    "prosperity",
+    "prosperous",
+    "protein",
+    "protocol",
+    "prototype",
+    "provided",
+    "provision",
+    "provoke",
+    "proximate",
+    "prudent",
+    "psychiatry",
+    "psychology",
+    "pulse",
+    "puppet",
+    "purify",
+    "purpose",
+    "pursue",
+    "pursuit",
+    "puzzle",
+    "pyramid",
+    "quarantine",
+    "quart",
+    "quick",
+    "quilt",
+    "quiver",
+    "race",
+    "rack",
+    "racket",
+    "radar",
+    "radical",
+    "raid",
+    "rainbow",
+    "rake",
+    "rally",
+    "rape",
+    "ratio",
+    "rational",
+    "razor",
+    "reader",
+    "readily",
+    "reading",
+    "realise",
+    "realistic",
+    "really",
+    "reap",
+    "rear",
+    "reasonable",
+    "reassure",
+    "recipe",
+    "recipient",
+    "reciprocal",
+    "reckon",
+    "recommend",
+    "reconcile",
+    "recruit",
+    "recur",
+    "reed",
+    "reel",
+    "refine",
+    "refrain",
+    "refuge",
+    "refugee",
+    "regarding",
+    "regardless",
+    "regime",
+    "register",
+    "regulate",
+    "regulation",
+    "rehearse",
+    "reign",
+    "rein",
+    "relativity",
+    "relay",
+    "relevant",
+    "reliance",
+    "religious",
+    "relish",
+    "remainder",
+    "remains",
+    "remarkable",
+    "remedy",
+    "remnant",
+    "removal",
+    "render",
+    "repeatedly",
+    "repel",
+    "repertoire",
+    "repetition",
+    "reproduce",
+    "reptile",
+    "republican",
+    "rescue",
+    "resemblance",
+    "resemble",
+    "residence",
+    "resident",
+    "resign",
+    "resilient",
+    "resistance",
+    "resistant",
+    "resolute",
+    "resolution",
+    "resolve",
+    "resort",
+    "respective",
+    "respond",
+    "response",
+    "responsibility",
+    "restless",
+    "resultant",
+    "resume",
+    "retort",
+    "retrospect",
+    "reveal",
+    "revelation",
+    "revenge",
+    "reverse",
+    "revise",
+    "revolutionary",
+    "revolve",
+    "reward",
+    "rhythm",
+    "ribbon",
+    "ride",
+    "ridge",
+    "ridiculous",
+    "rifle",
+    "ring",
+    "risk",
+    "ritual",
+    "rival",
+    "roar",
+    "robe",
+    "robot"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "词根 radi- (辐射/光线)",
+      "likely_in_other_chunks": [
+        "radiation",
+        "radio",
+        "irradiate"
+      ]
+    },
+    {
+      "my_group": "质量与数量评估",
+      "likely_in_other_chunks": [
+        "quantity",
+        "quality",
+        "quantum"
+      ]
+    },
+    {
+      "my_group": "正直、纠正与严格",
+      "likely_in_other_chunks": [
+        "correct",
+        "direct",
+        "erect",
+        "strict"
+      ]
+    },
+    {
+      "my_group": "商业、交易与财务",
+      "likely_in_other_chunks": [
+        "profit",
+        "commerce",
+        "trade",
+        "discount"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 250,
+    "grouped": 95
+  }
+}

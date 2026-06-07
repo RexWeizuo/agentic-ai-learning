@@ -1,0 +1,6573 @@
+{
+  "groups": [
+    {
+      "name": "act 词族",
+      "words": [
+        "action",
+        "activate",
+        "active",
+        "activity",
+        "actor"
+      ],
+      "type": "词族",
+      "note": "共享词根 act（行动/做），注意 activate 和 activity 的拼写与词性变化。"
+    },
+    {
+      "name": "apply 词族",
+      "words": [
+        "apply",
+        "application",
+        "applicable",
+        "appliance"
+      ],
+      "type": "词族",
+      "note": "apply 的派生词，注意 appliance 意为“家用电器/器械”，与 application（应用/申请）区分。"
+    },
+    {
+      "name": "art 词族",
+      "words": [
+        "artist",
+        "artistic",
+        "artificial",
+        "artefact"
+      ],
+      "type": "词族",
+      "note": "共享词根 art（艺术/技艺），artificial 意为“人造的”，artefact 意为“人工制品”。"
+    },
+    {
+      "name": "arch 词族",
+      "words": [
+        "arch",
+        "architect",
+        "architecture",
+        "archeology"
+      ],
+      "type": "词族",
+      "note": "共享词根 arch（拱/古老/建筑），注意 architect（建筑师）与 architecture（建筑学）的后缀区别。"
+    },
+    {
+      "name": "accord 词族",
+      "words": [
+        "accord",
+        "accordance",
+        "according to",
+        "accordingly"
+      ],
+      "type": "词族",
+      "note": "accord 派生词组，according to 是介词短语，accordingly 是副词（因此/相应地）。"
+    },
+    {
+      "name": "允许与接纳",
+      "words": [
+        "accept",
+        "acceptance",
+        "admit",
+        "admission",
+        "allow",
+        "allowance",
+        "approve",
+        "approval"
+      ],
+      "type": "词族",
+      "note": "动词与名词/形容词的词族对应，allowance 常指“津贴/限额”，admission 可指“入场费/承认”。"
+    },
+    {
+      "name": "建议与提倡",
+      "words": [
+        "advise",
+        "advice",
+        "advisable",
+        "advocate"
+      ],
+      "type": "词族",
+      "note": "advise 是动词，advice 是名词，advisable 是形容词（明智的），advocate 提倡/主张。"
+    },
+    {
+      "name": "分析与类比",
+      "words": [
+        "analyse",
+        "analysis",
+        "analytic",
+        "analog",
+        "analogy"
+      ],
+      "type": "词族",
+      "note": "analyse/analysis/analytic 为分析词族；analog/analogy 为类比词族，注意 analogy 的发音和拼写。"
+    },
+    {
+      "name": "联盟与外来",
+      "words": [
+        "alien",
+        "alienate",
+        "align",
+        "alliance",
+        "ally"
+      ],
+      "type": "词族",
+      "note": "alien（外来的/外星人）派生 alienate（疏远）；align/alliance/ally 为联盟/结盟词族。"
+    },
+    {
+      "name": "航空与交通",
+      "words": [
+        "aerial",
+        "aeroplane",
+        "aircraft",
+        "airline",
+        "airport",
+        "aisle",
+        "ambulance"
+      ],
+      "type": "主题",
+      "note": "交通与航空场景词汇，aisle 指“过道/走廊”，ambulance 为“救护车”。"
+    },
+    {
+      "name": "学术与学科",
+      "words": [
+        "academic",
+        "academy",
+        "adjective",
+        "adverb",
+        "alphabet",
+        "arithmetic",
+        "algorithm",
+        "archive"
+      ],
+      "type": "主题",
+      "note": "学校、语言、数学与计算机学科相关词汇，archive 指“档案/存档”。"
+    },
+    {
+      "name": "身体与生理",
+      "words": [
+        "abdomen",
+        "artery",
+        "ankle",
+        "appetite",
+        "adolescent",
+        "adult",
+        "animal",
+        "ancestor"
+      ],
+      "type": "主题",
+      "note": "身体部位、生理阶段与生物相关词汇，abdomen（腹部），artery（动脉）。"
+    },
+    {
+      "name": "行政与法律",
+      "words": [
+        "administer",
+        "administration",
+        "agency",
+        "agenda",
+        "agent",
+        "accuse",
+        "arrest",
+        "accountant"
+      ],
+      "type": "主题",
+      "note": "政府管理、法律与商业行政场景，accuse（控告），arrest（逮捕）。"
+    },
+    {
+      "name": "丰富与充足",
+      "words": [
+        "abound",
+        "abundant",
+        "affluent",
+        "adequate",
+        "ample",
+        "accumulate",
+        "aggregate"
+      ],
+      "type": "近义",
+      "note": "表示“大量、充足、丰富”的近义词，accumulate 和 aggregate 侧重“积累/总计”。"
+    },
+    {
+      "name": "改变与调整",
+      "words": [
+        "alter",
+        "amend",
+        "accommodate",
+        "adjust",
+        "adapt",
+        "adopt"
+      ],
+      "type": "近义",
+      "note": "表示“改变、适应、调整”的动词，注意 adapt（适应）与 adopt（采用）的拼写区别。"
+    },
+    {
+      "name": "痛苦与焦虑",
+      "words": [
+        "agony",
+        "anguish",
+        "anxiety",
+        "anxious",
+        "appal",
+        "afraid"
+      ],
+      "type": "近义",
+      "note": "表示极度痛苦、焦虑或恐惧的词汇，agony 和 anguish 程度极深，appal 意为“使惊骇”。"
+    },
+    {
+      "name": "承认与宣称",
+      "words": [
+        "acknowledge",
+        "affirm",
+        "allege",
+        "announce",
+        "ascertain",
+        "ascribe"
+      ],
+      "type": "近义",
+      "note": "表示“承认、断言、宣称”的动词，allege 常指“无证据的宣称”，ascribe 意为“归因于”。"
+    },
+    {
+      "name": "赞美与欣赏",
+      "words": [
+        "acclaim",
+        "admire",
+        "applaud",
+        "applause",
+        "appreciate",
+        "amuse"
+      ],
+      "type": "近义",
+      "note": "表示赞赏、喝彩或娱乐的词汇，applaud 是动词，applause 是名词。"
+    },
+    {
+      "name": "增加与加速",
+      "words": [
+        "addition",
+        "additional",
+        "amplify",
+        "advance",
+        "accelerate",
+        "advent"
+      ],
+      "type": "近义",
+      "note": "表示增加、放大或前进的词汇，amplify 指“放大/详述”，advent 指“来临/出现”。"
+    },
+    {
+      "name": "伴随与附加",
+      "words": [
+        "accompany",
+        "accessory",
+        "appendix",
+        "affiliate",
+        "adhere"
+      ],
+      "type": "近义",
+      "note": "表示“伴随、附加、依附”的词汇，accessory 指“附件/从犯”，appendix 指“附录/阑尾”。"
+    },
+    {
+      "name": "情绪与反应",
+      "words": [
+        "amaze",
+        "annoy",
+        "anger",
+        "affect",
+        "alarm",
+        "alert"
+      ],
+      "type": "近义",
+      "note": "表示引起某种情绪或反应的动词，affect 意为“影响/感动”，alarm 意为“使惊恐”。"
+    },
+    {
+      "name": "时间与周期",
+      "words": [
+        "ancient",
+        "antique",
+        "anniversary",
+        "annual",
+        "aftermath",
+        "afterward"
+      ],
+      "type": "近义",
+      "note": "与时间、周期、历史相关的词汇，aftermath 指“后果/余波”，annual 指“每年的”。"
+    },
+    {
+      "name": "空间与区域",
+      "words": [
+        "angle",
+        "area",
+        "arena",
+        "apartment",
+        "acre",
+        "apart"
+      ],
+      "type": "主题",
+      "note": "表示空间、区域、角度的词汇，arena 指“竞技场/舞台”，acre 是面积单位“英亩”。"
+    },
+    {
+      "name": "军事与冲突",
+      "words": [
+        "army",
+        "arrow",
+        "array",
+        "aggressive",
+        "agitate"
+      ],
+      "type": "主题",
+      "note": "与军队、武器、冲突相关的词汇，array 可指“阵列/大批”，agitate 指“煽动/使不安”。"
+    },
+    {
+      "name": "出现与唤醒",
+      "words": [
+        "appear",
+        "appearance",
+        "apparent",
+        "arise",
+        "arouse"
+      ],
+      "type": "近义",
+      "note": "表示“出现、显露、唤醒”的词汇，arise 多指问题/情况出现，arouse 指唤醒/引起（情感）。"
+    },
+    {
+      "name": "接近与邻近",
+      "words": [
+        "approach",
+        "approximate",
+        "access",
+        "adjacent"
+      ],
+      "type": "近义",
+      "note": "表示“接近、邻近、入口”的词汇，adjacent 指“毗连的”，approximate 指“大约的/近似的”。"
+    },
+    {
+      "name": "ad- 动词易混",
+      "words": [
+        "address",
+        "addict",
+        "adhere",
+        "admire"
+      ],
+      "type": "易混淆",
+      "note": "ad- 前缀动词，拼写相近但意思不同：address（地址/演说），addict（使上瘾），adhere（粘着/坚持）。"
+    },
+    {
+      "name": "angel/angle 形近",
+      "words": [
+        "angel",
+        "angle",
+        "ankle",
+        "anchor"
+      ],
+      "type": "易混淆",
+      "note": "拼写极度相似的形近词：angel（天使），angle（角度），ankle（踝），anchor（锚）。"
+    },
+    {
+      "name": "a- 状态方位",
+      "words": [
+        "aboard",
+        "abroad",
+        "absent",
+        "aside",
+        "asleep",
+        "ahead",
+        "alone"
+      ],
+      "type": "易混淆",
+      "note": "a- 开头的状态或方位副词/形容词，aboard（在船上/飞机上）与 abroad（在国外）极易混淆。"
+    },
+    {
+      "name": "am- 形容词易混",
+      "words": [
+        "ambiguous",
+        "ambitious",
+        "amiable",
+        "amateur"
+      ],
+      "type": "易混淆",
+      "note": "am- 开头的形容词/名词，ambiguous（模棱两可），ambitious（有雄心的），amiable（和蔼的）。"
+    },
+    {
+      "name": "词根 aud- (听)",
+      "words": [
+        "audience",
+        "audio",
+        "audit",
+        "auditorium",
+        "aural"
+      ],
+      "type": "词根",
+      "note": "词根 aud- 表示“听”。audience(听众), audio(音频), audit(审计/听账), auditorium(礼堂), aural(听觉的)。"
+    },
+    {
+      "name": "词根 bene-/ben- (好)",
+      "words": [
+        "benefit",
+        "beneficial",
+        "benevolent",
+        "benign",
+        "bonus"
+      ],
+      "type": "词根",
+      "note": "词根 bene-/ben- 表示“好”。benefit(利益), beneficial(有益的), benevolent(慈善的), benign(良性的), bonus(奖金/额外的好事)。"
+    },
+    {
+      "name": "词族 base (基础)",
+      "words": [
+        "base",
+        "basic",
+        "basis",
+        "basement"
+      ],
+      "type": "词族",
+      "note": "同源词族。base(基础/基地), basic(基本的), basis(基础/根据), basement(地下室)。"
+    },
+    {
+      "name": "词族 as- 前缀派生词",
+      "words": [
+        "assume",
+        "assumption",
+        "assure",
+        "assurance",
+        "assign",
+        "assignment",
+        "assist",
+        "assistance",
+        "assistant",
+        "assemble",
+        "assembly",
+        "associate",
+        "association"
+      ],
+      "type": "词族",
+      "note": "包含多组 as- 前缀（ad-变体）派生的词族，注意名词后缀 -ment, -ance, -tion 的规律。"
+    },
+    {
+      "name": "词根 auto- (自己/自动)",
+      "words": [
+        "automatic",
+        "automation",
+        "automobile",
+        "autonomy",
+        "authentic",
+        "author"
+      ],
+      "type": "词根",
+      "note": "词根 auto- (自己)。automatic(自动的), automation(自动化), automobile(汽车), autonomy(自治), authentic(真实的), author(作者)。"
+    },
+    {
+      "name": "近义词：光秃/荒芜/空白",
+      "words": [
+        "bare",
+        "bald",
+        "barren",
+        "blank",
+        "bleak"
+      ],
+      "type": "近义",
+      "note": "均含有“空、光秃、荒凉”之意。bare(赤裸的), bald(秃头的), barren(贫瘠的), blank(空白的), bleak(荒凉的)。"
+    },
+    {
+      "name": "易混淆：b开头形近词",
+      "words": [
+        "bail",
+        "bait",
+        "brake",
+        "break",
+        "bride",
+        "bribe",
+        "brow",
+        "browse"
+      ],
+      "type": "易混淆",
+      "note": "拼写极相近但意思完全不同的词对：bail(保释)/bait(饵), brake(刹车)/break(打破), bride(新娘)/bribe(贿赂), brow(眉毛)/browse(浏览)。"
+    },
+    {
+      "name": "主题：商业与经济",
+      "words": [
+        "auction",
+        "bankrupt",
+        "bargain",
+        "broker",
+        "budget",
+        "breach",
+        "asset",
+        "bill",
+        "brand",
+        "business"
+      ],
+      "type": "主题",
+      "note": "商业与金融场景核心词。auction(拍卖), bankrupt(破产), bargain(交易), broker(经纪人), budget(预算), breach(违约)等。"
+    },
+    {
+      "name": "主题：餐饮与食物",
+      "words": [
+        "bacon",
+        "bake",
+        "banquet",
+        "barbecue",
+        "beef",
+        "beer",
+        "beverage",
+        "buffet",
+        "cafeteria",
+        "cake"
+      ],
+      "type": "主题",
+      "note": "餐饮与食物场景。bacon(熏肉), bake(烘焙), banquet(宴会), barbecue(烤肉), beverage(饮料), buffet(自助餐)等。"
+    },
+    {
+      "name": "词根 bio-/biblio- (生命/书)",
+      "words": [
+        "biology",
+        "biography",
+        "bibliography",
+        "bible",
+        "botany"
+      ],
+      "type": "词根",
+      "note": "词根 bio- (生命) 和 biblio- (书)。biology(生物学), biography(传记), bibliography(参考书目), bible(圣经), botany(植物学)。"
+    },
+    {
+      "name": "近义词：捆绑/束/批",
+      "words": [
+        "bind",
+        "bond",
+        "bundle",
+        "bunch",
+        "batch",
+        "band"
+      ],
+      "type": "近义",
+      "note": "均表示“捆绑、束、批”。bind(绑), bond(结合/债券), bundle(捆), bunch(串/束), batch(一批), band(带子)。"
+    },
+    {
+      "name": "词根 ball- (球/舞会)",
+      "words": [
+        "ball",
+        "balloon",
+        "ballet",
+        "ballot",
+        "baseball",
+        "basketball"
+      ],
+      "type": "词根",
+      "note": "词根 ball- (球/舞会)。ball(球/舞会), balloon(气球), ballet(芭蕾舞), ballot(投票/小球), baseball(棒球), basketball(篮球)。"
+    },
+    {
+      "name": "近义词：攻击/打击/撞击",
+      "words": [
+        "attack",
+        "assault",
+        "beat",
+        "bang",
+        "blow",
+        "bump"
+      ],
+      "type": "近义",
+      "note": "表示“攻击、打击、撞击”。attack(攻击), assault(袭击), beat(打/心跳), bang(重击), blow(打击), bump(撞击)。"
+    },
+    {
+      "name": "主题：自然科学",
+      "words": [
+        "astronaut",
+        "astronomy",
+        "atmosphere",
+        "atom",
+        "aviation",
+        "axis",
+        "bacteria",
+        "calcium"
+      ],
+      "type": "主题",
+      "note": "自然科学术语。astronaut(宇航员), astronomy(天文学), atmosphere(大气), atom(原子), aviation(航空), axis(轴), bacteria(细菌), calcium(钙)。"
+    },
+    {
+      "name": "词族 a- 开头派生词",
+      "words": [
+        "attend",
+        "attendant",
+        "attention",
+        "attract",
+        "attractive",
+        "avail",
+        "available"
+      ],
+      "type": "词族",
+      "note": "包含 attend(出席/照料), attract(吸引), avail(利用) 及其派生词，注意后缀 -ant, -tion, -ive, -able 的构词规律。"
+    },
+    {
+      "name": "词根：cap/capt (抓，拿，容量)",
+      "words": [
+        "capable",
+        "capacity",
+        "captive",
+        "capture"
+      ],
+      "type": "词根",
+      "note": "cap/capt/cept 词根表示“拿、抓、容纳”，注意 capacity 兼有“容量”和“能力”之意。"
+    },
+    {
+      "name": "词根：cent (百，中心)",
+      "words": [
+        "centigrade",
+        "centimetre",
+        "central",
+        "centre",
+        "century"
+      ],
+      "type": "词根",
+      "note": "cent 词根表示“百”或“中心”，centigrade 是百分度（摄氏），century 是百年（世纪）。"
+    },
+    {
+      "name": "词根：circ/circum (圆，环，周围)",
+      "words": [
+        "circle",
+        "circuit",
+        "circular",
+        "circulate",
+        "circumstance",
+        "circus"
+      ],
+      "type": "词根",
+      "note": "circ/circum 表示“圆、环、周围”，circumstance 原指“周围的情况”，引申为“环境、状况”。"
+    },
+    {
+      "name": "词族：civil (公民，文明)",
+      "words": [
+        "civil",
+        "civilian",
+        "civilisation",
+        "civilise"
+      ],
+      "type": "词族",
+      "note": "civil 派生词族，注意 civilian 指“平民”，与军人相对。"
+    },
+    {
+      "name": "词族：class (阶级，分类，经典)",
+      "words": [
+        "classic",
+        "classical",
+        "classification",
+        "classify",
+        "classroom"
+      ],
+      "type": "词族",
+      "note": "classic 指“经典的、杰作”，classical 指“古典的（如古典音乐）”，注意区分。"
+    },
+    {
+      "name": "词族：compete (竞争)",
+      "words": [
+        "compete",
+        "competent",
+        "competition",
+        "competitive"
+      ],
+      "type": "词族",
+      "note": "compete 动词，competition 名词，competitive 形容词，competent 指“胜任的、有能力的”。"
+    },
+    {
+      "name": "词族：compare (比较)",
+      "words": [
+        "comparable",
+        "comparative",
+        "compare",
+        "comparison"
+      ],
+      "type": "词族",
+      "note": "compare 动词，comparison 名词，comparative 指“比较的、相对的”，comparable 指“可比较的、比得上的”。"
+    },
+    {
+      "name": "词根：pos/pon/pose (放置，组成)",
+      "words": [
+        "component",
+        "compose",
+        "composite",
+        "composition",
+        "compound"
+      ],
+      "type": "词根",
+      "note": "pose/pon 词根表示“放置”，引申为“组成、构成”，component 是“组件”，compound 是“化合物/复合词”。"
+    },
+    {
+      "name": "词根：prehend/prise (抓，理解，包含)",
+      "words": [
+        "comprehend",
+        "comprehension",
+        "comprehensive",
+        "comprise"
+      ],
+      "type": "词根",
+      "note": "prehend/prise 原意为“抓”，引申为“大脑抓住（理解）”或“整体抓住（包含）”。"
+    },
+    {
+      "name": "词根：leg/lect (收集，选择)",
+      "words": [
+        "collect",
+        "collection",
+        "collective",
+        "colleague",
+        "college"
+      ],
+      "type": "词根",
+      "note": "lect/leg 表示“收集、选择”，colleague 是“被选在一起共事的人（同事）”，college 是“学院”。"
+    },
+    {
+      "name": "词根：mun (公共，服务)",
+      "words": [
+        "communicate",
+        "communication",
+        "community",
+        "commute"
+      ],
+      "type": "词根",
+      "note": "mun 表示“公共、服务”，communicate 是“交流”，community 是“社区”，commute 是“通勤/交换”。"
+    },
+    {
+      "name": "词族：plex/plic (折叠，复杂，完成)",
+      "words": [
+        "complete",
+        "complex",
+        "complicate",
+        "complicated"
+      ],
+      "type": "词族",
+      "note": "plex/plic 表示“折叠”，complex 是“复杂的/综合体”，complicate 是“使复杂化”。"
+    },
+    {
+      "name": "易混淆：comm- 开头动词",
+      "words": [
+        "command",
+        "commemorate",
+        "commence",
+        "commend",
+        "comment"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近的 comm- 动词：command(命令), commemorate(纪念), commence(开始), commend(推荐/嘉奖), comment(评论)。"
+    },
+    {
+      "name": "易混淆：com- 委托/委员会/妥协",
+      "words": [
+        "commit",
+        "committee",
+        "commission",
+        "compromise"
+      ],
+      "type": "易混淆",
+      "note": "commit(承诺/犯罪), committee(委员会), commission(佣金/委任), compromise(妥协)，注意拼写和词义区分。"
+    },
+    {
+      "name": "主题：宗教/神职/信仰",
+      "words": [
+        "cathedral",
+        "catholic",
+        "Christ",
+        "Christian",
+        "clergy",
+        "choir"
+      ],
+      "type": "主题",
+      "note": "宗教场景词汇：cathedral(大教堂), clergy(神职人员), choir(唱诗班), catholic(天主教的/天主教徒)。"
+    },
+    {
+      "name": "主题：政治/军事/政府",
+      "words": [
+        "campaign",
+        "candidate",
+        "chancellor",
+        "coalition",
+        "commonwealth",
+        "charter"
+      ],
+      "type": "主题",
+      "note": "政治场景词汇：candidate(候选人), chancellor(总理/大臣), coalition(联合政府), charter(宪章/特许状)。"
+    },
+    {
+      "name": "主题：医学/生物/健康",
+      "words": [
+        "calorie",
+        "cancer",
+        "capsule",
+        "carbohydrate",
+        "chronic",
+        "cocaine"
+      ],
+      "type": "主题",
+      "note": "医学健康词汇：carbohydrate(碳水化合物), capsule(胶囊), chronic(慢性的), cocaine(可卡因)。"
+    },
+    {
+      "name": "主题：文学/艺术/戏剧/娱乐",
+      "words": [
+        "cartoon",
+        "cast",
+        "chorus",
+        "comedy",
+        "comic"
+      ],
+      "type": "主题",
+      "note": "艺术娱乐词汇：cast(演员阵容), chorus(合唱队), comedy(喜剧), comic(漫画/滑稽的)。"
+    },
+    {
+      "name": "主题：商业/经济",
+      "words": [
+        "commerce",
+        "commercial",
+        "company",
+        "commodity"
+      ],
+      "type": "主题",
+      "note": "商业场景词汇：commerce(商业), commercial(商业的/广告), commodity(商品/农产品)。"
+    },
+    {
+      "name": "近义：小心/谨慎/照顾",
+      "words": [
+        "care",
+        "careful",
+        "caution",
+        "cautious"
+      ],
+      "type": "近义",
+      "note": "care/careful 侧重“关心、照料、小心”，caution/cautious 侧重“谨慎、警惕、避免危险”。"
+    },
+    {
+      "name": "近义：抓/握/紧贴",
+      "words": [
+        "catch",
+        "clasp",
+        "clutch",
+        "cling"
+      ],
+      "type": "近义",
+      "note": "catch(捕捉), clasp(紧握/扣住), clutch(抓紧/离合器), cling(紧贴/坚持)。"
+    },
+    {
+      "name": "近义：冲突/碰撞/战斗",
+      "words": [
+        "clash",
+        "collide",
+        "collision",
+        "combat"
+      ],
+      "type": "近义",
+      "note": "clash(冲突/撞击声), collide/collision(物理碰撞或利益抵触), combat(战斗/格斗)。"
+    },
+    {
+      "name": "易混淆：can- 开头形近词",
+      "words": [
+        "canal",
+        "cancel",
+        "cannon",
+        "canoe",
+        "canteen",
+        "canvas"
+      ],
+      "type": "易混淆",
+      "note": "can- 开头形近词：canal(运河), cancel(取消), cannon(大炮), canoe(独木舟), canteen(食堂), canvas(帆布)。"
+    },
+    {
+      "name": "易混淆：cli- 开头形近词",
+      "words": [
+        "cliff",
+        "climate",
+        "climax",
+        "climb",
+        "clip",
+        "cloak"
+      ],
+      "type": "易混淆",
+      "note": "cli-/clo- 形近词：cliff(悬崖), climate(气候), climax(高潮), climb(攀登), clip(修剪/夹子), cloak(斗篷/掩护)。"
+    },
+    {
+      "name": "易混淆：co- 开头短词",
+      "words": [
+        "coarse",
+        "coat",
+        "code",
+        "coke",
+        "coil",
+        "comb"
+      ],
+      "type": "易混淆",
+      "note": "co- 开头短词：coarse(粗糙的), coat(外套), code(代码), coke(焦炭/可乐), coil(线圈), comb(梳子)。"
+    },
+    {
+      "name": "易混淆：colon- / col- 形近词",
+      "words": [
+        "colonel",
+        "colonial",
+        "colony",
+        "column"
+      ],
+      "type": "易混淆",
+      "note": "colonel(上校，发音特殊), colonial(殖民的), colony(殖民地), column(圆柱/专栏)，注意拼写和发音。"
+    },
+    {
+      "name": "易混淆：comp- 形近词 (补充/赞美/编译/顺从)",
+      "words": [
+        "complement",
+        "compliment",
+        "compile",
+        "comply"
+      ],
+      "type": "易混淆",
+      "note": "complement(补充)与 compliment(赞美)是经典易混词；compile(编译/收集)，comply(顺从/遵守)。"
+    },
+    {
+      "name": "词根/近义：co- (共同，连贯)",
+      "words": [
+        "coherent",
+        "cohesive",
+        "coincide",
+        "collaborate"
+      ],
+      "type": "词根",
+      "note": "co- 前缀表示“共同”：coherent(连贯的), cohesive(有凝聚力的), coincide(同时发生/一致), collaborate(合作)。"
+    },
+    {
+      "name": "易混淆：con- 开头动词",
+      "words": [
+        "conceal",
+        "concede",
+        "conceive",
+        "concentrate"
+      ],
+      "type": "易混淆",
+      "note": "con- 开头动词：conceal(隐藏), concede(承认/退让), conceive(构思/怀孕), concentrate(集中/浓缩)。"
+    },
+    {
+      "name": "主题：运输/车辆/载具",
+      "words": [
+        "cargo",
+        "carriage",
+        "carrier",
+        "coach"
+      ],
+      "type": "主题",
+      "note": "运输场景词汇：cargo(货物), carriage(马车/客车), carrier(运送者/带菌者), coach(教练/四轮大马车)。"
+    },
+    {
+      "name": "主题：职业/身份",
+      "words": [
+        "carpenter",
+        "cashier",
+        "chef",
+        "chemist"
+      ],
+      "type": "主题",
+      "note": "具体职业词汇：carpenter(木匠), cashier(出纳员), chef(厨师), chemist(化学家/药剂师)。"
+    },
+    {
+      "name": "思考、认为、考虑",
+      "words": [
+        "consider",
+        "contemplate",
+        "deliberate",
+        "deem"
+      ],
+      "type": "近义",
+      "note": "表示深思熟虑或认为的动词，注意 contemplate 侧重沉思，deliberate 侧重仔细权衡。"
+    },
+    {
+      "name": "连续、持续",
+      "words": [
+        "continual",
+        "continue",
+        "continuous",
+        "consecutive"
+      ],
+      "type": "易混淆",
+      "note": "continual 指频繁重复（有间断），continuous 指不间断，consecutive 指按顺序连续。"
+    },
+    {
+      "name": "会议、集会、大会",
+      "words": [
+        "conference",
+        "congress",
+        "convention",
+        "council",
+        "convene"
+      ],
+      "type": "主题",
+      "note": "政治、商业或社会集会相关词汇，convene 为动词“召集”。"
+    },
+    {
+      "name": "犯罪、刑罚、法律",
+      "words": [
+        "crime",
+        "criminal",
+        "convict",
+        "conviction",
+        "culprit",
+        "custody"
+      ],
+      "type": "主题",
+      "note": "法律与司法系统核心词汇，custody 可指“拘留”或“监护权”。"
+    },
+    {
+      "name": "批评、评论",
+      "words": [
+        "critic",
+        "critical",
+        "criticise",
+        "criticism"
+      ],
+      "type": "词族",
+      "note": "critic 是批评家，critical 可指“批评的”或“关键的/危急的”。"
+    },
+    {
+      "name": "公司、合作、企业",
+      "words": [
+        "corporate",
+        "corporation",
+        "cooperate",
+        "cooperative"
+      ],
+      "type": "词根",
+      "note": "共享词根 -corpor- (身体/团体)，引申为公司与合作。"
+    },
+    {
+      "name": "对应、相关、通信",
+      "words": [
+        "correspond",
+        "correspondence",
+        "correspondent",
+        "correlate",
+        "counterpart"
+      ],
+      "type": "主题",
+      "note": "表示事物之间的匹配、关联或通信往来。"
+    },
+    {
+      "name": "推理、结论、扣除",
+      "words": [
+        "conclude",
+        "conclusion",
+        "deduce",
+        "deduct"
+      ],
+      "type": "易混淆",
+      "note": "deduce 是逻辑推论，deduct 是数学或财务上的扣除。"
+    },
+    {
+      "name": "声明、宣布、证实",
+      "words": [
+        "declare",
+        "declaration",
+        "decree",
+        "confirm"
+      ],
+      "type": "近义",
+      "note": "官方或正式的宣告与确认，decree 特指法令或判决。"
+    },
+    {
+      "name": "减少、下降、衰退、腐败",
+      "words": [
+        "decrease",
+        "decline",
+        "decay",
+        "degenerate",
+        "corrode",
+        "corrupt"
+      ],
+      "type": "近义",
+      "note": "表示数量减少、质量下降或道德/物质的腐坏。"
+    },
+    {
+      "name": "连接、接触",
+      "words": [
+        "connect",
+        "connection",
+        "conjunction",
+        "contact"
+      ],
+      "type": "词根",
+      "note": "共享词根 -nect-/-tact- (连接/接触)，conjunction 常指语法连词或结合。"
+    },
+    {
+      "name": "建立、构造",
+      "words": [
+        "constituent",
+        "constitute",
+        "constitution",
+        "construct"
+      ],
+      "type": "词根",
+      "note": "共享词根 -stitu-/-struct- (建立/建造)，constitution 可指宪法或体质。"
+    },
+    {
+      "name": "咨询、协商、授予",
+      "words": [
+        "consult",
+        "consultant",
+        "counsel",
+        "confer"
+      ],
+      "type": "近义",
+      "note": "寻求建议或给予指导，counsel 可作名词“忠告”或“法律顾问”。"
+    },
+    {
+      "name": "对立、对比、反驳",
+      "words": [
+        "contradict",
+        "contrary",
+        "contrast",
+        "conflict"
+      ],
+      "type": "近义",
+      "note": "表示矛盾、相反或冲突，contradict 侧重言语上的反驳。"
+    },
+    {
+      "name": "争论、竞争",
+      "words": [
+        "controversial",
+        "controversy",
+        "contend",
+        "contest"
+      ],
+      "type": "主题",
+      "note": "涉及辩论、争议或竞争的场景，contend 可指“主张”或“竞争”。"
+    },
+    {
+      "name": "转变、交谈",
+      "words": [
+        "conversation",
+        "conversely",
+        "conversion",
+        "convert"
+      ],
+      "type": "词根",
+      "note": "共享词根 -vers- (转)，conversation 原指“来回交谈”，conversely 指“相反地”。"
+    },
+    {
+      "name": "创造、技艺",
+      "words": [
+        "create",
+        "creative",
+        "creature",
+        "craft"
+      ],
+      "type": "词族",
+      "note": "与创造、制作及生物相关，craft 侧重手工技艺或精巧的设计。"
+    },
+    {
+      "name": "死亡、危险",
+      "words": [
+        "dead",
+        "deadline",
+        "deadly",
+        "dangerous"
+      ],
+      "type": "主题",
+      "note": "deadly 指“致命的”，dangerous 指“危险的”，deadline 原指“死线”。"
+    },
+    {
+      "name": "定义、明确、限制",
+      "words": [
+        "define",
+        "definite",
+        "definition",
+        "confine"
+      ],
+      "type": "词根",
+      "note": "共享词根 -fin- (边界/结束)，confine 指限制在特定边界内。"
+    },
+    {
+      "name": "信任、信心、说服",
+      "words": [
+        "confidence",
+        "confident",
+        "confidential",
+        "convince"
+      ],
+      "type": "近义",
+      "note": "与信任、确信相关，confidential 指“机密的”（基于信任）。"
+    },
+    {
+      "name": "意识、良心、考虑",
+      "words": [
+        "conscious",
+        "conscience",
+        "conscientious",
+        "considerate",
+        "considerable"
+      ],
+      "type": "易混淆",
+      "note": "形近词辨析：conscious(有意识的)，conscience(良心)，considerate(体贴的)，considerable(相当大的)。"
+    },
+    {
+      "name": "控制、限制、容纳",
+      "words": [
+        "contain",
+        "control",
+        "constrain",
+        "curb"
+      ],
+      "type": "近义",
+      "note": "表示对事物或行为的约束与控制，curb 常指抑制不良情绪或行为。"
+    },
+    {
+      "name": "消费、成本、票据",
+      "words": [
+        "consume",
+        "consumption",
+        "costly",
+        "coupon"
+      ],
+      "type": "主题",
+      "note": "经济与消费场景词汇，coupon 指优惠券或息票。"
+    },
+    {
+      "name": "协议、让步、一致",
+      "words": [
+        "contract",
+        "consent",
+        "consensus",
+        "concession"
+      ],
+      "type": "主题",
+      "note": "商业或谈判中的达成一致与让步，concession 指特许或让步。"
+    },
+    {
+      "name": "核心、关键、标准",
+      "words": [
+        "CORE",
+        "crucial",
+        "criterion",
+        "constant"
+      ],
+      "type": "主题",
+      "note": "表示事物的核心要素、决定性因素或恒定标准。"
+    },
+    {
+      "name": "乡村、地理、区域",
+      "words": [
+        "countryside",
+        "county",
+        "corridor",
+        "cyberspace"
+      ],
+      "type": "主题",
+      "note": "表示不同的空间或区域概念，cyberspace 为网络虚拟空间。"
+    },
+    {
+      "name": "货币、经济、金融",
+      "words": [
+        "currency",
+        "credit",
+        "current",
+        "cumulative"
+      ],
+      "type": "主题",
+      "note": "经济与金融流通相关，current 可指“流通的”或“当前的”。"
+    },
+    {
+      "name": "数据、信息、网络",
+      "words": [
+        "data",
+        "database",
+        "copyright",
+        "copy"
+      ],
+      "type": "主题",
+      "note": "信息技术与知识产权相关词汇。"
+    },
+    {
+      "name": "医学、疾病、健康",
+      "words": [
+        "coronavirus",
+        "contagious",
+        "cough",
+        "cripple"
+      ],
+      "type": "主题",
+      "note": "疾病、症状及健康损害相关词汇。"
+    },
+    {
+      "name": "动物、植物、自然",
+      "words": [
+        "crab",
+        "crane",
+        "cricket",
+        "crow",
+        "cucumber"
+      ],
+      "type": "主题",
+      "note": "自然界的动植物名称，cricket 可指蟋蟀或板球。"
+    },
+    {
+      "name": "形状、几何、物理",
+      "words": [
+        "cube",
+        "cylinder",
+        "curve",
+        "crystal"
+      ],
+      "type": "主题",
+      "note": "几何图形与物理形态相关词汇。"
+    },
+    {
+      "name": "破坏、撞击、破裂",
+      "words": [
+        "crack",
+        "crash",
+        "crush",
+        "damage"
+      ],
+      "type": "近义",
+      "note": "表示物理上的破坏、撞击或压碎。"
+    },
+    {
+      "name": "爬行、移动、冲刺",
+      "words": [
+        "crawl",
+        "creep",
+        "cruise",
+        "dash"
+      ],
+      "type": "近义",
+      "note": "表示不同速度和方式的移动，creep 侧重蹑手蹑脚或缓慢蔓延。"
+    },
+    {
+      "name": "食物、厨房、烹饪",
+      "words": [
+        "cook",
+        "cupboard",
+        "dairy",
+        "crisp"
+      ],
+      "type": "主题",
+      "note": "与饮食、厨房设施及食物口感相关。"
+    },
+    {
+      "name": "情感、性格、态度",
+      "words": [
+        "coward",
+        "crazy",
+        "cruel",
+        "cunning",
+        "curiosity"
+      ],
+      "type": "主题",
+      "note": "描述人的性格特征、心理状态或情感倾向。"
+    },
+    {
+      "name": "服装、外观、装饰",
+      "words": [
+        "costume",
+        "cover",
+        "couch",
+        "decorate"
+      ],
+      "type": "主题",
+      "note": "与物品外观、覆盖物及装饰布置相关。"
+    },
+    {
+      "name": "时间、日期、周期",
+      "words": [
+        "date",
+        "decade",
+        "cycle",
+        "contemporary"
+      ],
+      "type": "主题",
+      "note": "表示时间跨度、周期或时代背景。"
+    },
+    {
+      "name": "规则、违背、缺陷",
+      "words": [
+        "default",
+        "defect",
+        "defense",
+        "defy"
+      ],
+      "type": "主题",
+      "note": "涉及规则遵守、系统缺陷或防御/违抗行为。"
+    },
+    {
+      "name": "缺乏、不足、删除",
+      "words": [
+        "deficiency",
+        "deficit",
+        "delete",
+        "delay"
+      ],
+      "type": "近义",
+      "note": "表示数量上的不足、缺失或动作的推迟/消除。"
+    },
+    {
+      "name": "概念、观念、关心",
+      "words": [
+        "concept",
+        "conception",
+        "concern",
+        "concise"
+      ],
+      "type": "易混淆",
+      "note": "con- 开头的抽象名词与形容词，concept 和 conception 近义，concise 指“简洁的”。"
+    },
+    {
+      "name": "经济与金融",
+      "words": [
+        "economy",
+        "economic",
+        "economical",
+        "economics",
+        "dividend",
+        "discount",
+        "deposit",
+        "demand"
+      ],
+      "type": "主题",
+      "note": "涵盖宏观经济、微观金融及商业交易常用词汇。"
+    },
+    {
+      "name": "编辑与出版",
+      "words": [
+        "edit",
+        "edition",
+        "editor",
+        "editorial",
+        "document",
+        "documentary",
+        "dictionary",
+        "digest"
+      ],
+      "type": "主题",
+      "note": "与文字处理、出版发行及文献记录相关的词汇。"
+    },
+    {
+      "name": "区分与辨别",
+      "words": [
+        "distinguish",
+        "distinct",
+        "distinction",
+        "discriminate",
+        "discrepancy"
+      ],
+      "type": "近义",
+      "note": "表示识别差异、区分不同事物的动词及名词，注意 discrepancy 侧重于数据或事实的出入。"
+    },
+    {
+      "name": "分散与转移",
+      "words": [
+        "disperse",
+        "dissipate",
+        "distract",
+        "diffuse",
+        "displace"
+      ],
+      "type": "近义",
+      "note": "表示使事物散开、转移注意力或驱散的动词，注意 distract 常用于注意力。"
+    },
+    {
+      "name": "下降与减少",
+      "words": [
+        "descend",
+        "descent",
+        "diminish",
+        "depress",
+        "drop",
+        "dilute",
+        "deteriorate"
+      ],
+      "type": "近义",
+      "note": "表示数量减少、位置下降或质量恶化的词汇，dilute 特指浓度降低。"
+    },
+    {
+      "name": "破坏与灾难",
+      "words": [
+        "destruction",
+        "destructive",
+        "disaster",
+        "disastrous",
+        "disrupt",
+        "disorder",
+        "distress",
+        "despair"
+      ],
+      "type": "主题",
+      "note": "描述负面事件、系统性破坏及由此引发的心理绝望状态。"
+    },
+    {
+      "name": "电学与电子",
+      "words": [
+        "electrical",
+        "electrician",
+        "electron",
+        "electronic",
+        "digital",
+        "device"
+      ],
+      "type": "主题",
+      "note": "物理学及现代科技领域的电子、数字设备相关术语。"
+    },
+    {
+      "name": "医学与健康",
+      "words": [
+        "diabetes",
+        "diagnose",
+        "dental",
+        "dose",
+        "doctor",
+        "diet",
+        "dizzy",
+        "disable"
+      ],
+      "type": "主题",
+      "note": "涉及疾病诊断、治疗剂量、生理反应及医疗人员的词汇。"
+    },
+    {
+      "name": "居住与建筑空间",
+      "words": [
+        "dwell",
+        "dwelling",
+        "doorway",
+        "dock",
+        "ditch"
+      ],
+      "type": "主题",
+      "note": "与人类居住环境、建筑附属结构及水利沟渠相关的名词和动词。"
+    },
+    {
+      "name": "描述与展示",
+      "words": [
+        "depict",
+        "display",
+        "denote",
+        "designate",
+        "demonstrate"
+      ],
+      "type": "近义",
+      "note": "表示通过语言、动作或符号来展示、指明或证明某事的动词。"
+    },
+    {
+      "name": "情感与态度",
+      "words": [
+        "desire",
+        "desirable",
+        "despise",
+        "disgust",
+        "dislike",
+        "dismay",
+        "dread"
+      ],
+      "type": "主题",
+      "note": "表达强烈的主观情绪，包括渴望、厌恶、轻视及恐惧。"
+    },
+    {
+      "name": "脱离与去除",
+      "words": [
+        "deviate",
+        "detach",
+        "divorce",
+        "disappear",
+        "deprive"
+      ],
+      "type": "近义",
+      "note": "表示从原有状态、位置或关系中分离、脱离或剥夺的动词。"
+    },
+    {
+      "name": "易混淆：discreet与dessert系列",
+      "words": [
+        "discreet",
+        "discrete",
+        "discretion",
+        "dessert",
+        "deserve"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近但词义截然不同。discreet(谨慎的) vs discrete(离散的)；dessert(甜点) vs deserve(应得)。"
+    },
+    {
+      "name": "易混淆：dra- 形近词",
+      "words": [
+        "draft",
+        "drag",
+        "draw",
+        "drawing",
+        "drawback"
+      ],
+      "type": "易混淆",
+      "note": "以 dra- 开头的形近词，注意 draft(草稿/汇票) 与 drawback(缺点) 的熟词僻义。"
+    },
+    {
+      "name": "词根 dom- (统治/家)",
+      "words": [
+        "dominant",
+        "dominate",
+        "domain",
+        "domestic",
+        "dome"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 dominus (主人) 或 domus (家)，引申为统治、领域或家庭。"
+    },
+    {
+      "name": "词根 div- (分开/转向)",
+      "words": [
+        "divide",
+        "division",
+        "diverse",
+        "divert",
+        "diversion",
+        "divine"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 dividere (分开) 或 divertere (转向)，divine 为同源引申(神圣的分离)。"
+    },
+    {
+      "name": "交通与运输",
+      "words": [
+        "deliver",
+        "delivery",
+        "depart",
+        "departure",
+        "destination",
+        "despatch",
+        "drive",
+        "driver",
+        "embark"
+      ],
+      "type": "主题",
+      "note": "涵盖人员出行、货物配送及交通工具驾驶的核心词汇。"
+    },
+    {
+      "name": "形近：demo- 与 diplo-",
+      "words": [
+        "diploma",
+        "diplomatic",
+        "democracy",
+        "democratic",
+        "demographic"
+      ],
+      "type": "易混淆",
+      "note": "前缀形近。demo- 意为人民(populace)，diplo- 意为双重/折叠(double)，注意词义区分。"
+    },
+    {
+      "name": "动物与生物",
+      "words": [
+        "dinosaur",
+        "donkey",
+        "dove",
+        "dragon",
+        "drone",
+        "eagle"
+      ],
+      "type": "主题",
+      "note": "包含现实动物、昆虫及神话生物，drone 特指雄蜂或无人机。"
+    },
+    {
+      "name": "模糊与微弱",
+      "words": [
+        "dim",
+        "dull",
+        "dumb",
+        "dubious"
+      ],
+      "type": "近义",
+      "note": "形容光线暗淡、感觉迟钝、声音沉闷或态度不确定的形容词。"
+    },
+    {
+      "name": "抛弃与消耗",
+      "words": [
+        "discard",
+        "dump",
+        "drain",
+        "deplete",
+        "deny",
+        "denial"
+      ],
+      "type": "近义",
+      "note": "表示物理上的丢弃、资源的耗尽以及抽象意义上的拒绝与否认。"
+    },
+    {
+      "name": "困难与阻碍",
+      "words": [
+        "difficult",
+        "difficulty",
+        "dilemma",
+        "discourage",
+        "deter",
+        "detain"
+      ],
+      "type": "近义",
+      "note": "描述客观存在的难题、进退两难的困境以及主观上的阻挠与耽搁。"
+    },
+    {
+      "name": "改变与偏离",
+      "words": [
+        "deviate",
+        "distort",
+        "differ",
+        "differentiate",
+        "derive"
+      ],
+      "type": "近义",
+      "note": "表示事物形态、方向或本质发生改变、产生差异或追溯来源的动词。"
+    },
+    {
+      "name": "揭示与探测",
+      "words": [
+        "detect",
+        "detective",
+        "detector",
+        "disclose",
+        "discern",
+        "elicit"
+      ],
+      "type": "近义",
+      "note": "表示发现隐藏事物、揭露真相或通过手段引出信息的动词及派生词。"
+    },
+    {
+      "name": "employ 词族",
+      "words": [
+        "employ",
+        "employee",
+        "employer",
+        "employment"
+      ],
+      "type": "词族",
+      "note": "雇用相关词汇，注意 -er 和 -ee 后缀的区别"
+    },
+    {
+      "name": "equal/equi 平等词根",
+      "words": [
+        "equal",
+        "equality",
+        "equation",
+        "equity",
+        "equivalent"
+      ],
+      "type": "词根",
+      "note": "词根 equ- 表示平等、相等"
+    },
+    {
+      "name": "ep- 形近易混淆",
+      "words": [
+        "epic",
+        "epidemic",
+        "episode",
+        "epoch"
+      ],
+      "type": "易混淆",
+      "note": "ep- 开头，拼写相近但意思完全不同"
+    },
+    {
+      "name": "er- 消除/错误/侵蚀",
+      "words": [
+        "eradicate",
+        "erase",
+        "erode",
+        "erosion",
+        "erroneous",
+        "error",
+        "erupt"
+      ],
+      "type": "词根",
+      "note": "er- 开头，多与消除、错误或爆发相关"
+    },
+    {
+      "name": "eva- 形近易混淆",
+      "words": [
+        "evacuate",
+        "evade",
+        "evaluate",
+        "evaporate"
+      ],
+      "type": "易混淆",
+      "note": "eva- 开头，考研常考形近动词"
+    },
+    {
+      "name": "eth- 形近易混淆",
+      "words": [
+        "esthetic",
+        "ethic",
+        "ethnic",
+        "eternal"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近，注意审美、伦理、种族与永恒的区别"
+    },
+    {
+      "name": "en- 使动前缀",
+      "words": [
+        "enable",
+        "enclose",
+        "endorse",
+        "endow",
+        "enforce",
+        "enlarge",
+        "enlighten",
+        "enrich",
+        "ensure"
+      ],
+      "type": "词缀",
+      "note": "en- 前缀表示“使...，进入...”，多构成及物动词"
+    },
+    {
+      "name": "expend/expense 花费词族",
+      "words": [
+        "expend",
+        "expenditure",
+        "expense",
+        "expensive"
+      ],
+      "type": "词族",
+      "note": "花费、开支相关词汇"
+    },
+    {
+      "name": "extend 延伸词族",
+      "words": [
+        "extend",
+        "extension",
+        "extensive",
+        "extent"
+      ],
+      "type": "词族",
+      "note": "延伸、扩展相关词汇"
+    },
+    {
+      "name": "exclude/except 排除/例外",
+      "words": [
+        "except",
+        "exception",
+        "exceptional",
+        "exclude",
+        "exclusive"
+      ],
+      "type": "词根",
+      "note": "词根 clud/cept 表示关闭、排除、例外"
+    },
+    {
+      "name": "exceed/excess 超越/过度",
+      "words": [
+        "exceed",
+        "exceedingly",
+        "excess",
+        "excessive",
+        "excel"
+      ],
+      "type": "词根",
+      "note": "词根 ced/cess/cel 表示超越、过度、优秀"
+    },
+    {
+      "name": "explode/erupt 爆发",
+      "words": [
+        "erupt",
+        "explode",
+        "explosion",
+        "explosive"
+      ],
+      "type": "近义",
+      "note": "爆发、爆炸相关词汇"
+    },
+    {
+      "name": "fac/fact 做/制造词根",
+      "words": [
+        "facilitate",
+        "facility",
+        "factor",
+        "factory",
+        "faculty"
+      ],
+      "type": "词根",
+      "note": "词根 fac/fact 表示做、制造"
+    },
+    {
+      "name": "f- 命运/失败/缺陷",
+      "words": [
+        "fail",
+        "failure",
+        "fatal",
+        "fate",
+        "faulty"
+      ],
+      "type": "主题",
+      "note": "与失败、命运、缺陷相关的负面词汇"
+    },
+    {
+      "name": "f- 幻想/想象",
+      "words": [
+        "fancy",
+        "fantastic",
+        "fantasy",
+        "fiction"
+      ],
+      "type": "近义",
+      "note": "与幻想、虚构、想象相关的词汇"
+    },
+    {
+      "name": "f- 农业/土地",
+      "words": [
+        "farm",
+        "farmer",
+        "fertile",
+        "fertiliser",
+        "famine"
+      ],
+      "type": "主题",
+      "note": "农业、土地、饥荒相关词汇"
+    },
+    {
+      "name": "f- 社会/经济/政治",
+      "words": [
+        "federal",
+        "federation",
+        "finance",
+        "financial",
+        "fashion",
+        "fashionable"
+      ],
+      "type": "主题",
+      "note": "社会、经济、政治与时尚领域词汇"
+    },
+    {
+      "name": "ent- 娱乐/热情",
+      "words": [
+        "entertain",
+        "entertainment",
+        "enthusiasm",
+        "enthusiastic"
+      ],
+      "type": "词族",
+      "note": "娱乐与热情相关词汇"
+    },
+    {
+      "name": "em- 帝国/显赫",
+      "words": [
+        "emperor",
+        "empire",
+        "embassy",
+        "eminent"
+      ],
+      "type": "主题",
+      "note": "帝国、使馆与显赫地位相关词汇"
+    },
+    {
+      "name": "emotion 情感",
+      "words": [
+        "emotion",
+        "empathy",
+        "feeling",
+        "excitement"
+      ],
+      "type": "近义",
+      "note": "情感、共鸣与感觉相关词汇"
+    },
+    {
+      "name": "ext- 外部/极端",
+      "words": [
+        "exterior",
+        "external",
+        "extra",
+        "extreme"
+      ],
+      "type": "词根",
+      "note": "外部、额外与极端相关词汇"
+    },
+    {
+      "name": "exist/entity 存在",
+      "words": [
+        "entity",
+        "exist",
+        "existence",
+        "exit"
+      ],
+      "type": "词根",
+      "note": "存在、实体与出口（离开存在）相关词汇"
+    },
+    {
+      "name": "fabric 制造/结构",
+      "words": [
+        "fabric",
+        "fabricate",
+        "fabulous",
+        "facet"
+      ],
+      "type": "词根",
+      "note": "词根 fab 表示制造、结构，引申为极好的"
+    },
+    {
+      "name": "faith/fame 信仰/名声",
+      "words": [
+        "faith",
+        "faithful",
+        "fame",
+        "famous"
+      ],
+      "type": "词族",
+      "note": "信仰与名声相关基础词族"
+    },
+    {
+      "name": "engage/engine 词族",
+      "words": [
+        "engage",
+        "engagement",
+        "engine",
+        "engineering"
+      ],
+      "type": "词族",
+      "note": "参与、约定与引擎、工程相关词汇"
+    },
+    {
+      "name": "em- 嵌入/出现",
+      "words": [
+        "embed",
+        "embody",
+        "embrace",
+        "embryo",
+        "emerge",
+        "emergency",
+        "emigrate",
+        "emit"
+      ],
+      "type": "词缀",
+      "note": "em- 前缀表示进入、使动或向外"
+    },
+    {
+      "name": "en- 询问/登记/赋予",
+      "words": [
+        "enquire",
+        "enquiry",
+        "enrol",
+        "entitle"
+      ],
+      "type": "词族",
+      "note": "询问、登记与赋予权利相关词汇"
+    },
+    {
+      "name": "es- 本质/建立",
+      "words": [
+        "essay",
+        "essence",
+        "essential",
+        "establish",
+        "estate",
+        "esteem"
+      ],
+      "type": "易混淆",
+      "note": "es- 开头，本质、建立与尊重相关词汇"
+    },
+    {
+      "name": "ex- 执行/练习",
+      "words": [
+        "execute",
+        "executive",
+        "exercise",
+        "exert",
+        "exemplify",
+        "exempt"
+      ],
+      "type": "词根",
+      "note": "执行、练习与免除相关词汇"
+    },
+    {
+      "name": "ex- 探索/远征",
+      "words": [
+        "expedition",
+        "explore",
+        "excursion",
+        "export"
+      ],
+      "type": "主题",
+      "note": "探索、远征与出口相关词汇"
+    },
+    {
+      "name": "ex- 期待/专家",
+      "words": [
+        "expect",
+        "expectation",
+        "expert",
+        "expertise"
+      ],
+      "type": "词族",
+      "note": "期待与专家相关词汇"
+    },
+    {
+      "name": "ex- 暴露/展示",
+      "words": [
+        "expose",
+        "exposure",
+        "explicit",
+        "exile"
+      ],
+      "type": "近义",
+      "note": "暴露、明确与流放相关词汇"
+    },
+    {
+      "name": "ex- 扩张/展示",
+      "words": [
+        "expand",
+        "expansion",
+        "exhaust",
+        "exhibit"
+      ],
+      "type": "形近",
+      "note": "扩张、耗尽与展示相关词汇"
+    },
+    {
+      "name": "f- 虚弱/疲劳",
+      "words": [
+        "fade",
+        "faint",
+        "fatigue",
+        "feeble"
+      ],
+      "type": "近义",
+      "note": "褪色、昏厥与疲劳、虚弱相关词汇"
+    },
+    {
+      "name": "f- 虚假/错误",
+      "words": [
+        "fake",
+        "false",
+        "fable",
+        "fall"
+      ],
+      "type": "近义",
+      "note": "虚假、寓言与错误相关词汇"
+    },
+    {
+      "name": "f- 宴会/壮举",
+      "words": [
+        "feasible",
+        "feast",
+        "feat",
+        "feature",
+        "fellowship"
+      ],
+      "type": "形近",
+      "note": "fea- 开头，可行、宴会、壮举与特征相关词汇"
+    },
+    {
+      "name": "f- 填充/过滤",
+      "words": [
+        "feed",
+        "feedback",
+        "fill",
+        "film",
+        "filter"
+      ],
+      "type": "主题",
+      "note": "喂养、填充与过滤相关词汇"
+    },
+    {
+      "name": "ev- 证据/明显",
+      "words": [
+        "evidence",
+        "evident",
+        "event",
+        "eventually"
+      ],
+      "type": "词族",
+      "note": "证据、事件与最终结果相关词汇"
+    },
+    {
+      "name": "ev- 进化/唤起",
+      "words": [
+        "evolution",
+        "evolve",
+        "evoke",
+        "evil"
+      ],
+      "type": "形近",
+      "note": "进化、唤起与邪恶相关词汇"
+    },
+    {
+      "name": "ex- 呼喊/交换",
+      "words": [
+        "exclaim",
+        "exchange",
+        "excuse",
+        "excerpt"
+      ],
+      "type": "形近",
+      "note": "呼喊、交换、借口与摘录相关词汇"
+    },
+    {
+      "name": "ext- 熄灭/提取",
+      "words": [
+        "extinct",
+        "extinguish",
+        "extract",
+        "extravagant"
+      ],
+      "type": "近义",
+      "note": "灭绝、熄灭与提取、奢侈相关词汇"
+    },
+    {
+      "name": "前缀 fore-/forth- (向前/在前)",
+      "words": [
+        "fore",
+        "forecast",
+        "forehead",
+        "foremost",
+        "foresee",
+        "forth",
+        "forthcoming",
+        "forward"
+      ],
+      "type": "词根",
+      "note": "fore- 表示“前面、预先”，forth 表示“向前、向外”，注意 foresee 和 forecast 的近义关系。"
+    },
+    {
+      "name": "词根 form-/fram- (形状/结构)",
+      "words": [
+        "formal",
+        "format",
+        "formation",
+        "formula",
+        "formulate",
+        "frame",
+        "framework"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 forma（形状），frame 和 framework 侧重于物理或抽象的“框架、结构”。"
+    },
+    {
+      "name": "词根 fract-/frag- (破碎)",
+      "words": [
+        "fraction",
+        "fracture",
+        "fragile",
+        "fragment"
+      ],
+      "type": "词根",
+      "note": "fract 和 frag 同源，表示“打破、破碎”。fraction 是分数/小部分，fragile 是易碎的。"
+    },
+    {
+      "name": "词根 flu-/fluct- (流动)",
+      "words": [
+        "fluent",
+        "fluid",
+        "flush",
+        "fluctuate"
+      ],
+      "type": "词根",
+      "note": "flu- 表示“流动”，fluent 指语言流利，fluid 指流体，fluctuate 指像波浪一样起伏波动。"
+    },
+    {
+      "name": "词根 gen- (产生/种类/基因)",
+      "words": [
+        "gene",
+        "generate",
+        "generator",
+        "genetic",
+        "genius",
+        "gender",
+        "generalise"
+      ],
+      "type": "词根",
+      "note": "gen- 表示“出生、产生、种类”。gene/genetic 与基因相关，generate 是产生，genius 原指守护神/天赋。"
+    },
+    {
+      "name": "词根 graph-/gram- (写/画/重量)",
+      "words": [
+        "gram",
+        "grammar",
+        "graph",
+        "graphic"
+      ],
+      "type": "词根",
+      "note": "gram/graph 表示“写、画、记录”。graph 是图表，graphic 是生动的/图形的，grammar 是语法规则。"
+    },
+    {
+      "name": "合成词/词根 hand- (手)",
+      "words": [
+        "handbook",
+        "handful",
+        "handicap",
+        "handle",
+        "handwriting"
+      ],
+      "type": "词族",
+      "note": "hand- 构成的合成词。handicap 原指手里拿着帽子乞讨，后引申为“障碍、不利条件”。"
+    },
+    {
+      "name": "词族 hard- (硬/困难)",
+      "words": [
+        "harden",
+        "hardly",
+        "hardship",
+        "hardware"
+      ],
+      "type": "词族",
+      "note": "hard 的派生词。注意 hardly 意思是“几乎不”，而 hardship 是“艰难、困苦”，hardware 是“硬件”。"
+    },
+    {
+      "name": "近义词 (巨大/宏大)",
+      "words": [
+        "giant",
+        "gigantic",
+        "grand",
+        "great"
+      ],
+      "type": "近义",
+      "note": "都表示“大”。giant/gigantic 侧重体型或规模巨大，grand 侧重宏伟、庄重，great 侧重伟大、重要。"
+    },
+    {
+      "name": "主题/近义 (发光与视觉)",
+      "words": [
+        "flare",
+        "glare",
+        "glitter",
+        "glow",
+        "glimpse"
+      ],
+      "type": "近义",
+      "note": "与光和视觉相关。flare 是闪耀/爆发，glare 是刺眼的光，glitter 是闪烁，glow 是红光/发热，glimpse 是一瞥。"
+    },
+    {
+      "name": "主题 (法律与犯罪)",
+      "words": [
+        "fraud",
+        "gaol",
+        "guilt",
+        "guilty"
+      ],
+      "type": "主题",
+      "note": "法律场景核心词。fraud 是欺诈，gaol 是监狱（英式拼写，同 jail），guilt/guilty 是罪行/有罪的。"
+    },
+    {
+      "name": "近义词 (群/帮/集合)",
+      "words": [
+        "flock",
+        "herd",
+        "gang",
+        "galaxy"
+      ],
+      "type": "近义",
+      "note": "表示“群”。flock 多指羊群/鸟群，herd 指牛/象等兽群，gang 指一帮人，galaxy 指星系或一群显赫人物。"
+    },
+    {
+      "name": "词族/近义 (问候/打招呼)",
+      "words": [
+        "greet",
+        "greeting",
+        "hail",
+        "hello"
+      ],
+      "type": "词族",
+      "note": "greet 是动词问候，greeting 是名词。hail 除了冰雹，也有“欢呼、打招呼”之意。"
+    },
+    {
+      "name": "易混淆 (gr- 开头的动词/名词)",
+      "words": [
+        "grief",
+        "grieve",
+        "grim",
+        "grin",
+        "grind",
+        "grip",
+        "groan",
+        "grope"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近的 gr- 词汇。grief/grieve 是悲伤，grim 是冷酷，grin 是露齿笑，grind 是磨，grip 是紧握，groan 是呻吟，grope 是摸索。"
+    },
+    {
+      "name": "易混淆 (hel- 开头的词)",
+      "words": [
+        "helicopter",
+        "hell",
+        "helmet",
+        "helpful"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近。helicopter 直升机，hell 地狱，helmet 头盔，helpful 有帮助的。"
+    },
+    {
+      "name": "易混淆 (her- 开头的词)",
+      "words": [
+        "herald",
+        "herb",
+        "herd",
+        "heritage"
+      ],
+      "type": "易混淆",
+      "note": "herald 是先驱/使者，herb 是药草，herd 是兽群，heritage 是遗产。注意词义完全不同。"
+    },
+    {
+      "name": "易混淆 (fun- 开头的词)",
+      "words": [
+        "function",
+        "fund",
+        "fundamental",
+        "funeral",
+        "funny"
+      ],
+      "type": "易混淆",
+      "note": "function 是功能，fund 是资金，fundamental 是基础的，funeral 是葬礼，funny 是好笑的。"
+    },
+    {
+      "name": "易混淆 (fur-/fus- 开头的词)",
+      "words": [
+        "furnace",
+        "furnish",
+        "furious",
+        "fuse"
+      ],
+      "type": "易混淆",
+      "note": "furnace 是火炉，furnish 是提供/布置，furious 是狂怒的，fuse 是保险丝/熔化。"
+    },
+    {
+      "name": "易混淆 (go- 开头的词)",
+      "words": [
+        "government",
+        "governor",
+        "gown",
+        "gossip"
+      ],
+      "type": "易混淆",
+      "note": "government 政府，governor 州长/总督，gown 长袍/睡衣，gossip 闲聊/流言。"
+    },
+    {
+      "name": "词根 geo- 及 ge- 易混淆",
+      "words": [
+        "geography",
+        "geology",
+        "geometry",
+        "germ",
+        "gesture",
+        "ghost"
+      ],
+      "type": "词根",
+      "note": "前三个是 geo-（地球）词根：地理、地质、几何。后三个是 ge- 开头：细菌、手势、鬼魂。"
+    },
+    {
+      "name": "易混淆 (gu- 开头的词)",
+      "words": [
+        "guidance",
+        "guideline",
+        "guild",
+        "guitar",
+        "gulf",
+        "gymnasium"
+      ],
+      "type": "易混淆",
+      "note": "guidance 指导，guideline 方针，guild 协会，guitar 吉他，gulf 海湾/隔阂，gymnasium 体育馆。"
+    },
+    {
+      "name": "易混淆 (ha- 开头的词)",
+      "words": [
+        "habitat",
+        "hail",
+        "halt",
+        "hamper",
+        "hang",
+        "harassment",
+        "harmony",
+        "harness",
+        "harsh",
+        "hazard"
+      ],
+      "type": "易混淆",
+      "note": "ha- 开头的高频词。habitat 栖息地，hamper 阻碍，harassment 骚扰，harness 马具/利用，hazard 危险。"
+    },
+    {
+      "name": "易混淆 (he- 开头的词)",
+      "words": [
+        "headquarters",
+        "heal",
+        "healthy",
+        "hearing",
+        "heat",
+        "heave",
+        "hedge",
+        "heighten",
+        "heir",
+        "hemisphere"
+      ],
+      "type": "易混淆",
+      "note": "he- 开头词汇。headquarters 总部，heave 举起/起伏，hedge 树篱/套期保值，heir 继承人，hemisphere 半球。"
+    },
+    {
+      "name": "history 词族",
+      "words": [
+        "historian",
+        "historic",
+        "historical",
+        "history"
+      ],
+      "type": "词族",
+      "note": "注意 historic (历史上著名的/有历史意义的) 与 historical (历史学的/关于历史的) 的区别。"
+    },
+    {
+      "name": "identify 词族",
+      "words": [
+        "identical",
+        "identification",
+        "identify",
+        "identity"
+      ],
+      "type": "词族",
+      "note": "identical 强调完全相同；identity 指身份或同一性。"
+    },
+    {
+      "name": "imagine 词族",
+      "words": [
+        "image",
+        "imaginary",
+        "imagination",
+        "imaginative"
+      ],
+      "type": "词族",
+      "note": "imaginary 指虚构的、假想的；imaginative 指富有想象力的。"
+    },
+    {
+      "name": "intellect 词族",
+      "words": [
+        "intellectual",
+        "intelligence",
+        "intelligent",
+        "intelligible"
+      ],
+      "type": "词族",
+      "note": "intelligible 意为可理解的、易懂的，不要与 intelligent (聪明的) 混淆。"
+    },
+    {
+      "name": "inter- 前缀 (交互/之间)",
+      "words": [
+        "interact",
+        "intercourse",
+        "interface",
+        "interfere",
+        "interference",
+        "intermediate",
+        "interval",
+        "intervene",
+        "interview"
+      ],
+      "type": "词根",
+      "note": "inter- 表示在...之间、相互。注意 interfere (干涉/妨碍) 与 intervene (介入/调停) 的语境差异。"
+    },
+    {
+      "name": "in- 开头易混淆词",
+      "words": [
+        "intimate",
+        "intimidate",
+        "intricate",
+        "intrigue",
+        "intrude",
+        "invalid",
+        "invaluable"
+      ],
+      "type": "易混淆",
+      "note": "intimate (亲密的/暗示) vs intimidate (恐吓)；invalid (无效的/病人) vs invaluable (无价的/极宝贵的)。"
+    },
+    {
+      "name": "内部/内在",
+      "words": [
+        "inner",
+        "interior",
+        "internal",
+        "inherent",
+        "intrinsic",
+        "inland"
+      ],
+      "type": "近义词",
+      "note": "inner/internal/interior 多指物理或抽象的内部；inherent/intrinsic 强调事物固有的、本质的内在属性。"
+    },
+    {
+      "name": "伤害/损害",
+      "words": [
+        "hurt",
+        "impair",
+        "injure",
+        "inflict"
+      ],
+      "type": "近义词",
+      "note": "impair 侧重削弱或损害功能；inflict 强调把痛苦、伤害强加于人 (inflict sth on sb)。"
+    },
+    {
+      "name": "巨大/极多",
+      "words": [
+        "huge",
+        "immense",
+        "infinite",
+        "innumerable"
+      ],
+      "type": "近义词",
+      "note": "immense 强调体积或程度极大；innumerable 强调数量多得数不清。"
+    },
+    {
+      "name": "暗示/指示",
+      "words": [
+        "hint",
+        "implication",
+        "implicit",
+        "imply",
+        "indicate",
+        "indication",
+        "indicative"
+      ],
+      "type": "近义词",
+      "note": "imply 是动词 (暗示)；implication 是名词 (含义/牵连)；implicit 是形容词 (含蓄的/盲从的)。"
+    },
+    {
+      "name": "启发/阐明",
+      "words": [
+        "illuminate",
+        "illustrate",
+        "illustration",
+        "inspiration",
+        "inspire"
+      ],
+      "type": "近义词",
+      "note": "illuminate 侧重照明或阐明深奥的道理；illustrate 侧重用例子或图表来说明。"
+    },
+    {
+      "name": "犯罪/侵入/违法",
+      "words": [
+        "hijack",
+        "hostage",
+        "illegal",
+        "invade",
+        "invasion"
+      ],
+      "type": "主题场景",
+      "note": "法律与冲突场景核心词。hijack (劫持)；hostage (人质)。"
+    },
+    {
+      "name": "医学/生理/健康",
+      "words": [
+        "hormone",
+        "hygiene",
+        "immune",
+        "infect",
+        "infectious",
+        "influenza",
+        "inhale",
+        "inject"
+      ],
+      "type": "主题场景",
+      "note": "医学与生物场景。immune (免疫的/不受影响的)；hygiene (卫生)。"
+    },
+    {
+      "name": "经济/商业/工业",
+      "words": [
+        "holder",
+        "industrial",
+        "industrialise",
+        "inflation",
+        "infrastructure",
+        "input",
+        "insurance",
+        "insure",
+        "invest",
+        "inventory"
+      ],
+      "type": "主题场景",
+      "note": "经济与商业场景。infrastructure (基础设施)；inventory (存货清单/详细目录)。"
+    },
+    {
+      "name": "心理/情绪/性格",
+      "words": [
+        "hesitate",
+        "hopeful",
+        "horrible",
+        "horror",
+        "hysterical",
+        "impatient",
+        "indifferent",
+        "indignant",
+        "indignation"
+      ],
+      "type": "主题场景",
+      "note": "描述心理状态与情绪。indignant (愤慨的) 强调因不公而愤怒；hysterical (歇斯底里的)。"
+    },
+    {
+      "name": "思想/认知/直觉",
+      "words": [
+        "hypothesis",
+        "ideology",
+        "ideal",
+        "intuition",
+        "instinct"
+      ],
+      "type": "主题场景",
+      "note": "认知与哲学场景。hypothesis (假设)；ideology (意识形态/思想体系)。"
+    },
+    {
+      "name": "增加/推动/提高",
+      "words": [
+        "hoist",
+        "hike",
+        "increase",
+        "increasingly",
+        "impetus",
+        "impulse",
+        "improve",
+        "incentive",
+        "induce"
+      ],
+      "type": "近义词",
+      "note": "impetus 和 incentive 都含有动力、动机的意思；hike 可指价格或数量的大幅上升。"
+    },
+    {
+      "name": "混合/整合/同质",
+      "words": [
+        "homogeneous",
+        "hybrid",
+        "incorporate",
+        "integrate",
+        "integral",
+        "integrity"
+      ],
+      "type": "近义词",
+      "note": "homogeneous (同种的/同质的) 反义为 heterogeneous；integrity 除了正直，还有完整性的意思。"
+    },
+    {
+      "name": "居住/家庭/室内",
+      "words": [
+        "household",
+        "inhabit",
+        "inhabitant",
+        "indoor"
+      ],
+      "type": "主题场景",
+      "note": "household 指一家人或家庭的；inhabit 是及物动词，直接加地点 (inhabit the island)。"
+    },
+    {
+      "name": "时间/迅速/临时",
+      "words": [
+        "instant",
+        "instantaneous",
+        "interim",
+        "hurry"
+      ],
+      "type": "近义词",
+      "note": "instantaneous 强调瞬间发生的、猝发的；interim 指暂时的、过渡期的 (in the interim)。"
+    },
+    {
+      "name": "调查/解释/洞察",
+      "words": [
+        "inspect",
+        "investigate",
+        "insight",
+        "interpret"
+      ],
+      "type": "近义词",
+      "note": "inspect 侧重检查、视察；investigate 侧重深入调查；insight 指深刻的洞察力。"
+    },
+    {
+      "name": "模仿/虚构/假象",
+      "words": [
+        "imitate",
+        "imitation",
+        "illusion",
+        "hypocrisy"
+      ],
+      "type": "近义词",
+      "note": "illusion 指错觉或幻想；hypocrisy 指伪善、虚伪。"
+    },
+    {
+      "name": "开始/创新/引入",
+      "words": [
+        "inaugurate",
+        "initiate",
+        "initiative",
+        "initial",
+        "introduce",
+        "introduction",
+        "innovation",
+        "invent",
+        "invention"
+      ],
+      "type": "近义词",
+      "note": "inaugurate 指举行就职典礼或开创；initiative 指主动权或首创精神。"
+    },
+    {
+      "name": "影响/事件/结果",
+      "words": [
+        "impact",
+        "influence",
+        "influential",
+        "incidence",
+        "incident",
+        "incidentally"
+      ],
+      "type": "近义词",
+      "note": "incidence 指发生率；incident 指事件或事变；incidentally 意为顺便提一句。"
+    },
+    {
+      "name": "态度/尊严/款待",
+      "words": [
+        "hostile",
+        "honor",
+        "honorable",
+        "hospitality",
+        "humble",
+        "humiliate"
+      ],
+      "type": "主题场景",
+      "note": "hospitality 指好客、款待；humiliate 指使蒙羞、屈辱，与 humble (谦逊的) 词根同源但感情色彩不同。"
+    },
+    {
+      "name": "自然/物理/地理",
+      "words": [
+        "hydrogen",
+        "horsepower",
+        "horizon",
+        "horizontal",
+        "hollow",
+        "hill",
+        "highway"
+      ],
+      "type": "主题场景",
+      "note": "自然与物理基础词汇。horizon (地平线/眼界)；horizontal (水平的)。"
+    },
+    {
+      "name": "法律与司法",
+      "words": [
+        "judgment",
+        "judicial",
+        "jurisdiction",
+        "jury",
+        "lawsuit",
+        "magistrate",
+        "liability",
+        "liable"
+      ],
+      "type": "主题",
+      "note": "法庭、审判与法律责任相关核心词汇"
+    },
+    {
+      "name": "新闻与出版",
+      "words": [
+        "journal",
+        "journalist",
+        "magazine",
+        "media",
+        "manuscript",
+        "leaflet",
+        "letter",
+        "issue"
+      ],
+      "type": "主题",
+      "note": "媒体、出版物与发行相关词汇"
+    },
+    {
+      "name": "商业与经济",
+      "words": [
+        "investment",
+        "management",
+        "manager",
+        "merchandise",
+        "lucrative",
+        "loan",
+        "lease",
+        "leadership"
+      ],
+      "type": "主题",
+      "note": "投资、管理、借贷与商业运营词汇"
+    },
+    {
+      "name": "词根 man/manu (手)",
+      "words": [
+        "manifest",
+        "manipulate",
+        "manoeuvre",
+        "manual",
+        "manufacture",
+        "mandate"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 manus (手)，引申为操作、制造、命令"
+    },
+    {
+      "name": "词族 mechan (机械)",
+      "words": [
+        "machine",
+        "machinery",
+        "mechanic",
+        "mechanical",
+        "mechanism"
+      ],
+      "type": "词族",
+      "note": "机械、机构及其派生词"
+    },
+    {
+      "name": "词根 loc (地方)",
+      "words": [
+        "local",
+        "locality",
+        "locate",
+        "location"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 locus (地方、位置)"
+    },
+    {
+      "name": "词族 limit (限制与边缘)",
+      "words": [
+        "limit",
+        "limitation",
+        "limited",
+        "margin",
+        "marginal"
+      ],
+      "type": "词族",
+      "note": "界限、限制及边缘概念的近义与派生词"
+    },
+    {
+      "name": "词根 magn/max (大与放大)",
+      "words": [
+        "magnificent",
+        "magnify",
+        "magnitude",
+        "massive",
+        "maximum"
+      ],
+      "type": "词根",
+      "note": "表示巨大、放大或最大值的词根与近义词"
+    },
+    {
+      "name": "词族 lay (放置/层)",
+      "words": [
+        "layer",
+        "layman",
+        "layoff",
+        "layout"
+      ],
+      "type": "词族",
+      "note": "lay 的派生词，涵盖层次、外行、解雇与布局"
+    },
+    {
+      "name": "词族 line (线/布)",
+      "words": [
+        "line",
+        "linear",
+        "linen",
+        "liner"
+      ],
+      "type": "词族",
+      "note": "line 的派生词及形近词（linen 词源不同但形近）"
+    },
+    {
+      "name": "词族 live (生活/生命)",
+      "words": [
+        "lively",
+        "liver",
+        "living",
+        "living room"
+      ],
+      "type": "词族",
+      "note": "live 的派生词，涵盖活泼、肝脏、生活与客厅"
+    },
+    {
+      "name": "词根 medi (中间/媒介)",
+      "words": [
+        "mediate",
+        "medieval",
+        "meditation",
+        "medium"
+      ],
+      "type": "词根",
+      "note": "medi 相关词，注意 medieval (中世纪) 和 meditation (冥想) 的词源差异"
+    },
+    {
+      "name": "词族 liter (文学/读写)",
+      "words": [
+        "literacy",
+        "literally",
+        "literary",
+        "literature"
+      ],
+      "type": "词族",
+      "note": "源自 littera (字母)，涵盖读写能力与文学"
+    },
+    {
+      "name": "连接与结合",
+      "words": [
+        "join",
+        "joint",
+        "junction",
+        "link",
+        "knit",
+        "knot"
+      ],
+      "type": "主题",
+      "note": "表示连接、结合、打结的动作与名词"
+    },
+    {
+      "name": "地理与空间方位",
+      "words": [
+        "latitude",
+        "longitude",
+        "lunar",
+        "landscape",
+        "lane"
+      ],
+      "type": "主题",
+      "note": "经纬度、月球的及地理景观相关词汇"
+    },
+    {
+      "name": "词根 leg (法律/读/遗赠)",
+      "words": [
+        "legacy",
+        "legal",
+        "legislation",
+        "legitimate"
+      ],
+      "type": "词根",
+      "note": "leg/lex 词根，涵盖法律、立法及遗赠"
+    },
+    {
+      "name": "词根 liber/libr (自由/书)",
+      "words": [
+        "liberal",
+        "liberty",
+        "library",
+        "license"
+      ],
+      "type": "词根",
+      "note": "liber (自由) 与 libr (书) 词根，license 为形近词"
+    },
+    {
+      "name": "液体与流动",
+      "words": [
+        "liquid",
+        "liquor",
+        "juice",
+        "leak"
+      ],
+      "type": "主题",
+      "note": "液体、汁液及泄漏相关词汇"
+    },
+    {
+      "name": "词族 luck (运气)",
+      "words": [
+        "luck",
+        "lucky",
+        "lottery",
+        "lure"
+      ],
+      "type": "词族",
+      "note": "运气、彩票及诱惑（lure 常与运气/风险语境相关）"
+    },
+    {
+      "name": "易混淆 lo 开头",
+      "words": [
+        "loyal",
+        "loyalty",
+        "lord",
+        "lofty"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近的 lo 开头词汇，注意词义区分"
+    },
+    {
+      "name": "词根 mem (记忆/成员)",
+      "words": [
+        "memory",
+        "memorial",
+        "memorandum",
+        "member"
+      ],
+      "type": "词根",
+      "note": "mem 词根，涵盖记忆、备忘录及成员"
+    },
+    {
+      "name": "婚姻与女性",
+      "words": [
+        "marry",
+        "marital",
+        "maid",
+        "maiden"
+      ],
+      "type": "主题",
+      "note": "婚姻状态及未婚女性相关词汇"
+    },
+    {
+      "name": "逻辑与语言",
+      "words": [
+        "logic",
+        "logical",
+        "linguistic",
+        "language"
+      ],
+      "type": "主题",
+      "note": "逻辑学与语言学核心词汇"
+    },
+    {
+      "name": "易混淆 le 开头",
+      "words": [
+        "lapse",
+        "lean",
+        "leap",
+        "learn"
+      ],
+      "type": "易混淆",
+      "note": "le 开头易混淆动词，注意 lapse (流逝/失效) 与 leap (跳跃)"
+    },
+    {
+      "name": "易混淆 mer 开头",
+      "words": [
+        "mercury",
+        "mercy",
+        "mere",
+        "mentor"
+      ],
+      "type": "易混淆",
+      "note": "mer 开头形近词，涵盖水银、仁慈、仅仅与导师"
+    },
+    {
+      "name": "易混淆 lu 开头",
+      "words": [
+        "lumber",
+        "litter",
+        "lump",
+        "luxury"
+      ],
+      "type": "易混淆",
+      "note": "lu 开头词汇，注意 lumber (木材) 与 lump (块/肿块)"
+    },
+    {
+      "name": "易混淆 la 开头",
+      "words": [
+        "lake",
+        "lawn",
+        "lamb",
+        "lame"
+      ],
+      "type": "易混淆",
+      "note": "la 开头基础词汇，注意 lame (跛足的/不完全的)"
+    },
+    {
+      "name": "易混淆 in 开头",
+      "words": [
+        "inward",
+        "invisible",
+        "invoke",
+        "involve"
+      ],
+      "type": "易混淆",
+      "note": "in 开头动词与形容词，注意 invoke (援引/祈求) 与 involve (包括/陷入)"
+    },
+    {
+      "name": "易混淆 ir 开头",
+      "words": [
+        "irrigate",
+        "irritate",
+        "irony",
+        "irrespective"
+      ],
+      "type": "易混淆",
+      "note": "ir 开头词汇，注意 irrigate (灌溉) 与 irritate (激怒)"
+    },
+    {
+      "name": "近义 少与低",
+      "words": [
+        "least",
+        "less",
+        "little",
+        "lower"
+      ],
+      "type": "近义",
+      "note": "表示数量少、程度低或位置低的比较级与基础词"
+    },
+    {
+      "name": "词根：min- (小)",
+      "words": [
+        "miniature",
+        "minimise",
+        "minimum",
+        "minor"
+      ],
+      "type": "词根",
+      "note": "共享词根 min-，表示“小、少、次要”。"
+    },
+    {
+      "name": "前缀：mis- (错误，坏)",
+      "words": [
+        "mischief",
+        "misfortune",
+        "mislead",
+        "mistake",
+        "misunderstand"
+      ],
+      "type": "词根",
+      "note": "共享前缀 mis-，表示“错误、坏、否定”。"
+    },
+    {
+      "name": "词根：mov/mot/mob (移动)",
+      "words": [
+        "mobile",
+        "mobilise",
+        "motion",
+        "motivate",
+        "motive",
+        "movement",
+        "movie"
+      ],
+      "type": "词根",
+      "note": "同源词根 mov/mot/mob，表示“移动、运动、动机”。"
+    },
+    {
+      "name": "词根：not- (标记，知道)",
+      "words": [
+        "notable",
+        "note",
+        "notice",
+        "notify",
+        "notion",
+        "notorious"
+      ],
+      "type": "词根",
+      "note": "共享词根 not-，表示“标记、知道、注意”。"
+    },
+    {
+      "name": "词根：opt- (选择)",
+      "words": [
+        "opt",
+        "option",
+        "optional",
+        "optimum"
+      ],
+      "type": "词根",
+      "note": "共享词根 opt-，表示“选择、最佳”。注意与 optical(眼睛) 区分。"
+    },
+    {
+      "name": "词族：organ (器官/组织)",
+      "words": [
+        "organ",
+        "organic",
+        "organisation",
+        "organise",
+        "organism"
+      ],
+      "type": "词族",
+      "note": "由 organ 派生出的词族，涵盖器官、有机体、组织等含义。"
+    },
+    {
+      "name": "词根：ori- (升起，起源)",
+      "words": [
+        "orient",
+        "oriental",
+        "orientation",
+        "origin",
+        "original",
+        "originate"
+      ],
+      "type": "词根",
+      "note": "共享词根 ori-，表示“升起、起源、东方”。"
+    },
+    {
+      "name": "前缀：over- (超过，过度)",
+      "words": [
+        "overall",
+        "overcome",
+        "overflow",
+        "overhaul",
+        "overhead",
+        "overhear",
+        "overlap",
+        "overlook",
+        "overnight",
+        "overseas",
+        "overtake",
+        "overthrow",
+        "overtime",
+        "overturn",
+        "overwhelm"
+      ],
+      "type": "词根",
+      "note": "共享前缀 over-，表示“在...之上、超过、过度”。"
+    },
+    {
+      "name": "前缀：out- (向外，超过)",
+      "words": [
+        "outbreak",
+        "outcome",
+        "outfit",
+        "outing",
+        "outlet",
+        "outline",
+        "outlook",
+        "output",
+        "outrage",
+        "outset",
+        "outskirts",
+        "outward"
+      ],
+      "type": "词根",
+      "note": "共享前缀 out-，表示“向外、超过、外部”。"
+    },
+    {
+      "name": "词根：mod- (模式，度量，适度)",
+      "words": [
+        "mode",
+        "moderate",
+        "modernisation",
+        "modify",
+        "module"
+      ],
+      "type": "词根",
+      "note": "共享词根 mod-，表示“模式、度量、适度、方式”。"
+    },
+    {
+      "name": "词根：mon-/mono- (单一/提醒)",
+      "words": [
+        "monarch",
+        "monetary",
+        "monopoly",
+        "monotonous",
+        "monster",
+        "monument"
+      ],
+      "type": "词根",
+      "note": "包含 mono-(单一) 和 monere(提醒/警告) 两个同源词根，考研常合并记忆。"
+    },
+    {
+      "name": "词根：nom-/nomen (名字)",
+      "words": [
+        "nominal",
+        "nominate",
+        "nickname",
+        "noun"
+      ],
+      "type": "词根",
+      "note": "共享词根 nom-/nomen，表示“名字、命名”。"
+    },
+    {
+      "name": "词根：miss- (发送，派)",
+      "words": [
+        "missile",
+        "mission",
+        "missionary",
+        "messenger"
+      ],
+      "type": "词根",
+      "note": "共享词根 miss-/mit-，表示“发送、派、释放”。"
+    },
+    {
+      "name": "前缀：ob-/op- (反对，阻碍，面对)",
+      "words": [
+        "obstacle",
+        "obstruct",
+        "obstruction",
+        "object",
+        "objection",
+        "objective",
+        "opponent",
+        "oppress"
+      ],
+      "type": "词根",
+      "note": "共享前缀 ob-/op-，表示“反对、阻碍、面对、在...之前”。"
+    },
+    {
+      "name": "主题：发声与低语",
+      "words": [
+        "moan",
+        "murmur",
+        "mutter",
+        "mute"
+      ],
+      "type": "主题",
+      "note": "表示低声说话、抱怨或静音的词汇。"
+    },
+    {
+      "name": "主题：国家、政治与军事",
+      "words": [
+        "nation",
+        "national",
+        "municipal",
+        "ministry",
+        "militant",
+        "military"
+      ],
+      "type": "主题",
+      "note": "涉及国家行政、市政管理与军事武装的术语。"
+    },
+    {
+      "name": "主题：自然、物质与度量科学",
+      "words": [
+        "nature",
+        "mineral",
+        "molecule",
+        "nitrogen",
+        "nucleus",
+        "metric",
+        "metre",
+        "millimetre"
+      ],
+      "type": "主题",
+      "note": "自然科学、物质结构及物理度量单位相关词汇。"
+    },
+    {
+      "name": "主题：身体与生理结构",
+      "words": [
+        "muscle",
+        "muscular",
+        "nerve",
+        "nervous",
+        "obesity",
+        "oral"
+      ],
+      "type": "主题",
+      "note": "描述人体器官、生理状态及身体特征的词汇。"
+    },
+    {
+      "name": "主题：餐饮、食物与营养",
+      "words": [
+        "mess",
+        "napkin",
+        "onion",
+        "oven",
+        "nourish",
+        "nutrition"
+      ],
+      "type": "主题",
+      "note": "与饮食、餐具、食材及营养摄取相关的词汇。"
+    },
+    {
+      "name": "主题：艺术、文化与媒体",
+      "words": [
+        "metaphor",
+        "music",
+        "musician",
+        "narrative",
+        "novelty",
+        "mosaic"
+      ],
+      "type": "主题",
+      "note": "涉及文学修辞、音乐、艺术形式及媒体叙事的词汇。"
+    },
+    {
+      "name": "主题：规则、义务与道德",
+      "words": [
+        "obligation",
+        "oblige",
+        "oath",
+        "norm",
+        "moral",
+        "morality",
+        "merit"
+      ],
+      "type": "主题",
+      "note": "表示道德规范、法律义务、誓言及价值评判的词汇。"
+    },
+    {
+      "name": "近义词：机会、时机与开端",
+      "words": [
+        "occasion",
+        "opportunity",
+        "odds",
+        "opening"
+      ],
+      "type": "近义",
+      "note": "表示机会、可能性或事物开端的近义词。"
+    },
+    {
+      "name": "主题：否定、忽略与模糊",
+      "words": [
+        "negative",
+        "neglect",
+        "negligible",
+        "omit",
+        "obscure"
+      ],
+      "type": "主题",
+      "note": "表示否定、忽视、遗漏或模糊不清的词汇。"
+    },
+    {
+      "name": "主题：视觉、观察与视角",
+      "words": [
+        "observation",
+        "observe",
+        "opaque",
+        "optical"
+      ],
+      "type": "主题",
+      "note": "与视觉感知、观察行为及光学特性相关的词汇。"
+    },
+    {
+      "name": "主题：情绪、心理与性格",
+      "words": [
+        "mood",
+        "miserable",
+        "misery",
+        "mourn",
+        "obsession",
+        "nostalgic",
+        "naive"
+      ],
+      "type": "主题",
+      "note": "描述内心情感、心理状态及性格特征的词汇。"
+    },
+    {
+      "name": "词根/近义：数量与多数",
+      "words": [
+        "multiple",
+        "multiply",
+        "multitude",
+        "numerous",
+        "numerical",
+        "most",
+        "mostly",
+        "more"
+      ],
+      "type": "词根",
+      "note": "包含 multi-/numer- 词根及表示“多、大部分”的近义词。"
+    },
+    {
+      "name": "主题：空间、位置与地理",
+      "words": [
+        "midst",
+        "mile",
+        "nearby",
+        "neighborhood",
+        "nowhere",
+        "orbit",
+        "mount",
+        "metropolitan"
+      ],
+      "type": "主题",
+      "note": "表示地理位置、空间方位、距离及都市环境的词汇。"
+    },
+    {
+      "name": "主题：建筑、设施与日常物品",
+      "words": [
+        "mill",
+        "motel",
+        "orchard",
+        "nylon",
+        "nickel",
+        "microphone",
+        "network",
+        "mold"
+      ],
+      "type": "主题",
+      "note": "涉及建筑物、工业设施、材料及日常人造物品的词汇。"
+    },
+    {
+      "name": "主题：冒犯与负面行为",
+      "words": [
+        "offend",
+        "offensive",
+        "naughty",
+        "nasty",
+        "nightmare"
+      ],
+      "type": "主题",
+      "note": "表示冒犯、令人不快、淘气或可怕事物的负面词汇。"
+    },
+    {
+      "name": "词根 -cede/-ceed/-cess (走)",
+      "words": [
+        "precede",
+        "precedent",
+        "preceding",
+        "proceed",
+        "proceedings",
+        "process",
+        "procession"
+      ],
+      "type": "词根",
+      "note": "表示“走、前进、过程”，注意 precede(在...之前) 与 proceed(继续进行) 的拼写和用法区别。"
+    },
+    {
+      "name": "词根 prim/prin/prior (第一/首要)",
+      "words": [
+        "primary",
+        "prime",
+        "primitive",
+        "prince",
+        "princess",
+        "principal",
+        "principle",
+        "prior",
+        "priority"
+      ],
+      "type": "词根",
+      "note": "表示“第一、首要、原始”。重点区分 principal(校长/主要的) 与 principle(原则)。"
+    },
+    {
+      "name": "前缀 pre- (预先/在前)",
+      "words": [
+        "precaution",
+        "preclude",
+        "predict",
+        "preface",
+        "prejudice",
+        "preliminary",
+        "premise",
+        "preposition",
+        "prescribe",
+        "pretext"
+      ],
+      "type": "词缀",
+      "note": "pre- 表示“在...之前、预先”。如 precaution(预防), predict(预测), preface(前言)。"
+    },
+    {
+      "name": "前缀 pro- (向前/公开)",
+      "words": [
+        "proclaim",
+        "project",
+        "prolong",
+        "progress",
+        "progressive",
+        "prohibit"
+      ],
+      "type": "词缀",
+      "note": "pro- 表示“向前、公开、赞成”。如 proclaim(宣布), project(向前抛出/计划), prolong(延长)。"
+    },
+    {
+      "name": "近义词：坚持/持续/永久",
+      "words": [
+        "persevere",
+        "persist",
+        "permanent",
+        "perpetual"
+      ],
+      "type": "近义",
+      "note": "persevere 和 persist 强调行为上的“坚持、固执”；permanent 和 perpetual 强调状态上的“永久、持续”。"
+    },
+    {
+      "name": "近义词：恳求/请求/祈祷",
+      "words": [
+        "plea",
+        "plead",
+        "petition",
+        "prayer"
+      ],
+      "type": "近义",
+      "note": "plea/plead 多指法庭上的抗辩或强烈的恳求；petition 指正式的请愿书；prayer 指祈祷。"
+    },
+    {
+      "name": "近义词：描绘/肖像/轮廓",
+      "words": [
+        "portrait",
+        "portray",
+        "profile",
+        "picture"
+      ],
+      "type": "近义",
+      "note": "portrait/portray 侧重人物肖像和描绘；profile 侧重侧面轮廓或人物简介；picture 为通用词。"
+    },
+    {
+      "name": "近义词：可能性/概率/潜力",
+      "words": [
+        "possibility",
+        "probability",
+        "percentage",
+        "potential"
+      ],
+      "type": "近义",
+      "note": "possibility 指一般的可能性；probability 指概率、或然率；potential 指潜在的、未发挥的能力。"
+    },
+    {
+      "name": "词族：生产与利润",
+      "words": [
+        "product",
+        "productive",
+        "productivity",
+        "profit",
+        "profitable"
+      ],
+      "type": "词族",
+      "note": "经济与商业核心词族。product(产品) -> productive(多产的) -> productivity(生产力)；profit(利润) -> profitable(有利可图的)。"
+    },
+    {
+      "name": "易混淆：形近词A",
+      "words": [
+        "peel",
+        "peep",
+        "peer",
+        "pant",
+        "pants",
+        "paste",
+        "pasture",
+        "plain",
+        "plaintiff",
+        "plaster"
+      ],
+      "type": "易混淆",
+      "note": "peel(剥皮)/peep(偷看)/peer(同龄人)；pant(喘息)/pants(裤子)；paste(浆糊)/pasture(牧场)；plain(平原)/plaintiff(原告)。"
+    },
+    {
+      "name": "易混淆：形近词B",
+      "words": [
+        "plastic",
+        "postage",
+        "poster",
+        "pottery",
+        "poultry",
+        "predator",
+        "predecessor",
+        "pistol",
+        "pirate",
+        "pitch"
+      ],
+      "type": "易混淆",
+      "note": "pottery(陶器)/poultry(家禽)；predator(捕食者)/predecessor(前任)；postage(邮资)/poster(海报)。"
+    },
+    {
+      "name": "主题：法律与治安",
+      "words": [
+        "pact",
+        "penalty",
+        "patent",
+        "pirate",
+        "plagiarism",
+        "police",
+        "policeman",
+        "patrol"
+      ],
+      "type": "主题",
+      "note": "法律与治安场景词汇。pact(契约), penalty(处罚), patent(专利), plagiarism(剽窃), patrol(巡逻)。"
+    },
+    {
+      "name": "主题：医学与健康",
+      "words": [
+        "pneumonia",
+        "pharmacy",
+        "physiology",
+        "paralyse",
+        "parasite",
+        "plague",
+        "poison",
+        "poisonous"
+      ],
+      "type": "主题",
+      "note": "医学、生理与疾病词汇。pneumonia(肺炎), pharmacy(药房), physiology(生理学), paralyse(麻痹), parasite(寄生虫)。"
+    },
+    {
+      "name": "主题：政治与政府",
+      "words": [
+        "parliament",
+        "party",
+        "policy",
+        "premier",
+        "poll",
+        "patriotic"
+      ],
+      "type": "主题",
+      "note": "政治场景核心词。parliament(议会), party(政党), policy(政策), premier(总理), poll(民意测验/投票)。"
+    },
+    {
+      "name": "词根 -pon-/-pos- (放置)",
+      "words": [
+        "pose",
+        "postpone",
+        "posture",
+        "positive",
+        "possess"
+      ],
+      "type": "词根",
+      "note": "表示“放置、位置”。postpone(向后放/延迟), posture(姿势), possess(占有/放置在自己手中)。"
+    },
+    {
+      "name": "词根 per- (贯穿/彻底/毁坏)",
+      "words": [
+        "permeate",
+        "perplex",
+        "persecute",
+        "perish",
+        "perceive"
+      ],
+      "type": "词根",
+      "note": "per- 作前缀可表示“贯穿、彻底”或“毁坏”。permeate(渗透), perplex(彻底困惑), perish(彻底毁灭/死亡)。"
+    },
+    {
+      "name": "主题：学术与文学",
+      "words": [
+        "philosophy",
+        "philosopher",
+        "phenomenon",
+        "phrase",
+        "poetry"
+      ],
+      "type": "主题",
+      "note": "学术研究与文学创作词汇。philosophy(哲学), phenomenon(现象), phrase(短语), poetry(诗歌)。"
+    },
+    {
+      "name": "易混淆：形近词C",
+      "words": [
+        "phase",
+        "plant",
+        "planet",
+        "pond",
+        "ponder",
+        "porch",
+        "portable",
+        "pigeon",
+        "pilgrim",
+        "pitch",
+        "plural",
+        "plus"
+      ],
+      "type": "易混淆",
+      "note": "phase(阶段)/phrase(短语)；plant(植物)/planet(行星)；pond(池塘)/ponder(沉思)；pigeon(鸽子)/pilgrim(朝圣者)。"
+    },
+    {
+      "name": "主题：建筑与设施",
+      "words": [
+        "pavement",
+        "pillar",
+        "playground",
+        "plateau",
+        "plantation",
+        "panel"
+      ],
+      "type": "主题",
+      "note": "建筑、地理与设施词汇。pavement(人行道), pillar(柱子), plateau(高原), panel(嵌板/仪表板)。"
+    },
+    {
+      "name": "词根 part (部分/参与)",
+      "words": [
+        "participant",
+        "participate",
+        "partial",
+        "particle",
+        "portion",
+        "patch",
+        "piece"
+      ],
+      "type": "词根",
+      "note": "part 表示“部分、分开”。participant(参与者), partial(部分的/偏袒的), particle(微粒), portion(一份)。"
+    },
+    {
+      "name": "主题：出版与文具",
+      "words": [
+        "pamphlet",
+        "paperback",
+        "periodical",
+        "page",
+        "pencil"
+      ],
+      "type": "主题",
+      "note": "出版物与文具词汇。pamphlet(小册子), paperback(平装本), periodical(期刊)。"
+    },
+    {
+      "name": "词族：实践与职业",
+      "words": [
+        "practise",
+        "practitioner",
+        "profession",
+        "professional"
+      ],
+      "type": "词族",
+      "note": "practise(实践/练习) -> practitioner(从业者)；profession(职业) -> professional(专业的/专业人士)。"
+    },
+    {
+      "name": "近义词：精确/准确",
+      "words": [
+        "precise",
+        "precision",
+        "perfect",
+        "plausible"
+      ],
+      "type": "近义",
+      "note": "precise/precision 强调“精确、严谨”；perfect 强调“完美、完成”；plausible 指“貌似合理的”。"
+    },
+    {
+      "name": "主题：自然与地理",
+      "words": [
+        "oxygen",
+        "ozone",
+        "peninsula",
+        "polar",
+        "pebble",
+        "pearl",
+        "peanut",
+        "petroleum"
+      ],
+      "type": "主题",
+      "note": "自然物质与地理词汇。oxygen(氧), ozone(臭氧), peninsula(半岛), polar(极地的), petroleum(石油)。"
+    },
+    {
+      "name": "词根 para- (旁边/超越/防御)",
+      "words": [
+        "parachute",
+        "parade",
+        "paradigm",
+        "paradise",
+        "paradox",
+        "parallel",
+        "parameter",
+        "panorama"
+      ],
+      "type": "词根",
+      "note": "para- 表示“旁边、超越、防御”。parachute(降落伞/防御), paradox(悖论/超越常理), parallel(平行/旁边)。"
+    },
+    {
+      "name": "近义词：刺/探/钻",
+      "words": [
+        "penetrate",
+        "poke",
+        "probe",
+        "plunge"
+      ],
+      "type": "近义",
+      "note": "penetrate(穿透/渗透), poke(戳/刺), probe(探索/探针), plunge(猛冲/跳入)。"
+    },
+    {
+      "name": "词根 radi- (辐射/光线)",
+      "words": [
+        "radiant",
+        "radiate",
+        "radioactive",
+        "radius"
+      ],
+      "type": "词根",
+      "note": "radi- 表示光线、辐射，注意 radioactive 和 radius 的拼写与衍生义。"
+    },
+    {
+      "name": "质量与数量评估",
+      "words": [
+        "qualification",
+        "qualify",
+        "qualitative",
+        "quantify",
+        "quantitative"
+      ],
+      "type": "主题",
+      "note": "qual- 关乎质量与资格，quant- 关乎数量与定量，考研阅读中常对比出现。"
+    },
+    {
+      "name": "恢复、挽回与修复",
+      "words": [
+        "reclaim",
+        "recovery",
+        "redeem",
+        "restore",
+        "retrieve"
+      ],
+      "type": "近义",
+      "note": "均含有“恢复原状、挽回损失或取回”之意，注意 reclaim(开垦/回收) 与 retrieve(检索/挽回) 的语境差异。"
+    },
+    {
+      "name": "叛乱、暴动与反抗",
+      "words": [
+        "rebel",
+        "rebellion",
+        "revolt",
+        "riot"
+      ],
+      "type": "近义",
+      "note": "表示反抗或暴乱，rebel/rebellion 侧重反叛政权，revolt 侧重起义或反感，riot 侧重群体暴乱。"
+    },
+    {
+      "name": "更新、复兴与复苏",
+      "words": [
+        "renaissance",
+        "renew",
+        "renovate",
+        "revive"
+      ],
+      "type": "近义",
+      "note": "均含“使重新焕发生机”之意，renaissance 特指文艺复兴或大复兴，renovate 多指建筑翻新。"
+    },
+    {
+      "name": "限制、抑制与压抑",
+      "words": [
+        "repression",
+        "restrain",
+        "restraint",
+        "restrict"
+      ],
+      "type": "近义",
+      "note": "restrain/restraint 侧重自我克制或物理束缚，restrict 侧重规则限制，repression 侧重心理或政治压抑。"
+    },
+    {
+      "name": "商业、交易与财务",
+      "words": [
+        "purchase",
+        "quota",
+        "quote",
+        "retail",
+        "revenue",
+        "rent",
+        "repay",
+        "refund"
+      ],
+      "type": "主题",
+      "note": "经济类阅读核心词，注意 quote(报价/引用) 与 quota(配额) 的形近义异。"
+    },
+    {
+      "name": "语言、文学与出版",
+      "words": [
+        "propaganda",
+        "pronoun",
+        "prose",
+        "rhetoric",
+        "publication",
+        "publicity",
+        "publish"
+      ],
+      "type": "主题",
+      "note": "涵盖文学体裁(prose)、语法(pronoun)、修辞(rhetoric)及出版宣传(publicity/propaganda)。"
+    },
+    {
+      "name": "情绪、态度与性格",
+      "words": [
+        "rage",
+        "rash",
+        "reckless",
+        "reluctant",
+        "resent",
+        "reproach",
+        "rejoice"
+      ],
+      "type": "主题",
+      "note": "描述人物心理与行为倾向，注意 rash(轻率的) 与 reckless(鲁莽的) 的近义辨析。"
+    },
+    {
+      "name": "物理动作：推拉与击打",
+      "words": [
+        "pull",
+        "push",
+        "punch",
+        "puff",
+        "propel"
+      ],
+      "type": "主题",
+      "note": "基础物理动作，propel 强调推进/驱使，puff 强调喷气/喘息。"
+    },
+    {
+      "name": "数量增减与强化",
+      "words": [
+        "reduce",
+        "reduction",
+        "redundant",
+        "reinforce"
+      ],
+      "type": "主题",
+      "note": "reduce/reduction 为减少，redundant 为多余/冗余(常考贬义)，reinforce 为加强/增援。"
+    },
+    {
+      "name": "拒绝、反驳与抗议",
+      "words": [
+        "refusal",
+        "refuse",
+        "refute",
+        "protest"
+      ],
+      "type": "主题",
+      "note": "refuse/refusal 为一般拒绝，refute 为驳斥/反驳(论点)，protest 为抗议。"
+    },
+    {
+      "name": "退回、撤退与返回",
+      "words": [
+        "recede",
+        "recession",
+        "retreat",
+        "return"
+      ],
+      "type": "主题",
+      "note": "recede 指后退/减弱，recession 常指经济衰退，retreat 指军队撤退或逃避。"
+    },
+    {
+      "name": "保留与储存",
+      "words": [
+        "retain",
+        "retention",
+        "reservation",
+        "reservoir"
+      ],
+      "type": "词根",
+      "note": "均含“保留、储存”之意，reservoir 为水库/储备，reservation 为预定/保留地。"
+    },
+    {
+      "name": "代表、反映与参考",
+      "words": [
+        "represent",
+        "representative",
+        "reflection",
+        "reference"
+      ],
+      "type": "主题",
+      "note": "represent 为代表，reflection 为反映/反思，reference 为参考/提及。"
+    },
+    {
+      "name": "释放、减轻与休闲",
+      "words": [
+        "release",
+        "recreation",
+        "relief",
+        "relieve"
+      ],
+      "type": "主题",
+      "note": "release 为释放/发行，relief/relieve 为减轻(痛苦/负担)，recreation 为娱乐/消遣。"
+    },
+    {
+      "name": "区域、范围与距离",
+      "words": [
+        "region",
+        "realm",
+        "reach",
+        "remote"
+      ],
+      "type": "主题",
+      "note": "region 为地区，realm 为领域/王国，reach 为范围/触及，remote 为遥远的。"
+    },
+    {
+      "name": "罕见、随机与奇特",
+      "words": [
+        "rare",
+        "rarely",
+        "queer",
+        "random"
+      ],
+      "type": "主题",
+      "note": "rare/rarely 表稀有，queer 表奇怪/反常，random 表随机/随意。"
+    },
+    {
+      "name": "记忆、识别与评论",
+      "words": [
+        "recollect",
+        "recognize",
+        "recognition",
+        "remember",
+        "remark"
+      ],
+      "type": "主题",
+      "note": "recollect 侧重回想，recognize 侧重认出/认可，remark 为评论/注意到。"
+    },
+    {
+      "name": "正直、纠正与严格",
+      "words": [
+        "rectangle",
+        "rectify",
+        "rigid",
+        "rigorous"
+      ],
+      "type": "词根",
+      "note": "rect- 意为直/正确(rectify 纠正)，rig- 意为僵硬/严格(rigid 刚性的，rigorous 严密的)。"
+    },
+    {
+      "name": "询问、探索与要求",
+      "words": [
+        "query",
+        "quest",
+        "questionnaire",
+        "requirement"
+      ],
+      "type": "主题",
+      "note": "query 为疑问/查询，quest 为探索/追求，questionnaire 为问卷。"
+    },
+    {
+      "name": "词根 spec/spect (看/观察/种类)",
+      "words": [
+        "spectacle",
+        "spectacular",
+        "spectator",
+        "spectrum",
+        "speculate",
+        "specimen"
+      ],
+      "type": "词根",
+      "note": "共享词根 spec/spect，表示“看”或“种类”，注意 spectacle(景象) 与 spectacular(壮观的) 的词性区别。"
+    },
+    {
+      "name": "易混淆 some- 系列",
+      "words": [
+        "sometime",
+        "sometimes",
+        "somewhat",
+        "somewhere"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近但词性和用法不同：sometime(某时-adj/adv), sometimes(有时-adv), somewhat(稍微-adv), somewhere(某处-adv)。"
+    },
+    {
+      "name": "近义词 (部分/区域/范围)",
+      "words": [
+        "section",
+        "sector",
+        "segment",
+        "scope",
+        "scale"
+      ],
+      "type": "近义",
+      "note": "均含“部分”或“范围”之意。section(章节/部门), sector(扇形/领域), segment(片段), scope(范围), scale(规模/比例)。"
+    },
+    {
+      "name": "近义词 (安全/保护/庇护)",
+      "words": [
+        "safeguard",
+        "safety",
+        "secure",
+        "security",
+        "shield",
+        "shelter"
+      ],
+      "type": "近义",
+      "note": "安全与保护主题。safeguard/shield/shelter 侧重保护动作或庇护所，secure/security/safety 侧重安全状态。"
+    },
+    {
+      "name": "词根 simil/simul (相似/同时/简单)",
+      "words": [
+        "simplicity",
+        "simplify",
+        "simply",
+        "simulate",
+        "simultaneous"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 similis(相似) 或 simul(同时)。simulate(模拟) 与 simultaneous(同时的) 是考研高频词。"
+    },
+    {
+      "name": "词根 sol/singul (单独/单一)",
+      "words": [
+        "sole",
+        "solitary",
+        "solo",
+        "singular"
+      ],
+      "type": "词根",
+      "note": "表示“单独、唯一”。sole(唯一的), solitary(独居的), solo(独奏), singular(单数的/非凡的)。"
+    },
+    {
+      "name": "易混淆 scar 系列",
+      "words": [
+        "scar",
+        "scare",
+        "scarce",
+        "scarcely",
+        "scarf"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近：scar(疤痕), scare(惊吓), scarce(缺乏的), scarcely(几乎不), scarf(围巾)。"
+    },
+    {
+      "name": "近义词 (刮/擦/剪/切)",
+      "words": [
+        "scrape",
+        "scratch",
+        "shear",
+        "slice",
+        "scissors"
+      ],
+      "type": "近义",
+      "note": "表面损伤或切割动作。scrape(刮), scratch(抓/挠), shear(修剪/剪), slice(切片), scissors(剪刀)。"
+    },
+    {
+      "name": "近义词 (破坏/粉碎/废料)",
+      "words": [
+        "shatter",
+        "smash",
+        "scrap",
+        "spoil"
+      ],
+      "type": "近义",
+      "note": "破坏或废弃。shatter(粉碎/破灭), smash(打碎/猛击), scrap(废料/碎片), spoil(破坏/溺爱/变质)。"
+    },
+    {
+      "name": "主题 (学术/学校/教育)",
+      "words": [
+        "scholar",
+        "scholarship",
+        "science",
+        "semester",
+        "sophomore"
+      ],
+      "type": "主题",
+      "note": "校园与学术场景。scholarship(奖学金/学问), semester(学期), sophomore(大二学生)。"
+    },
+    {
+      "name": "主题 (政治/军事/国家)",
+      "words": [
+        "senate",
+        "senator",
+        "sovereign",
+        "spokesman",
+        "soldier",
+        "siege",
+        "salute"
+      ],
+      "type": "主题",
+      "note": "国家与军事场景。senate(参议院), sovereign(君主/独立的), siege(围攻), salute(敬礼)。"
+    },
+    {
+      "name": "词族/主题 (空间/范围)",
+      "words": [
+        "space",
+        "spacecraft",
+        "spacious",
+        "span",
+        "sphere"
+      ],
+      "type": "词族",
+      "note": "空间与范围。spacecraft(航天器), spacious(宽敞的), span(跨度), sphere(球体/领域)。"
+    },
+    {
+      "name": "词根 sens/sent (感觉/心智)",
+      "words": [
+        "sensation",
+        "sensible",
+        "sensitive",
+        "sentiment"
+      ],
+      "type": "词根",
+      "note": "感觉与情感。sensation(轰动/感觉), sensible(明智的), sensitive(敏感的), sentiment(情绪/观点)。"
+    },
+    {
+      "name": "主题 (商业/贸易/经济)",
+      "words": [
+        "salesman",
+        "shipment",
+        "shortage",
+        "slump",
+        "sponsor",
+        "smuggle"
+      ],
+      "type": "主题",
+      "note": "商业与经济场景。shipment(装船/出货), slump(暴跌/衰退), sponsor(赞助商), smuggle(走私)。"
+    },
+    {
+      "name": "词族 (特殊/专门/种类)",
+      "words": [
+        "specialise",
+        "specialist",
+        "speciality",
+        "species",
+        "specific",
+        "specification",
+        "specify"
+      ],
+      "type": "词族",
+      "note": "源自 speci(种类/特殊)。specialise(专门研究), species(物种), specific(具体的/特效的), specify(详细说明)。"
+    },
+    {
+      "name": "近义词 (旋转/螺旋)",
+      "words": [
+        "rotate",
+        "spiral",
+        "spin",
+        "screw"
+      ],
+      "type": "近义",
+      "note": "旋转与螺旋运动。rotate(旋转), spiral(螺旋形), spin(自旋/纺), screw(螺钉/螺旋桨)。"
+    },
+    {
+      "name": "近义词 (猛烈动作/击打)",
+      "words": [
+        "shove",
+        "slam",
+        "slap",
+        "snap"
+      ],
+      "type": "近义",
+      "note": "猛烈或突然的动作。shove(推/挤), slam(砰然关上), slap(掴/拍击), snap(猛咬/折断)。"
+    },
+    {
+      "name": "主题 (声音/发声)",
+      "words": [
+        "sound",
+        "song",
+        "sing",
+        "shout",
+        "sigh"
+      ],
+      "type": "主题",
+      "note": "声音与发声动作。sound(声音/听起来), song(歌曲), sing(唱), shout(呼喊), sigh(叹息)。"
+    },
+    {
+      "name": "近义词 (能力/精明/熟练)",
+      "words": [
+        "shrewd",
+        "skilful",
+        "skilled",
+        "sophisticated"
+      ],
+      "type": "近义",
+      "note": "形容人的能力或事物的复杂性。shrewd(精明的), skilful/skilled(熟练的), sophisticated(老练的/复杂的)。"
+    },
+    {
+      "name": "主题 (身体结构/骨骼)",
+      "words": [
+        "shape",
+        "skeleton",
+        "skull",
+        "spine"
+      ],
+      "type": "主题",
+      "note": "身体与结构。shape(形状), skeleton(骨骼/梗概), skull(头盖骨), spine(脊柱)。"
+    },
+    {
+      "name": "主题 (宗教/救赎/神圣)",
+      "words": [
+        "sacred",
+        "salvation",
+        "saint",
+        "spiritual"
+      ],
+      "type": "主题",
+      "note": "宗教与精神领域。sacred(神圣的), salvation(拯救/救赎), saint(圣徒), spiritual(精神上的)。"
+    },
+    {
+      "name": "近义词 (严酷/恶劣/无情)",
+      "words": [
+        "savage",
+        "ruthless",
+        "shabby",
+        "sharp"
+      ],
+      "type": "近义",
+      "note": "形容环境、态度或物品的恶劣。savage(野蛮的), ruthless(无情的), shabby(破旧的/低劣的), sharp(尖锐的/剧烈的)。"
+    },
+    {
+      "name": "近义词 (观察/搜索/细看)",
+      "words": [
+        "scan",
+        "scrutiny",
+        "skim",
+        "scout"
+      ],
+      "type": "近义",
+      "note": "观察与搜索动作。scan(扫描/细看), scrutiny(仔细检查), skim(略读/掠过), scout(侦察/搜索)。"
+    },
+    {
+      "name": "主题 (乡村/农牧/自然)",
+      "words": [
+        "rural",
+        "scenery",
+        "sheep",
+        "shepherd",
+        "shed"
+      ],
+      "type": "主题",
+      "note": "乡村与农牧场景。rural(乡村的), scenery(风景), sheep(羊), shepherd(牧羊人), shed(车棚/小屋)。"
+    },
+    {
+      "name": "近义词 (严肃/理智/清醒)",
+      "words": [
+        "solemn",
+        "sober",
+        "sane",
+        "severe"
+      ],
+      "type": "近义",
+      "note": "形容态度或心智状态。solemn(庄严的), sober(清醒的/稳重的), sane(神智健全的), severe(严格的/严重的)。"
+    },
+    {
+      "name": "成功与继承词族",
+      "words": [
+        "succeed",
+        "success",
+        "successful",
+        "succession",
+        "successive",
+        "successor"
+      ],
+      "type": "词族",
+      "note": "围绕 success 派生的动词、形容词和名词，注意 succession (连续/继承) 与 successor (继承者) 的拼写。"
+    },
+    {
+      "name": "super- 前缀 (超级/在上)",
+      "words": [
+        "super",
+        "superficial",
+        "superfluous",
+        "superior",
+        "superiority",
+        "supersonic",
+        "superstition",
+        "supervise",
+        "supreme"
+      ],
+      "type": "词根",
+      "note": "super- 表示“在...之上、超过、超级”。注意 superficial (表面的) 和 superfluous (多余的) 的区分。"
+    },
+    {
+      "name": "sub- 前缀 (在...下/次级)",
+      "words": [
+        "submarine",
+        "submerge",
+        "subordinate",
+        "subscribe",
+        "subsequent",
+        "subsidy",
+        "substitute",
+        "suburb",
+        "subway"
+      ],
+      "type": "词根",
+      "note": "sub- 表示“在...下面、次级、接近”。subordinate (下级的) 和 subsequent (随后的) 是考研高频词。"
+    },
+    {
+      "name": "sym/syn- 前缀 (共同/相同)",
+      "words": [
+        "symmetry",
+        "sympathetic",
+        "sympathise",
+        "symphony",
+        "symposium",
+        "synthesis"
+      ],
+      "type": "词根",
+      "note": "sym-/syn- 表示“共同、相同”。symposium (研讨会) 和 synthesis (综合) 常出现在学术阅读中。"
+    },
+    {
+      "name": "stat/sta 系列易混淆词",
+      "words": [
+        "station",
+        "stationary",
+        "stationery",
+        "statue",
+        "status",
+        "statute",
+        "statistics",
+        "statesman"
+      ],
+      "type": "易混淆",
+      "note": "重点区分：stationary (静止的) vs stationery (文具)；statue (雕像) vs status (地位) vs statute (法令)。"
+    },
+    {
+      "name": "st/str 形近易混淆词",
+      "words": [
+        "stain",
+        "strain",
+        "strand",
+        "strap",
+        "strip",
+        "stripe"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近但意思不同：stain (污点), strain (拉紧/压力), strand (股/海滨), strap (皮带), strip (长条/剥夺), stripe (条纹)。"
+    },
+    {
+      "name": "步伐与行走动作",
+      "words": [
+        "step",
+        "stride",
+        "stroll",
+        "stumble",
+        "stagger",
+        "stalk"
+      ],
+      "type": "主题",
+      "note": "描述不同行走状态的动词：stride (大步走), stroll (闲逛), stumble (绊倒), stagger (蹒跚), stalk (潜行/高视阔步)。"
+    },
+    {
+      "name": "医疗与生理症状",
+      "words": [
+        "surgeon",
+        "surgery",
+        "symptom",
+        "syndrome",
+        "therapy",
+        "tissue"
+      ],
+      "type": "主题",
+      "note": "医学场景核心词汇。注意 symptom (单一症状) 与 syndrome (综合征/并发症状) 的区别。"
+    },
+    {
+      "name": "sur- 前缀 (超过/在上面)",
+      "words": [
+        "surpass",
+        "surplus",
+        "surprise",
+        "surrender",
+        "surveillance",
+        "survey",
+        "survive",
+        "survival"
+      ],
+      "type": "词根",
+      "note": "sur- 是 super- 的变体，表示“超过、在上面”。surveillance (监视) 和 surplus (过剩) 是考研重点。"
+    },
+    {
+      "name": "疲劳与艰辛",
+      "words": [
+        "tedious",
+        "tiresome",
+        "strenuous",
+        "toil"
+      ],
+      "type": "近义",
+      "note": "表示令人疲倦或需要付出巨大努力的词。tedious 侧重“冗长乏味”，strenuous 侧重“费劲的/艰苦的”。"
+    },
+    {
+      "name": "tele- 词根 (远/通讯)",
+      "words": [
+        "telegraph",
+        "telephone",
+        "telescope",
+        "television"
+      ],
+      "type": "词根",
+      "note": "tele- 表示“远距离”。这组词是现代通讯与光学仪器的基础词汇。"
+    },
+    {
+      "name": "惊吓与威胁",
+      "words": [
+        "startle",
+        "stun",
+        "threat",
+        "threaten"
+      ],
+      "type": "近义",
+      "note": "表示使人害怕或受到威胁的词。startle (使惊吓), stun (使震惊/打昏), threat/threaten (威胁)。"
+    },
+    {
+      "name": "terr 词根 (恐惧/土地)",
+      "words": [
+        "terrify",
+        "terror",
+        "terrific",
+        "territory"
+      ],
+      "type": "词根",
+      "note": "terr- 有两个来源：恐惧 (terrify, terror) 和 土地 (territory)。terrific 原意为“可怕的”，现多指“极好的”。"
+    },
+    {
+      "name": "刺、戳与扎",
+      "words": [
+        "stab",
+        "sting",
+        "stitch",
+        "thrust",
+        "thorn"
+      ],
+      "type": "近义",
+      "note": "与尖锐物体或刺痛感相关的词。stab (刺/戳), sting (叮/刺痛), stitch (缝合/剧痛), thrust (猛推/刺), thorn (荆棘)。"
+    },
+    {
+      "name": "商业与经济术语",
+      "words": [
+        "tariff",
+        "stock",
+        "stake",
+        "tenant",
+        "token"
+      ],
+      "type": "主题",
+      "note": "经济场景词汇。tariff (关税), stock (股票/库存), stake (股份/赌注), tenant (承租人), token (代币/象征)。"
+    },
+    {
+      "name": "tend/tens 词根 (伸展/倾向)",
+      "words": [
+        "tend",
+        "tendency",
+        "tension",
+        "tentative"
+      ],
+      "type": "词根",
+      "note": "词根 tend/tens 表示“伸展、倾向”。tension (紧张/张力), tentative (试验性的/犹豫的)。"
+    },
+    {
+      "name": "坚固与稳定",
+      "words": [
+        "stability",
+        "stable",
+        "steady",
+        "sturdy",
+        "stiff"
+      ],
+      "type": "近义",
+      "note": "表示稳固、不易动摇的形容词。sturdy (强健的/结实的), stiff (坚硬的/生硬的)。"
+    },
+    {
+      "name": "堆积与储存",
+      "words": [
+        "stack",
+        "store",
+        "stuff",
+        "staple"
+      ],
+      "type": "近义",
+      "note": "与物品存放或大量聚集相关。stack (堆叠), store (贮藏), stuff (原料/东西), staple (主要产物/常用品)。"
+    },
+    {
+      "name": "学术与思考",
+      "words": [
+        "theoretical",
+        "thesis",
+        "theme",
+        "thoughtful"
+      ],
+      "type": "主题",
+      "note": "学术研究与思考场景。thesis (论文/论点), theme (主题), theoretical (理论的)。"
+    },
+    {
+      "name": "停止与停滞",
+      "words": [
+        "stay",
+        "suspend",
+        "stagnant",
+        "stagnate"
+      ],
+      "type": "近义",
+      "note": "表示不流动或暂停的状态。suspend (暂停/悬挂), stagnant (停滞的/不景气的), stagnate (使停滞)。"
+    },
+    {
+      "name": "前缀 trans- (跨越，转移)",
+      "words": [
+        "transaction",
+        "transcend",
+        "transfer",
+        "transform",
+        "transient",
+        "transistor",
+        "transit",
+        "transition",
+        "transmission",
+        "transmit",
+        "transparent",
+        "transplant"
+      ],
+      "type": "词根",
+      "note": "trans- 表示“横穿、超越、转移”，是考研极高频前缀，注意各词在具体语境中的引申义。"
+    },
+    {
+      "name": "前缀 under- (在...之下，不足)",
+      "words": [
+        "underestimate",
+        "undergo",
+        "undergraduate",
+        "underlie",
+        "underline",
+        "underlying",
+        "undermine",
+        "underneath",
+        "understand",
+        "undertake",
+        "undo"
+      ],
+      "type": "词根",
+      "note": "under- 表示“在...下面”或“不足、暗中”，注意 undermine (暗中破坏) 和 underlying (潜在的/基础的) 的熟词生义。"
+    },
+    {
+      "name": "前缀 un- (否定)",
+      "words": [
+        "unanimous",
+        "uncover",
+        "undoubtedly",
+        "uneasy",
+        "unexpected",
+        "unfortunately",
+        "unlikely",
+        "unload"
+      ],
+      "type": "词根",
+      "note": "un- 是最常见的否定前缀，unanimous (意见一致的) 词根为 anim (生命/心智)，uncover 意为“揭露”。"
+    },
+    {
+      "name": "词族 vari- (变化)",
+      "words": [
+        "variable",
+        "variance",
+        "variation",
+        "various",
+        "vary"
+      ],
+      "type": "词族",
+      "note": "源自拉丁语 varius (不同的)，掌握其在数学、统计及日常语境中的名词与形容词形态。"
+    },
+    {
+      "name": "词根 vis/vid (看) 及视觉",
+      "words": [
+        "visible",
+        "vision",
+        "visual",
+        "visit",
+        "visitor",
+        "viewpoint"
+      ],
+      "type": "词根",
+      "note": "vis/vid 表示“看”，visit 本意为“去看望”，viewpoint 由 view (看) 派生，表示“观点”。"
+    },
+    {
+      "name": "词根 vac/van/void (空无，消失)",
+      "words": [
+        "vacant",
+        "vacuum",
+        "vanish",
+        "vanity",
+        "void"
+      ],
+      "type": "词根",
+      "note": "表示“空、虚无”，vanity 引申为“虚荣（空虚的骄傲）”，void 常作法律术语表示“无效的”。"
+    },
+    {
+      "name": "词根 vers/vert (转)",
+      "words": [
+        "versatile",
+        "verse",
+        "version",
+        "versus",
+        "vertical"
+      ],
+      "type": "词根",
+      "note": "vers/vert 表示“转”，versatile (多才多艺的/万用的) 指能灵活转变，versus 表示“对抗/转向对面”。"
+    },
+    {
+      "name": "词族 uni- (一，统一)",
+      "words": [
+        "unify",
+        "unit",
+        "unity",
+        "universal"
+      ],
+      "type": "词族",
+      "note": "uni- 表示“单一”，universal 引申为“普遍的、宇宙的”，unity 强调“团结、一致性”。"
+    },
+    {
+      "name": "主题：医学与生物健康",
+      "words": [
+        "tumor",
+        "vaccine",
+        "virus",
+        "vitamin",
+        "vein",
+        "vegetarian",
+        "vegetation"
+      ],
+      "type": "主题",
+      "note": "涵盖疾病、治疗、营养及植物学基础词汇，阅读科普或健康类文章时高频出现。"
+    },
+    {
+      "name": "主题：物理、工程与能源",
+      "words": [
+        "volt",
+        "voltage",
+        "watt",
+        "x-ray",
+        "ultraviolet",
+        "turbine",
+        "valve"
+      ],
+      "type": "主题",
+      "note": "理工科背景文章核心词汇，turbine (涡轮机) 和 valve (阀门) 在机械与能源类阅读中常见。"
+    },
+    {
+      "name": "主题：法律与契约",
+      "words": [
+        "treaty",
+        "verdict",
+        "veto",
+        "warrant",
+        "warranty"
+      ],
+      "type": "主题",
+      "note": "treaty (条约)，verdict (裁决)，veto (否决权)，warrant (授权/搜查令)，warranty (担保/保修)。"
+    },
+    {
+      "name": "主题：交通与运输工具",
+      "words": [
+        "wagon",
+        "vehicle",
+        "trolley",
+        "tram",
+        "vessel"
+      ],
+      "type": "主题",
+      "note": "涵盖陆地与水上交通工具，vessel 除“船”外，在生物语境中也指“血管/脉管”。"
+    },
+    {
+      "name": "主题：纺织与衣物",
+      "words": [
+        "weave",
+        "wardrobe",
+        "velvet",
+        "vest"
+      ],
+      "type": "主题",
+      "note": "weave (编织)，wardrobe (衣橱/全部衣服)，velvet (天鹅绒)，vest (背心)。"
+    },
+    {
+      "name": "主题：自然与气象",
+      "words": [
+        "torrent",
+        "waterfall",
+        "typhoon",
+        "tropic",
+        "tropical"
+      ],
+      "type": "主题",
+      "note": "描述自然现象与气候带，torrent 常比喻“倾盆大雨”或“信息的洪流”。"
+    },
+    {
+      "name": "近义词：痛苦与悲剧",
+      "words": [
+        "torment",
+        "torture",
+        "tragedy",
+        "tragic",
+        "turmoil"
+      ],
+      "type": "近义",
+      "note": "torment 和 torture 侧重身心折磨，tragedy/tragic 指悲剧，turmoil 指社会或内心的骚动混乱。"
+    },
+    {
+      "name": "近义词：完全与极限",
+      "words": [
+        "wholly",
+        "utter",
+        "utmost",
+        "ultimate"
+      ],
+      "type": "近义",
+      "note": "wholly (完全地)，utter (绝对的/全然的)，utmost (极限/极度)，ultimate (终极的/根本的)。"
+    },
+    {
+      "name": "近义词：暴力与邪恶",
+      "words": [
+        "violate",
+        "violent",
+        "vicious",
+        "wicked"
+      ],
+      "type": "近义",
+      "note": "violate (违反/侵犯)，violent (暴力的)，vicious (邪恶的/恶毒的)，wicked (缺德的/坏的)。"
+    },
+    {
+      "name": "近义词：活力与健康",
+      "words": [
+        "vigorous",
+        "vital",
+        "wholesome",
+        "vivid"
+      ],
+      "type": "近义",
+      "note": "vigorous (精力充沛的)，vital (至关重要的/生命的)，wholesome (有益健康的)，vivid (生动的/鲜明的)。"
+    },
+    {
+      "name": "近义词：真实与证明",
+      "words": [
+        "truth",
+        "valid",
+        "verify",
+        "witness"
+      ],
+      "type": "近义",
+      "note": "truth (事实)，valid (有法律效力的/正当的)，verify (查证/证实)，witness (证人/目击)。"
+    },
+    {
+      "name": "动作：翻转与振动",
+      "words": [
+        "whirl",
+        "tumble",
+        "turnover",
+        "vibrate"
+      ],
+      "type": "近义",
+      "note": "whirl (回旋/旋转)，tumble (跌倒/翻滚)，turnover (翻转/营业额)，vibrate (振动/颤动)。"
+    }
+  ],
+  "random_pool": [
+    "China",
+    "Conservative",
+    "Easter",
+    "Latin",
+    "Marxist",
+    "Polish",
+    "Saint",
+    "abandon",
+    "abide",
+    "ability",
+    "abnormal",
+    "abolish",
+    "abrupt",
+    "absence",
+    "absolute",
+    "absorb",
+    "abstract",
+    "absurd",
+    "abuse",
+    "accent",
+    "accident",
+    "accommodation",
+    "accomplish",
+    "account",
+    "accuracy",
+    "accurate",
+    "accustom",
+    "ache",
+    "achieve",
+    "acid",
+    "acquaint",
+    "acquaintance",
+    "acquire",
+    "acquisition",
+    "actual",
+    "acute",
+    "adore",
+    "advanced",
+    "advantage",
+    "adventure",
+    "adverse",
+    "advertise",
+    "affair",
+    "affection",
+    "afford",
+    "again",
+    "aggravate",
+    "agree",
+    "agreeable",
+    "agriculture",
+    "air conditioning",
+    "albeit",
+    "album",
+    "alcohol",
+    "allegiance",
+    "alleviate",
+    "allocate",
+    "alloy",
+    "alongside",
+    "alternate",
+    "alternative",
+    "altitude",
+    "aluminum",
+    "always",
+    "ambassador",
+    "ambition",
+    "amid",
+    "amount",
+    "anecdote",
+    "anonymous",
+    "antenna",
+    "anticipate",
+    "anywhere",
+    "apologise",
+    "apology",
+    "apparatus",
+    "appeal",
+    "appoint",
+    "appointment",
+    "appraisal",
+    "appropriate",
+    "apt",
+    "arbitrary",
+    "argue",
+    "argument",
+    "arrange",
+    "arrival",
+    "arrive",
+    "arrogant",
+    "article",
+    "articulate",
+    "ascend",
+    "ashamed",
+    "ashore",
+    "aspect",
+    "aspire",
+    "assassinate",
+    "assert",
+    "assess",
+    "assimilate",
+    "astonish",
+    "athlete",
+    "attach",
+    "attain",
+    "attempt",
+    "attitude",
+    "attorney",
+    "attribute",
+    "augment",
+    "authority",
+    "auxiliary",
+    "avenue",
+    "average",
+    "avert",
+    "avoid",
+    "await",
+    "awake",
+    "award",
+    "aware",
+    "awful",
+    "awkward",
+    "bachelor",
+    "background",
+    "badge",
+    "badly",
+    "badminton",
+    "baggage",
+    "balance",
+    "balcony",
+    "bandage",
+    "banner",
+    "barber",
+    "barely",
+    "bark",
+    "barn",
+    "barrel",
+    "barrier",
+    "basin",
+    "basket",
+    "battery",
+    "battle",
+    "beach",
+    "beam",
+    "bean",
+    "bear",
+    "beard",
+    "bearing",
+    "become",
+    "behalf",
+    "behavior",
+    "belief",
+    "believe",
+    "bell",
+    "belong",
+    "beloved",
+    "bend",
+    "besides",
+    "best",
+    "betray",
+    "better",
+    "beware",
+    "bewilder",
+    "bias",
+    "bite",
+    "bizarre",
+    "blackboard",
+    "blame",
+    "blast",
+    "blaze",
+    "blend",
+    "blog",
+    "bloody",
+    "bloom",
+    "blossom",
+    "blueprint",
+    "blunder",
+    "blunt",
+    "blur",
+    "blush",
+    "board",
+    "boast",
+    "boat",
+    "bold",
+    "bolster",
+    "bolt",
+    "boom",
+    "boost",
+    "booth",
+    "bore",
+    "born",
+    "borrow",
+    "bounce",
+    "bound",
+    "boundary",
+    "bowel",
+    "bowling",
+    "boycott",
+    "brace",
+    "bracket",
+    "branch",
+    "brandy",
+    "brass",
+    "breakdown",
+    "breast",
+    "breed",
+    "breeze",
+    "brevity",
+    "bridge",
+    "brief",
+    "briefcase",
+    "brilliant",
+    "brisk",
+    "broad",
+    "brochure",
+    "bronze",
+    "bruise",
+    "brush",
+    "brutal",
+    "bubble",
+    "buffer",
+    "build",
+    "bulb",
+    "bulk",
+    "bull",
+    "bullet",
+    "bulletin",
+    "bully",
+    "burden",
+    "bureau",
+    "bureaucracy",
+    "burglar",
+    "burn",
+    "busy",
+    "butterfly",
+    "buzz",
+    "bypass",
+    "cabin",
+    "cabinet",
+    "cable",
+    "calculate",
+    "calendar",
+    "camel",
+    "campus",
+    "candy",
+    "cape",
+    "carbon",
+    "card",
+    "cardinal",
+    "career",
+    "carve",
+    "case",
+    "cash",
+    "cassette",
+    "casual",
+    "casualty",
+    "catalog",
+    "catastrophe",
+    "category",
+    "cater",
+    "cause",
+    "cease",
+    "celebrity",
+    "cell",
+    "cellar",
+    "cement",
+    "cemetery",
+    "censorship",
+    "census",
+    "ceremony",
+    "certainty",
+    "certificate",
+    "certify",
+    "challenge",
+    "chamber",
+    "champagne",
+    "champion",
+    "channel",
+    "chaos",
+    "chapter",
+    "character",
+    "characterise",
+    "characteristic",
+    "charge",
+    "charity",
+    "charm",
+    "chart",
+    "chase",
+    "cheat",
+    "chemical",
+    "chemistry",
+    "cheque",
+    "cherish",
+    "cherry",
+    "chess",
+    "chew",
+    "chief",
+    "childhood",
+    "chill",
+    "chin",
+    "chip",
+    "choice",
+    "choke",
+    "choose",
+    "chop",
+    "chunk",
+    "cigar",
+    "cigaret",
+    "cite",
+    "claim",
+    "clarify",
+    "clarity",
+    "clause",
+    "clay",
+    "clever",
+    "click",
+    "client",
+    "clock",
+    "clockwise",
+    "clone",
+    "closet",
+    "clothe",
+    "cloudy",
+    "club",
+    "clue",
+    "clumsy",
+    "cluster",
+    "coal",
+    "cognitive",
+    "collapse",
+    "combination",
+    "combine",
+    "comet",
+    "commonplace",
+    "compact",
+    "compartment",
+    "compass",
+    "compassion",
+    "compatible",
+    "compel",
+    "compensate",
+    "complain",
+    "complaint",
+    "compress",
+    "compulsory",
+    "compute",
+    "concrete",
+    "concurrent",
+    "condemn",
+    "condense",
+    "conduct",
+    "confess",
+    "configuration",
+    "conform",
+    "confront",
+    "confuse",
+    "confusion",
+    "congratulation",
+    "conquer",
+    "conquest",
+    "consequence",
+    "consequently",
+    "conservation",
+    "consist",
+    "consistent",
+    "console",
+    "consolidate",
+    "conspicuous",
+    "conspiracy",
+    "contaminate",
+    "contempt",
+    "content",
+    "context",
+    "contingent",
+    "contribute",
+    "contribution",
+    "contrive",
+    "convenience",
+    "converge",
+    "convey",
+    "coordinate",
+    "cope",
+    "copper",
+    "cord",
+    "cordial",
+    "cosmic",
+    "cosy",
+    "count",
+    "couple",
+    "court",
+    "courtesy",
+    "cradle",
+    "credential",
+    "crew",
+    "crisis",
+    "crown",
+    "crude",
+    "crust",
+    "culminate",
+    "cultivate",
+    "culture",
+    "curl",
+    "curriculum",
+    "curse",
+    "custom",
+    "damn",
+    "dance",
+    "darling",
+    "daunting",
+    "dazzle",
+    "dealer",
+    "dean",
+    "debate",
+    "debut",
+    "deceit",
+    "deceive",
+    "decent",
+    "decide",
+    "decimal",
+    "decisive",
+    "deck",
+    "dedicate",
+    "deep",
+    "deer",
+    "defer",
+    "delegate",
+    "delicate",
+    "denounce",
+    "dense",
+    "density",
+    "depend",
+    "dependent",
+    "deplore",
+    "deploy",
+    "depth",
+    "deputy",
+    "descendant",
+    "desolate",
+    "desperate",
+    "despite",
+    "destiny",
+    "detail",
+    "develop",
+    "devil",
+    "devise",
+    "diagram",
+    "dial",
+    "dialect",
+    "diameter",
+    "dictate",
+    "dignity",
+    "diligent",
+    "dimension",
+    "dine",
+    "dioxide",
+    "directly",
+    "directory",
+    "disc",
+    "discharge",
+    "discipline",
+    "discourse",
+    "discuss",
+    "disguise",
+    "disposal",
+    "dispose",
+    "disposition",
+    "dispute",
+    "dissolve",
+    "distance",
+    "distant",
+    "distil",
+    "distribute",
+    "disturb",
+    "disturbance",
+    "doctrine",
+    "doll",
+    "donate",
+    "doom",
+    "doubt",
+    "downward",
+    "doze",
+    "drama",
+    "dramatic",
+    "drastic",
+    "dream",
+    "dress",
+    "drip",
+    "drought",
+    "dual",
+    "duplicate",
+    "durable",
+    "duration",
+    "dwarf",
+    "dynamic",
+    "dynasty",
+    "early",
+    "earnest",
+    "earth",
+    "ease",
+    "eccentric",
+    "echo",
+    "eclipse",
+    "ecology",
+    "edge",
+    "edible",
+    "educate",
+    "effect",
+    "effective",
+    "efficiency",
+    "efficient",
+    "ego",
+    "either",
+    "eject",
+    "elaborate",
+    "elapse",
+    "elastic",
+    "elbow",
+    "elect",
+    "elegant",
+    "element",
+    "elementary",
+    "elevate",
+    "elevator",
+    "eligible",
+    "eliminate",
+    "elite",
+    "eloquent",
+    "else",
+    "elsewhere",
+    "email",
+    "embarrass",
+    "emphasis",
+    "emphasise",
+    "empirical",
+    "enclosure",
+    "encounter",
+    "encyclopedia",
+    "endeavor",
+    "ending",
+    "endurance",
+    "endure",
+    "enemy",
+    "energetic",
+    "enhance",
+    "enjoy",
+    "enormous",
+    "enough",
+    "entail",
+    "enter",
+    "enterprise",
+    "entrepreneur",
+    "entry",
+    "environment",
+    "envisage",
+    "envy",
+    "equator",
+    "equip",
+    "erect",
+    "escalate",
+    "escort",
+    "especially",
+    "estimate",
+    "ever",
+    "everyday",
+    "everywhere",
+    "exaggerate",
+    "examination",
+    "exotic",
+    "expel",
+    "expire",
+    "exquisite",
+    "eyebrow",
+    "eyesight",
+    "fairly",
+    "fairy",
+    "family",
+    "fare",
+    "farewell",
+    "fascinate",
+    "favorable",
+    "favorite",
+    "fearful",
+    "feminine",
+    "fence",
+    "ferry",
+    "feudal",
+    "fibre",
+    "field",
+    "fight",
+    "figure",
+    "file",
+    "finally",
+    "finding",
+    "finish",
+    "finite",
+    "fireman",
+    "fireplace",
+    "fiscal",
+    "fisherman",
+    "fixture",
+    "flap",
+    "flatter",
+    "flavor",
+    "flaw",
+    "flee",
+    "fleet",
+    "flexible",
+    "fling",
+    "flourish",
+    "foam",
+    "focus",
+    "folk",
+    "follow",
+    "following",
+    "football",
+    "footstep",
+    "force",
+    "foreign",
+    "foreigner",
+    "forest",
+    "forge",
+    "forget",
+    "former",
+    "formidable",
+    "fortunate",
+    "fortune",
+    "forum",
+    "fossil",
+    "foster",
+    "foul",
+    "foundation",
+    "fragrant",
+    "franchise",
+    "frank",
+    "freedom",
+    "freelance",
+    "freeze",
+    "freight",
+    "frequency",
+    "fresh",
+    "friction",
+    "friendly",
+    "friendship",
+    "fright",
+    "fringe",
+    "frog",
+    "frontier",
+    "frost",
+    "frown",
+    "fruitful",
+    "frustrate",
+    "fulfil",
+    "fume",
+    "further",
+    "fuss",
+    "futile",
+    "gadget",
+    "gain",
+    "gallery",
+    "gallon",
+    "gamble",
+    "game",
+    "garlic",
+    "garment",
+    "gasp",
+    "gauge",
+    "gaze",
+    "gear",
+    "generous",
+    "genre",
+    "gently",
+    "genuine",
+    "giggle",
+    "glacier",
+    "glad",
+    "glamor",
+    "glass",
+    "glide",
+    "global",
+    "gloomy",
+    "glorious",
+    "glue",
+    "goal",
+    "golden",
+    "golf",
+    "goodbye",
+    "goodness",
+    "gorgeous",
+    "grab",
+    "grace",
+    "graceful",
+    "gracious",
+    "grade",
+    "grandmother",
+    "grant",
+    "grape",
+    "gratitude",
+    "grave",
+    "gravity",
+    "graze",
+    "grease",
+    "greedy",
+    "greenhouse",
+    "gross",
+    "ground",
+    "grown-up",
+    "growth",
+    "guarantee",
+    "guess",
+    "hamburger",
+    "haste",
+    "hasty",
+    "hatch",
+    "hatred",
+    "haul",
+    "hawk",
+    "headline",
+    "hence",
+    "henceforth",
+    "heroic",
+    "heroin",
+    "herself",
+    "hide",
+    "hierarchy",
+    "highlight",
+    "highly",
+    "himself",
+    "hinder",
+    "hinge",
+    "hitherto",
+    "holiday",
+    "homework",
+    "horn",
+    "hose",
+    "hound",
+    "hover",
+    "however",
+    "howl",
+    "huddle",
+    "human",
+    "humanity",
+    "humid",
+    "humidity",
+    "humor",
+    "hunger",
+    "hurl",
+    "ice cream",
+    "icon",
+    "idiom",
+    "idiot",
+    "idle",
+    "ignite",
+    "ignorance",
+    "ignorant",
+    "ignore",
+    "illiterate",
+    "immerse",
+    "immigrant",
+    "imminent",
+    "impart",
+    "imperative",
+    "imperial",
+    "implement",
+    "impose",
+    "impossible",
+    "impress",
+    "impression",
+    "impressive",
+    "inch",
+    "incline",
+    "include",
+    "inclusive",
+    "incredible",
+    "incur",
+    "independence",
+    "independent",
+    "index",
+    "indispensable",
+    "individual",
+    "indulge",
+    "inertia",
+    "inevitable",
+    "infant",
+    "infer",
+    "inference",
+    "inferior",
+    "infrared",
+    "ingenious",
+    "ingredient",
+    "inherit",
+    "inhibit",
+    "injury",
+    "innocent",
+    "insert",
+    "install",
+    "installation",
+    "instalment",
+    "instance",
+    "instead",
+    "institution",
+    "instruct",
+    "instrumental",
+    "insulate",
+    "insult",
+    "intact",
+    "intend",
+    "intense",
+    "intensity",
+    "intensive",
+    "intention",
+    "interest",
+    "interesting",
+    "intermittent",
+    "intersection",
+    "inverse",
+    "invert",
+    "isle",
+    "isolate",
+    "item",
+    "itself",
+    "ivory",
+    "jargon",
+    "jealous",
+    "jolly",
+    "jump",
+    "junk",
+    "justify",
+    "juvenile",
+    "keen",
+    "kidnap",
+    "kidney",
+    "kilogram",
+    "kilometre",
+    "kindergarten",
+    "kindness",
+    "king",
+    "kingdom",
+    "kiss",
+    "kneel",
+    "knob",
+    "knowledge",
+    "label",
+    "laboratory",
+    "lace",
+    "lantern",
+    "laptop",
+    "largely",
+    "laser",
+    "lash",
+    "last",
+    "late",
+    "lately",
+    "latent",
+    "lateral",
+    "laugh",
+    "launch",
+    "lazy",
+    "leading",
+    "legend",
+    "leisure",
+    "lemon",
+    "lend",
+    "lens",
+    "lesson",
+    "lest",
+    "lever",
+    "levy",
+    "lick",
+    "likelihood",
+    "likely",
+    "likewise",
+    "limb",
+    "limp",
+    "linger",
+    "lion",
+    "list",
+    "litre",
+    "lobby",
+    "lock",
+    "locker",
+    "locomotive",
+    "lodge",
+    "loom",
+    "loop",
+    "loosen",
+    "loud",
+    "lounge",
+    "lovely",
+    "lover",
+    "lubricate",
+    "lunch",
+    "lyric",
+    "magic",
+    "magnet",
+    "magnetic",
+    "mainland",
+    "maintain",
+    "maintenance",
+    "majesty",
+    "malignant",
+    "mammal",
+    "marathon",
+    "marble",
+    "marine",
+    "mark",
+    "marvelous",
+    "masculine",
+    "massacre",
+    "masterpiece",
+    "mate",
+    "mathematical",
+    "mature",
+    "maybe",
+    "meadow",
+    "meaning",
+    "means",
+    "meantime",
+    "meeting",
+    "melody",
+    "melon",
+    "melt",
+    "membership",
+    "menace",
+    "mend",
+    "merge",
+    "migrate",
+    "mind",
+    "mingle",
+    "miracle",
+    "missing",
+    "mistress",
+    "mock",
+    "moist",
+    "moisture",
+    "momentum",
+    "moreover",
+    "mortal",
+    "mortgage",
+    "mosquito",
+    "mutual",
+    "myself",
+    "mysterious",
+    "mystery",
+    "myth",
+    "naked",
+    "namely",
+    "naval",
+    "navigation",
+    "nearly",
+    "necessitate",
+    "necessity",
+    "neither",
+    "neutral",
+    "never",
+    "nevertheless",
+    "news",
+    "noise",
+    "nonetheless",
+    "nonsense",
+    "normalisation",
+    "notwithstanding",
+    "nuisance",
+    "nurture",
+    "o'clock",
+    "obedience",
+    "obedient",
+    "obsolete",
+    "obtain",
+    "occasional",
+    "occupation",
+    "occupy",
+    "occur",
+    "occurrence",
+    "odor",
+    "offset",
+    "offspring",
+    "often",
+    "okay",
+    "oneself",
+    "operational",
+    "operator",
+    "optimistic",
+    "orchestra",
+    "orderly",
+    "ornament",
+    "orphan",
+    "orthodox",
+    "ought to",
+    "ounce",
+    "ourselves",
+    "overt",
+    "owing to",
+    "owner",
+    "oxide",
+    "package",
+    "paddle",
+    "painful",
+    "pair",
+    "palm",
+    "panic",
+    "partner",
+    "passage",
+    "passion",
+    "pastime",
+    "pathetic",
+    "patron",
+    "pave",
+    "payment",
+    "peaceful",
+    "peculiar",
+    "pedal",
+    "pedestrian",
+    "pendulum",
+    "pension",
+    "pepper",
+    "perhaps",
+    "permission",
+    "personality",
+    "personnel",
+    "perspective",
+    "persuade",
+    "persuasion",
+    "pessimistic",
+    "pest",
+    "petty",
+    "physical",
+    "piano",
+    "pickup",
+    "pierce",
+    "pinch",
+    "pioneer",
+    "pity",
+    "please",
+    "pleasure",
+    "pledge",
+    "plentiful",
+    "plight",
+    "plot",
+    "plug",
+    "plumber",
+    "porcelain",
+    "porter",
+    "portfolio",
+    "poverty",
+    "power",
+    "preach",
+    "predominant",
+    "preferable",
+    "preference",
+    "pregnant",
+    "premium",
+    "preparation",
+    "prescription",
+    "presence",
+    "presently",
+    "preserve",
+    "preside",
+    "pressure",
+    "prestige",
+    "presumably",
+    "presume",
+    "prevail",
+    "prevalent",
+    "previous",
+    "prey",
+    "priest",
+    "privacy",
+    "privilege",
+    "procedure",
+    "proficiency",
+    "profound",
+    "program",
+    "projector",
+    "prominent",
+    "promise",
+    "promising",
+    "promote",
+    "prompt",
+    "prone",
+    "proof",
+    "propagate",
+    "property",
+    "prophet",
+    "proportion",
+    "proposal",
+    "propose",
+    "proposition",
+    "prosecute",
+    "prospect",
+    "prospective",
+    "prosper",
+    "prosperity",
+    "prosperous",
+    "protein",
+    "protocol",
+    "prototype",
+    "provided",
+    "provision",
+    "provoke",
+    "proximate",
+    "prudent",
+    "psychiatry",
+    "psychology",
+    "pulse",
+    "puppet",
+    "purify",
+    "purpose",
+    "pursue",
+    "pursuit",
+    "puzzle",
+    "pyramid",
+    "quarantine",
+    "quart",
+    "quick",
+    "quilt",
+    "quiver",
+    "race",
+    "rack",
+    "racket",
+    "radar",
+    "radical",
+    "raid",
+    "rainbow",
+    "rake",
+    "rally",
+    "rape",
+    "ratio",
+    "rational",
+    "razor",
+    "reader",
+    "readily",
+    "reading",
+    "realise",
+    "realistic",
+    "really",
+    "reap",
+    "rear",
+    "reasonable",
+    "reassure",
+    "recall",
+    "recipe",
+    "recipient",
+    "reciprocal",
+    "reckon",
+    "recognise",
+    "recommend",
+    "reconcile",
+    "recruit",
+    "recur",
+    "reed",
+    "reel",
+    "refine",
+    "refrain",
+    "refuge",
+    "refugee",
+    "regarding",
+    "regardless",
+    "regime",
+    "register",
+    "regulate",
+    "regulation",
+    "rehearse",
+    "reign",
+    "rein",
+    "relativity",
+    "relay",
+    "relevant",
+    "reliance",
+    "religious",
+    "relish",
+    "remainder",
+    "remains",
+    "remarkable",
+    "remedy",
+    "remnant",
+    "removal",
+    "render",
+    "repeatedly",
+    "repel",
+    "repertoire",
+    "repetition",
+    "reproduce",
+    "reptile",
+    "republican",
+    "rescue",
+    "resemblance",
+    "resemble",
+    "residence",
+    "resident",
+    "resign",
+    "resilient",
+    "resistance",
+    "resistant",
+    "resolute",
+    "resolution",
+    "resolve",
+    "resort",
+    "respective",
+    "respond",
+    "response",
+    "responsibility",
+    "restless",
+    "resultant",
+    "resume",
+    "retort",
+    "retrospect",
+    "reveal",
+    "revelation",
+    "revenge",
+    "reverse",
+    "revise",
+    "revolutionary",
+    "revolve",
+    "reward",
+    "rhythm",
+    "ribbon",
+    "ride",
+    "ridge",
+    "ridiculous",
+    "rifle",
+    "ring",
+    "risk",
+    "ritual",
+    "rival",
+    "roar",
+    "robe",
+    "robot",
+    "robust",
+    "romance",
+    "romantic",
+    "rotten",
+    "roundabout",
+    "rouse",
+    "route",
+    "routine",
+    "royal",
+    "royalty",
+    "rule",
+    "rumor",
+    "rust",
+    "sack",
+    "saddle",
+    "sake",
+    "salient",
+    "sample",
+    "sanction",
+    "sarcastic",
+    "satire",
+    "satisfactory",
+    "saturate",
+    "sauce",
+    "saucer",
+    "saving",
+    "scandal",
+    "scatter",
+    "scenario",
+    "scent",
+    "sceptical",
+    "schedule",
+    "scheme",
+    "scorn",
+    "scramble",
+    "script",
+    "seam",
+    "season",
+    "seat",
+    "secondary",
+    "seemingly",
+    "segregate",
+    "selection",
+    "sell",
+    "semiconductor",
+    "senior",
+    "sequence",
+    "serial",
+    "series",
+    "setback",
+    "setting",
+    "settlement",
+    "several",
+    "shaft",
+    "shake",
+    "shallow",
+    "shampoo",
+    "share",
+    "shark",
+    "sheer",
+    "shift",
+    "shirt",
+    "shiver",
+    "shoe",
+    "shorthand",
+    "shrink",
+    "shrug",
+    "shutter",
+    "shuttle",
+    "sibling",
+    "sideways",
+    "sightseeing",
+    "significant",
+    "signify",
+    "silent",
+    "silicon",
+    "silk",
+    "silly",
+    "sincere",
+    "siren",
+    "site",
+    "situate",
+    "sketch",
+    "skip",
+    "skyscraper",
+    "slack",
+    "slaughter",
+    "slender",
+    "slipper",
+    "slippery",
+    "slogan",
+    "slope",
+    "slot",
+    "slum",
+    "smog",
+    "snack",
+    "snatch",
+    "sneak",
+    "sniff",
+    "snobbish",
+    "so-called",
+    "soak",
+    "soap",
+    "soar",
+    "sociable",
+    "sociology",
+    "soda",
+    "software",
+    "solar",
+    "solidarity",
+    "soluble",
+    "solution",
+    "soon",
+    "sore",
+    "sorry",
+    "source",
+    "spark",
+    "sparkle",
+    "speaker",
+    "spear",
+    "speed",
+    "spicy",
+    "spider",
+    "spill",
+    "spite",
+    "splash",
+    "sponge",
+    "spontaneous",
+    "sport",
+    "sportsman",
+    "spot",
+    "spouse",
+    "spray",
+    "sprinkle",
+    "sprout",
+    "spur",
+    "square",
+    "squirrel",
+    "staff",
+    "staircase",
+    "stale",
+    "stall",
+    "stance",
+    "standpoint",
+    "statement",
+    "static",
+    "steer",
+    "stereo",
+    "stereotype",
+    "stern",
+    "steward",
+    "stimulate",
+    "stipulate",
+    "stir",
+    "stocking",
+    "stool",
+    "stoop",
+    "storey",
+    "stove",
+    "straightforward",
+    "strategy",
+    "straw",
+    "streamline",
+    "stretch",
+    "strict",
+    "strife",
+    "striking",
+    "strive",
+    "stroke",
+    "structure",
+    "stubborn",
+    "student",
+    "study",
+    "style",
+    "subjective",
+    "submit",
+    "substance",
+    "substantial",
+    "subtle",
+    "suck",
+    "suffice",
+    "sufficient",
+    "suicide",
+    "suite",
+    "sulphur",
+    "summarise",
+    "summit",
+    "summon",
+    "sunrise",
+    "supplement",
+    "suppress",
+    "surge",
+    "surname",
+    "surroundings",
+    "susceptible",
+    "suspect",
+    "suspicion",
+    "suspicious",
+    "sustain",
+    "swamp",
+    "swan",
+    "swarm",
+    "sway",
+    "sweet",
+    "swell",
+    "swim",
+    "switch",
+    "sword",
+    "systematic",
+    "tablet",
+    "taboo",
+    "tackle",
+    "tactic",
+    "talent",
+    "talk",
+    "tall",
+    "tame",
+    "tangible",
+    "tangle",
+    "tanker",
+    "taxi",
+    "teach",
+    "teacher",
+    "tease",
+    "technician",
+    "temper",
+    "temperament",
+    "tempo",
+    "temporal",
+    "temporary",
+    "temptation",
+    "tender",
+    "term",
+    "terminal",
+    "terminate",
+    "test",
+    "testify",
+    "testimony",
+    "textbook",
+    "textile",
+    "texture",
+    "thank",
+    "thanksgiving",
+    "themselves",
+    "thereafter",
+    "thereby",
+    "thermal",
+    "thermometer",
+    "thick",
+    "thigh",
+    "thin",
+    "thorough",
+    "threshold",
+    "thrift",
+    "thrill",
+    "thrive",
+    "throne",
+    "thumb",
+    "ticket",
+    "tide",
+    "tiger",
+    "tile",
+    "tilt",
+    "timber",
+    "timely",
+    "timid",
+    "together",
+    "tolerance",
+    "tolerant",
+    "tolerate",
+    "toll",
+    "tomb",
+    "tone",
+    "torch",
+    "toss",
+    "touch",
+    "tough",
+    "toxic",
+    "trace",
+    "track",
+    "trademark",
+    "tradition",
+    "trail",
+    "training",
+    "trait",
+    "trash",
+    "tray",
+    "tremendous",
+    "trench",
+    "trend",
+    "triangle",
+    "tribute",
+    "trifle",
+    "trigger",
+    "trim",
+    "triple",
+    "triumph",
+    "trivial",
+    "trouble",
+    "trumpet",
+    "tuck",
+    "tuition",
+    "tunnel",
+    "turbulent",
+    "twinkle",
+    "typical",
+    "unfold",
+    "up-to-date",
+    "upgrade",
+    "uphold",
+    "upright",
+    "urgent",
+    "usage",
+    "used",
+    "usually",
+    "utilise",
+    "vague",
+    "vapor",
+    "vase",
+    "veil",
+    "velocity",
+    "ventilate",
+    "venture",
+    "venue",
+    "verb",
+    "verbal",
+    "verge",
+    "veteran",
+    "via",
+    "viable",
+    "vice",
+    "vicinity",
+    "victim",
+    "violet",
+    "virgin",
+    "virtual",
+    "vocal",
+    "vocation",
+    "volatile",
+    "volume",
+    "voluntary",
+    "volunteer",
+    "vote",
+    "vulgar",
+    "vulnerable",
+    "wage",
+    "wake",
+    "waken",
+    "ward",
+    "warehouse",
+    "warfare",
+    "wary",
+    "wash",
+    "waste",
+    "waterproof",
+    "weary",
+    "wedge",
+    "weird",
+    "welcome",
+    "well",
+    "whale",
+    "whatsoever",
+    "whereas",
+    "whereby",
+    "whip",
+    "whisky",
+    "wide",
+    "widow",
+    "width",
+    "wink",
+    "wise",
+    "witch",
+    "withhold",
+    "withstand",
+    "wonder",
+    "wonderful",
+    "wooden",
+    "worker",
+    "workout",
+    "workshop",
+    "worry",
+    "worship",
+    "wreck",
+    "wrench",
+    "wrinkle",
+    "writer",
+    "yell",
+    "yield",
+    "youngster",
+    "yourself",
+    "yourselves",
+    "youth",
+    "zeal",
+    "zigzag",
+    "zone",
+    "zoom"
+  ],
+  "stats": {
+    "groups": 401,
+    "grouped_words": 2122,
+    "random_pool": 1622,
+    "total_words": 3741
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "groups": [
+    {
+      "name": "思考、认为、考虑",
+      "words": [
+        "consider",
+        "contemplate",
+        "deliberate",
+        "deem"
+      ],
+      "type": "近义",
+      "note": "表示深思熟虑或认为的动词，注意 contemplate 侧重沉思，deliberate 侧重仔细权衡。"
+    },
+    {
+      "name": "连续、持续",
+      "words": [
+        "continual",
+        "continue",
+        "continuous",
+        "consecutive"
+      ],
+      "type": "易混淆",
+      "note": "continual 指频繁重复（有间断），continuous 指不间断，consecutive 指按顺序连续。"
+    },
+    {
+      "name": "会议、集会、大会",
+      "words": [
+        "conference",
+        "congress",
+        "convention",
+        "council",
+        "convene"
+      ],
+      "type": "主题",
+      "note": "政治、商业或社会集会相关词汇，convene 为动词“召集”。"
+    },
+    {
+      "name": "犯罪、刑罚、法律",
+      "words": [
+        "crime",
+        "criminal",
+        "convict",
+        "conviction",
+        "culprit",
+        "custody"
+      ],
+      "type": "主题",
+      "note": "法律与司法系统核心词汇，custody 可指“拘留”或“监护权”。"
+    },
+    {
+      "name": "批评、评论",
+      "words": [
+        "critic",
+        "critical",
+        "criticise",
+        "criticism"
+      ],
+      "type": "词族",
+      "note": "critic 是批评家，critical 可指“批评的”或“关键的/危急的”。"
+    },
+    {
+      "name": "公司、合作、企业",
+      "words": [
+        "corporate",
+        "corporation",
+        "cooperate",
+        "cooperative"
+      ],
+      "type": "词根",
+      "note": "共享词根 -corpor- (身体/团体)，引申为公司与合作。"
+    },
+    {
+      "name": "对应、相关、通信",
+      "words": [
+        "correspond",
+        "correspondence",
+        "correspondent",
+        "correlate",
+        "counterpart"
+      ],
+      "type": "主题",
+      "note": "表示事物之间的匹配、关联或通信往来。"
+    },
+    {
+      "name": "推理、结论、扣除",
+      "words": [
+        "conclude",
+        "conclusion",
+        "deduce",
+        "deduct"
+      ],
+      "type": "易混淆",
+      "note": "deduce 是逻辑推论，deduct 是数学或财务上的扣除。"
+    },
+    {
+      "name": "声明、宣布、证实",
+      "words": [
+        "declare",
+        "declaration",
+        "decree",
+        "confirm"
+      ],
+      "type": "近义",
+      "note": "官方或正式的宣告与确认，decree 特指法令或判决。"
+    },
+    {
+      "name": "减少、下降、衰退、腐败",
+      "words": [
+        "decrease",
+        "decline",
+        "decay",
+        "degenerate",
+        "corrode",
+        "corrupt"
+      ],
+      "type": "近义",
+      "note": "表示数量减少、质量下降或道德/物质的腐坏。"
+    },
+    {
+      "name": "连接、接触",
+      "words": [
+        "connect",
+        "connection",
+        "conjunction",
+        "contact"
+      ],
+      "type": "词根",
+      "note": "共享词根 -nect-/-tact- (连接/接触)，conjunction 常指语法连词或结合。"
+    },
+    {
+      "name": "建立、构造",
+      "words": [
+        "constituent",
+        "constitute",
+        "constitution",
+        "construct"
+      ],
+      "type": "词根",
+      "note": "共享词根 -stitu-/-struct- (建立/建造)，constitution 可指宪法或体质。"
+    },
+    {
+      "name": "咨询、协商、授予",
+      "words": [
+        "consult",
+        "consultant",
+        "counsel",
+        "confer"
+      ],
+      "type": "近义",
+      "note": "寻求建议或给予指导，counsel 可作名词“忠告”或“法律顾问”。"
+    },
+    {
+      "name": "对立、对比、反驳",
+      "words": [
+        "contradict",
+        "contrary",
+        "contrast",
+        "conflict"
+      ],
+      "type": "近义",
+      "note": "表示矛盾、相反或冲突，contradict 侧重言语上的反驳。"
+    },
+    {
+      "name": "争论、竞争",
+      "words": [
+        "controversial",
+        "controversy",
+        "contend",
+        "contest"
+      ],
+      "type": "主题",
+      "note": "涉及辩论、争议或竞争的场景，contend 可指“主张”或“竞争”。"
+    },
+    {
+      "name": "转变、交谈",
+      "words": [
+        "conversation",
+        "conversely",
+        "conversion",
+        "convert"
+      ],
+      "type": "词根",
+      "note": "共享词根 -vers- (转)，conversation 原指“来回交谈”，conversely 指“相反地”。"
+    },
+    {
+      "name": "创造、技艺",
+      "words": [
+        "create",
+        "creative",
+        "creature",
+        "craft"
+      ],
+      "type": "词族",
+      "note": "与创造、制作及生物相关，craft 侧重手工技艺或精巧的设计。"
+    },
+    {
+      "name": "死亡、危险",
+      "words": [
+        "dead",
+        "deadline",
+        "deadly",
+        "dangerous"
+      ],
+      "type": "主题",
+      "note": "deadly 指“致命的”，dangerous 指“危险的”，deadline 原指“死线”。"
+    },
+    {
+      "name": "定义、明确、限制",
+      "words": [
+        "define",
+        "definite",
+        "definition",
+        "confine"
+      ],
+      "type": "词根",
+      "note": "共享词根 -fin- (边界/结束)，confine 指限制在特定边界内。"
+    },
+    {
+      "name": "信任、信心、说服",
+      "words": [
+        "confidence",
+        "confident",
+        "confidential",
+        "convince"
+      ],
+      "type": "近义",
+      "note": "与信任、确信相关，confidential 指“机密的”（基于信任）。"
+    },
+    {
+      "name": "意识、良心、考虑",
+      "words": [
+        "conscious",
+        "conscience",
+        "conscientious",
+        "considerate",
+        "considerable"
+      ],
+      "type": "易混淆",
+      "note": "形近词辨析：conscious(有意识的)，conscience(良心)，considerate(体贴的)，considerable(相当大的)。"
+    },
+    {
+      "name": "控制、限制、容纳",
+      "words": [
+        "contain",
+        "control",
+        "constrain",
+        "curb"
+      ],
+      "type": "近义",
+      "note": "表示对事物或行为的约束与控制，curb 常指抑制不良情绪或行为。"
+    },
+    {
+      "name": "消费、成本、票据",
+      "words": [
+        "consume",
+        "consumption",
+        "costly",
+        "coupon"
+      ],
+      "type": "主题",
+      "note": "经济与消费场景词汇，coupon 指优惠券或息票。"
+    },
+    {
+      "name": "协议、让步、一致",
+      "words": [
+        "contract",
+        "consent",
+        "consensus",
+        "concession"
+      ],
+      "type": "主题",
+      "note": "商业或谈判中的达成一致与让步，concession 指特许或让步。"
+    },
+    {
+      "name": "核心、关键、标准",
+      "words": [
+        "CORE",
+        "crucial",
+        "criterion",
+        "constant"
+      ],
+      "type": "主题",
+      "note": "表示事物的核心要素、决定性因素或恒定标准。"
+    },
+    {
+      "name": "乡村、地理、区域",
+      "words": [
+        "countryside",
+        "county",
+        "corridor",
+        "cyberspace"
+      ],
+      "type": "主题",
+      "note": "表示不同的空间或区域概念，cyberspace 为网络虚拟空间。"
+    },
+    {
+      "name": "货币、经济、金融",
+      "words": [
+        "currency",
+        "credit",
+        "current",
+        "cumulative"
+      ],
+      "type": "主题",
+      "note": "经济与金融流通相关，current 可指“流通的”或“当前的”。"
+    },
+    {
+      "name": "数据、信息、网络",
+      "words": [
+        "data",
+        "database",
+        "copyright",
+        "copy"
+      ],
+      "type": "主题",
+      "note": "信息技术与知识产权相关词汇。"
+    },
+    {
+      "name": "医学、疾病、健康",
+      "words": [
+        "coronavirus",
+        "contagious",
+        "cough",
+        "cripple"
+      ],
+      "type": "主题",
+      "note": "疾病、症状及健康损害相关词汇。"
+    },
+    {
+      "name": "动物、植物、自然",
+      "words": [
+        "crab",
+        "crane",
+        "cricket",
+        "crow",
+        "cucumber"
+      ],
+      "type": "主题",
+      "note": "自然界的动植物名称，cricket 可指蟋蟀或板球。"
+    },
+    {
+      "name": "形状、几何、物理",
+      "words": [
+        "cube",
+        "cylinder",
+        "curve",
+        "crystal"
+      ],
+      "type": "主题",
+      "note": "几何图形与物理形态相关词汇。"
+    },
+    {
+      "name": "破坏、撞击、破裂",
+      "words": [
+        "crack",
+        "crash",
+        "crush",
+        "damage"
+      ],
+      "type": "近义",
+      "note": "表示物理上的破坏、撞击或压碎。"
+    },
+    {
+      "name": "爬行、移动、冲刺",
+      "words": [
+        "crawl",
+        "creep",
+        "cruise",
+        "dash"
+      ],
+      "type": "近义",
+      "note": "表示不同速度和方式的移动，creep 侧重蹑手蹑脚或缓慢蔓延。"
+    },
+    {
+      "name": "食物、厨房、烹饪",
+      "words": [
+        "cook",
+        "cupboard",
+        "dairy",
+        "crisp"
+      ],
+      "type": "主题",
+      "note": "与饮食、厨房设施及食物口感相关。"
+    },
+    {
+      "name": "情感、性格、态度",
+      "words": [
+        "coward",
+        "crazy",
+        "cruel",
+        "cunning",
+        "curiosity"
+      ],
+      "type": "主题",
+      "note": "描述人的性格特征、心理状态或情感倾向。"
+    },
+    {
+      "name": "服装、外观、装饰",
+      "words": [
+        "costume",
+        "cover",
+        "couch",
+        "decorate"
+      ],
+      "type": "主题",
+      "note": "与物品外观、覆盖物及装饰布置相关。"
+    },
+    {
+      "name": "时间、日期、周期",
+      "words": [
+        "date",
+        "decade",
+        "cycle",
+        "contemporary"
+      ],
+      "type": "主题",
+      "note": "表示时间跨度、周期或时代背景。"
+    },
+    {
+      "name": "规则、违背、缺陷",
+      "words": [
+        "default",
+        "defect",
+        "defense",
+        "defy"
+      ],
+      "type": "主题",
+      "note": "涉及规则遵守、系统缺陷或防御/违抗行为。"
+    },
+    {
+      "name": "缺乏、不足、删除",
+      "words": [
+        "deficiency",
+        "deficit",
+        "delete",
+        "delay"
+      ],
+      "type": "近义",
+      "note": "表示数量上的不足、缺失或动作的推迟/消除。"
+    },
+    {
+      "name": "概念、观念、关心",
+      "words": [
+        "concept",
+        "conception",
+        "concern",
+        "concise"
+      ],
+      "type": "易混淆",
+      "note": "con- 开头的抽象名词与形容词，concept 和 conception 近义，concise 指“简洁的”。"
+    }
+  ],
+  "ungrouped": [
+    "concrete",
+    "concurrent",
+    "condemn",
+    "condense",
+    "conduct",
+    "configuration",
+    "confront",
+    "confuse",
+    "confusion",
+    "congratulation",
+    "conquer",
+    "conquest",
+    "console",
+    "consolidate",
+    "conspicuous",
+    "conspiracy",
+    "constant",
+    "contagious",
+    "contaminate",
+    "content",
+    "context",
+    "contingent",
+    "contrive",
+    "converge",
+    "convey",
+    "coordinate",
+    "cope",
+    "copper",
+    "cord",
+    "cordial",
+    "cosmic",
+    "cosy",
+    "count",
+    "couple",
+    "court",
+    "courtesy",
+    "cradle",
+    "crew",
+    "crown",
+    "crude",
+    "crust",
+    "culminate",
+    "cultivate",
+    "culture",
+    "curl",
+    "curriculum",
+    "curse",
+    "custom",
+    "damn",
+    "dance",
+    "darling",
+    "dealer",
+    "dean",
+    "debate",
+    "debut",
+    "deceit",
+    "deceive",
+    "decent",
+    "decide",
+    "decimal",
+    "decisive",
+    "deck",
+    "dedicate",
+    "deep",
+    "deer",
+    "defer",
+    "delegate",
+    "Conservative"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "思考、认为、考虑",
+      "likely_in_other_chunks": [
+        "consideration",
+        "ponder",
+        "reflect"
+      ]
+    },
+    {
+      "my_group": "意识、良心、考虑",
+      "likely_in_other_chunks": [
+        "aware",
+        "sense",
+        "thoughtful"
+      ]
+    },
+    {
+      "my_group": "犯罪、刑罚、法律",
+      "likely_in_other_chunks": [
+        "judge",
+        "jury",
+        "penalty",
+        "verdict"
+      ]
+    },
+    {
+      "my_group": "会议、集会、大会",
+      "likely_in_other_chunks": [
+        "assembly",
+        "summit",
+        "symposium"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 285,
+    "grouped": 165
+  }
+}

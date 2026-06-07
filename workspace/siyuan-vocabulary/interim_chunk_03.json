@@ -1,0 +1,516 @@
+{
+  "groups": [
+    {
+      "name": "词根：cap/capt (抓，拿，容量)",
+      "words": [
+        "capable",
+        "capacity",
+        "captive",
+        "capture"
+      ],
+      "type": "词根",
+      "note": "cap/capt/cept 词根表示“拿、抓、容纳”，注意 capacity 兼有“容量”和“能力”之意。"
+    },
+    {
+      "name": "词根：cent (百，中心)",
+      "words": [
+        "centigrade",
+        "centimetre",
+        "central",
+        "centre",
+        "century"
+      ],
+      "type": "词根",
+      "note": "cent 词根表示“百”或“中心”，centigrade 是百分度（摄氏），century 是百年（世纪）。"
+    },
+    {
+      "name": "词根：circ/circum (圆，环，周围)",
+      "words": [
+        "circle",
+        "circuit",
+        "circular",
+        "circulate",
+        "circumstance",
+        "circus"
+      ],
+      "type": "词根",
+      "note": "circ/circum 表示“圆、环、周围”，circumstance 原指“周围的情况”，引申为“环境、状况”。"
+    },
+    {
+      "name": "词族：civil (公民，文明)",
+      "words": [
+        "civil",
+        "civilian",
+        "civilisation",
+        "civilise"
+      ],
+      "type": "词族",
+      "note": "civil 派生词族，注意 civilian 指“平民”，与军人相对。"
+    },
+    {
+      "name": "词族：class (阶级，分类，经典)",
+      "words": [
+        "classic",
+        "classical",
+        "classification",
+        "classify",
+        "classroom"
+      ],
+      "type": "词族",
+      "note": "classic 指“经典的、杰作”，classical 指“古典的（如古典音乐）”，注意区分。"
+    },
+    {
+      "name": "词族：compete (竞争)",
+      "words": [
+        "compete",
+        "competent",
+        "competition",
+        "competitive"
+      ],
+      "type": "词族",
+      "note": "compete 动词，competition 名词，competitive 形容词，competent 指“胜任的、有能力的”。"
+    },
+    {
+      "name": "词族：compare (比较)",
+      "words": [
+        "comparable",
+        "comparative",
+        "compare",
+        "comparison"
+      ],
+      "type": "词族",
+      "note": "compare 动词，comparison 名词，comparative 指“比较的、相对的”，comparable 指“可比较的、比得上的”。"
+    },
+    {
+      "name": "词根：pos/pon/pose (放置，组成)",
+      "words": [
+        "component",
+        "compose",
+        "composite",
+        "composition",
+        "compound"
+      ],
+      "type": "词根",
+      "note": "pose/pon 词根表示“放置”，引申为“组成、构成”，component 是“组件”，compound 是“化合物/复合词”。"
+    },
+    {
+      "name": "词根：prehend/prise (抓，理解，包含)",
+      "words": [
+        "comprehend",
+        "comprehension",
+        "comprehensive",
+        "comprise"
+      ],
+      "type": "词根",
+      "note": "prehend/prise 原意为“抓”，引申为“大脑抓住（理解）”或“整体抓住（包含）”。"
+    },
+    {
+      "name": "词根：leg/lect (收集，选择)",
+      "words": [
+        "collect",
+        "collection",
+        "collective",
+        "colleague",
+        "college"
+      ],
+      "type": "词根",
+      "note": "lect/leg 表示“收集、选择”，colleague 是“被选在一起共事的人（同事）”，college 是“学院”。"
+    },
+    {
+      "name": "词根：mun (公共，服务)",
+      "words": [
+        "communicate",
+        "communication",
+        "community",
+        "commute"
+      ],
+      "type": "词根",
+      "note": "mun 表示“公共、服务”，communicate 是“交流”，community 是“社区”，commute 是“通勤/交换”。"
+    },
+    {
+      "name": "词族：plex/plic (折叠，复杂，完成)",
+      "words": [
+        "complete",
+        "complex",
+        "complicate",
+        "complicated"
+      ],
+      "type": "词族",
+      "note": "plex/plic 表示“折叠”，complex 是“复杂的/综合体”，complicate 是“使复杂化”。"
+    },
+    {
+      "name": "易混淆：comm- 开头动词",
+      "words": [
+        "command",
+        "commemorate",
+        "commence",
+        "commend",
+        "comment"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近的 comm- 动词：command(命令), commemorate(纪念), commence(开始), commend(推荐/嘉奖), comment(评论)。"
+    },
+    {
+      "name": "易混淆：com- 委托/委员会/妥协",
+      "words": [
+        "commit",
+        "committee",
+        "commission",
+        "compromise"
+      ],
+      "type": "易混淆",
+      "note": "commit(承诺/犯罪), committee(委员会), commission(佣金/委任), compromise(妥协)，注意拼写和词义区分。"
+    },
+    {
+      "name": "主题：宗教/神职/信仰",
+      "words": [
+        "cathedral",
+        "catholic",
+        "Christ",
+        "Christian",
+        "clergy",
+        "choir"
+      ],
+      "type": "主题",
+      "note": "宗教场景词汇：cathedral(大教堂), clergy(神职人员), choir(唱诗班), catholic(天主教的/天主教徒)。"
+    },
+    {
+      "name": "主题：政治/军事/政府",
+      "words": [
+        "campaign",
+        "candidate",
+        "chancellor",
+        "coalition",
+        "commonwealth",
+        "charter"
+      ],
+      "type": "主题",
+      "note": "政治场景词汇：candidate(候选人), chancellor(总理/大臣), coalition(联合政府), charter(宪章/特许状)。"
+    },
+    {
+      "name": "主题：医学/生物/健康",
+      "words": [
+        "calorie",
+        "cancer",
+        "capsule",
+        "carbohydrate",
+        "chronic",
+        "cocaine"
+      ],
+      "type": "主题",
+      "note": "医学健康词汇：carbohydrate(碳水化合物), capsule(胶囊), chronic(慢性的), cocaine(可卡因)。"
+    },
+    {
+      "name": "主题：文学/艺术/戏剧/娱乐",
+      "words": [
+        "cartoon",
+        "cast",
+        "chorus",
+        "comedy",
+        "comic"
+      ],
+      "type": "主题",
+      "note": "艺术娱乐词汇：cast(演员阵容), chorus(合唱队), comedy(喜剧), comic(漫画/滑稽的)。"
+    },
+    {
+      "name": "主题：商业/经济",
+      "words": [
+        "commerce",
+        "commercial",
+        "company",
+        "commodity"
+      ],
+      "type": "主题",
+      "note": "商业场景词汇：commerce(商业), commercial(商业的/广告), commodity(商品/农产品)。"
+    },
+    {
+      "name": "近义：小心/谨慎/照顾",
+      "words": [
+        "care",
+        "careful",
+        "caution",
+        "cautious"
+      ],
+      "type": "近义",
+      "note": "care/careful 侧重“关心、照料、小心”，caution/cautious 侧重“谨慎、警惕、避免危险”。"
+    },
+    {
+      "name": "近义：抓/握/紧贴",
+      "words": [
+        "catch",
+        "clasp",
+        "clutch",
+        "cling"
+      ],
+      "type": "近义",
+      "note": "catch(捕捉), clasp(紧握/扣住), clutch(抓紧/离合器), cling(紧贴/坚持)。"
+    },
+    {
+      "name": "近义：冲突/碰撞/战斗",
+      "words": [
+        "clash",
+        "collide",
+        "collision",
+        "combat"
+      ],
+      "type": "近义",
+      "note": "clash(冲突/撞击声), collide/collision(物理碰撞或利益抵触), combat(战斗/格斗)。"
+    },
+    {
+      "name": "易混淆：can- 开头形近词",
+      "words": [
+        "canal",
+        "cancel",
+        "cannon",
+        "canoe",
+        "canteen",
+        "canvas"
+      ],
+      "type": "易混淆",
+      "note": "can- 开头形近词：canal(运河), cancel(取消), cannon(大炮), canoe(独木舟), canteen(食堂), canvas(帆布)。"
+    },
+    {
+      "name": "易混淆：cli- 开头形近词",
+      "words": [
+        "cliff",
+        "climate",
+        "climax",
+        "climb",
+        "clip",
+        "cloak"
+      ],
+      "type": "易混淆",
+      "note": "cli-/clo- 形近词：cliff(悬崖), climate(气候), climax(高潮), climb(攀登), clip(修剪/夹子), cloak(斗篷/掩护)。"
+    },
+    {
+      "name": "易混淆：co- 开头短词",
+      "words": [
+        "coarse",
+        "coat",
+        "code",
+        "coke",
+        "coil",
+        "comb"
+      ],
+      "type": "易混淆",
+      "note": "co- 开头短词：coarse(粗糙的), coat(外套), code(代码), coke(焦炭/可乐), coil(线圈), comb(梳子)。"
+    },
+    {
+      "name": "易混淆：colon- / col- 形近词",
+      "words": [
+        "colonel",
+        "colonial",
+        "colony",
+        "column"
+      ],
+      "type": "易混淆",
+      "note": "colonel(上校，发音特殊), colonial(殖民的), colony(殖民地), column(圆柱/专栏)，注意拼写和发音。"
+    },
+    {
+      "name": "易混淆：comp- 形近词 (补充/赞美/编译/顺从)",
+      "words": [
+        "complement",
+        "compliment",
+        "compile",
+        "comply"
+      ],
+      "type": "易混淆",
+      "note": "complement(补充)与 compliment(赞美)是经典易混词；compile(编译/收集)，comply(顺从/遵守)。"
+    },
+    {
+      "name": "词根/近义：co- (共同，连贯)",
+      "words": [
+        "coherent",
+        "cohesive",
+        "coincide",
+        "collaborate"
+      ],
+      "type": "词根",
+      "note": "co- 前缀表示“共同”：coherent(连贯的), cohesive(有凝聚力的), coincide(同时发生/一致), collaborate(合作)。"
+    },
+    {
+      "name": "易混淆：con- 开头动词",
+      "words": [
+        "conceal",
+        "concede",
+        "conceive",
+        "concentrate"
+      ],
+      "type": "易混淆",
+      "note": "con- 开头动词：conceal(隐藏), concede(承认/退让), conceive(构思/怀孕), concentrate(集中/浓缩)。"
+    },
+    {
+      "name": "主题：运输/车辆/载具",
+      "words": [
+        "cargo",
+        "carriage",
+        "carrier",
+        "coach"
+      ],
+      "type": "主题",
+      "note": "运输场景词汇：cargo(货物), carriage(马车/客车), carrier(运送者/带菌者), coach(教练/四轮大马车)。"
+    },
+    {
+      "name": "主题：职业/身份",
+      "words": [
+        "carpenter",
+        "cashier",
+        "chef",
+        "chemist"
+      ],
+      "type": "主题",
+      "note": "具体职业词汇：carpenter(木匠), cashier(出纳员), chef(厨师), chemist(化学家/药剂师)。"
+    }
+  ],
+  "ungrouped": [
+    "calendar",
+    "camel",
+    "campus",
+    "candy",
+    "cape",
+    "carbon",
+    "card",
+    "cardinal",
+    "carpenter",
+    "carve",
+    "case",
+    "cash",
+    "cassette",
+    "casual",
+    "casualty",
+    "catalog",
+    "catastrophe",
+    "catch",
+    "category",
+    "cater",
+    "cause",
+    "cease",
+    "celebrity",
+    "cell",
+    "cellar",
+    "cement",
+    "cemetery",
+    "censorship",
+    "census",
+    "challenge",
+    "chamber",
+    "champagne",
+    "champion",
+    "channel",
+    "chaos",
+    "chapter",
+    "character",
+    "characterise",
+    "characteristic",
+    "charge",
+    "charity",
+    "charm",
+    "chart",
+    "chase",
+    "cheat",
+    "cheque",
+    "cherish",
+    "cherry",
+    "chess",
+    "chew",
+    "chief",
+    "childhood",
+    "chill",
+    "chin",
+    "China",
+    "chip",
+    "choice",
+    "choke",
+    "choose",
+    "chop",
+    "chunk",
+    "cigar",
+    "cigaret",
+    "claim",
+    "clarify",
+    "clarity",
+    "clay",
+    "clever",
+    "click",
+    "client",
+    "clock",
+    "clockwise",
+    "clone",
+    "closet",
+    "clothe",
+    "cloudy",
+    "club",
+    "clue",
+    "clumsy",
+    "cluster",
+    "coal",
+    "cognitive",
+    "collapse",
+    "compact",
+    "compartment",
+    "compass",
+    "compassion",
+    "compatible",
+    "compel",
+    "compensate",
+    "complain",
+    "complaint",
+    "compulsory",
+    "compute"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "词根：cap/capt (抓，拿，容量)",
+      "likely_in_other_chunks": [
+        "accept",
+        "concept",
+        "receive",
+        "deceive",
+        "perceive"
+      ]
+    },
+    {
+      "my_group": "词根：cent (百，中心)",
+      "likely_in_other_chunks": [
+        "percent",
+        "decent",
+        "innocent",
+        "recent",
+        "accent"
+      ]
+    },
+    {
+      "my_group": "词根：circ/circum (圆，环，周围)",
+      "likely_in_other_chunks": [
+        "cycle",
+        "cylinder",
+        "encircle",
+        "circumvent"
+      ]
+    },
+    {
+      "my_group": "词根：pos/pon/pose (放置，组成)",
+      "likely_in_other_chunks": [
+        "expose",
+        "oppose",
+        "propose",
+        "postpone",
+        "position"
+      ]
+    },
+    {
+      "my_group": "词根：leg/lect (收集，选择)",
+      "likely_in_other_chunks": [
+        "select",
+        "elect",
+        "intellect",
+        "neglect",
+        "lecture"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 300,
+    "grouped": 138
+  }
+}

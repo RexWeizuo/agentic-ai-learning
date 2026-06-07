@@ -1,0 +1,250 @@
+aspect|外观, 方面, 面貌, 方向
+aspire|
+assassinate|暗杀, 行刺
+assault|攻击, 袭击
+assemble|集合, 收集, 装配
+assembly|与会者, 集会, 装配, 组件
+assert|断言，宣称
+assess|评估，评价
+asset|资产, 有益的东西
+assign|分配, 指派, 赋值
+assignment|分配, 功课, 任务, 转让, 归因…
+assimilate|使同化, 吸收, 使相拟, 把...比作
+assist|帮助, 协助
+assistance|协助, 援助
+assistant|助手, 助理, 助教
+associate|同伴, 伙伴, 关联的事物
+association|协会
+assume|假设，假定
+assumption|假定, 自负, 担任, 假装
+assurance|保证, 把握, 信心, 保险
+assure|保证，确保
+astonish|使惊讶
+astronaut|太空旅行者, 宇航员
+astronomy|天文学
+athlete|运动员, 运动选手
+atmosphere|大气, 空气, 气氛
+atom|原子, 核能, 微粒, 微量
+attach|附上, 使依附, 使附属, 使喜爱,…
+attack|攻击, 抨击
+attain|达到，获得，实现
+attempt|尝试, 企图
+attend|参加, 照料, 伴随
+attendant|随从, 侍者, 出席者
+attention|注意, 注意力
+attitude|态度, 看法, 姿势
+attorney|代理人, 律师
+attract|吸引, 诱惑
+attractive|吸引人的, 有魅力的
+attribute|把…归因于
+auction|拍卖
+audience|听众, 观众, 读者
+audio|音频的, 声音的
+audit|审计, 查帐
+auditorium|听众席, 礼堂
+augment|增加, 增长
+aural|耳的, 听觉的, 气氛的, 气味的,…
+authentic|真实的，真正的
+author|作家, 作家的著作, 创始人
+authority|权力, 当权者, 当局, 权威, 专家
+automatic|自动手枪, 自动机械
+automation|自动化, 自动操作
+automobile|汽车
+autonomy|自治, 自治权
+auxiliary|辅助者, 辅助物, 附属机构, 助动词
+avail|利用
+available|可利用的, 可获得的, 有效的
+avenue|大街, 途径, 林荫路
+average|平均, 平均数, 一般水平, 海损
+avert|转开, 避免, 防止
+aviation|航空, 航空学, 飞行术
+avoid|避免, 防止, 撤消
+await|等候
+awake|醒着的
+award|奖品, 裁定, 判决
+aware|知道的, 有觉悟的
+awful|可怕的, 庄严的, 虔敬的
+awkward|笨拙的, 棘手的
+axis|轴
+bachelor|单身汉, 学士
+background|背景, 背景资料
+bacon|熏猪肉
+bacteria|细菌
+badge|徽章, 标记
+badly|严重地, 恶劣地, 极度地
+badminton|羽毛球运动
+baggage|行李
+bail|保释, 拎环, 杓, 栅栏
+bait|饵
+bake|烘焙, 烤
+balance|平衡, 差额
+balcony|阳台, 戏院楼厅
+bald|秃头的, 光秃的, 单调的, 赤裸的
+ball|球, 舞会, 球状物
+ballet|芭蕾舞
+balloon|气球
+ballot|投票, 投票用纸, 抽签
+band|带子, 队, 乐队
+bandage|绷带
+bang|重击, 突然巨响, 刘海
+bankrupt|破产者
+banner|旗帜
+banquet|宴会
+barbecue|烤肉
+barber|理发师
+bare|赤裸的, 缺少的, 无遮蔽的, 坦率的
+barely|几乎不
+bargain|交易, 买卖协定, 特价商品
+bark|树皮, 吠声
+barn|谷仓
+barrel|桶
+barren|贫瘠的，不毛的
+barrier|障碍, 栅栏
+base|底部, 垒, 基础, 基地
+baseball|棒球
+basement|地下室, 墙脚
+basic|基本原理, 要素, 基本规律
+basin|盆, 盆地
+basis|基础, 主要成分
+basket|篮, 篮子
+basketball|篮球
+batch|一次所烘的面包, 一次所制之量, 一…
+battery|电池, 殴打
+battle|战役
+beach|海滩
+beam|横梁, 杆, 光线, 容光焕发
+bean|豆子
+bear|熊
+beard|胡须
+bearing|举止, 轴承, 忍受, 关系, 意义…
+beat|心跳(声), 打, 敲打声, 拍子
+become|变成, 变得
+beef|牛肉, 肌肉
+beer|啤酒
+behalf|利益, 方面
+behavior|行为, 举止
+belief|信念, 相信, 信仰
+believe|相信
+bell|铃, 钟
+belong|属于, 合适
+beloved|心爱的
+bend|变弯曲, 屈服
+beneficial|有益的, 受益的
+benefit|利益
+benevolent|善意的, 慈善的
+benign|善良的, 良性的
+besides|除...之外
+best|最好的
+betray|出卖, 背叛, 辜负, 暴露
+better|较好的
+beverage|饮料
+beware|小心, 谨防
+bewilder|使迷惑, 使不知所措
+bias|偏见, 斜纹
+bible|圣经
+bibliography|参考书目
+bill|帐单, 清单, 钞票, 鸟嘴, 广告…
+bind|绑, 约束, 装订, 包扎, 使结合
+biography|传记
+biology|生物学
+bite|咬, 一口
+bizarre|奇异的，古怪的，异乎寻常的
+blackboard|黑板
+blame|过失, 责备
+blank|空格, 空白
+blast|一阵风, 爆炸, 枯萎病
+blaze|火焰, 烈火, 光辉
+bleak|萧瑟的, 荒凉的, 阴冷的
+blend|混合
+blog|博客
+bloody|血腥的, 嗜杀的, 有血的
+bloom|花, 开花, 青春, 钢块
+blossom|花, 花开的状态, 兴旺期
+blow|吹, 打击, 殴打, 花开
+blueprint|蓝图, 设计图, (周详的)计划
+blunder|大错, 大失策
+blunt|钝的, 坦率的, 麻痹的
+blur|使模糊, 弄脏
+blush|脸红, 羞愧
+board|木板, 甲板, 膳食, 会议桌
+boast|吹牛
+boat|船
+bold|大胆的
+bolster|支持, 长枕
+bolt|门闩, 螺钉, 筛子, 闪电, 意外事件
+bond|捆绑物, 结合, 债券, 契约, 粘…
+bonus|奖金, 红利
+boom|繁荣, 隆隆声
+boost|促进，增加
+booth|亭, 摊棚
+bore|令人讨厌的人, 激浪, 枪膛, 孔
+born|天生的
+borrow|借, 借入, 借用
+botany|植物学
+bounce|跳, 跳跃, 弹力, 撞击
+bound|一定的，必定的
+boundary|边界, 分界线
+bowel|肠, 内脏, 内部
+bowling|保龄球戏
+boycott|联合抵制
+brace|支柱, 曲柄, 支撑, 一对
+bracket|支架, 括弧, 托架
+brake|刹车, 阻碍, 丛林
+branch|树枝, 支店, 支流, 分部
+brand|商标, 牌子, 烙印
+brandy|白兰地酒
+brass|黄铜, 黄铜制品
+breach|裂口, 违背, 破坏, 违反, 突破…
+break|休息, 中断, 破裂处, 绝交, 破…
+breakdown|崩溃, 故障
+breast|胸部, 乳房, 胸怀
+breed|繁殖，培育
+breeze|微风, 煤屑, 轻而易举的事
+brevity|短暂, 简短
+bribe|贿赂
+bride|新娘
+bridge|桥, 舰桥, 桥梁, 桥牌
+brief|摘要, 简报
+briefcase|公事包
+brilliant|光辉的, 灿烂的, 有才气的
+brisk|强烈的, 寒冷而干燥的, 活泼的
+broad|宽广的, 辽阔的, 广大的, 显著的
+brochure|小册子, 小册
+broker|掮客, 经纪人
+bronze|青铜, 铜像
+brow|眉毛, 额
+browse|浏览, 吃草
+bruise|青肿, 挫伤, 擦伤
+brush|刷子, 毛笔, 争吵
+brutal|残忍的, 野蛮的, 不讲理的
+bubble|泡沫
+budget|预算
+buffer|缓冲器, 缓冲区
+buffet|自助餐, 小卖部, 碗橱, 殴打, 冲击
+build|建立, 建筑
+bulb|球茎, 电灯泡
+bulk|大小, 体积, 大块, 大多数
+bull|公牛
+bullet|子弹
+bulletin|公告, 布告, 公报
+bully|欺凌弱小者, 土霸
+bump|撞击, 肿块
+bunch|串, 束
+bundle|捆, 束
+burden|负担, 重载, 担子, 责任
+bureau|局, 办公处
+bureaucracy|官僚主义，官僚体制
+burglar|窃贼
+burn|烧, 烧毁, 烧伤
+business|生意, 事情, 业务, 商业, 商行…
+busy|忙碌的, 热闹的, 没空的
+butterfly|蝴蝶
+buzz|嗡嗡声, 流言
+bypass|旁路
+cabin|小屋, 客舱
+cabinet|橱柜, 内阁
+cable|电缆, 海底电报, 缆, 索
+cafeteria|自助餐厅
+cake|蛋糕, 块, 饼
+calcium|钙
+calculate|计算, 预测, 计划, 打算

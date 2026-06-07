@@ -1,0 +1,392 @@
+{
+  "groups": [
+    {
+      "name": "词根 aud- (听)",
+      "words": [
+        "audience",
+        "audio",
+        "audit",
+        "auditorium",
+        "aural"
+      ],
+      "type": "词根",
+      "note": "词根 aud- 表示“听”。audience(听众), audio(音频), audit(审计/听账), auditorium(礼堂), aural(听觉的)。"
+    },
+    {
+      "name": "词根 bene-/ben- (好)",
+      "words": [
+        "benefit",
+        "beneficial",
+        "benevolent",
+        "benign",
+        "bonus"
+      ],
+      "type": "词根",
+      "note": "词根 bene-/ben- 表示“好”。benefit(利益), beneficial(有益的), benevolent(慈善的), benign(良性的), bonus(奖金/额外的好事)。"
+    },
+    {
+      "name": "词族 base (基础)",
+      "words": [
+        "base",
+        "basic",
+        "basis",
+        "basement"
+      ],
+      "type": "词族",
+      "note": "同源词族。base(基础/基地), basic(基本的), basis(基础/根据), basement(地下室)。"
+    },
+    {
+      "name": "词族 as- 前缀派生词",
+      "words": [
+        "assume",
+        "assumption",
+        "assure",
+        "assurance",
+        "assign",
+        "assignment",
+        "assist",
+        "assistance",
+        "assistant",
+        "assemble",
+        "assembly",
+        "associate",
+        "association"
+      ],
+      "type": "词族",
+      "note": "包含多组 as- 前缀（ad-变体）派生的词族，注意名词后缀 -ment, -ance, -tion 的规律。"
+    },
+    {
+      "name": "词根 auto- (自己/自动)",
+      "words": [
+        "automatic",
+        "automation",
+        "automobile",
+        "autonomy",
+        "authentic",
+        "author"
+      ],
+      "type": "词根",
+      "note": "词根 auto- (自己)。automatic(自动的), automation(自动化), automobile(汽车), autonomy(自治), authentic(真实的), author(作者)。"
+    },
+    {
+      "name": "近义词：光秃/荒芜/空白",
+      "words": [
+        "bare",
+        "bald",
+        "barren",
+        "blank",
+        "bleak"
+      ],
+      "type": "近义",
+      "note": "均含有“空、光秃、荒凉”之意。bare(赤裸的), bald(秃头的), barren(贫瘠的), blank(空白的), bleak(荒凉的)。"
+    },
+    {
+      "name": "易混淆：b开头形近词",
+      "words": [
+        "bail",
+        "bait",
+        "brake",
+        "break",
+        "bride",
+        "bribe",
+        "brow",
+        "browse"
+      ],
+      "type": "易混淆",
+      "note": "拼写极相近但意思完全不同的词对：bail(保释)/bait(饵), brake(刹车)/break(打破), bride(新娘)/bribe(贿赂), brow(眉毛)/browse(浏览)。"
+    },
+    {
+      "name": "主题：商业与经济",
+      "words": [
+        "auction",
+        "bankrupt",
+        "bargain",
+        "broker",
+        "budget",
+        "breach",
+        "asset",
+        "bill",
+        "brand",
+        "business"
+      ],
+      "type": "主题",
+      "note": "商业与金融场景核心词。auction(拍卖), bankrupt(破产), bargain(交易), broker(经纪人), budget(预算), breach(违约)等。"
+    },
+    {
+      "name": "主题：餐饮与食物",
+      "words": [
+        "bacon",
+        "bake",
+        "banquet",
+        "barbecue",
+        "beef",
+        "beer",
+        "beverage",
+        "buffet",
+        "cafeteria",
+        "cake"
+      ],
+      "type": "主题",
+      "note": "餐饮与食物场景。bacon(熏肉), bake(烘焙), banquet(宴会), barbecue(烤肉), beverage(饮料), buffet(自助餐)等。"
+    },
+    {
+      "name": "词根 bio-/biblio- (生命/书)",
+      "words": [
+        "biology",
+        "biography",
+        "bibliography",
+        "bible",
+        "botany"
+      ],
+      "type": "词根",
+      "note": "词根 bio- (生命) 和 biblio- (书)。biology(生物学), biography(传记), bibliography(参考书目), bible(圣经), botany(植物学)。"
+    },
+    {
+      "name": "近义词：捆绑/束/批",
+      "words": [
+        "bind",
+        "bond",
+        "bundle",
+        "bunch",
+        "batch",
+        "band"
+      ],
+      "type": "近义",
+      "note": "均表示“捆绑、束、批”。bind(绑), bond(结合/债券), bundle(捆), bunch(串/束), batch(一批), band(带子)。"
+    },
+    {
+      "name": "词根 ball- (球/舞会)",
+      "words": [
+        "ball",
+        "balloon",
+        "ballet",
+        "ballot",
+        "baseball",
+        "basketball"
+      ],
+      "type": "词根",
+      "note": "词根 ball- (球/舞会)。ball(球/舞会), balloon(气球), ballet(芭蕾舞), ballot(投票/小球), baseball(棒球), basketball(篮球)。"
+    },
+    {
+      "name": "近义词：攻击/打击/撞击",
+      "words": [
+        "attack",
+        "assault",
+        "beat",
+        "bang",
+        "blow",
+        "bump"
+      ],
+      "type": "近义",
+      "note": "表示“攻击、打击、撞击”。attack(攻击), assault(袭击), beat(打/心跳), bang(重击), blow(打击), bump(撞击)。"
+    },
+    {
+      "name": "主题：自然科学",
+      "words": [
+        "astronaut",
+        "astronomy",
+        "atmosphere",
+        "atom",
+        "aviation",
+        "axis",
+        "bacteria",
+        "calcium"
+      ],
+      "type": "主题",
+      "note": "自然科学术语。astronaut(宇航员), astronomy(天文学), atmosphere(大气), atom(原子), aviation(航空), axis(轴), bacteria(细菌), calcium(钙)。"
+    },
+    {
+      "name": "词族 a- 开头派生词",
+      "words": [
+        "attend",
+        "attendant",
+        "attention",
+        "attract",
+        "attractive",
+        "avail",
+        "available"
+      ],
+      "type": "词族",
+      "note": "包含 attend(出席/照料), attract(吸引), avail(利用) 及其派生词，注意后缀 -ant, -tion, -ive, -able 的构词规律。"
+    }
+  ],
+  "ungrouped": [
+    "aspect",
+    "aspire",
+    "assassinate",
+    "assert",
+    "assess",
+    "assimilate",
+    "astonish",
+    "athlete",
+    "attach",
+    "attain",
+    "attempt",
+    "attitude",
+    "attorney",
+    "attribute",
+    "augment",
+    "avenue",
+    "average",
+    "avert",
+    "avoid",
+    "await",
+    "awake",
+    "award",
+    "aware",
+    "awful",
+    "awkward",
+    "axis",
+    "bachelor",
+    "background",
+    "badge",
+    "badly",
+    "badminton",
+    "baggage",
+    "balance",
+    "balcony",
+    "banner",
+    "barber",
+    "barely",
+    "bark",
+    "barn",
+    "barrel",
+    "barrier",
+    "basin",
+    "basket",
+    "battery",
+    "battle",
+    "beach",
+    "beam",
+    "bean",
+    "bear",
+    "beard",
+    "bearing",
+    "become",
+    "behalf",
+    "behavior",
+    "belief",
+    "believe",
+    "bell",
+    "belong",
+    "beloved",
+    "bend",
+    "besides",
+    "best",
+    "betray",
+    "better",
+    "beware",
+    "bewilder",
+    "bias",
+    "bind",
+    "bite",
+    "bizarre",
+    "blackboard",
+    "blame",
+    "blast",
+    "blaze",
+    "blend",
+    "blog",
+    "bloody",
+    "bloom",
+    "blossom",
+    "blueprint",
+    "blunder",
+    "blunt",
+    "blur",
+    "blush",
+    "board",
+    "boast",
+    "boat",
+    "bold",
+    "bolster",
+    "bolt",
+    "booth",
+    "bore",
+    "born",
+    "borrow",
+    "bounce",
+    "bound",
+    "boundary",
+    "bowel",
+    "bowling",
+    "boycott",
+    "brace",
+    "bracket",
+    "branch",
+    "brandy",
+    "brass",
+    "breast",
+    "breed",
+    "breeze",
+    "brevity",
+    "bridge",
+    "brief",
+    "briefcase",
+    "brilliant",
+    "brisk",
+    "broad",
+    "brochure",
+    "bronze",
+    "bruise",
+    "brush",
+    "brutal",
+    "bubble",
+    "buffer",
+    "build",
+    "bulb",
+    "bulk",
+    "bull",
+    "bullet",
+    "bulletin",
+    "bully",
+    "burden",
+    "bureau",
+    "bureaucracy",
+    "burglar",
+    "burn",
+    "busy",
+    "butterfly",
+    "buzz",
+    "bypass",
+    "cabin",
+    "cabinet",
+    "cable",
+    "calculate"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "词根 aud- (听)",
+      "likely_in_other_chunks": [
+        "audible",
+        "audition"
+      ]
+    },
+    {
+      "my_group": "词根 bene-/ben- (好)",
+      "likely_in_other_chunks": [
+        "benediction",
+        "benefactor"
+      ]
+    },
+    {
+      "my_group": "词根 auto- (自己/自动)",
+      "likely_in_other_chunks": [
+        "autobiography",
+        "autocrat"
+      ]
+    },
+    {
+      "my_group": "主题：商业与经济",
+      "likely_in_other_chunks": [
+        "commodity",
+        "deficit",
+        "inflation"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 245,
+    "grouped": 104
+  }
+}

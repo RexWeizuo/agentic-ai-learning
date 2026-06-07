@@ -1,0 +1,492 @@
+{
+  "groups": [
+    {
+      "name": "词根：min- (小)",
+      "words": [
+        "miniature",
+        "minimise",
+        "minimum",
+        "minor"
+      ],
+      "type": "词根",
+      "note": "共享词根 min-，表示“小、少、次要”。"
+    },
+    {
+      "name": "前缀：mis- (错误，坏)",
+      "words": [
+        "mischief",
+        "misfortune",
+        "mislead",
+        "mistake",
+        "misunderstand"
+      ],
+      "type": "词根",
+      "note": "共享前缀 mis-，表示“错误、坏、否定”。"
+    },
+    {
+      "name": "词根：mov/mot/mob (移动)",
+      "words": [
+        "mobile",
+        "mobilise",
+        "motion",
+        "motivate",
+        "motive",
+        "movement",
+        "movie"
+      ],
+      "type": "词根",
+      "note": "同源词根 mov/mot/mob，表示“移动、运动、动机”。"
+    },
+    {
+      "name": "词根：not- (标记，知道)",
+      "words": [
+        "notable",
+        "note",
+        "notice",
+        "notify",
+        "notion",
+        "notorious"
+      ],
+      "type": "词根",
+      "note": "共享词根 not-，表示“标记、知道、注意”。"
+    },
+    {
+      "name": "词根：opt- (选择)",
+      "words": [
+        "opt",
+        "option",
+        "optional",
+        "optimum"
+      ],
+      "type": "词根",
+      "note": "共享词根 opt-，表示“选择、最佳”。注意与 optical(眼睛) 区分。"
+    },
+    {
+      "name": "词族：organ (器官/组织)",
+      "words": [
+        "organ",
+        "organic",
+        "organisation",
+        "organise",
+        "organism"
+      ],
+      "type": "词族",
+      "note": "由 organ 派生出的词族，涵盖器官、有机体、组织等含义。"
+    },
+    {
+      "name": "词根：ori- (升起，起源)",
+      "words": [
+        "orient",
+        "oriental",
+        "orientation",
+        "origin",
+        "original",
+        "originate"
+      ],
+      "type": "词根",
+      "note": "共享词根 ori-，表示“升起、起源、东方”。"
+    },
+    {
+      "name": "前缀：over- (超过，过度)",
+      "words": [
+        "overall",
+        "overcome",
+        "overflow",
+        "overhaul",
+        "overhead",
+        "overhear",
+        "overlap",
+        "overlook",
+        "overnight",
+        "overseas",
+        "overtake",
+        "overthrow",
+        "overtime",
+        "overturn",
+        "overwhelm"
+      ],
+      "type": "词根",
+      "note": "共享前缀 over-，表示“在...之上、超过、过度”。"
+    },
+    {
+      "name": "前缀：out- (向外，超过)",
+      "words": [
+        "outbreak",
+        "outcome",
+        "outfit",
+        "outing",
+        "outlet",
+        "outline",
+        "outlook",
+        "output",
+        "outrage",
+        "outset",
+        "outskirts",
+        "outward"
+      ],
+      "type": "词根",
+      "note": "共享前缀 out-，表示“向外、超过、外部”。"
+    },
+    {
+      "name": "词根：mod- (模式，度量，适度)",
+      "words": [
+        "mode",
+        "moderate",
+        "modernisation",
+        "modify",
+        "module"
+      ],
+      "type": "词根",
+      "note": "共享词根 mod-，表示“模式、度量、适度、方式”。"
+    },
+    {
+      "name": "词根：mon-/mono- (单一/提醒)",
+      "words": [
+        "monarch",
+        "monetary",
+        "monopoly",
+        "monotonous",
+        "monster",
+        "monument"
+      ],
+      "type": "词根",
+      "note": "包含 mono-(单一) 和 monere(提醒/警告) 两个同源词根，考研常合并记忆。"
+    },
+    {
+      "name": "词根：nom-/nomen (名字)",
+      "words": [
+        "nominal",
+        "nominate",
+        "nickname",
+        "noun"
+      ],
+      "type": "词根",
+      "note": "共享词根 nom-/nomen，表示“名字、命名”。"
+    },
+    {
+      "name": "词根：miss- (发送，派)",
+      "words": [
+        "missile",
+        "mission",
+        "missionary",
+        "messenger"
+      ],
+      "type": "词根",
+      "note": "共享词根 miss-/mit-，表示“发送、派、释放”。"
+    },
+    {
+      "name": "前缀：ob-/op- (反对，阻碍，面对)",
+      "words": [
+        "obstacle",
+        "obstruct",
+        "obstruction",
+        "object",
+        "objection",
+        "objective",
+        "opponent",
+        "oppress"
+      ],
+      "type": "词根",
+      "note": "共享前缀 ob-/op-，表示“反对、阻碍、面对、在...之前”。"
+    },
+    {
+      "name": "主题：发声与低语",
+      "words": [
+        "moan",
+        "murmur",
+        "mutter",
+        "mute"
+      ],
+      "type": "主题",
+      "note": "表示低声说话、抱怨或静音的词汇。"
+    },
+    {
+      "name": "主题：国家、政治与军事",
+      "words": [
+        "nation",
+        "national",
+        "municipal",
+        "ministry",
+        "militant",
+        "military"
+      ],
+      "type": "主题",
+      "note": "涉及国家行政、市政管理与军事武装的术语。"
+    },
+    {
+      "name": "主题：自然、物质与度量科学",
+      "words": [
+        "nature",
+        "mineral",
+        "molecule",
+        "nitrogen",
+        "nucleus",
+        "metric",
+        "metre",
+        "millimetre"
+      ],
+      "type": "主题",
+      "note": "自然科学、物质结构及物理度量单位相关词汇。"
+    },
+    {
+      "name": "主题：身体与生理结构",
+      "words": [
+        "muscle",
+        "muscular",
+        "nerve",
+        "nervous",
+        "obesity",
+        "oral"
+      ],
+      "type": "主题",
+      "note": "描述人体器官、生理状态及身体特征的词汇。"
+    },
+    {
+      "name": "主题：餐饮、食物与营养",
+      "words": [
+        "mess",
+        "napkin",
+        "onion",
+        "oven",
+        "nourish",
+        "nutrition"
+      ],
+      "type": "主题",
+      "note": "与饮食、餐具、食材及营养摄取相关的词汇。"
+    },
+    {
+      "name": "主题：艺术、文化与媒体",
+      "words": [
+        "metaphor",
+        "music",
+        "musician",
+        "narrative",
+        "novelty",
+        "mosaic"
+      ],
+      "type": "主题",
+      "note": "涉及文学修辞、音乐、艺术形式及媒体叙事的词汇。"
+    },
+    {
+      "name": "主题：规则、义务与道德",
+      "words": [
+        "obligation",
+        "oblige",
+        "oath",
+        "norm",
+        "moral",
+        "morality",
+        "merit"
+      ],
+      "type": "主题",
+      "note": "表示道德规范、法律义务、誓言及价值评判的词汇。"
+    },
+    {
+      "name": "近义词：机会、时机与开端",
+      "words": [
+        "occasion",
+        "opportunity",
+        "odds",
+        "opening"
+      ],
+      "type": "近义",
+      "note": "表示机会、可能性或事物开端的近义词。"
+    },
+    {
+      "name": "主题：否定、忽略与模糊",
+      "words": [
+        "negative",
+        "neglect",
+        "negligible",
+        "omit",
+        "obscure"
+      ],
+      "type": "主题",
+      "note": "表示否定、忽视、遗漏或模糊不清的词汇。"
+    },
+    {
+      "name": "主题：视觉、观察与视角",
+      "words": [
+        "observation",
+        "observe",
+        "opaque",
+        "optical"
+      ],
+      "type": "主题",
+      "note": "与视觉感知、观察行为及光学特性相关的词汇。"
+    },
+    {
+      "name": "主题：情绪、心理与性格",
+      "words": [
+        "mood",
+        "miserable",
+        "misery",
+        "mourn",
+        "obsession",
+        "nostalgic",
+        "naive"
+      ],
+      "type": "主题",
+      "note": "描述内心情感、心理状态及性格特征的词汇。"
+    },
+    {
+      "name": "词根/近义：数量与多数",
+      "words": [
+        "multiple",
+        "multiply",
+        "multitude",
+        "numerous",
+        "numerical",
+        "most",
+        "mostly",
+        "more"
+      ],
+      "type": "词根",
+      "note": "包含 multi-/numer- 词根及表示“多、大部分”的近义词。"
+    },
+    {
+      "name": "主题：空间、位置与地理",
+      "words": [
+        "midst",
+        "mile",
+        "nearby",
+        "neighborhood",
+        "nowhere",
+        "orbit",
+        "mount",
+        "metropolitan"
+      ],
+      "type": "主题",
+      "note": "表示地理位置、空间方位、距离及都市环境的词汇。"
+    },
+    {
+      "name": "主题：建筑、设施与日常物品",
+      "words": [
+        "mill",
+        "motel",
+        "orchard",
+        "nylon",
+        "nickel",
+        "microphone",
+        "network",
+        "mold"
+      ],
+      "type": "主题",
+      "note": "涉及建筑物、工业设施、材料及日常人造物品的词汇。"
+    },
+    {
+      "name": "主题：冒犯与负面行为",
+      "words": [
+        "offend",
+        "offensive",
+        "naughty",
+        "nasty",
+        "nightmare"
+      ],
+      "type": "主题",
+      "note": "表示冒犯、令人不快、淘气或可怕事物的负面词汇。"
+    }
+  ],
+  "ungrouped": [
+    "merge",
+    "messenger",
+    "metaphor",
+    "migrate",
+    "mind",
+    "mingle",
+    "miracle",
+    "missing",
+    "mistress",
+    "mock",
+    "moist",
+    "moisture",
+    "momentum",
+    "moreover",
+    "mortal",
+    "mortgage",
+    "mosquito",
+    "mutual",
+    "myself",
+    "mysterious",
+    "mystery",
+    "myth",
+    "naked",
+    "namely",
+    "naval",
+    "navigation",
+    "nearly",
+    "necessitate",
+    "necessity",
+    "neither",
+    "neutral",
+    "never",
+    "nevertheless",
+    "news",
+    "noise",
+    "nonetheless",
+    "nonsense",
+    "normalisation",
+    "notwithstanding",
+    "nuisance",
+    "o'clock",
+    "obedience",
+    "obedient",
+    "obtain",
+    "occasional",
+    "occupation",
+    "occupy",
+    "occur",
+    "occurrence",
+    "odor",
+    "offset",
+    "offspring",
+    "often",
+    "okay",
+    "oneself",
+    "operational",
+    "operator",
+    "optimistic",
+    "orchestra",
+    "orderly",
+    "ornament",
+    "orphan",
+    "orthodox",
+    "ought to",
+    "ounce",
+    "ourselves",
+    "overt"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "前缀：over- (超过，过度)",
+      "likely_in_other_chunks": [
+        "oversee",
+        "oversight",
+        "overstate",
+        "overestimate"
+      ]
+    },
+    {
+      "my_group": "前缀：out- (向外，超过)",
+      "likely_in_other_chunks": [
+        "outdo",
+        "outlive",
+        "outnumber",
+        "outweigh"
+      ]
+    },
+    {
+      "my_group": "词根：mov/mot/mob (移动)",
+      "likely_in_other_chunks": [
+        "promote",
+        "remote",
+        "emotion",
+        "automobile"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 247,
+    "grouped": 182
+  }
+}

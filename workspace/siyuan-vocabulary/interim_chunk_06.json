@@ -1,0 +1,578 @@
+{
+  "groups": [
+    {
+      "name": "employ 词族",
+      "words": [
+        "employ",
+        "employee",
+        "employer",
+        "employment"
+      ],
+      "type": "词族",
+      "note": "雇用相关词汇，注意 -er 和 -ee 后缀的区别"
+    },
+    {
+      "name": "equal/equi 平等词根",
+      "words": [
+        "equal",
+        "equality",
+        "equation",
+        "equity",
+        "equivalent"
+      ],
+      "type": "词根",
+      "note": "词根 equ- 表示平等、相等"
+    },
+    {
+      "name": "ep- 形近易混淆",
+      "words": [
+        "epic",
+        "epidemic",
+        "episode",
+        "epoch"
+      ],
+      "type": "易混淆",
+      "note": "ep- 开头，拼写相近但意思完全不同"
+    },
+    {
+      "name": "er- 消除/错误/侵蚀",
+      "words": [
+        "eradicate",
+        "erase",
+        "erode",
+        "erosion",
+        "erroneous",
+        "error",
+        "erupt"
+      ],
+      "type": "词根",
+      "note": "er- 开头，多与消除、错误或爆发相关"
+    },
+    {
+      "name": "eva- 形近易混淆",
+      "words": [
+        "evacuate",
+        "evade",
+        "evaluate",
+        "evaporate"
+      ],
+      "type": "易混淆",
+      "note": "eva- 开头，考研常考形近动词"
+    },
+    {
+      "name": "eth- 形近易混淆",
+      "words": [
+        "esthetic",
+        "ethic",
+        "ethnic",
+        "eternal"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近，注意审美、伦理、种族与永恒的区别"
+    },
+    {
+      "name": "en- 使动前缀",
+      "words": [
+        "enable",
+        "enclose",
+        "endorse",
+        "endow",
+        "enforce",
+        "enlarge",
+        "enlighten",
+        "enrich",
+        "ensure"
+      ],
+      "type": "词缀",
+      "note": "en- 前缀表示“使...，进入...”，多构成及物动词"
+    },
+    {
+      "name": "expend/expense 花费词族",
+      "words": [
+        "expend",
+        "expenditure",
+        "expense",
+        "expensive"
+      ],
+      "type": "词族",
+      "note": "花费、开支相关词汇"
+    },
+    {
+      "name": "extend 延伸词族",
+      "words": [
+        "extend",
+        "extension",
+        "extensive",
+        "extent"
+      ],
+      "type": "词族",
+      "note": "延伸、扩展相关词汇"
+    },
+    {
+      "name": "exclude/except 排除/例外",
+      "words": [
+        "except",
+        "exception",
+        "exceptional",
+        "exclude",
+        "exclusive"
+      ],
+      "type": "词根",
+      "note": "词根 clud/cept 表示关闭、排除、例外"
+    },
+    {
+      "name": "exceed/excess 超越/过度",
+      "words": [
+        "exceed",
+        "exceedingly",
+        "excess",
+        "excessive",
+        "excel"
+      ],
+      "type": "词根",
+      "note": "词根 ced/cess/cel 表示超越、过度、优秀"
+    },
+    {
+      "name": "explode/erupt 爆发",
+      "words": [
+        "erupt",
+        "explode",
+        "explosion",
+        "explosive"
+      ],
+      "type": "近义",
+      "note": "爆发、爆炸相关词汇"
+    },
+    {
+      "name": "fac/fact 做/制造词根",
+      "words": [
+        "facilitate",
+        "facility",
+        "factor",
+        "factory",
+        "faculty"
+      ],
+      "type": "词根",
+      "note": "词根 fac/fact 表示做、制造"
+    },
+    {
+      "name": "f- 命运/失败/缺陷",
+      "words": [
+        "fail",
+        "failure",
+        "fatal",
+        "fate",
+        "faulty"
+      ],
+      "type": "主题",
+      "note": "与失败、命运、缺陷相关的负面词汇"
+    },
+    {
+      "name": "f- 幻想/想象",
+      "words": [
+        "fancy",
+        "fantastic",
+        "fantasy",
+        "fiction"
+      ],
+      "type": "近义",
+      "note": "与幻想、虚构、想象相关的词汇"
+    },
+    {
+      "name": "f- 农业/土地",
+      "words": [
+        "farm",
+        "farmer",
+        "fertile",
+        "fertiliser",
+        "famine"
+      ],
+      "type": "主题",
+      "note": "农业、土地、饥荒相关词汇"
+    },
+    {
+      "name": "f- 社会/经济/政治",
+      "words": [
+        "federal",
+        "federation",
+        "finance",
+        "financial",
+        "fashion",
+        "fashionable"
+      ],
+      "type": "主题",
+      "note": "社会、经济、政治与时尚领域词汇"
+    },
+    {
+      "name": "ent- 娱乐/热情",
+      "words": [
+        "entertain",
+        "entertainment",
+        "enthusiasm",
+        "enthusiastic"
+      ],
+      "type": "词族",
+      "note": "娱乐与热情相关词汇"
+    },
+    {
+      "name": "em- 帝国/显赫",
+      "words": [
+        "emperor",
+        "empire",
+        "embassy",
+        "eminent"
+      ],
+      "type": "主题",
+      "note": "帝国、使馆与显赫地位相关词汇"
+    },
+    {
+      "name": "emotion 情感",
+      "words": [
+        "emotion",
+        "empathy",
+        "feeling",
+        "excitement"
+      ],
+      "type": "近义",
+      "note": "情感、共鸣与感觉相关词汇"
+    },
+    {
+      "name": "ext- 外部/极端",
+      "words": [
+        "exterior",
+        "external",
+        "extra",
+        "extreme"
+      ],
+      "type": "词根",
+      "note": "外部、额外与极端相关词汇"
+    },
+    {
+      "name": "exist/entity 存在",
+      "words": [
+        "entity",
+        "exist",
+        "existence",
+        "exit"
+      ],
+      "type": "词根",
+      "note": "存在、实体与出口（离开存在）相关词汇"
+    },
+    {
+      "name": "fabric 制造/结构",
+      "words": [
+        "fabric",
+        "fabricate",
+        "fabulous",
+        "facet"
+      ],
+      "type": "词根",
+      "note": "词根 fab 表示制造、结构，引申为极好的"
+    },
+    {
+      "name": "faith/fame 信仰/名声",
+      "words": [
+        "faith",
+        "faithful",
+        "fame",
+        "famous"
+      ],
+      "type": "词族",
+      "note": "信仰与名声相关基础词族"
+    },
+    {
+      "name": "engage/engine 词族",
+      "words": [
+        "engage",
+        "engagement",
+        "engine",
+        "engineering"
+      ],
+      "type": "词族",
+      "note": "参与、约定与引擎、工程相关词汇"
+    },
+    {
+      "name": "em- 嵌入/出现",
+      "words": [
+        "embed",
+        "embody",
+        "embrace",
+        "embryo",
+        "emerge",
+        "emergency",
+        "emigrate",
+        "emit"
+      ],
+      "type": "词缀",
+      "note": "em- 前缀表示进入、使动或向外"
+    },
+    {
+      "name": "en- 询问/登记/赋予",
+      "words": [
+        "enquire",
+        "enquiry",
+        "enrol",
+        "entitle"
+      ],
+      "type": "词族",
+      "note": "询问、登记与赋予权利相关词汇"
+    },
+    {
+      "name": "es- 本质/建立",
+      "words": [
+        "essay",
+        "essence",
+        "essential",
+        "establish",
+        "estate",
+        "esteem"
+      ],
+      "type": "易混淆",
+      "note": "es- 开头，本质、建立与尊重相关词汇"
+    },
+    {
+      "name": "ex- 执行/练习",
+      "words": [
+        "execute",
+        "executive",
+        "exercise",
+        "exert",
+        "exemplify",
+        "exempt"
+      ],
+      "type": "词根",
+      "note": "执行、练习与免除相关词汇"
+    },
+    {
+      "name": "ex- 探索/远征",
+      "words": [
+        "expedition",
+        "explore",
+        "excursion",
+        "export"
+      ],
+      "type": "主题",
+      "note": "探索、远征与出口相关词汇"
+    },
+    {
+      "name": "ex- 期待/专家",
+      "words": [
+        "expect",
+        "expectation",
+        "expert",
+        "expertise"
+      ],
+      "type": "词族",
+      "note": "期待与专家相关词汇"
+    },
+    {
+      "name": "ex- 暴露/展示",
+      "words": [
+        "expose",
+        "exposure",
+        "explicit",
+        "exile"
+      ],
+      "type": "近义",
+      "note": "暴露、明确与流放相关词汇"
+    },
+    {
+      "name": "ex- 扩张/展示",
+      "words": [
+        "expand",
+        "expansion",
+        "exhaust",
+        "exhibit"
+      ],
+      "type": "形近",
+      "note": "扩张、耗尽与展示相关词汇"
+    },
+    {
+      "name": "f- 虚弱/疲劳",
+      "words": [
+        "fade",
+        "faint",
+        "fatigue",
+        "feeble"
+      ],
+      "type": "近义",
+      "note": "褪色、昏厥与疲劳、虚弱相关词汇"
+    },
+    {
+      "name": "f- 虚假/错误",
+      "words": [
+        "fake",
+        "false",
+        "fable",
+        "fall"
+      ],
+      "type": "近义",
+      "note": "虚假、寓言与错误相关词汇"
+    },
+    {
+      "name": "f- 宴会/壮举",
+      "words": [
+        "feasible",
+        "feast",
+        "feat",
+        "feature",
+        "fellowship"
+      ],
+      "type": "形近",
+      "note": "fea- 开头，可行、宴会、壮举与特征相关词汇"
+    },
+    {
+      "name": "f- 填充/过滤",
+      "words": [
+        "feed",
+        "feedback",
+        "fill",
+        "film",
+        "filter"
+      ],
+      "type": "主题",
+      "note": "喂养、填充与过滤相关词汇"
+    },
+    {
+      "name": "ev- 证据/明显",
+      "words": [
+        "evidence",
+        "evident",
+        "event",
+        "eventually"
+      ],
+      "type": "词族",
+      "note": "证据、事件与最终结果相关词汇"
+    },
+    {
+      "name": "ev- 进化/唤起",
+      "words": [
+        "evolution",
+        "evolve",
+        "evoke",
+        "evil"
+      ],
+      "type": "形近",
+      "note": "进化、唤起与邪恶相关词汇"
+    },
+    {
+      "name": "ex- 呼喊/交换",
+      "words": [
+        "exclaim",
+        "exchange",
+        "excuse",
+        "excerpt"
+      ],
+      "type": "形近",
+      "note": "呼喊、交换、借口与摘录相关词汇"
+    },
+    {
+      "name": "ext- 熄灭/提取",
+      "words": [
+        "extinct",
+        "extinguish",
+        "extract",
+        "extravagant"
+      ],
+      "type": "近义",
+      "note": "灭绝、熄灭与提取、奢侈相关词汇"
+    }
+  ],
+  "ungrouped": [
+    "emphasis",
+    "emphasise",
+    "empirical",
+    "enclosure",
+    "encounter",
+    "encyclopedia",
+    "endeavor",
+    "ending",
+    "endurance",
+    "endure",
+    "enemy",
+    "energetic",
+    "enhance",
+    "enjoy",
+    "enormous",
+    "enough",
+    "entail",
+    "enter",
+    "enterprise",
+    "entrepreneur",
+    "entry",
+    "environment",
+    "envisage",
+    "envy",
+    "equator",
+    "equip",
+    "erect",
+    "escalate",
+    "escort",
+    "especially",
+    "estimate",
+    "ever",
+    "everyday",
+    "everywhere",
+    "evil",
+    "exaggerate",
+    "examination",
+    "excerpt",
+    "expire",
+    "exquisite",
+    "eyebrow",
+    "eyesight",
+    "fable",
+    "family",
+    "fare",
+    "farewell",
+    "fascinate",
+    "favorable",
+    "favorite",
+    "fearful",
+    "feminine",
+    "fence",
+    "ferry",
+    "feudal",
+    "fibre",
+    "field",
+    "fight",
+    "figure",
+    "file",
+    "finally"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "equal/equi 平等词根",
+      "likely_in_other_chunks": [
+        "adequate",
+        "equilibrium"
+      ]
+    },
+    {
+      "my_group": "fac/fact 做/制造词根",
+      "likely_in_other_chunks": [
+        "manufacture",
+        "artifact",
+        "affect"
+      ]
+    },
+    {
+      "my_group": "en- 使动前缀",
+      "likely_in_other_chunks": [
+        "encourage",
+        "empower"
+      ]
+    },
+    {
+      "my_group": "ex- 执行/练习",
+      "likely_in_other_chunks": [
+        "implement",
+        "perform"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 250,
+    "grouped": 191
+  }
+}

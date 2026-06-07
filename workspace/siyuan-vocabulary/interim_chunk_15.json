@@ -1,0 +1,429 @@
+{
+  "groups": [
+    {
+      "name": "前缀 trans- (跨越，转移)",
+      "words": [
+        "transaction",
+        "transcend",
+        "transfer",
+        "transform",
+        "transient",
+        "transistor",
+        "transit",
+        "transition",
+        "transmission",
+        "transmit",
+        "transparent",
+        "transplant"
+      ],
+      "type": "词根",
+      "note": "trans- 表示“横穿、超越、转移”，是考研极高频前缀，注意各词在具体语境中的引申义。"
+    },
+    {
+      "name": "前缀 under- (在...之下，不足)",
+      "words": [
+        "underestimate",
+        "undergo",
+        "undergraduate",
+        "underlie",
+        "underline",
+        "underlying",
+        "undermine",
+        "underneath",
+        "understand",
+        "undertake",
+        "undo"
+      ],
+      "type": "词根",
+      "note": "under- 表示“在...下面”或“不足、暗中”，注意 undermine (暗中破坏) 和 underlying (潜在的/基础的) 的熟词生义。"
+    },
+    {
+      "name": "前缀 un- (否定)",
+      "words": [
+        "unanimous",
+        "uncover",
+        "undoubtedly",
+        "uneasy",
+        "unexpected",
+        "unfortunately",
+        "unlikely",
+        "unload"
+      ],
+      "type": "词根",
+      "note": "un- 是最常见的否定前缀，unanimous (意见一致的) 词根为 anim (生命/心智)，uncover 意为“揭露”。"
+    },
+    {
+      "name": "词族 vari- (变化)",
+      "words": [
+        "variable",
+        "variance",
+        "variation",
+        "various",
+        "vary"
+      ],
+      "type": "词族",
+      "note": "源自拉丁语 varius (不同的)，掌握其在数学、统计及日常语境中的名词与形容词形态。"
+    },
+    {
+      "name": "词根 vis/vid (看) 及视觉",
+      "words": [
+        "visible",
+        "vision",
+        "visual",
+        "visit",
+        "visitor",
+        "viewpoint"
+      ],
+      "type": "词根",
+      "note": "vis/vid 表示“看”，visit 本意为“去看望”，viewpoint 由 view (看) 派生，表示“观点”。"
+    },
+    {
+      "name": "词根 vac/van/void (空无，消失)",
+      "words": [
+        "vacant",
+        "vacuum",
+        "vanish",
+        "vanity",
+        "void"
+      ],
+      "type": "词根",
+      "note": "表示“空、虚无”，vanity 引申为“虚荣（空虚的骄傲）”，void 常作法律术语表示“无效的”。"
+    },
+    {
+      "name": "词根 vers/vert (转)",
+      "words": [
+        "versatile",
+        "verse",
+        "version",
+        "versus",
+        "vertical"
+      ],
+      "type": "词根",
+      "note": "vers/vert 表示“转”，versatile (多才多艺的/万用的) 指能灵活转变，versus 表示“对抗/转向对面”。"
+    },
+    {
+      "name": "词族 uni- (一，统一)",
+      "words": [
+        "unify",
+        "unit",
+        "unity",
+        "universal"
+      ],
+      "type": "词族",
+      "note": "uni- 表示“单一”，universal 引申为“普遍的、宇宙的”，unity 强调“团结、一致性”。"
+    },
+    {
+      "name": "主题：医学与生物健康",
+      "words": [
+        "tumor",
+        "vaccine",
+        "virus",
+        "vitamin",
+        "vein",
+        "vegetarian",
+        "vegetation"
+      ],
+      "type": "主题",
+      "note": "涵盖疾病、治疗、营养及植物学基础词汇，阅读科普或健康类文章时高频出现。"
+    },
+    {
+      "name": "主题：物理、工程与能源",
+      "words": [
+        "volt",
+        "voltage",
+        "watt",
+        "x-ray",
+        "ultraviolet",
+        "turbine",
+        "valve"
+      ],
+      "type": "主题",
+      "note": "理工科背景文章核心词汇，turbine (涡轮机) 和 valve (阀门) 在机械与能源类阅读中常见。"
+    },
+    {
+      "name": "主题：法律与契约",
+      "words": [
+        "treaty",
+        "verdict",
+        "veto",
+        "warrant",
+        "warranty"
+      ],
+      "type": "主题",
+      "note": "treaty (条约)，verdict (裁决)，veto (否决权)，warrant (授权/搜查令)，warranty (担保/保修)。"
+    },
+    {
+      "name": "主题：交通与运输工具",
+      "words": [
+        "wagon",
+        "vehicle",
+        "trolley",
+        "tram",
+        "vessel"
+      ],
+      "type": "主题",
+      "note": "涵盖陆地与水上交通工具，vessel 除“船”外，在生物语境中也指“血管/脉管”。"
+    },
+    {
+      "name": "主题：纺织与衣物",
+      "words": [
+        "weave",
+        "wardrobe",
+        "velvet",
+        "vest"
+      ],
+      "type": "主题",
+      "note": "weave (编织)，wardrobe (衣橱/全部衣服)，velvet (天鹅绒)，vest (背心)。"
+    },
+    {
+      "name": "主题：自然与气象",
+      "words": [
+        "torrent",
+        "waterfall",
+        "typhoon",
+        "tropic",
+        "tropical"
+      ],
+      "type": "主题",
+      "note": "描述自然现象与气候带，torrent 常比喻“倾盆大雨”或“信息的洪流”。"
+    },
+    {
+      "name": "近义词：痛苦与悲剧",
+      "words": [
+        "torment",
+        "torture",
+        "tragedy",
+        "tragic",
+        "turmoil"
+      ],
+      "type": "近义",
+      "note": "torment 和 torture 侧重身心折磨，tragedy/tragic 指悲剧，turmoil 指社会或内心的骚动混乱。"
+    },
+    {
+      "name": "近义词：完全与极限",
+      "words": [
+        "wholly",
+        "utter",
+        "utmost",
+        "ultimate"
+      ],
+      "type": "近义",
+      "note": "wholly (完全地)，utter (绝对的/全然的)，utmost (极限/极度)，ultimate (终极的/根本的)。"
+    },
+    {
+      "name": "近义词：暴力与邪恶",
+      "words": [
+        "violate",
+        "violent",
+        "vicious",
+        "wicked"
+      ],
+      "type": "近义",
+      "note": "violate (违反/侵犯)，violent (暴力的)，vicious (邪恶的/恶毒的)，wicked (缺德的/坏的)。"
+    },
+    {
+      "name": "近义词：活力与健康",
+      "words": [
+        "vigorous",
+        "vital",
+        "wholesome",
+        "vivid"
+      ],
+      "type": "近义",
+      "note": "vigorous (精力充沛的)，vital (至关重要的/生命的)，wholesome (有益健康的)，vivid (生动的/鲜明的)。"
+    },
+    {
+      "name": "近义词：真实与证明",
+      "words": [
+        "truth",
+        "valid",
+        "verify",
+        "witness"
+      ],
+      "type": "近义",
+      "note": "truth (事实)，valid (有法律效力的/正当的)，verify (查证/证实)，witness (证人/目击)。"
+    },
+    {
+      "name": "动作：翻转与振动",
+      "words": [
+        "whirl",
+        "tumble",
+        "turnover",
+        "vibrate"
+      ],
+      "type": "近义",
+      "note": "whirl (回旋/旋转)，tumble (跌倒/翻滚)，turnover (翻转/营业额)，vibrate (振动/颤动)。"
+    }
+  ],
+  "ungrouped": [
+    "tolerate",
+    "toll",
+    "tomb",
+    "tone",
+    "torch",
+    "toss",
+    "touch",
+    "tough",
+    "toxic",
+    "trace",
+    "track",
+    "trademark",
+    "tradition",
+    "trail",
+    "training",
+    "trait",
+    "trash",
+    "tray",
+    "tremendous",
+    "trench",
+    "trend",
+    "triangle",
+    "tribute",
+    "trifle",
+    "trigger",
+    "trim",
+    "triple",
+    "triumph",
+    "trivial",
+    "trouble",
+    "trumpet",
+    "tuck",
+    "tuition",
+    "tunnel",
+    "turbulent",
+    "twinkle",
+    "typical",
+    "up-to-date",
+    "upgrade",
+    "uphold",
+    "upright",
+    "urgent",
+    "usage",
+    "used",
+    "usually",
+    "utilise",
+    "vague",
+    "vapor",
+    "vase",
+    "veil",
+    "velocity",
+    "ventilate",
+    "venture",
+    "venue",
+    "verb",
+    "verbal",
+    "verge",
+    "via",
+    "viable",
+    "vice",
+    "vicinity",
+    "victim",
+    "violet",
+    "virgin",
+    "virtual",
+    "vocal",
+    "vocation",
+    "volatile",
+    "volume",
+    "voluntary",
+    "volunteer",
+    "vote",
+    "vulgar",
+    "vulnerable",
+    "wage",
+    "wake",
+    "waken",
+    "ward",
+    "warehouse",
+    "warfare",
+    "wary",
+    "wash",
+    "waste",
+    "waterproof",
+    "weary",
+    "wedge",
+    "weird",
+    "welcome",
+    "well",
+    "whale",
+    "whatsoever",
+    "whereas",
+    "whereby",
+    "whip",
+    "whisky",
+    "wide",
+    "widow",
+    "width",
+    "wink",
+    "wise",
+    "witch",
+    "withhold",
+    "withstand",
+    "wonder",
+    "wonderful",
+    "wooden",
+    "worker",
+    "workout",
+    "workshop",
+    "worry",
+    "worship",
+    "wreck",
+    "wrench",
+    "wrinkle",
+    "writer",
+    "yell",
+    "yield",
+    "youngster",
+    "yourself",
+    "yourselves",
+    "youth",
+    "zeal",
+    "zigzag",
+    "zone",
+    "zoom"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "前缀 trans- (跨越，转移)",
+      "likely_in_other_chunks": [
+        "transport",
+        "translate",
+        "transgress",
+        "transcribe"
+      ]
+    },
+    {
+      "my_group": "前缀 under- (在...之下，不足)",
+      "likely_in_other_chunks": [
+        "underground",
+        "underneath",
+        "underscore",
+        "undercover"
+      ]
+    },
+    {
+      "my_group": "词根 vis/vid (看) 及视觉",
+      "likely_in_other_chunks": [
+        "evident",
+        "revise",
+        "supervise",
+        "provision",
+        "video"
+      ]
+    },
+    {
+      "my_group": "词根 vers/vert (转)",
+      "likely_in_other_chunks": [
+        "convert",
+        "invert",
+        "divert",
+        "reverse",
+        "advertise"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 241,
+    "grouped": 118
+  }
+}

@@ -1,0 +1,250 @@
+concept|观念, 概念
+conception|观念, 概念
+concern|关心, 忧虑
+concession|特许, 让步, 认可
+concise|简洁的, 简明的
+conclude|结束, 作结论, 推断
+conclusion|结论, 结尾, 推论
+concrete|凝结物, 混凝土
+concurrent|同时发生的事件
+condemn|判刑, 责备, 谴责
+condense|使浓缩, 使压缩, 缩短
+conduct|行为, 举动, 指导
+confer|授予, 带来
+conference|会议
+confess|承认, 坦白, 忏悔, 供认
+confidence|信心
+confident|有信心的, 有把握的
+confidential|机密的, 获他人信赖的, 易于信任他人的
+configuration|结构, 表面配置, 外形, 配置
+confine|限制, 使不外出, 禁闭
+confirm|证实, 确定, 批准, 使巩固
+conflict|战斗, 冲突, 矛盾, 争执
+conform|使一致, 使遵守, 使符合
+confront|使面对, 对抗, 遭遇, 使对质, 比较
+confuse|使混乱, 使狼狈, 使困惑
+confusion|混乱, 混淆, 无秩序
+congratulation|祝贺, 恭喜
+congress|国会, 会议, 讨论会
+conjunction|连接词, 联合, 结合
+connect|连接, 联合, 联系
+connection|连接, 关系, 前后关系
+conquer|克服, 征服, 战胜
+conquest|战胜, 征服, 战利品
+conscience|良心
+conscientious|有责任心的, 负责的, 本着良心的
+conscious|有意识的, 知觉的, 觉察的
+consecutive|连续的, 联贯的
+consensus|合意, 一致, 同感
+consent|同意, 许可
+consequence|结果, 重要性
+consequently|所以
+conservation|保护, 保存
+Conservative|保守的, 守旧的, 有保存力的
+consider|考虑, 思考, 认为
+considerable|相当的, 可观的, 重要的
+considerate|体贴的, 体谅的, 考虑周到的
+consist|组成, 存在于, 一致
+consistent|一致的, 坚持的, 并立的, 坚固的
+console|安慰, 藉慰
+consolidate|巩固, 使联合, 统一
+conspicuous|显著的, 显眼的, 出众的
+conspiracy|同谋, 阴谋, 阴谋集团
+constant|常数, 恒量
+constituent|成分, 选民, 构成物
+constitute|构成, 组成, 任命
+constitution|构成, 宪法, 体格
+constrain|强迫, 限制, 关押
+construct|构造, 建造, 对...进行构思, 作图
+consult|商讨, 商量, 协商, 会诊
+consultant|顾问, 征询意见者
+consume|消耗, 消费, 消灭
+consumption|消费, 消费量, 痨病
+contact|联系, 交际, 熟人, 接触
+contagious|触染性的, 会蔓延的
+contain|包含, 容纳, 控制
+contaminate|弄污, 弄脏, 污染, 毒害
+contemplate|注视, 沉思, 盘算
+contemporary|同时代的人
+contempt|轻视, 轻蔑
+contend|奋斗, 斗争, 竞争
+content|内容, 满足, 意义, 要旨
+contest|竞赛, 争论
+context|上下文, 背景, 来龙去脉
+contingent|或许发生的, 附随的, 偶然发生的
+continual|持续不断的, 继续的
+continue|继续, 延续, 延长
+continuous|连续的, 继续的, 连续不断的
+contract|合约, 婚约, 契约
+contradict|反驳, 与...抵触, 与...矛盾
+contrary|相反的, 矛盾的, 对立的
+contrast|差别, 对比, 对照物
+contribute|有助于, 捐助, 投稿
+contribution|捐助, 捐助之物, 贡献
+contrive|发明, 设计, 图谋
+control|控制, 管理, 克制, 控制器, 操…
+controversial|争论的, 论争的, 被议论的
+controversy|论争, 辩论, 论战, 争论
+convene|集合, 召集, 召唤
+convenience|方便, 便利的事物, 方便的时候
+convention|大会, 协定, 惯例, 约定
+converge|聚合, 集中于一点
+conversation|会话, 说话, 交谈
+conversely|相反, 逆, 颠倒, 反题, 反
+conversion|转变, 转换, 改变宗教信仰, 换位法
+convert|皈依者, 改变宗教信仰者
+convey|传达, 运输, 转让
+convict|囚犯, 罪犯
+conviction|定罪, 信服, 坚信
+convince|说服, 使相信
+cook|厨子, 厨师
+cooperate|合作, 协力, 配合
+cooperative|合作的
+coordinate|同等的人(或物), 坐标
+cope|竞争, 应付
+copper|铜, 警察
+copy|副本, 摹仿, 一册
+copyright|版权, 著作权
+cord|绳索, 束缚
+cordial|兴奋剂, 补品
+CORE|核心, 果心, 要点
+coronavirus|日冕形病毒,冠状病毒
+corporate|社团的, 合伙的, 公司的
+corporation|公司, 合作, 法人团体
+correlate|有相互关系的东西, 相关物
+correspond|符合, 通信, 相当
+correspondence|相符, 通信, 信件
+correspondent|通讯记者, 通信者
+corridor|走廊, 回廊, 人口密集地带
+corrode|使腐蚀, 侵蚀, 破坏
+corrupt|腐败的, 贪污的, 讹误充斥的
+cosmic|宇宙的, 宇宙航行的, 无限的, 有…
+costly|昂贵的, 奢华的, 费用大的
+costume|装束, 服装
+cosy|温暖舒适的
+couch|长沙发, 睡椅, 卧榻
+cough|咳嗽
+council|会议, 委员会
+counsel|商议, 忠告, 法律顾问
+count|计算, 视为
+counterpart|副本, 复本, 配对物, 相应物
+countryside|乡下地方, 乡下居民
+county|县, 郡
+couple|对, 夫妇, 数个
+coupon|息票, 赠券
+court|法院, 庭院, 奉承
+courtesy|礼貌, 谦恭, 好意
+cover|盖子, 封面, 藉口
+coward|懦弱的人, 胆小的人
+crab|螃蟹, 偏航, 脾气乖戾的人, 沙果
+crack|裂缝, 爆裂声
+cradle|摇篮, 发祥地, 孩提时代
+craft|技艺, 手艺, 诡计
+crane|鹤, 起重机
+crash|哗啦声, 猛撞, 崩溃, 粗布
+crawl|爬行, 匍匐而行, 养鱼池
+crazy|发狂的, 狂热的
+create|创造, 建造, 引起, 任命
+creative|有创造力的, 创作的, 产生的
+creature|人, 动物, 创造物, 生物
+credential|国书, 凭据, 证明书
+credit|信用, 信任, 荣誉, 贷款, 学分
+creep|爬, 徐行, 蠕动
+crew|全体人员, 一群人, 全体队员
+cricket|蟋蟀, 板球
+crime|犯罪, 罪行, 罪恶
+criminal|罪犯, 犯人, 刑事
+cripple|跛者, 残废
+crisis|危机, 危险期, 紧要关头
+crisp|脆的, 新鲜的, 活泼的
+criterion|标准, 准则, 规范
+critic|批评家, 鉴定家
+critical|批评的, 决定性的, 危险的, 临界的
+criticise|批评, 吹毛求疵, 非难
+criticism|批评, 评论, 非难
+crow|啼叫, 乌鸦, 鸡鸣, 撬棍
+crown|王冠, 王权, 顶点
+crucial|决定性的, 重要的, 严厉的
+crude|天然的, 未成熟的, 粗糙的, 粗鲁的
+cruel|残酷的, 令人极痛苦的
+cruise|巡航, 巡弋, 漫游
+crush|压碎, 粉碎, 群众, 迷恋
+crust|外壳, 坚硬外皮, 面包皮
+crystal|水晶, 水晶装饰品, 结晶
+cube|立方体, 立方
+cucumber|黄瓜
+culminate|到绝顶, 达于极点, 达到高潮
+culprit|犯人, 罪犯, 刑事被告
+cultivate|培养, 耕作
+culture|文化, 修养, 耕种
+cumulative|累积的
+cunning|狡猾的, 巧妙的, 可爱的
+cupboard|食橱, 碗柜, 餐具柜
+curb|抑制, 勒马绳, 边石
+curiosity|好奇心, 新奇的事物, 珍品
+curl|拳曲, 鬈发
+currency|货币, 通货, 流通, 通用
+current|涌流, 趋势, 流
+curriculum|课程
+curse|咒骂, 诅咒
+curve|曲线, 弯曲, 曲线球
+custody|监护, 拘留, 监禁
+custom|习惯, 风俗, 海关, 自定义
+cyberspace|空间, 网控空间
+cycle|周期, 循环, 自行车, 一段时间,…
+cylinder|圆筒, 圆筒状物, 汽缸, 柱面
+dairy|牛奶公司, 乳品店, 乳牛场
+damage|损害, 伤害
+damn|一点, 诅咒, 丝毫
+dance|跳舞, 舞蹈, 舞会
+dangerous|危险的
+darling|亲爱的, 可爱的人, 可爱的物
+dash|冲撞, 破折号, 短跑
+data|资料, 数据
+database|数据库
+date|日期, 约会, 枣椰树
+daunting|使人畏缩的
+dazzle|(使)眼花, 炫耀
+dead|死的, 不活泼的, 麻木的, 熄灭的
+deadline|最后期限, 截止期限
+deadly|致命的, 致死的
+dealer|经销商, 商人
+dean|院长, 主持牧师
+debate|辩论, 讨论
+debut|初次登台, 开张
+decade|十年, 十
+decay|衰退, 腐败
+deceit|欺骗, 谎言
+deceive|欺骗, 行骗
+decent|有分寸的, 得体的, 大方的
+decide|决定, 判决
+decimal|十进位的, 小数的
+decisive|决定性的, 坚定的, 果断的
+deck|甲板, (汽车后部的)行李仓
+declaration|宣告, 说明, 宣布
+declare|宣布, 声明, 申报, 断言
+decline|衰退, 跌落, 下降
+decorate|装饰
+decrease|减少, 减少量
+decree|法令, 判决, 天意
+dedicate|献出, 贡献
+deduce|推论, 演绎出
+deduct|扣除, 减去
+deem|认为, 相信
+deep|深的
+deer|鹿
+default|违约, 不履行责任, 缺席, 默认值
+defect|缺点
+defense|防卫, 防卫物
+defer|推迟, 延期, 听从
+deficiency|缺乏, 不足
+deficit|赤字, 不足额
+define|定义, 规定, 使明确
+definite|明确的, 一定的
+definition|定义, 精确度, 清晰度
+defy|藐视, 挑衅, 使落空
+degenerate|堕落的
+delay|耽搁, 迟滞
+delegate|代表
+delete|删除
+deliberate|深思熟虑的, 故意的, 从容的

@@ -1,0 +1,473 @@
+{
+  "groups": [
+    {
+      "name": "经济与金融",
+      "words": [
+        "economy",
+        "economic",
+        "economical",
+        "economics",
+        "dividend",
+        "discount",
+        "deposit",
+        "demand"
+      ],
+      "type": "主题",
+      "note": "涵盖宏观经济、微观金融及商业交易常用词汇。"
+    },
+    {
+      "name": "编辑与出版",
+      "words": [
+        "edit",
+        "edition",
+        "editor",
+        "editorial",
+        "document",
+        "documentary",
+        "dictionary",
+        "digest"
+      ],
+      "type": "主题",
+      "note": "与文字处理、出版发行及文献记录相关的词汇。"
+    },
+    {
+      "name": "区分与辨别",
+      "words": [
+        "distinguish",
+        "distinct",
+        "distinction",
+        "discriminate",
+        "discrepancy"
+      ],
+      "type": "近义",
+      "note": "表示识别差异、区分不同事物的动词及名词，注意 discrepancy 侧重于数据或事实的出入。"
+    },
+    {
+      "name": "分散与转移",
+      "words": [
+        "disperse",
+        "dissipate",
+        "distract",
+        "diffuse",
+        "displace"
+      ],
+      "type": "近义",
+      "note": "表示使事物散开、转移注意力或驱散的动词，注意 distract 常用于注意力。"
+    },
+    {
+      "name": "下降与减少",
+      "words": [
+        "descend",
+        "descent",
+        "diminish",
+        "depress",
+        "drop",
+        "dilute",
+        "deteriorate"
+      ],
+      "type": "近义",
+      "note": "表示数量减少、位置下降或质量恶化的词汇，dilute 特指浓度降低。"
+    },
+    {
+      "name": "破坏与灾难",
+      "words": [
+        "destruction",
+        "destructive",
+        "disaster",
+        "disastrous",
+        "disrupt",
+        "disorder",
+        "distress",
+        "despair"
+      ],
+      "type": "主题",
+      "note": "描述负面事件、系统性破坏及由此引发的心理绝望状态。"
+    },
+    {
+      "name": "电学与电子",
+      "words": [
+        "electrical",
+        "electrician",
+        "electron",
+        "electronic",
+        "digital",
+        "device"
+      ],
+      "type": "主题",
+      "note": "物理学及现代科技领域的电子、数字设备相关术语。"
+    },
+    {
+      "name": "医学与健康",
+      "words": [
+        "diabetes",
+        "diagnose",
+        "dental",
+        "dose",
+        "doctor",
+        "diet",
+        "dizzy",
+        "disable"
+      ],
+      "type": "主题",
+      "note": "涉及疾病诊断、治疗剂量、生理反应及医疗人员的词汇。"
+    },
+    {
+      "name": "居住与建筑空间",
+      "words": [
+        "dwell",
+        "dwelling",
+        "doorway",
+        "dock",
+        "ditch"
+      ],
+      "type": "主题",
+      "note": "与人类居住环境、建筑附属结构及水利沟渠相关的名词和动词。"
+    },
+    {
+      "name": "描述与展示",
+      "words": [
+        "depict",
+        "display",
+        "denote",
+        "designate",
+        "demonstrate"
+      ],
+      "type": "近义",
+      "note": "表示通过语言、动作或符号来展示、指明或证明某事的动词。"
+    },
+    {
+      "name": "情感与态度",
+      "words": [
+        "desire",
+        "desirable",
+        "despise",
+        "disgust",
+        "dislike",
+        "dismay",
+        "dread"
+      ],
+      "type": "主题",
+      "note": "表达强烈的主观情绪，包括渴望、厌恶、轻视及恐惧。"
+    },
+    {
+      "name": "脱离与去除",
+      "words": [
+        "deviate",
+        "detach",
+        "divorce",
+        "disappear",
+        "deprive"
+      ],
+      "type": "近义",
+      "note": "表示从原有状态、位置或关系中分离、脱离或剥夺的动词。"
+    },
+    {
+      "name": "易混淆：discreet与dessert系列",
+      "words": [
+        "discreet",
+        "discrete",
+        "discretion",
+        "dessert",
+        "deserve"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近但词义截然不同。discreet(谨慎的) vs discrete(离散的)；dessert(甜点) vs deserve(应得)。"
+    },
+    {
+      "name": "易混淆：dra- 形近词",
+      "words": [
+        "draft",
+        "drag",
+        "draw",
+        "drawing",
+        "drawback"
+      ],
+      "type": "易混淆",
+      "note": "以 dra- 开头的形近词，注意 draft(草稿/汇票) 与 drawback(缺点) 的熟词僻义。"
+    },
+    {
+      "name": "词根 dom- (统治/家)",
+      "words": [
+        "dominant",
+        "dominate",
+        "domain",
+        "domestic",
+        "dome"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 dominus (主人) 或 domus (家)，引申为统治、领域或家庭。"
+    },
+    {
+      "name": "词根 div- (分开/转向)",
+      "words": [
+        "divide",
+        "division",
+        "diverse",
+        "divert",
+        "diversion",
+        "divine"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 dividere (分开) 或 divertere (转向)，divine 为同源引申(神圣的分离)。"
+    },
+    {
+      "name": "交通与运输",
+      "words": [
+        "deliver",
+        "delivery",
+        "depart",
+        "departure",
+        "destination",
+        "despatch",
+        "drive",
+        "driver",
+        "embark"
+      ],
+      "type": "主题",
+      "note": "涵盖人员出行、货物配送及交通工具驾驶的核心词汇。"
+    },
+    {
+      "name": "形近：demo- 与 diplo-",
+      "words": [
+        "diploma",
+        "diplomatic",
+        "democracy",
+        "democratic",
+        "demographic"
+      ],
+      "type": "易混淆",
+      "note": "前缀形近。demo- 意为人民(populace)，diplo- 意为双重/折叠(double)，注意词义区分。"
+    },
+    {
+      "name": "动物与生物",
+      "words": [
+        "dinosaur",
+        "donkey",
+        "dove",
+        "dragon",
+        "drone",
+        "eagle"
+      ],
+      "type": "主题",
+      "note": "包含现实动物、昆虫及神话生物，drone 特指雄蜂或无人机。"
+    },
+    {
+      "name": "模糊与微弱",
+      "words": [
+        "dim",
+        "dull",
+        "dumb",
+        "dubious"
+      ],
+      "type": "近义",
+      "note": "形容光线暗淡、感觉迟钝、声音沉闷或态度不确定的形容词。"
+    },
+    {
+      "name": "抛弃与消耗",
+      "words": [
+        "discard",
+        "dump",
+        "drain",
+        "deplete",
+        "deny",
+        "denial"
+      ],
+      "type": "近义",
+      "note": "表示物理上的丢弃、资源的耗尽以及抽象意义上的拒绝与否认。"
+    },
+    {
+      "name": "困难与阻碍",
+      "words": [
+        "difficult",
+        "difficulty",
+        "dilemma",
+        "discourage",
+        "deter",
+        "detain"
+      ],
+      "type": "近义",
+      "note": "描述客观存在的难题、进退两难的困境以及主观上的阻挠与耽搁。"
+    },
+    {
+      "name": "改变与偏离",
+      "words": [
+        "deviate",
+        "distort",
+        "differ",
+        "differentiate",
+        "derive"
+      ],
+      "type": "近义",
+      "note": "表示事物形态、方向或本质发生改变、产生差异或追溯来源的动词。"
+    },
+    {
+      "name": "揭示与探测",
+      "words": [
+        "detect",
+        "detective",
+        "detector",
+        "disclose",
+        "discern",
+        "elicit"
+      ],
+      "type": "近义",
+      "note": "表示发现隐藏事物、揭露真相或通过手段引出信息的动词及派生词。"
+    }
+  ],
+  "ungrouped": [
+    "delicate",
+    "demographic",
+    "demonstrate",
+    "denote",
+    "denounce",
+    "dense",
+    "density",
+    "deputy",
+    "derive",
+    "descendant",
+    "desolate",
+    "desperate",
+    "despite",
+    "destiny",
+    "detail",
+    "deteriorate",
+    "develop",
+    "device",
+    "devil",
+    "devise",
+    "diagram",
+    "dial",
+    "dialect",
+    "diameter",
+    "dictate",
+    "differ",
+    "diffuse",
+    "dignity",
+    "diligent",
+    "dimension",
+    "dine",
+    "dioxide",
+    "directly",
+    "directory",
+    "discharge",
+    "discipline",
+    "discourse",
+    "discuss",
+    "disguise",
+    "disposal",
+    "dispose",
+    "disposition",
+    "dispute",
+    "dissolve",
+    "distance",
+    "distant",
+    "distil",
+    "distort",
+    "disturb",
+    "disturbance",
+    "dividend",
+    "division",
+    "divorce",
+    "doctrine",
+    "doll",
+    "donate",
+    "doom",
+    "dose",
+    "doubt",
+    "downward",
+    "doze",
+    "drastic",
+    "dream",
+    "dress",
+    "drip",
+    "drought",
+    "dual",
+    "duplicate",
+    "durable",
+    "duration",
+    "dwarf",
+    "dynamic",
+    "dynasty",
+    "early",
+    "earnest",
+    "earth",
+    "ease",
+    "Easter",
+    "eccentric",
+    "echo",
+    "eclipse",
+    "ecology",
+    "edge",
+    "edible",
+    "effect",
+    "effective",
+    "efficiency",
+    "efficient",
+    "ego",
+    "either",
+    "eject",
+    "elaborate",
+    "elapse",
+    "elastic",
+    "elbow",
+    "elect",
+    "elegant",
+    "element",
+    "elementary",
+    "elevate",
+    "elevator",
+    "eligible",
+    "eliminate",
+    "elite",
+    "eloquent",
+    "else",
+    "elsewhere",
+    "email",
+    "embarrass"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "经济与金融",
+      "likely_in_other_chunks": [
+        "finance",
+        "currency",
+        "inflation",
+        "revenue",
+        "budget"
+      ]
+    },
+    {
+      "my_group": "电学与电子",
+      "likely_in_other_chunks": [
+        "electricity",
+        "battery",
+        "circuit",
+        "voltage",
+        "semiconductor"
+      ]
+    },
+    {
+      "my_group": "词根 dom- (统治/家)",
+      "likely_in_other_chunks": [
+        "dominate",
+        "predominant",
+        "domicile",
+        "dominion"
+      ]
+    },
+    {
+      "my_group": "医学与健康",
+      "likely_in_other_chunks": [
+        "symptom",
+        "therapy",
+        "prescription",
+        "surgery",
+        "epidemic"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 261,
+    "grouped": 144
+  }
+}

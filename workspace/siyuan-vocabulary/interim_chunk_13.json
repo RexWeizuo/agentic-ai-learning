@@ -1,0 +1,467 @@
+{
+  "groups": [
+    {
+      "name": "词根 spec/spect (看/观察/种类)",
+      "words": [
+        "spectacle",
+        "spectacular",
+        "spectator",
+        "spectrum",
+        "speculate",
+        "specimen"
+      ],
+      "type": "词根",
+      "note": "共享词根 spec/spect，表示“看”或“种类”，注意 spectacle(景象) 与 spectacular(壮观的) 的词性区别。"
+    },
+    {
+      "name": "易混淆 some- 系列",
+      "words": [
+        "sometime",
+        "sometimes",
+        "somewhat",
+        "somewhere"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近但词性和用法不同：sometime(某时-adj/adv), sometimes(有时-adv), somewhat(稍微-adv), somewhere(某处-adv)。"
+    },
+    {
+      "name": "近义词 (部分/区域/范围)",
+      "words": [
+        "section",
+        "sector",
+        "segment",
+        "scope",
+        "scale"
+      ],
+      "type": "近义",
+      "note": "均含“部分”或“范围”之意。section(章节/部门), sector(扇形/领域), segment(片段), scope(范围), scale(规模/比例)。"
+    },
+    {
+      "name": "近义词 (安全/保护/庇护)",
+      "words": [
+        "safeguard",
+        "safety",
+        "secure",
+        "security",
+        "shield",
+        "shelter"
+      ],
+      "type": "近义",
+      "note": "安全与保护主题。safeguard/shield/shelter 侧重保护动作或庇护所，secure/security/safety 侧重安全状态。"
+    },
+    {
+      "name": "词根 simil/simul (相似/同时/简单)",
+      "words": [
+        "simplicity",
+        "simplify",
+        "simply",
+        "simulate",
+        "simultaneous"
+      ],
+      "type": "词根",
+      "note": "源自拉丁语 similis(相似) 或 simul(同时)。simulate(模拟) 与 simultaneous(同时的) 是考研高频词。"
+    },
+    {
+      "name": "词根 sol/singul (单独/单一)",
+      "words": [
+        "sole",
+        "solitary",
+        "solo",
+        "singular"
+      ],
+      "type": "词根",
+      "note": "表示“单独、唯一”。sole(唯一的), solitary(独居的), solo(独奏), singular(单数的/非凡的)。"
+    },
+    {
+      "name": "易混淆 scar 系列",
+      "words": [
+        "scar",
+        "scare",
+        "scarce",
+        "scarcely",
+        "scarf"
+      ],
+      "type": "易混淆",
+      "note": "拼写相近：scar(疤痕), scare(惊吓), scarce(缺乏的), scarcely(几乎不), scarf(围巾)。"
+    },
+    {
+      "name": "近义词 (刮/擦/剪/切)",
+      "words": [
+        "scrape",
+        "scratch",
+        "shear",
+        "slice",
+        "scissors"
+      ],
+      "type": "近义",
+      "note": "表面损伤或切割动作。scrape(刮), scratch(抓/挠), shear(修剪/剪), slice(切片), scissors(剪刀)。"
+    },
+    {
+      "name": "近义词 (破坏/粉碎/废料)",
+      "words": [
+        "shatter",
+        "smash",
+        "scrap",
+        "spoil"
+      ],
+      "type": "近义",
+      "note": "破坏或废弃。shatter(粉碎/破灭), smash(打碎/猛击), scrap(废料/碎片), spoil(破坏/溺爱/变质)。"
+    },
+    {
+      "name": "主题 (学术/学校/教育)",
+      "words": [
+        "scholar",
+        "scholarship",
+        "science",
+        "semester",
+        "sophomore"
+      ],
+      "type": "主题",
+      "note": "校园与学术场景。scholarship(奖学金/学问), semester(学期), sophomore(大二学生)。"
+    },
+    {
+      "name": "主题 (政治/军事/国家)",
+      "words": [
+        "senate",
+        "senator",
+        "sovereign",
+        "spokesman",
+        "soldier",
+        "siege",
+        "salute"
+      ],
+      "type": "主题",
+      "note": "国家与军事场景。senate(参议院), sovereign(君主/独立的), siege(围攻), salute(敬礼)。"
+    },
+    {
+      "name": "词族/主题 (空间/范围)",
+      "words": [
+        "space",
+        "spacecraft",
+        "spacious",
+        "span",
+        "sphere"
+      ],
+      "type": "词族",
+      "note": "空间与范围。spacecraft(航天器), spacious(宽敞的), span(跨度), sphere(球体/领域)。"
+    },
+    {
+      "name": "词根 sens/sent (感觉/心智)",
+      "words": [
+        "sensation",
+        "sensible",
+        "sensitive",
+        "sentiment"
+      ],
+      "type": "词根",
+      "note": "感觉与情感。sensation(轰动/感觉), sensible(明智的), sensitive(敏感的), sentiment(情绪/观点)。"
+    },
+    {
+      "name": "主题 (商业/贸易/经济)",
+      "words": [
+        "salesman",
+        "shipment",
+        "shortage",
+        "slump",
+        "sponsor",
+        "smuggle"
+      ],
+      "type": "主题",
+      "note": "商业与经济场景。shipment(装船/出货), slump(暴跌/衰退), sponsor(赞助商), smuggle(走私)。"
+    },
+    {
+      "name": "词族 (特殊/专门/种类)",
+      "words": [
+        "specialise",
+        "specialist",
+        "speciality",
+        "species",
+        "specific",
+        "specification",
+        "specify"
+      ],
+      "type": "词族",
+      "note": "源自 speci(种类/特殊)。specialise(专门研究), species(物种), specific(具体的/特效的), specify(详细说明)。"
+    },
+    {
+      "name": "近义词 (旋转/螺旋)",
+      "words": [
+        "rotate",
+        "spiral",
+        "spin",
+        "screw"
+      ],
+      "type": "近义",
+      "note": "旋转与螺旋运动。rotate(旋转), spiral(螺旋形), spin(自旋/纺), screw(螺钉/螺旋桨)。"
+    },
+    {
+      "name": "近义词 (猛烈动作/击打)",
+      "words": [
+        "shove",
+        "slam",
+        "slap",
+        "snap"
+      ],
+      "type": "近义",
+      "note": "猛烈或突然的动作。shove(推/挤), slam(砰然关上), slap(掴/拍击), snap(猛咬/折断)。"
+    },
+    {
+      "name": "主题 (声音/发声)",
+      "words": [
+        "sound",
+        "song",
+        "sing",
+        "shout",
+        "sigh"
+      ],
+      "type": "主题",
+      "note": "声音与发声动作。sound(声音/听起来), song(歌曲), sing(唱), shout(呼喊), sigh(叹息)。"
+    },
+    {
+      "name": "近义词 (能力/精明/熟练)",
+      "words": [
+        "shrewd",
+        "skilful",
+        "skilled",
+        "sophisticated"
+      ],
+      "type": "近义",
+      "note": "形容人的能力或事物的复杂性。shrewd(精明的), skilful/skilled(熟练的), sophisticated(老练的/复杂的)。"
+    },
+    {
+      "name": "主题 (身体结构/骨骼)",
+      "words": [
+        "shape",
+        "skeleton",
+        "skull",
+        "spine"
+      ],
+      "type": "主题",
+      "note": "身体与结构。shape(形状), skeleton(骨骼/梗概), skull(头盖骨), spine(脊柱)。"
+    },
+    {
+      "name": "主题 (宗教/救赎/神圣)",
+      "words": [
+        "sacred",
+        "salvation",
+        "saint",
+        "spiritual"
+      ],
+      "type": "主题",
+      "note": "宗教与精神领域。sacred(神圣的), salvation(拯救/救赎), saint(圣徒), spiritual(精神上的)。"
+    },
+    {
+      "name": "近义词 (严酷/恶劣/无情)",
+      "words": [
+        "savage",
+        "ruthless",
+        "shabby",
+        "sharp"
+      ],
+      "type": "近义",
+      "note": "形容环境、态度或物品的恶劣。savage(野蛮的), ruthless(无情的), shabby(破旧的/低劣的), sharp(尖锐的/剧烈的)。"
+    },
+    {
+      "name": "近义词 (观察/搜索/细看)",
+      "words": [
+        "scan",
+        "scrutiny",
+        "skim",
+        "scout"
+      ],
+      "type": "近义",
+      "note": "观察与搜索动作。scan(扫描/细看), scrutiny(仔细检查), skim(略读/掠过), scout(侦察/搜索)。"
+    },
+    {
+      "name": "主题 (乡村/农牧/自然)",
+      "words": [
+        "rural",
+        "scenery",
+        "sheep",
+        "shepherd",
+        "shed"
+      ],
+      "type": "主题",
+      "note": "乡村与农牧场景。rural(乡村的), scenery(风景), sheep(羊), shepherd(牧羊人), shed(车棚/小屋)。"
+    },
+    {
+      "name": "近义词 (严肃/理智/清醒)",
+      "words": [
+        "solemn",
+        "sober",
+        "sane",
+        "severe"
+      ],
+      "type": "近义",
+      "note": "形容态度或心智状态。solemn(庄严的), sober(清醒的/稳重的), sane(神智健全的), severe(严格的/严重的)。"
+    }
+  ],
+  "ungrouped": [
+    "robust",
+    "romance",
+    "romantic",
+    "rotten",
+    "roundabout",
+    "rouse",
+    "route",
+    "routine",
+    "royal",
+    "royalty",
+    "rule",
+    "rumor",
+    "rust",
+    "sack",
+    "saddle",
+    "sake",
+    "salient",
+    "sample",
+    "sanction",
+    "sarcastic",
+    "satire",
+    "satisfactory",
+    "saturate",
+    "sauce",
+    "saucer",
+    "saving",
+    "scandal",
+    "scatter",
+    "scenario",
+    "scent",
+    "sceptical",
+    "schedule",
+    "scheme",
+    "script",
+    "seam",
+    "season",
+    "seat",
+    "secondary",
+    "seemingly",
+    "segregate",
+    "selection",
+    "sell",
+    "semiconductor",
+    "senior",
+    "sequence",
+    "serial",
+    "series",
+    "setback",
+    "setting",
+    "settlement",
+    "several",
+    "shaft",
+    "shake",
+    "shallow",
+    "shampoo",
+    "share",
+    "shark",
+    "sheer",
+    "shift",
+    "shirt",
+    "shiver",
+    "shoe",
+    "shorthand",
+    "shrink",
+    "shrug",
+    "shutter",
+    "shuttle",
+    "sibling",
+    "sideways",
+    "sightseeing",
+    "signify",
+    "silent",
+    "silicon",
+    "silk",
+    "silly",
+    "sincere",
+    "siren",
+    "site",
+    "situate",
+    "sketch",
+    "skyscraper",
+    "slack",
+    "slaughter",
+    "slender",
+    "slipper",
+    "slippery",
+    "slogan",
+    "slope",
+    "slot",
+    "slum",
+    "smog",
+    "snack",
+    "snatch",
+    "sneak",
+    "sniff",
+    "snobbish",
+    "so-called",
+    "soak",
+    "soap",
+    "soar",
+    "sociable",
+    "sociology",
+    "soda",
+    "software",
+    "solar",
+    "solidarity",
+    "soluble",
+    "solution",
+    "soon",
+    "sore",
+    "sorry",
+    "source",
+    "speed",
+    "spicy",
+    "spider",
+    "spill",
+    "spite",
+    "splash",
+    "sponge",
+    "spontaneous",
+    "sport",
+    "sportsman"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "词根 spec/spect (看/观察/种类)",
+      "likely_in_other_chunks": [
+        "inspect",
+        "suspect",
+        "respect",
+        "expect",
+        "prospect",
+        "aspect"
+      ]
+    },
+    {
+      "my_group": "词根 sol/singul (单独/单一)",
+      "likely_in_other_chunks": [
+        "single",
+        "isolate",
+        "desolate",
+        "solitude"
+      ]
+    },
+    {
+      "my_group": "易混淆 some- 系列",
+      "likely_in_other_chunks": [
+        "someone",
+        "something",
+        "somehow",
+        "anyhow"
+      ]
+    },
+    {
+      "my_group": "词根 sens/sent (感觉/心智)",
+      "likely_in_other_chunks": [
+        "sense",
+        "consent",
+        "resent",
+        "nonsense"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 245,
+    "grouped": 117
+  }
+}

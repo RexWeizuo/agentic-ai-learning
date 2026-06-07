@@ -1,0 +1,609 @@
+{
+  "groups": [
+    {
+      "name": "词根 -cede/-ceed/-cess (走)",
+      "words": [
+        "precede",
+        "precedent",
+        "preceding",
+        "proceed",
+        "proceedings",
+        "process",
+        "procession"
+      ],
+      "type": "词根",
+      "note": "表示“走、前进、过程”，注意 precede(在...之前) 与 proceed(继续进行) 的拼写和用法区别。"
+    },
+    {
+      "name": "词根 prim/prin/prior (第一/首要)",
+      "words": [
+        "primary",
+        "prime",
+        "primitive",
+        "prince",
+        "princess",
+        "principal",
+        "principle",
+        "prior",
+        "priority"
+      ],
+      "type": "词根",
+      "note": "表示“第一、首要、原始”。重点区分 principal(校长/主要的) 与 principle(原则)。"
+    },
+    {
+      "name": "前缀 pre- (预先/在前)",
+      "words": [
+        "precaution",
+        "preclude",
+        "predict",
+        "preface",
+        "prejudice",
+        "preliminary",
+        "premise",
+        "preposition",
+        "prescribe",
+        "pretext"
+      ],
+      "type": "词缀",
+      "note": "pre- 表示“在...之前、预先”。如 precaution(预防), predict(预测), preface(前言)。"
+    },
+    {
+      "name": "前缀 pro- (向前/公开)",
+      "words": [
+        "proclaim",
+        "project",
+        "prolong",
+        "progress",
+        "progressive",
+        "prohibit"
+      ],
+      "type": "词缀",
+      "note": "pro- 表示“向前、公开、赞成”。如 proclaim(宣布), project(向前抛出/计划), prolong(延长)。"
+    },
+    {
+      "name": "近义词：坚持/持续/永久",
+      "words": [
+        "persevere",
+        "persist",
+        "permanent",
+        "perpetual"
+      ],
+      "type": "近义",
+      "note": "persevere 和 persist 强调行为上的“坚持、固执”；permanent 和 perpetual 强调状态上的“永久、持续”。"
+    },
+    {
+      "name": "近义词：恳求/请求/祈祷",
+      "words": [
+        "plea",
+        "plead",
+        "petition",
+        "prayer"
+      ],
+      "type": "近义",
+      "note": "plea/plead 多指法庭上的抗辩或强烈的恳求；petition 指正式的请愿书；prayer 指祈祷。"
+    },
+    {
+      "name": "近义词：描绘/肖像/轮廓",
+      "words": [
+        "portrait",
+        "portray",
+        "profile",
+        "picture"
+      ],
+      "type": "近义",
+      "note": "portrait/portray 侧重人物肖像和描绘；profile 侧重侧面轮廓或人物简介；picture 为通用词。"
+    },
+    {
+      "name": "近义词：可能性/概率/潜力",
+      "words": [
+        "possibility",
+        "probability",
+        "percentage",
+        "potential"
+      ],
+      "type": "近义",
+      "note": "possibility 指一般的可能性；probability 指概率、或然率；potential 指潜在的、未发挥的能力。"
+    },
+    {
+      "name": "词族：生产与利润",
+      "words": [
+        "product",
+        "productive",
+        "productivity",
+        "profit",
+        "profitable"
+      ],
+      "type": "词族",
+      "note": "经济与商业核心词族。product(产品) -> productive(多产的) -> productivity(生产力)；profit(利润) -> profitable(有利可图的)。"
+    },
+    {
+      "name": "易混淆：形近词A",
+      "words": [
+        "peel",
+        "peep",
+        "peer",
+        "pant",
+        "pants",
+        "paste",
+        "pasture",
+        "plain",
+        "plaintiff",
+        "plaster"
+      ],
+      "type": "易混淆",
+      "note": "peel(剥皮)/peep(偷看)/peer(同龄人)；pant(喘息)/pants(裤子)；paste(浆糊)/pasture(牧场)；plain(平原)/plaintiff(原告)。"
+    },
+    {
+      "name": "易混淆：形近词B",
+      "words": [
+        "plastic",
+        "postage",
+        "poster",
+        "pottery",
+        "poultry",
+        "predator",
+        "predecessor",
+        "pistol",
+        "pirate",
+        "pitch"
+      ],
+      "type": "易混淆",
+      "note": "pottery(陶器)/poultry(家禽)；predator(捕食者)/predecessor(前任)；postage(邮资)/poster(海报)。"
+    },
+    {
+      "name": "主题：法律与治安",
+      "words": [
+        "pact",
+        "penalty",
+        "patent",
+        "pirate",
+        "plagiarism",
+        "police",
+        "policeman",
+        "patrol"
+      ],
+      "type": "主题",
+      "note": "法律与治安场景词汇。pact(契约), penalty(处罚), patent(专利), plagiarism(剽窃), patrol(巡逻)。"
+    },
+    {
+      "name": "主题：医学与健康",
+      "words": [
+        "pneumonia",
+        "pharmacy",
+        "physiology",
+        "paralyse",
+        "parasite",
+        "plague",
+        "poison",
+        "poisonous"
+      ],
+      "type": "主题",
+      "note": "医学、生理与疾病词汇。pneumonia(肺炎), pharmacy(药房), physiology(生理学), paralyse(麻痹), parasite(寄生虫)。"
+    },
+    {
+      "name": "主题：政治与政府",
+      "words": [
+        "parliament",
+        "party",
+        "policy",
+        "premier",
+        "poll",
+        "patriotic"
+      ],
+      "type": "主题",
+      "note": "政治场景核心词。parliament(议会), party(政党), policy(政策), premier(总理), poll(民意测验/投票)。"
+    },
+    {
+      "name": "词根 -pon-/-pos- (放置)",
+      "words": [
+        "pose",
+        "postpone",
+        "posture",
+        "positive",
+        "possess"
+      ],
+      "type": "词根",
+      "note": "表示“放置、位置”。postpone(向后放/延迟), posture(姿势), possess(占有/放置在自己手中)。"
+    },
+    {
+      "name": "词根 per- (贯穿/彻底/毁坏)",
+      "words": [
+        "permeate",
+        "perplex",
+        "persecute",
+        "perish",
+        "perceive"
+      ],
+      "type": "词根",
+      "note": "per- 作前缀可表示“贯穿、彻底”或“毁坏”。permeate(渗透), perplex(彻底困惑), perish(彻底毁灭/死亡)。"
+    },
+    {
+      "name": "主题：学术与文学",
+      "words": [
+        "philosophy",
+        "philosopher",
+        "phenomenon",
+        "phrase",
+        "poetry"
+      ],
+      "type": "主题",
+      "note": "学术研究与文学创作词汇。philosophy(哲学), phenomenon(现象), phrase(短语), poetry(诗歌)。"
+    },
+    {
+      "name": "易混淆：形近词C",
+      "words": [
+        "phase",
+        "plant",
+        "planet",
+        "pond",
+        "ponder",
+        "porch",
+        "portable",
+        "pigeon",
+        "pilgrim",
+        "pitch",
+        "plural",
+        "plus"
+      ],
+      "type": "易混淆",
+      "note": "phase(阶段)/phrase(短语)；plant(植物)/planet(行星)；pond(池塘)/ponder(沉思)；pigeon(鸽子)/pilgrim(朝圣者)。"
+    },
+    {
+      "name": "主题：建筑与设施",
+      "words": [
+        "pavement",
+        "pillar",
+        "playground",
+        "plateau",
+        "plantation",
+        "panel"
+      ],
+      "type": "主题",
+      "note": "建筑、地理与设施词汇。pavement(人行道), pillar(柱子), plateau(高原), panel(嵌板/仪表板)。"
+    },
+    {
+      "name": "词根 part (部分/参与)",
+      "words": [
+        "participant",
+        "participate",
+        "partial",
+        "particle",
+        "portion",
+        "patch",
+        "piece"
+      ],
+      "type": "词根",
+      "note": "part 表示“部分、分开”。participant(参与者), partial(部分的/偏袒的), particle(微粒), portion(一份)。"
+    },
+    {
+      "name": "主题：出版与文具",
+      "words": [
+        "pamphlet",
+        "paperback",
+        "periodical",
+        "page",
+        "pencil"
+      ],
+      "type": "主题",
+      "note": "出版物与文具词汇。pamphlet(小册子), paperback(平装本), periodical(期刊)。"
+    },
+    {
+      "name": "词族：实践与职业",
+      "words": [
+        "practise",
+        "practitioner",
+        "profession",
+        "professional"
+      ],
+      "type": "词族",
+      "note": "practise(实践/练习) -> practitioner(从业者)；profession(职业) -> professional(专业的/专业人士)。"
+    },
+    {
+      "name": "近义词：精确/准确",
+      "words": [
+        "precise",
+        "precision",
+        "perfect",
+        "plausible"
+      ],
+      "type": "近义",
+      "note": "precise/precision 强调“精确、严谨”；perfect 强调“完美、完成”；plausible 指“貌似合理的”。"
+    },
+    {
+      "name": "主题：自然与地理",
+      "words": [
+        "oxygen",
+        "ozone",
+        "peninsula",
+        "polar",
+        "pebble",
+        "pearl",
+        "peanut",
+        "petroleum"
+      ],
+      "type": "主题",
+      "note": "自然物质与地理词汇。oxygen(氧), ozone(臭氧), peninsula(半岛), polar(极地的), petroleum(石油)。"
+    },
+    {
+      "name": "词根 para- (旁边/超越/防御)",
+      "words": [
+        "parachute",
+        "parade",
+        "paradigm",
+        "paradise",
+        "paradox",
+        "parallel",
+        "parameter",
+        "panorama"
+      ],
+      "type": "词根",
+      "note": "para- 表示“旁边、超越、防御”。parachute(降落伞/防御), paradox(悖论/超越常理), parallel(平行/旁边)。"
+    },
+    {
+      "name": "近义词：刺/探/钻",
+      "words": [
+        "penetrate",
+        "poke",
+        "probe",
+        "plunge"
+      ],
+      "type": "近义",
+      "note": "penetrate(穿透/渗透), poke(戳/刺), probe(探索/探针), plunge(猛冲/跳入)。"
+    }
+  ],
+  "ungrouped": [
+    "owing to",
+    "owner",
+    "oxide",
+    "package",
+    "paddle",
+    "painful",
+    "pair",
+    "palm",
+    "panic",
+    "pants",
+    "paperback",
+    "passage",
+    "passion",
+    "pastime",
+    "patch",
+    "pathetic",
+    "pave",
+    "payment",
+    "peaceful",
+    "pearl",
+    "pebble",
+    "peculiar",
+    "pedal",
+    "pedestrian",
+    "peel",
+    "peep",
+    "peer",
+    "penalty",
+    "pencil",
+    "pendulum",
+    "peninsula",
+    "pension",
+    "pepper",
+    "percentage",
+    "perfect",
+    "perhaps",
+    "perish",
+    "permanent",
+    "permeate",
+    "permission",
+    "perpetual",
+    "perplex",
+    "persecute",
+    "persevere",
+    "persist",
+    "personality",
+    "personnel",
+    "perspective",
+    "persuade",
+    "persuasion",
+    "pessimistic",
+    "pest",
+    "petition",
+    "petty",
+    "phase",
+    "phenomenon",
+    "physical",
+    "physiology",
+    "piano",
+    "pickup",
+    "picture",
+    "piece",
+    "pierce",
+    "pigeon",
+    "pilgrim",
+    "pillar",
+    "pinch",
+    "pioneer",
+    "pirate",
+    "pistol",
+    "pitch",
+    "pity",
+    "plagiarism",
+    "plague",
+    "plain",
+    "plaintiff",
+    "planet",
+    "plant",
+    "plantation",
+    "plaster",
+    "plastic",
+    "plateau",
+    "plausible",
+    "playground",
+    "plea",
+    "plead",
+    "please",
+    "pleasure",
+    "pledge",
+    "plentiful",
+    "plight",
+    "plot",
+    "plug",
+    "plumber",
+    "plunge",
+    "plural",
+    "plus",
+    "pneumonia",
+    "poetry",
+    "poison",
+    "poisonous",
+    "poke",
+    "polar",
+    "police",
+    "policeman",
+    "policy",
+    "Polish",
+    "poll",
+    "pond",
+    "ponder",
+    "porcelain",
+    "porch",
+    "portable",
+    "porter",
+    "portfolio",
+    "portion",
+    "portrait",
+    "portray",
+    "pose",
+    "positive",
+    "possess",
+    "possibility",
+    "postage",
+    "poster",
+    "postpone",
+    "posture",
+    "potential",
+    "pottery",
+    "poultry",
+    "poverty",
+    "power",
+    "practise",
+    "practitioner",
+    "prayer",
+    "preach",
+    "precaution",
+    "precede",
+    "precedent",
+    "preceding",
+    "precise",
+    "precision",
+    "preclude",
+    "predator",
+    "predecessor",
+    "predict",
+    "predominant",
+    "preface",
+    "preferable",
+    "preference",
+    "pregnant",
+    "prejudice",
+    "preliminary",
+    "premier",
+    "premise",
+    "premium",
+    "preparation",
+    "preposition",
+    "prescribe",
+    "prescription",
+    "presence",
+    "presently",
+    "preserve",
+    "preside",
+    "pressure",
+    "prestige",
+    "presumably",
+    "presume",
+    "pretext",
+    "prevail",
+    "prevalent",
+    "previous",
+    "prey",
+    "priest",
+    "primary",
+    "prime",
+    "primitive",
+    "prince",
+    "princess",
+    "principal",
+    "principle",
+    "prior",
+    "priority",
+    "privacy",
+    "privilege",
+    "probability",
+    "probe",
+    "procedure",
+    "proceed",
+    "proceedings",
+    "process",
+    "procession",
+    "proclaim",
+    "product",
+    "productive",
+    "productivity",
+    "profession",
+    "professional",
+    "proficiency",
+    "profile",
+    "profit",
+    "profitable",
+    "profound",
+    "program",
+    "progress",
+    "progressive",
+    "prohibit",
+    "project",
+    "projector",
+    "prolong",
+    "prominent"
+  ],
+  "cross_hints": [
+    {
+      "my_group": "词根 -cede/-ceed/-cess (走)",
+      "likely_in_other_chunks": [
+        "access",
+        "excess",
+        "success",
+        "recede",
+        "concede"
+      ]
+    },
+    {
+      "my_group": "词根 prim/prin/prior (第一/首要)",
+      "likely_in_other_chunks": [
+        "primarily",
+        "primitive",
+        "prioritize"
+      ]
+    },
+    {
+      "my_group": "前缀 pre- (预先/在前)",
+      "likely_in_other_chunks": [
+        "preview",
+        "prevent",
+        "prepare",
+        "presume"
+      ]
+    },
+    {
+      "my_group": "词根 -pon-/-pos- (放置)",
+      "likely_in_other_chunks": [
+        "position",
+        "compose",
+        "oppose",
+        "deposit",
+        "expose"
+      ]
+    }
+  ],
+  "stats": {
+    "total": 250,
+    "grouped": 153
+  }
+}
