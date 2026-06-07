@@ -59,11 +59,11 @@
       ]
     },
     "composite": {
-      "stability": 1.3,
+      "stability": 3.2,
       "difficulty": 0.6,
-      "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-10",
       "last_review": "2026-06-07",
       "history": [
         {
@@ -72,6 +72,13 @@
           "stability": 1.3,
           "difficulty": 0.6,
           "new_state": 1
+        },
+        {
+          "date": "2026-06-07",
+          "rating": 3,
+          "stability": 3.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
@@ -93,11 +100,11 @@
       ]
     },
     "abound": {
-      "stability": 1.3,
+      "stability": 3.2,
       "difficulty": 0.6,
-      "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-10",
       "last_review": "2026-06-07",
       "history": [
         {
@@ -106,6 +113,13 @@
           "stability": 1.3,
           "difficulty": 0.6,
           "new_state": 1
+        },
+        {
+          "date": "2026-06-07",
+          "rating": 3,
+          "stability": 3.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
@@ -178,10 +192,10 @@
       ]
     },
     "accommodation": {
-      "stability": 0.5,
+      "stability": 1.2,
       "difficulty": 0.6,
-      "state": 3,
-      "reviews": 1,
+      "state": 2,
+      "reviews": 2,
       "next_review": "2026-06-08",
       "last_review": "2026-06-07",
       "history": [
@@ -191,6 +205,13 @@
           "stability": 0.5,
           "difficulty": 0.6,
           "new_state": 3
+        },
+        {
+          "date": "2026-06-07",
+          "rating": 3,
+          "stability": 1.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
@@ -635,12 +656,80 @@
           "new_state": 2
         }
       ]
+    },
+    "assemble": {
+      "stability": 0.5,
+      "difficulty": 0.6,
+      "state": 3,
+      "reviews": 1,
+      "next_review": "2026-06-08",
+      "last_review": "2026-06-07",
+      "history": [
+        {
+          "date": "2026-06-07",
+          "rating": 1,
+          "stability": 0.5,
+          "difficulty": 0.6,
+          "new_state": 3
+        }
+      ]
+    },
+    "external": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-07",
+      "history": [
+        {
+          "date": "2026-06-07",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "internal": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-07",
+      "history": [
+        {
+          "date": "2026-06-07",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "emerge": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-07",
+      "history": [
+        {
+          "date": "2026-06-07",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
     }
   },
   "stats": {
-    "total_studied": 36,
-    "in_learning": 10,
-    "in_review": 21,
+    "total_studied": 40,
+    "in_learning": 8,
+    "in_review": 27,
     "mastered": 0,
     "last_session": "2026-06-07"
   }
