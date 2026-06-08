@@ -158,12 +158,12 @@
       ]
     },
     "aggregate": {
-      "stability": 1.3,
+      "stability": 3.2,
       "difficulty": 0.6,
-      "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-11",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -171,16 +171,23 @@
           "stability": 1.3,
           "difficulty": 0.6,
           "new_state": 1
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 3.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
     "ample": {
-      "stability": 1.3,
+      "stability": 3.2,
       "difficulty": 0.6,
-      "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-11",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -188,16 +195,23 @@
           "stability": 1.3,
           "difficulty": 0.6,
           "new_state": 1
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 3.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
     "accommodation": {
-      "stability": 1.2,
+      "stability": 3.0,
       "difficulty": 0.6,
       "state": 2,
-      "reviews": 2,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "reviews": 3,
+      "next_review": "2026-06-11",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -210,6 +224,13 @@
           "date": "2026-06-07",
           "rating": 3,
           "stability": 1.2,
+          "difficulty": 0.6,
+          "new_state": 2
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 3.0,
           "difficulty": 0.6,
           "new_state": 2
         }
@@ -251,17 +272,24 @@
     },
     "adept": {
       "stability": 0.5,
-      "difficulty": 0.6,
+      "difficulty": 0.7,
       "state": 3,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "reviews": 2,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
           "rating": 1,
           "stability": 0.5,
           "difficulty": 0.6,
+          "new_state": 3
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 1,
+          "stability": 0.5,
+          "difficulty": 0.7,
           "new_state": 3
         }
       ]
@@ -284,12 +312,12 @@
       ]
     },
     "inquire": {
-      "stability": 1.3,
+      "stability": 3.2,
       "difficulty": 0.6,
-      "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-11",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -297,6 +325,13 @@
           "stability": 1.3,
           "difficulty": 0.6,
           "new_state": 1
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 3.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
@@ -318,12 +353,12 @@
       ]
     },
     "contribute": {
-      "stability": 1.3,
+      "stability": 3.2,
       "difficulty": 0.6,
-      "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-11",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -331,6 +366,13 @@
           "stability": 1.3,
           "difficulty": 0.6,
           "new_state": 1
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 3.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
@@ -437,12 +479,12 @@
       ]
     },
     "exploit": {
-      "stability": 0.5,
+      "stability": 1.2,
       "difficulty": 0.6,
-      "state": 3,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -450,16 +492,23 @@
           "stability": 0.5,
           "difficulty": 0.6,
           "new_state": 3
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 1.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
     "fluctuate": {
-      "stability": 1.3,
+      "stability": 3.2,
       "difficulty": 0.6,
-      "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-11",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -467,16 +516,23 @@
           "stability": 1.3,
           "difficulty": 0.6,
           "new_state": 1
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 3.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
     "genuine": {
-      "stability": 1.3,
+      "stability": 3.2,
       "difficulty": 0.6,
-      "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-11",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -484,6 +540,13 @@
           "stability": 1.3,
           "difficulty": 0.6,
           "new_state": 1
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 3.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
@@ -573,29 +636,36 @@
       ]
     },
     "perceive": {
-      "stability": 1.3,
-      "difficulty": 0.6,
+      "stability": 1.7,
+      "difficulty": 0.7,
       "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "reviews": 2,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
           "rating": 2,
           "stability": 1.3,
           "difficulty": 0.6,
+          "new_state": 1
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 2,
+          "stability": 1.7,
+          "difficulty": 0.7,
           "new_state": 1
         }
       ]
     },
     "conceive": {
-      "stability": 0.5,
+      "stability": 1.2,
       "difficulty": 0.6,
-      "state": 3,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -603,16 +673,23 @@
           "stability": 0.5,
           "difficulty": 0.6,
           "new_state": 3
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 1.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
     "deceive": {
-      "stability": 0.5,
+      "stability": 1.2,
       "difficulty": 0.6,
-      "state": 3,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -620,16 +697,23 @@
           "stability": 0.5,
           "difficulty": 0.6,
           "new_state": 3
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 1.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
     "restrain": {
-      "stability": 1.3,
+      "stability": 3.2,
       "difficulty": 0.6,
-      "state": 1,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "state": 2,
+      "reviews": 2,
+      "next_review": "2026-06-11",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -637,6 +721,13 @@
           "stability": 1.3,
           "difficulty": 0.6,
           "new_state": 1
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 3.2,
+          "difficulty": 0.6,
+          "new_state": 2
         }
       ]
     },
@@ -658,12 +749,12 @@
       ]
     },
     "assemble": {
-      "stability": 0.5,
-      "difficulty": 0.6,
-      "state": 3,
-      "reviews": 1,
-      "next_review": "2026-06-08",
-      "last_review": "2026-06-07",
+      "stability": 0.7,
+      "difficulty": 0.7,
+      "state": 1,
+      "reviews": 2,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
       "history": [
         {
           "date": "2026-06-07",
@@ -671,6 +762,13 @@
           "stability": 0.5,
           "difficulty": 0.6,
           "new_state": 3
+        },
+        {
+          "date": "2026-06-08",
+          "rating": 2,
+          "stability": 0.7,
+          "difficulty": 0.7,
+          "new_state": 1
         }
       ]
     },
@@ -724,13 +822,370 @@
           "new_state": 2
         }
       ]
+    },
+    "sustain": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "retain": {
+      "stability": 1.3,
+      "difficulty": 0.6,
+      "state": 1,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 2,
+          "stability": 1.3,
+          "difficulty": 0.6,
+          "new_state": 1
+        }
+      ]
+    },
+    "obtain": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "contain": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "supervise": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "revise": {
+      "stability": 1.3,
+      "difficulty": 0.6,
+      "state": 1,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 2,
+          "stability": 1.3,
+          "difficulty": 0.6,
+          "new_state": 1
+        }
+      ]
+    },
+    "visible": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "vision": {
+      "stability": 1.3,
+      "difficulty": 0.6,
+      "state": 1,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 2,
+          "stability": 1.3,
+          "difficulty": 0.6,
+          "new_state": 1
+        }
+      ]
+    },
+    "evident": {
+      "stability": 1.3,
+      "difficulty": 0.6,
+      "state": 1,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 2,
+          "stability": 1.3,
+          "difficulty": 0.6,
+          "new_state": 1
+        }
+      ]
+    },
+    "provide": {
+      "stability": 4.5,
+      "difficulty": 0.45,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-12",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 4,
+          "stability": 4.5,
+          "difficulty": 0.45,
+          "new_state": 2
+        }
+      ]
+    },
+    "prospect": {
+      "stability": 1.3,
+      "difficulty": 0.6,
+      "state": 1,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 2,
+          "stability": 1.3,
+          "difficulty": 0.6,
+          "new_state": 1
+        }
+      ]
+    },
+    "inspect": {
+      "stability": 1.3,
+      "difficulty": 0.6,
+      "state": 1,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 2,
+          "stability": 1.3,
+          "difficulty": 0.5,
+          "new_state": 1
+        }
+      ]
+    },
+    "spectacle": {
+      "stability": 0.5,
+      "difficulty": 0.6,
+      "state": 3,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 1,
+          "stability": 0.5,
+          "difficulty": 0.6,
+          "new_state": 3
+        }
+      ]
+    },
+    "perspective": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "suspect": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "transmit": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "submit": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "omit": {
+      "stability": 0.5,
+      "difficulty": 0.6,
+      "state": 3,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 1,
+          "stability": 0.5,
+          "difficulty": 0.6,
+          "new_state": 3
+        }
+      ]
+    },
+    "commit": {
+      "stability": 1.3,
+      "difficulty": 0.6,
+      "state": 1,
+      "reviews": 1,
+      "next_review": "2026-06-09",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 2,
+          "stability": 1.3,
+          "difficulty": 0.6,
+          "new_state": 1
+        }
+      ]
+    },
+    "dismiss": {
+      "stability": 2.5,
+      "difficulty": 0.5,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-10",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 3,
+          "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        }
+      ]
+    },
+    "mission": {
+      "stability": 4.5,
+      "difficulty": 0.45,
+      "state": 2,
+      "reviews": 1,
+      "next_review": "2026-06-12",
+      "last_review": "2026-06-08",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "rating": 4,
+          "stability": 4.5,
+          "difficulty": 0.45,
+          "new_state": 2
+        }
+      ]
     }
   },
   "stats": {
-    "total_studied": 40,
-    "in_learning": 8,
-    "in_review": 27,
+    "total_studied": 61,
+    "in_learning": 9,
+    "in_review": 49,
     "mastered": 0,
-    "last_session": "2026-06-07"
+    "last_session": "2026-06-08"
   }
 }

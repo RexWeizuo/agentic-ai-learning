@@ -1,0 +1,386 @@
+这个视频来给大家讲一下
+如何在cloud code中
+使用deep sk v4模型
+实际上我们的deep
+seek v4模型
+是可以在cloud
+code里面使用的
+这块呢我开发了一个工具
+一个脚本就是这个地址
+cloud code杠model
+switch for
+deep seek
+可以让大家能够实现这个快速的进行
+这个模型的切换
+然后通过一个命令呢
+就能够实现这个cloud code中
+使用deep seek
+v4模型的这样的一个目的
+首先呢核心在于是我们的这个deep
+seek
+它是兼容ASTRONIC的这个API
+的
+所以说只要能兼容AOICAPI的网关
+就能够实现这个切换
+这块先不讲
+我们来看一下核心在于是什么呢
+核心在于是呃我们不需要修改
+这个set杠JASON
+或者不需要去存铭文key
+而是实现这个进程级的注入
+并且能够实现自动的这个清理呃
+通过这个脚本的方式呢就
+能够实现这些目的
+省得你去配置文件的修改
+然后修改完了之后还需要来回的copy
+就是你你可以不用去手动的去维护
+各种这个脚
+各种这个配置文件
+然后来回切这个甚至要比这个叫
+呃cloud code
+有一个switcher
+cc switcher呃
+那个都好用
+我感觉因为目目的是不一样的
+他那个是用来管理不同的账号的
+我这个是管理不同的这个模型的
+所以核心在于是通过配置改动状态
+然后影响进程
+启动之后呢
+就能够实现这个模型的这个切换呃
+所以说通过核心在于是通过这个一行
+EXEC命令实现收口的
+就是只要在运行的过程中
+通过这个呃EXEC命令
+然后就能够实现不同的这个模型的切换
+并且退出之后不会影响
+负share环境嗯
+就是你只是会影响当前的这个shell
+环境
+就是你默认去打开cloud code
+它还是office或者sonnet模
+型
+但是你要通过我的这个命令去启动的话
+就能够实现呃
+无缝的使用这个deep
+sk v4的模型的
+这样的一个目的
+核心在于是整合了这个
+就是兼容了这个ATROPIC的这些呃
+系统系统变量
+并且在切换之后呢能够进行这个回收
+所以说可以认为就是在正常的情况下
+我们我们把这个office啊
+然后sonnet哈库指向了deep
+sk v4
+那with pro吧
+或者是v flash
+然后通过这个shell脚本的这个
+执行呢
+能够去实现动态的切换
+核心在于是这样的一个配置文件
+就是profiles
+dejson配置文件呃
+我们其实是引入了deep sk
+v4的这个配置
+和DDEEPSKV4flash和V4
+pro核心
+其实在于是通过这个命令呢
+嗯通过这个脚本
+我能够让使用者就是就是如果
+你是用户的话
+实际上就是会维护这样的一个配置文件
+你可以看到其实它是支持office
+sonnet
+哈库以及这个lipstick v4
+flash和pro的这个模型的
+然后只需要做一件事
+就是配置这个deep sk
+API key
+就是你去你的这个deep sk官网
+然后有一个有一个这个APIK的生成的
+过程
+然后去进行配置
+这里呢我把这个开放平台
+deep seek开放平台的这个
+后台截出来了
+就是在deep seek开放平台
+后台的API keys
+这里加一条新的API key
+然后去配置到配你的环境变量里面去写
+对应到这个desk API
+key的这个呃
+环境变量给它写进去
+在这个API keys这这个
+标签打开之后呢
+点击这个创建APIKE
+然后把这个创建好的APIKE记下来
+然后写入到环境变量里面
+具具体怎么怎么做呢
+首先就是说首先其实核心在于是呃
+这个核心在于是把这个base
+url指向deep sick的网关
+然后APIKEEV呢指向刚才
+从deep sc后台拿到的
+新建的APIKE如何使用呢
+额主要就这四个步骤
+第一步呢给到
+把这个把这个仓库呢克隆下来之后呢
+然后把cloud
+models杠switch s h
+这个脚本呢放到任意的位置
+并给它赋予这个执行权限
+给他写一个别名
+比方说你给他写一个别名叫CCM指向它
+这个可以写入到这个你的B事
+RC或者是z shell rc里面
+省得每次都写这个ALICE斯呃
+然后呢再执行CCM就可以实现这个调呃
+调用了呃
+怎么做怎么做呢
+就是核心就是几个步骤
+第一个步骤就是首先刚才我们已经指向了
+已经生成了这个别名CCMCCMINI
+T
+它就会生成一个默认的profiles
+jason
+第二步就是执行这个export
+desk API
+key key指向你
+生成的这个APIKE
+这个呢也可以写入BHRC和z
+shell rc
+省得每次都去进行export
+第三步呢就是ccm use deep
+sk v4flash
+这样的话你可以切换
+到V4flash或者ccm use
+deep sick杠V4pro就切
+到了pro模型了
+然后这个ccm dr.是
+可以用来自检的
+就是检测这个脚本是不是有问题
+然后执行一个probe命令
+probe命令的话就是能够测试一下
+当前是否连到了deep呃
+是否能连到这个deep sc呃
+官网的这个API的这个地址是不是
+连通了
+执行cc启动的话
+就可以实现这个cloud
+code的启动
+并且呢指向了你刚才设置的这个模型
+一会儿我们可以验证一下
+如果你想要去切到官方的这个offic
+e模型的话
+就ccm use cloud
+office
+然后执行cc启动就切
+到了这个office
+非常的简单
+其实核心就一个步骤
+就是配这个APIKE
+然后我还提供了这些命令
+首先提供了帮助命令
+全中文的帮助命令
+第二个是INIT
+就是刚才说的这个初始化
+然后list列出所有的profile
+Current
+查看当前的profile的这个详情
+Show profile
+News profile
+切换呃profile
+然后dr.是自检a problem呃
+自检的话会检测cloud呃
+C呃
+CLCLI是否是否生效
+key的环境变量是否设置
+然后base url是否正确
+ccm probe是连连通性探活
+然后ccm run
+然后就可以启动启动cloud
+code这块
+我们直接给大家演示一下吧
+演示一下c c m help
+可以看一下csm help会打出
+中文的这个命令
+ccm list可以看出他
+列出了当前的这个模型
+看当成当前的模型支持opposite
+sonnet
+哈库V4flash和V4pro
+展开一点
+可以看到这个base url指向的是
+这个这个deep sick with
+flash和威斯pro指向的是
+这个API点
+deep sc点
+Com authic
+然后我们再来一个c cm
+dr.可以看到profile
+deep sk v4pro
+当前用的是V4pro
+然后模型额对应的这个cloud的这个
+启动文件
+启动的那个目录
+然后profiles file呃
+然后当前使用的这个文件是哪个
+然后以及base
+url指向的是ASTRONPIC
+第4deep seastronpic
+然后APITENV指向的是
+这个deep sc API k
+这个我就不给大家看了
+然后API keys已经加载
+那么我们现在就CCM呃
+ccm run我们我们我们实现一下
+这我们运行一下啊
+Ccm run
+可以看到当前使用的是deep
+sc v pro
+我们问问一下你是什么模型
+我是deep sc v4pro模型
+当前运行在cloud
+code环境中行
+那我们在
+这就退出去CCM
+我们直接我们直接运行cloud
+可以看一下当前运
+如果你直接运行cloud的话
+它就它就是默认就是呃opus4.7
+我现在是
+但也可以这样
+CCM呃
+run呃
+Ccm use
+这个这个就麻烦这个这个就那啥了
+就是智见仁见智了
+你可以这样ccm use
+然后ccm use cloud
+oppos
+看就切换到prefer
+指向了cloud cloud ops
+然后ccm run可以看到
+现在现在的模型是这个office
+4.7
+你是什么模型
+额对这种的话实际上是什么原因呢
+这种的话原因在于是
+我这个设置的是一个三方中转
+所以我就直接就用cloud就行了
+这样的话就是我就直接就是你是什么模型
+看他怎么说
+我是cloud office
+4.7
+你可以看一下这个杠model
+默认的话就是cloud的这些
+但如果是我们再来一下CCM
+Ccm use
+Deep
+Deep seek v4
+Ccm run
+那现在又又又切换
+切换成了这个desk v pro
+这就是用法
+然后命令出问题的话
+就用这个ccm dr.进行进行校验
+看一下你配的是不是正确
+然后还可以用这个ccm
+probe去进行一次
+最小请求校验一下
+到这个哎ccm probe
+到这个deep sc网关是否连通成功
+可以试一下显示OK就代表是没问题
+也就是代表你的APIKE配的没问题
+所有cloud code参数
+原样透传呃
+这个代表了就是说这个这个就是代表了
+就是我我们的这个方是兼容cloud
+当前使用的方式的
+我们可以再试一下
+这在m run
+你看啊杠model可以看到这里面
+其实是有cc
+是有deep sc v4pro的
+因为我们指定了这个模型嘛
+如果你是呃flash的话
+也是可以用flash的
+那我们再试
+我们就试一下嘛
+With use
+Deep sk v4 flash
+那么我们在ccm run
+你是
+什么模型
+看下刚model看一下当前
+用的是flash
+他说我是cloud code
+运行在deep sc
+v4flash上
+本质上我是cloud
+code的交互代理
+OK还是切到这个pro上吧
+因为写代码的话还是用pro比较好嗯
+呃目前的话就是我们可以
+用flash和pro
+嗯还有一个好处就是铭文key不落盘
+我这个就是让你配环境变量啊
+不会把这个key给泄露出去
+如果有问题的话
+怎么处理
+首先第一个dr.提示环境变量缺失
+那就是没配deep sk p i k
+第二个返回400代表你的model
+id写错了
+一定要去检查一下
+你model id就是确定是deep
+seek v4flash
+或者deep sick v4pro
+中间是那个横杠
+切回官方仍走第三方
+这个的话就是你的那个cloud
+code配置有问题呃
+去检查一下你的这个是不是你
+你你是不是你没是没是不是
+你是不是没切对
+如果说找不到cloud CLI的话
+代表你当当前本地的这个cloud装的有问题
+想换配置目录的话
+就去EXEXPORT改一下cloud
+switcher home
+这个一般别改
+这些就是优点
+优点的话就是一个脚本没有第三方依赖
+可以动态的进行切换嗯
+并且我这个可以支持GLM
+如果你想要切支持切切掉到gm
+g l m上的话
+也是可以一样的配置的
+对动手试一下
+我们可以看一下这个地址啊
+可以看一下这个是那个项目的这个仓库
+就是嗯
+我会把它放在我们视频
+下方的这个链接里面
+进来之后把它克隆到本地
+克隆到本地之后配上deep sick
+这这个是参考一下这个这个read
+me啊
+这个read me写的很详细
+就是进来之后核心在于是配
+一下DTPSKPIT
+然后进行使用
+刚才具体使用也给大家演示过了
+这个是阿帕奇的这个
+开源的这个license
+大家可以随意进行修改
+如果使用中有问题的话
+欢迎提一数给我
+对不管怎么样呢
+我们还是要动手试一下
+如有问题欢迎给我反馈
+然后deep sk v4目前是
+处于打折状态呃
+赶紧用那本本期视频就到这里结束
+感谢大家

@@ -1,0 +1,11 @@
+[project]
+name = "quant-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "akshare>=1.18.64",
+    "ccxt>=4.5.56",
+    "yfinance>=1.4.1",
+]

@@ -1,0 +1,271 @@
+一个今年1月18号才建的仓库
+到今天整整三个月拿下了160000s
+tar
+2.4万
+fork在GITHUB全球项目
+里冲到第40名
+旁边是flutter booth
+strap和haking
+face的transformers
+它不是什么新框架
+就是一个人的cloud
+code配置文件合集
+项目叫everything
+cloud code
+作者叫affirm
+斯塔发推特id是COCSC
+意思是cognitive
+security
+认知安全
+他是anthropic x
+forum ventures黑客
+马拉松冠军
+八个小时用cloud
+code写出产品
+zenis chat拿走1万5000
+美金的API额度
+然后他做了一件事
+把自己十个月每天用cloud
+code积累的所有配置
+原封不动开源了
+他为这套配置写了一条叫shorten
+guide的推文
+一晚上涨了90万
+浏览1万收藏
+第二天仓库冲上2万5000秒摊
+整个开发者圈像炸了一样
+所有web coder都在问同
+一个问题
+我每天用cloud code为什么
+差距这么大
+痛点其实大家都熟
+Cloud code
+每开新session就忘光
+昨天的事每次都要重讲一遍
+项目规矩
+MCP装多了
+context越吃越少
+子agent返回的东西总是答非所问
+task1复杂就开始
+context rote幻觉连着幻觉
+阿飞燕说的很直白
+这不是prompt工程问题
+是工程问题
+先看家底
+38个专用agent
+156个skill
+72条命令
+20多个hook
+997个内部测试
+支持12种语言生态覆盖
+Cloud code cursor
+Open code codex
+四个主流AI编辑器
+这不是一个CONFIG包
+是一整套打磨了十个月的工程体系
+但重点不是这些数字
+真正值钱的是八条心法
+第一条
+skills比命令更耐用
+很多人还在写slash命令
+a fine说命令是一次性快捷方式
+skills才是可复用的工作流单元
+错误做法是把一套测试流程
+写成test vf
+test v1test v3个命令
+同一套逻辑散在三个文件里
+正确做法是把它写成一个tdd
+workflow的skill
+里面带code map
+带prompt结构
+带支持文件
+slash命令只是
+这个skill的快捷入口
+第二条
+hooks是结构化首位
+不是prompt说教你在cloud
+md里写1万遍
+不要提交console log
+cloud
+该犯还是犯
+而非案的做法是写一个post to
+lose hook
+只要编辑完TTSX文件
+自动跑prettier和tsc
+NO emit
+写一个ptools hook
+检测到提示词里有sk jap
+aka这种secret前缀
+直接block写一个get
+to是前置hook
+强制打开editor
+让你review
+靠嘴说教
+是prompt engineerin
+g
+用代码拦截才是engineering
+第三条模型要路由
+不是一把梭
+阿飞燕有张表很重要
+找文件搜索简单编辑
+默认high苦多文件实现pr
+review
+默认sonnet复杂架构
+安全审计
+深度调试才上OPO
+他的原话是90%的编码任务
+默认用sonnet
+只有第一次失败
+任务跨五个以上文件
+架构决策或者安全敏感代码
+才升到OPPOS
+记住这个判断标准不是越贵越好
+是越对越好
+第四条
+最多人踩的坑
+没CP的context的陷阱
+你的cloud code号称
+有200K上下文窗口
+但你装多几个MCP
+每个MCP的to描述都在吃token
+实际可用可能只剩70K阿
+find n给的公式非常清楚
+配置里可以装20~30个MCP
+但同时开启的不超过十个
+激活的to总数不超过80
+像github super base
+vercel这种有CRI的MCP
+优先包装成skill
+别常驻
+这一条直接能让你的cloud
+code回血一倍
+第五条
+跨session持久化记忆
+三件套后可必装
+Pre compact hook
+cloud
+要压缩上下文前
+先把重要状态存到文件
+Stop hook
+session结束时自动抽取
+这次的经验教训
+Session
+Start hook
+新开一个session
+自动载入上次的总结
+为什么不用user prompts
+Summit hook
+因为他每条消息都触发
+会给每个prompt加延迟
+stop只在session结束跑一次
+轻量无感
+这三个who可合起来就是
+你的agent的长期记忆
+第六条子
+agent不是用来省context的
+是要迭代检索的
+很多人以为此agent返回
+一段总结就结束
+这恰恰是最大的坑
+阿飞燕原话
+则agent只知道字面的query
+不懂背后的purpose
+正确姿势是ORCHESTRATOR
+对每次子agent返回的结果
+都要追问一轮
+自agent回到源头再查
+最多迭代三轮
+直到信息够用
+关键一句话给子agent穿objec
+tive context
+不要只传query
+第七条最实用的判断公式
+pass ak还是pass
+k什么意思
+假设你的agent单次成功率70%
+跑三次pass ok是至少
+一次成功的概率
+等于91%
+pass ak是三次全部
+都要成功的概率
+只有34%
+翻译过来就是能跑通就行的功能
+用pass ak随便是有一次对就
+交不能错的场景
+比如支付权限
+数据迁移
+用pass ak每次都必须
+对这个公式记住
+你就知道一个任务该让cloud跑
+一次还是跑十次了
+第八条是FM最骚的一个设计
+instincts直译就是直觉
+他给cloud加了个带置信
+度评分的第二大脑
+每条新instinct出生时
+打0.3分
+后面每被验证一次置信度往上加
+反过来
+如果多次误导你
+自动降到阈值以下
+被pro掉
+跑一下instinct
+status就能看到他正在学的东西
+instinct export可以
+导出给团队其他人
+你再也不用每天重讲一遍你的代码规范
+agent自己记住你最近吃过的亏
+当然争议也不小
+反对方说这玩意儿YAGI一个好好
+写的cloud md
+60~200行已经覆盖80%需求了
+38个agent加156个skill
+是典型过渡工程
+更狠的批评是
+很多人装完压根不懂自己装了什么
+日后再debug一个自己
+都看不明白的系统
+支持方也有道理
+十人团队加合规
+要求专用code reviewer
+security t d
+d3个agent不算过分
+a fan自己在read
+me里也写了一句
+配置要像fine tuning
+不要像architecture
+别全装
+所以正确姿势是什么
+不是给克隆玩RM rf硬塞进加目录
+正确姿势是先跑CORE
+profile
+只装六个核心agent
+加25个核心skill
+或者干脆手动挑三样
+Code reviewer
+agent
+Tdd work flow
+skill
+三个memory
+persistence ho
+这三样能吃到80%的红利
+剩下的按需扩FM做这件事的意义
+其实很清楚
+Cloud code
+能让一个人在八小时写出黑
+客马拉松冠军产品
+但决定你跑多远的从来不是模型本身
+而是你给他的框架
+这160000star的仓库
+不是让你抄作业
+是告诉你一件事
+在AI编程这个赛道
+把agent当工程问题来优化的人
+比继续写更长
+prompt的人已经先跑出一公里了
+项目链接放简介里了
+今天这八条新法
+你觉得最该先用的是哪一条
+评论区告诉我
+我是老汤
+咱们下期见

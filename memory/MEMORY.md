@@ -24,6 +24,7 @@
 
 ## 学习系统
 - [学习系统升级](learning-system.md) — 50-10-汇报节奏、周节奏、Codex实时搭档
+- [6/8 周复盘改进](weekly-improvements-06-08.md) — 作息硬控+手机隔离+回顾机制+双session分工
 
 ## 每日追踪
 - [Pulse Check 仪表盘](pulse-check.md) — 连续天数、完成率、疲劳预警
@@ -49,6 +50,9 @@
 
 ## 408-OS-第四章
 - [第四章总览](study-progress/408-OS-第四章/README.md) — I/O 管理，4.1 学习中
+
+## 求职/项目
+- [Agent 职业路线图](agent-career-roadmap.md) — 量化Agent+AI求职定位+技能对标 三线规划
 
 ## 自动化
 - [Cron 自动续期](C:\Users\scott\.claude\projects\D--learn-agentic-ai-system-course-main\memory\cron-auto-renew.md) — 会话启动时检查和续期定时任务
