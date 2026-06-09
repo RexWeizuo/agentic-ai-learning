@@ -78,48 +78,59 @@ def _detect_market(symbol: str) -> str:
 
 def _fetch_a_stock(symbol: str) -> dict[str, Any]:
     """
-    Fetch A-stock real-time quote via eastmoney direct API.
+    Fetch A-stock real-time quote via Sina finance API.
 
-    Uses the same backend as akshare but queries a single stock,
-    avoiding the bulk-data scraping pattern that triggers blocks.
+    Sina is more lenient than eastmoney and doesn't require
+    browser-mimicking headers. Falls back gracefully on failure.
     """
-    # Shanghai: secid=1.<code>, Shenzhen: secid=0.<code>
+    # Shanghai: sh600519, Shenzhen: sz000001
     if symbol.startswith(("6", "5")):
-        secid = f"1.{symbol}"
+        code = f"sh{symbol}"
     else:
-        secid = f"0.{symbol}"
+        code = f"sz{symbol}"
 
-    url = "https://push2.eastmoney.com/api/qt/stock/get"
-    params = {
-        "secid": secid,
-        "fields": "f43,f44,f45,f46,f47,f48,f50,f57,f58,f60,f169,f170",
+    url = f"https://hq.sinajs.cn/list={code}"
+    headers = {
+        "Referer": "https://finance.sina.com.cn/",
+        "User-Agent": "Mozilla/5.0",
     }
 
-    resp = requests.get(url, params=params, timeout=10)
-    resp.raise_for_status()
-    data = resp.json()
+    try:
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        resp.encoding = "gbk"  # Sina uses GBK
+    except requests.RequestException as e:
+        return {
+            "error": f"Failed to fetch a_stock price for '{symbol}': {e}",
+            "symbol": symbol,
+            "market": "a_stock",
+        }
 
-    d = data.get("data")
-    if d is None:
-        return {"error": f"A-stock symbol '{symbol}' not found", "market": "a_stock"}
+    # Sina returns: var hq_str_sh600519="name,open,pre_close,price,high,low,..."
+    text = resp.text
+    if '=""' in text or "=" not in text:
+        return {"error": f"A-stock symbol '{symbol}' not found on Sina", "market": "a_stock"}
 
-    price = d.get("f43")
-    if price is None:
-        return {"error": f"No price data for '{symbol}' (halted or suspended?)", "market": "a_stock"}
+    # Extract the quoted CSV portion
+    try:
+        raw = text.split('="')[1].rstrip('";\n')
+        fields = raw.split(",")
+    except IndexError:
+        return {"error": f"Failed to parse Sina response for '{symbol}'", "market": "a_stock"}
 
     return {
         "market": "a_stock",
         "symbol": symbol,
-        "name": str(d.get("f58", "")),
-        "price": float(price) / 100,
-        "change_pct": float(d.get("f170", 0)) / 100,
-        "change_amount": float(d.get("f169", 0)) / 100,
-        "volume": int(d.get("f47", 0)),
-        "amount": float(d.get("f48", 0)),
-        "high": float(d.get("f44", 0)) / 100,
-        "low": float(d.get("f45", 0)) / 100,
-        "open": float(d.get("f46", 0)) / 100,
-        "pre_close": float(d.get("f60", 0)) / 100,
+        "name": fields[0],
+        "open": float(fields[1]),
+        "pre_close": float(fields[2]),
+        "price": float(fields[3]),
+        "high": float(fields[4]),
+        "low": float(fields[5]),
+        "volume": int(fields[8]),
+        "amount": float(fields[9]),
+        "change_pct": round((float(fields[3]) - float(fields[2])) / float(fields[2]) * 100, 2),
+        "change_amount": round(float(fields[3]) - float(fields[2]), 2),
         "timestamp": datetime.now().isoformat(),
     }
 

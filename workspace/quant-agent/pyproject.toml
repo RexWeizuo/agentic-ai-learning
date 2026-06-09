@@ -7,5 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "akshare>=1.18.64",
     "ccxt>=4.5.56",
+    "openai>=2.41.0",
     "yfinance>=1.4.1",
 ]
