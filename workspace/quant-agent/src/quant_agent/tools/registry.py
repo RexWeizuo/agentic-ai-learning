@@ -16,7 +16,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Callable
 
-from .prices import GET_PRICE_SCHEMA, get_price
+from .prices import GET_KLINE_SCHEMA, GET_PRICE_SCHEMA, get_kline, get_price
 
 
 # ── Tool definition ──────────────────────────────────────────────
@@ -77,6 +77,13 @@ TOOLS: list[Tool] = [
         description=GET_PRICE_SCHEMA["description"],
         input_schema=GET_PRICE_SCHEMA["input_schema"],
         handler=get_price,
+        concurrency_safe=True,
+    ),
+    Tool(
+        name=GET_KLINE_SCHEMA["name"],
+        description=GET_KLINE_SCHEMA["description"],
+        input_schema=GET_KLINE_SCHEMA["input_schema"],
+        handler=get_kline,
         concurrency_safe=True,
     ),
     Tool(

@@ -236,6 +236,116 @@ def get_price(symbol: str, market: str = "auto") -> dict[str, Any]:
         }
 
 
+# ═════════════════════════════════════════════════════════════════════
+# get_kline — historical candlestick data
+# ═════════════════════════════════════════════════════════════════════
+
+GET_KLINE_SCHEMA = {
+    "name": "get_kline",
+    "description": (
+        "Returns historical K-line (candlestick) data for a given A-stock symbol. "
+        "Each bar contains open, high, low, close, and volume. "
+        "Use this to analyze price trends, volatility, and volume patterns over time. "
+        "Supports daily bars ('D'), weekly ('W'), monthly ('M'), "
+        "and intraday ('5', '15', '30', '60' minutes).\n"
+        "Do NOT use for: real-time tick data, order book depth, or non-A-stock markets."
+    ),
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "A-stock 6-digit code, e.g. '600519' or '000001'.",
+            },
+            "scale": {
+                "type": "string",
+                "enum": ["5", "15", "30", "60", "240"],
+                "description": (
+                    "Bar interval in minutes: '5'/'15'/'30'/'60' for intraday, "
+                    "'240' for daily (~4h trading session). Default '240'."
+                ),
+            },
+            "count": {
+                "type": "integer",
+                "description": "Number of bars to return (max 200, default 20).",
+            },
+        },
+        "required": ["symbol"],
+    },
+}
+
+
+def _fetch_a_kline(symbol: str, scale: str = "240", count: int = 20) -> dict[str, Any]:
+    """Fetch A-stock K-line data via Sina API."""
+    count = min(max(count, 1), 200)  # clamp to [1, 200]
+
+    if symbol.startswith(("6", "5")):
+        code = f"sh{symbol}"
+    else:
+        code = f"sz{symbol}"
+
+    url = "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData"
+    params = {"symbol": code, "scale": scale, "datalen": count, "ma": "no"}
+    headers = {"Referer": "https://finance.sina.com.cn/", "User-Agent": "Mozilla/5.0"}
+
+    try:
+        resp = requests.get(url, params=params, headers=headers, timeout=15)
+        resp.raise_for_status()
+        resp.encoding = "gbk"
+    except requests.RequestException as e:
+        return {"error": f"Failed to fetch kline for '{symbol}': {e}", "symbol": symbol}
+
+    try:
+        raw_bars = resp.json()
+    except json.JSONDecodeError:
+        return {"error": f"Failed to parse kline response for '{symbol}'", "symbol": symbol}
+
+    if not raw_bars or not isinstance(raw_bars, list):
+        return {"error": f"No kline data for '{symbol}' (delisted or invalid?)", "symbol": symbol}
+
+    # Normalize: keep only the fields the model needs
+    bars = []
+    for b in raw_bars:
+        bars.append({
+            "time": b.get("day", ""),
+            "open": float(b["open"]),
+            "high": float(b["high"]),
+            "low": float(b["low"]),
+            "close": float(b["close"]),
+            "volume": int(float(b["volume"])),
+        })
+
+    # Compute a brief summary for the model
+    closes = [b["close"] for b in bars]
+    first_close = closes[0]
+    last_close = closes[-1]
+    trend_pct = round((last_close - first_close) / first_close * 100, 2) if first_close else 0
+
+    return {
+        "market": "a_stock",
+        "symbol": symbol,
+        "scale": scale,
+        "count": len(bars),
+        "trend": {
+            "start_price": first_close,
+            "end_price": last_close,
+            "change_pct": trend_pct,
+            "highest": max(b["high"] for b in bars),
+            "lowest": min(b["low"] for b in bars),
+        },
+        "bars": bars,
+        "timestamp": datetime.now().isoformat(),
+    }
+
+
+def get_kline(symbol: str, scale: str = "240", count: int = 20) -> dict[str, Any]:
+    """Dispatch kline requests (currently A-stock only)."""
+    try:
+        return _fetch_a_kline(symbol, scale, count)
+    except Exception as e:
+        return {"error": f"Failed to fetch kline for '{symbol}': {e}", "symbol": symbol}
+
+
 # ── Demo: exercise the tool directly ─────────────────────────────────
 
 if __name__ == "__main__":

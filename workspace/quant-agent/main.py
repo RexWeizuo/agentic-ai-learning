@@ -35,7 +35,7 @@ def main() -> None:
     print(f"\nUser: {user_message}\n")
     print("-" * 60)
 
-    result = run_loop(user_message, verbose=True)
+    result = run_loop(user_message, verbose=True, log_dir="logs")
 
     print("-" * 60)
     print(f"\n{'⚠️  PARTIAL ' if result.get('partial') else '✅'} "

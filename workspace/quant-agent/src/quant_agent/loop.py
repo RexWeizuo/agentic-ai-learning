@@ -22,7 +22,7 @@ from .tools.registry import TOOLS, Tool
 
 # ── Configuration ────────────────────────────────────────────────
 
-MODEL = "qwen-max"  # Qwen latest max model (OpenAI-compatible)
+MODEL = "qwen3.7-max"  # Rotate: qwen3.7-max → qwen3.7-max-2026-06-08 → ...
 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 MAX_STEPS = 20
 
@@ -64,6 +64,7 @@ def run_loop(
     model: str = MODEL,
     max_steps: int = MAX_STEPS,
     verbose: bool = True,
+    log_dir: str | None = None,
 ) -> dict[str, Any]:
     """
     Run the agent loop.
@@ -76,10 +77,73 @@ def run_loop(
         model: Model name (OpenAI-compatible).
         max_steps: Hard iteration cap.
         verbose: Print step traces if True.
+        log_dir: If set, save full run log to this directory.
 
     Returns:
         Dict with 'answer' (final text) and 'traces' (list of StepTrace).
     """
+    # ── Logging setup ────────────────────────────────────────────
+    log_lines: list[str] = []
+    log_path: str | None = None
+
+    if log_dir:
+        os.makedirs(log_dir, exist_ok=True)
+        ts = datetime.now().strftime("%Y%m%d-%H%M%S")
+        log_path = os.path.join(log_dir, f"run-{ts}.md")
+        log_lines.append(f"# Agent Run — {datetime.now().isoformat()}\n")
+        log_lines.append(f"**Model**: {model} | **Max steps**: {max_steps}\n")
+        log_lines.append(f"**User**: {user_message}\n")
+        log_lines.append(f"\n**Tools**: {', '.join(t.name for t in TOOLS)}\n")
+        log_lines.append(f"\n---\n")
+        log_lines.append(f"## System Prompt\n\n```\n{SYSTEM_PROMPT}\n```\n")
+        log_lines.append(f"\n---\n")
+        log_lines.append(f"## Execution Trace\n")
+
+    def _log(line: str) -> None:
+        """Write to both stdout (if verbose) and log file."""
+        if verbose:
+            print(line)
+        if log_dir:
+            log_lines.append(line)
+
+    def _save_log() -> None:
+        if log_path:
+            with open(log_path, "w", encoding="utf-8") as f:
+                f.write("\n".join(log_lines))
+
+    def _log_step(trace: StepTrace, preview: str | None = None) -> None:
+        """Format one step trace and send to both outputs."""
+        status = "STOP" if trace.stopped else "CONTINUE"
+        tools = ", ".join(trace.tool_calls) if trace.tool_calls else "(text)"
+        line = (
+            f"  Step {trace.step:2d} | {status:8s} | {tools:30s} | "
+            f"{trace.tokens_used:5d} tk | {trace.stop_reason}"
+        )
+        _log(line)
+        if preview:
+            _log(f"         └─ {preview}")
+
+    def _log_messages() -> None:
+        """Log the full messages array state."""
+        _log(f"\n**Messages** ({len(messages)} entries):\n")
+        for i, m in enumerate(messages):
+            role = m["role"]
+            if role == "system":
+                _log(f"  [{i}] `system`: (prompt, {len(m['content'])} chars)")
+            elif role == "user":
+                _log(f"  [{i}] `user`: \"{m['content'][:100]}\"")
+            elif role == "assistant":
+                tcs = m.get("tool_calls", [])
+                if tcs:
+                    names = ", ".join(tc["function"]["name"] for tc in tcs)
+                    _log(f"  [{i}] `assistant`: tool_calls=[{names}]")
+                else:
+                    _log(f"  [{i}] `assistant`: \"{m.get('content', '')[:100]}\"")
+            elif role == "tool":
+                c = m.get("content", "")
+                _log(f"  [{i}] `tool` ({m.get('tool_call_id', '?')[:12]}): {c[:120]}")
+        _log("")
+
     # ── Observe: build initial messages ──────────────────────────
     client = OpenAI(
         api_key=os.environ["DASHSCOPE_API_KEY"],
@@ -119,14 +183,28 @@ def run_loop(
             total_tokens += usage.total_tokens
             trace.tokens_used = usage.total_tokens
 
+        # ── Log: model's full response ──────────────────────────
+        _log(f"\n### Step {step + 1} — Plan (Model Response)")
+        if msg.content:
+            _log(f"\n> {msg.content[:300]}")
+        if msg.tool_calls:
+            for tc in msg.tool_calls:
+                _log(f"\n- **Tool call**: `{tc.function.name}`")
+                _log(f"  - Args: `{tc.function.arguments[:300]}`")
+        else:
+            _log(f"\n- **No tool calls** → model decided to stop")
+        _log("")
+
         # ── Model-driven stop (no tool calls) ────────────────────
         if not msg.tool_calls:
             trace.stopped = True
             trace.stop_reason = "model_end_turn"
             final_text = msg.content or "(no response)"
             traces.append(trace)
-            if verbose:
-                _print_step(trace, final_text)
+            _log("---")
+            _log_messages()
+            _log_step(trace, final_text[:200] + "..." if len(final_text) > 200 else final_text)
+            _save_log()
             return {
                 "answer": final_text,
                 "traces": [t.__dict__ for t in traces],
@@ -171,11 +249,15 @@ def run_loop(
                     f"with identical arguments. Breaking loop."
                 )
                 if verbose:
-                    print(f"\n{doom_msg}\n")
+                    _log(f"\n{doom_msg}\n")
                 final_text = doom_msg
                 trace.stopped = True
                 trace.stop_reason = "doom_loop"
                 traces.append(trace)
+                _log("---")
+                _log_messages()
+                _log_step(trace)
+                _save_log()
                 return {
                     "answer": doom_msg,
                     "traces": [t.__dict__ for t in traces],
@@ -217,8 +299,10 @@ def run_loop(
                 trace.stop_reason = "final_answer"
                 final_text = result["answer"]
                 traces.append(trace)
-                if verbose:
-                    _print_step(trace, final_text[:200] + "..." if len(final_text) > 200 else final_text)
+                _log("---")
+                _log_messages()
+                _log_step(trace, final_text[:200] + "..." if len(final_text) > 200 else final_text)
+                _save_log()
                 # Return immediately — final_answer means we're done
                 return {
                     "answer": final_text,
@@ -226,6 +310,11 @@ def run_loop(
                     "total_steps": step + 1,
                     "total_tokens": total_tokens,
                 }
+
+            # ── Log: tool result ────────────────────────────────
+            _log(f"- **Result** (`{tool_name}`):")
+            result_preview = json.dumps(result, ensure_ascii=False)
+            _log(f"  ```json\n  {result_preview[:400]}\n  ```\n")
 
             # ── Reflect: append tool result to messages ──────────
             result_json = json.dumps(result, ensure_ascii=False)
@@ -236,14 +325,16 @@ def run_loop(
             })
 
             if verbose and "error" in result:
-                print(f"         └─ Error: {result['error'][:120]}")
+                _log(f"         └─ Error: {result['error'][:120]}")
 
         traces.append(trace)
-        if verbose:
-            _print_step(trace)
+        _log("---")
+        _log_messages()
+        _log_step(trace)
 
     # ── Step cap exhausted ───────────────────────────────────────
     # Ch.02: return partial result, labeled
+    _save_log()
     return {
         "answer": final_text or "(step cap reached before final answer)",
         "traces": [t.__dict__ for t in traces],
@@ -252,16 +343,3 @@ def run_loop(
         "partial": True,
     }
 
-
-# ── Helpers ──────────────────────────────────────────────────────
-
-def _print_step(trace: StepTrace, preview: str | None = None) -> None:
-    """Print one step trace (Ch.02 observability MVP)."""
-    status = "STOP" if trace.stopped else "CONTINUE"
-    tools = ", ".join(trace.tool_calls) if trace.tool_calls else "(text)"
-    print(
-        f"  Step {trace.step:2d} | {status:8s} | {tools:30s} | "
-        f"{trace.tokens_used:5d} tk | {trace.stop_reason}"
-    )
-    if preview:
-        print(f"         └─ {preview}")
