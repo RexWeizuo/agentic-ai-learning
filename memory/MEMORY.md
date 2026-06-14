@@ -72,6 +72,7 @@
 ## 408-计网
 - [第一章总览](study-progress/408-计网-第一章/README.md)
 - [1.1 体系结构与参考模型](study-progress/408-计网-第一章/1.1-体系结构与参考模型.md) — 6/13 苏格拉底 Q1-Q12 ✅
+- [1.2 计算机网络概述](study-progress/408-计网-第一章/1.2-计算机网络概述.md) — 6/14 苏格拉底 Q1-Q13 ✅
 
 ## 自动化
 - [Cron 自动续期](C:\Users\scott\.claude\projects\D--learn-agentic-ai-system-course-main\memory\cron-auto-renew.md) — 会话启动时检查和续期定时任务

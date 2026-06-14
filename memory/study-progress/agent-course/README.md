@@ -18,15 +18,22 @@ metadata:
 | 章节 | 内容 | 理论学习 | 代码实战 | 金融知识 | 状态 |
 |------|------|---------|---------|---------|------|
 | Ch.00 | 学习方法 | ✓ | — | — | 完成 |
-| Ch.01 | 一次工具调用 | ✓ | ✓ `get_price` 三市场适配 | 加密货币/USDT/挖矿/NFT/VIE/蓝筹/港股 | 完成 |
-| Ch.02 | Agent 循环 | ✓ 五题考试 | ✓ loop跑通（2步2163tk） | 夏普比率/最大回撤 | 完成 |
-| Ch.03 | 工具验证 | — | — | — | 待开始 |
+| Ch.01 | 一次工具调用 | ✓ | ✓ get_price 三市场 | 加密货币/VIE/港股 | 完成 |
+| Ch.02 | Agent 循环 | ✓ 五题+全走读 | ✓ loop+5停止条件 | 夏普比率/最大回撤 | 完成 |
+| Ch.03 | 工具验证 | ✓ 全章+钩子+元数据 | ✓ 4工具全量+错误信封 | PE/大盘/基本面/K线 | 完成 |
+| Ch.04 | 提示词与缓存 | — | — | — | 待开始 |
 
 ## 量化项目状态
 
-`workspace/quant-agent/`：uv 管理，Qwen-max 驱动，新浪 API（A股）。
+`workspace/quant-agent/`：uv 管理，Qwen 驱动。
 
-已实现：`get_price`（A股/加密货币/美股）、`final_answer`、Agent loop（4停止条件+doom loop检测）。
+**数据源**：新浪（行情+K线+大盘）+ 腾讯（基本面）
+
+**工具**（5 个）：get_price / get_kline / get_index / get_financials / final_answer
+
+**Agent 能力**：4 停止条件 + doom loop 检测 + 错误分类信封 + 钩子系统 + 溯源
+
+**日志**：每次运行生成 `logs/run-YYYYMMDD-HHMMSS.md`（执行全追踪）
 
 ## 金融知识索引
 

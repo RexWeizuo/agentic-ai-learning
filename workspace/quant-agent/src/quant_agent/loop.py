@@ -14,15 +14,105 @@ import os
 import time
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Any
+from typing import Any, Callable
 
 from openai import OpenAI
 
 from .tools.registry import TOOLS, Tool
 
+# ── Error classification (Ch.03: recoverable vs fatal) ───────────
+
+def _classify_error(error_msg: str) -> tuple[bool, str]:
+    """
+    Classify a tool error as recoverable or fatal.
+
+    Recoverable = retry might work (network blip, timeout, rate limit).
+    Fatal = retry will never work (bad symbol, invalid params, auth failure).
+
+    Returns (recoverable: bool, hint: str).
+    """
+    msg_lower = error_msg.lower()
+
+    # ── Recoverable patterns ──────────────────────────────────
+    recoverable_patterns = [
+        ("connection", "Network issue — try again in a moment"),
+        ("timeout", "Request timed out — retry with fewer symbols if persistent"),
+        ("timed out", "Request timed out — retry with fewer symbols if persistent"),
+        ("rate limit", "Rate limited — wait a few seconds then retry"),
+        ("too many requests", "Rate limited — wait a few seconds then retry"),
+        ("remote end closed", "Server closed connection — retry once"),
+        ("remote disconnected", "Server disconnected — retry once"),
+    ]
+    for pattern, hint in recoverable_patterns:
+        if pattern in msg_lower:
+            return (True, hint)
+
+    # ── Fatal patterns ───────────────────────────────────────
+    fatal_patterns = [
+        ("not found", "Symbol or resource does not exist — do not retry"),
+        ("invalid", "Invalid input — correct the arguments instead of retrying"),
+        ("cannot auto-detect", "Unrecognized symbol format — ask user to clarify"),
+        ("arrearage", "API quota exhausted — switch model or top up"),
+        ("access denied", "Authentication failed — check credentials"),
+        ("permission", "Permission denied — cannot fix by retrying"),
+    ]
+    for pattern, hint in fatal_patterns:
+        if pattern in msg_lower:
+            return (False, hint)
+
+    # ── Default: assume recoverable (let model decide) ───────
+    return (True, "Unknown error — you may retry once or try another approach")
+
+
+def _make_error_envelope(error_msg: str) -> dict[str, Any]:
+    """Wrap an error in Ch.03's result envelope."""
+    recoverable, hint = _classify_error(error_msg)
+    return {
+        "ok": False,
+        "error": error_msg,
+        "recoverable": recoverable,
+        "hint": hint,
+    }
+
+
+# ── Hooks (Ch.03: pre/post dispatch callbacks) ────────────────────
+# Each hook is a function (tool_name, args, result) -> result (may modify).
+# Pre-hooks run in registration order. Post-hooks run in reverse.
+# A hook returning None means "don't modify result".
+
+PRE_HOOKS: list[Callable[[str, dict, dict | None], dict | None]] = []
+POST_HOOKS: list[Callable[[str, dict, dict], dict | None]] = []
+
+
+def _hook_trace_input(tool_name: str, args: dict, _result: dict | None) -> dict | None:
+    """Pre-hook: log every tool dispatch with args."""
+    # Already logged via _log() in verbose mode — this is the hook version.
+    return None  # Don't modify args
+
+
+def _hook_add_provenance(tool_name: str, _args: dict, result: dict) -> dict | None:
+    """Post-hook: stamp result with provenance (Ch.03: output metadata)."""
+    result["_provenance"] = {
+        "tool": tool_name,
+        "timestamp": datetime.now().isoformat(),
+    }
+    return result
+
+
+def _hook_scrub_secrets(tool_name: str, _args: dict, result: dict) -> dict | None:
+    """Post-hook: redact any leaked secrets from result text."""
+    # TODO: add secret patterns when real credentials appear in results
+    return None  # Nothing to scrub yet
+
+
+# Register built-in hooks (order matters!)
+POST_HOOKS.append(_hook_add_provenance)
+# POST_HOOKS.append(_hook_scrub_secrets)  # TODO: enable when needed
+
+
 # ── Configuration ────────────────────────────────────────────────
 
-MODEL = "qwen3.7-max"  # Rotate: qwen3.7-max → qwen3.7-max-2026-06-08 → ...
+MODEL = "qwen3.7-max-2026-06-08"  # Rotate: → 2026-05-20 → 2026-05-17 → preview
 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 MAX_STEPS = 20
 
@@ -279,7 +369,7 @@ def run_loop(
 
             tool = tool_map.get(tool_name)
             if tool is None:
-                result = {"error": f"Unknown tool '{tool_name}'"}
+                result = _make_error_envelope(f"Unknown tool '{tool_name}'")
             else:
                 try:
                     args = json.loads(tc.function.arguments)
@@ -293,21 +383,54 @@ def run_loop(
                         args = json.loads(cleaned)
                         result = tool.handler(**args)
                     except json.JSONDecodeError as e:
-                        result = {
-                            "error": f"Failed to parse arguments: {e}",
-                            "raw_args": tc.function.arguments[:200],
-                        }
+                        result = _make_error_envelope(
+                            f"Failed to parse arguments for '{tool_name}': {e}"
+                        )
+                        result["raw_args"] = tc.function.arguments[:200]
                 except Exception as e:
                     # Ch.01 + Ch.02: wrap exception as tool_result
-                    result = {
-                        "error": f"Tool execution failed: {e}",
-                        "tool": tool_name,
-                    }
+                    result = _make_error_envelope(
+                        f"Tool '{tool_name}' execution failed: {e}"
+                    )
+
+            # ════════════ Step Boundary (Ch.02) ════════════
+            # Act complete, Reflect not yet done.
+            # Production capabilities that attach here:
+
+            # TODO: abort_token — check before high-risk dispatch
+            #   if abort_token.is_set():
+            #       result = {"error": "aborted by user"}
+            #       break
+
+            # TODO: grace_call — give model one last turn
+            #   if tokens_left < threshold:
+            #       messages.append({"role":"system","content":"Last turn"})
+
+            # TODO: provider_fallback — swap model on persistent failure
+            #   if consecutive_errors > 3:
+            #       model = FALLBACK_MODEL
 
             # ── Log: tool result ────────────────────────────────
             result_raw = json.dumps(result, ensure_ascii=False)
             _log(f"- **Result** (`{tool_name}`):")
             _log(f"  ```json\n  {result_raw[:400]}\n  ```\n")
+
+            # ════════ Hook pipeline (Ch.03) ════════
+            # Pre-hooks (registration order)
+            for hook in PRE_HOOKS:
+                modified = hook(tool_name, args, None)
+                if modified is not None:
+                    args = modified  # Hook transformed the input args
+
+            # Post-hooks (reverse registration order)
+            for hook in reversed(POST_HOOKS):
+                modified = hook(tool_name, args, result)
+                if modified is not None:
+                    result = modified  # Hook transformed the output
+
+            # ── Wrap tool-native errors in Ch.03 envelope ───────
+            if "error" in result and "ok" not in result:
+                result = _make_error_envelope(result["error"])
 
             # Ch.02: check for final_answer → explicit stop
             if tool_name == "final_answer" and "answer" in result:
