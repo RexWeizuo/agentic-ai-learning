@@ -2697,12 +2697,12 @@
       ]
     },
     "conduct": {
-      "stability": 3.2,
-      "difficulty": 0.6,
-      "state": 2,
-      "reviews": 2,
-      "next_review": "2026-06-13",
-      "last_review": "2026-06-10",
+      "stability": 0.5,
+      "difficulty": 0.7,
+      "state": 3,
+      "reviews": 3,
+      "next_review": "2026-06-15",
+      "last_review": "2026-06-14",
       "history": [
         {
           "date": "2026-06-09",
@@ -2717,6 +2717,13 @@
           "stability": 3.2,
           "difficulty": 0.6,
           "new_state": 2
+        },
+        {
+          "date": "2026-06-14",
+          "rating": 1,
+          "stability": 0.5,
+          "difficulty": 0.7,
+          "new_state": 3
         }
       ]
     },
@@ -3691,46 +3698,60 @@
       ]
     },
     "suppress": {
-      "stability": 2.5,
+      "stability": 6.2,
       "difficulty": 0.5,
       "state": 2,
-      "reviews": 1,
-      "next_review": "2026-06-13",
-      "last_review": "2026-06-11",
+      "reviews": 2,
+      "next_review": "2026-06-20",
+      "last_review": "2026-06-14",
       "history": [
         {
           "date": "2026-06-11",
           "rating": 3,
           "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        },
+        {
+          "date": "2026-06-14",
+          "rating": 3,
+          "stability": 6.2,
           "difficulty": 0.5,
           "new_state": 2
         }
       ]
     },
     "persist": {
-      "stability": 2.5,
+      "stability": 6.2,
       "difficulty": 0.5,
       "state": 2,
-      "reviews": 1,
-      "next_review": "2026-06-13",
-      "last_review": "2026-06-11",
+      "reviews": 2,
+      "next_review": "2026-06-20",
+      "last_review": "2026-06-14",
       "history": [
         {
           "date": "2026-06-11",
           "rating": 3,
           "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        },
+        {
+          "date": "2026-06-14",
+          "rating": 3,
+          "stability": 6.2,
           "difficulty": 0.5,
           "new_state": 2
         }
       ]
     },
     "resist": {
-      "stability": 2.5,
+      "stability": 6.2,
       "difficulty": 0.5,
       "state": 2,
-      "reviews": 1,
-      "next_review": "2026-06-13",
-      "last_review": "2026-06-11",
+      "reviews": 2,
+      "next_review": "2026-06-20",
+      "last_review": "2026-06-14",
       "history": [
         {
           "date": "2026-06-11",
@@ -3738,21 +3759,35 @@
           "stability": 2.5,
           "difficulty": 0.5,
           "new_state": 2
+        },
+        {
+          "date": "2026-06-14",
+          "rating": 3,
+          "stability": 6.2,
+          "difficulty": 0.5,
+          "new_state": 2
         }
       ]
     },
     "insist": {
-      "stability": 2.5,
+      "stability": 6.2,
       "difficulty": 0.5,
       "state": 2,
-      "reviews": 1,
-      "next_review": "2026-06-13",
-      "last_review": "2026-06-11",
+      "reviews": 2,
+      "next_review": "2026-06-20",
+      "last_review": "2026-06-14",
       "history": [
         {
           "date": "2026-06-11",
           "rating": 3,
           "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        },
+        {
+          "date": "2026-06-14",
+          "rating": 3,
+          "stability": 6.2,
           "difficulty": 0.5,
           "new_state": 2
         }
@@ -3889,17 +3924,24 @@
       ]
     },
     "dissolve": {
-      "stability": 2.5,
+      "stability": 6.2,
       "difficulty": 0.5,
       "state": 2,
-      "reviews": 1,
-      "next_review": "2026-06-13",
-      "last_review": "2026-06-11",
+      "reviews": 2,
+      "next_review": "2026-06-20",
+      "last_review": "2026-06-14",
       "history": [
         {
           "date": "2026-06-11",
           "rating": 3,
           "stability": 2.5,
+          "difficulty": 0.5,
+          "new_state": 2
+        },
+        {
+          "date": "2026-06-14",
+          "rating": 3,
+          "stability": 6.2,
           "difficulty": 0.5,
           "new_state": 2
         }
@@ -5127,7 +5169,7 @@
   "stats": {
     "total_studied": 197,
     "in_learning": 11,
-    "in_review": 184,
+    "in_review": 183,
     "mastered": 0,
     "last_session": "2026-06-14"
   }
