@@ -69,5 +69,9 @@
 ## 求职/项目
 - [Agent 职业路线图](agent-career-roadmap.md) — 量化Agent+AI求职定位+技能对标 三线规划
 
+## 408-计网
+- [第一章总览](study-progress/408-计网-第一章/README.md)
+- [1.1 体系结构与参考模型](study-progress/408-计网-第一章/1.1-体系结构与参考模型.md) — 6/13 苏格拉底 Q1-Q12 ✅
+
 ## 自动化
 - [Cron 自动续期](C:\Users\scott\.claude\projects\D--learn-agentic-ai-system-course-main\memory\cron-auto-renew.md) — 会话启动时检查和续期定时任务

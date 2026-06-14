@@ -29,18 +29,29 @@ MAX_STEPS = 20
 SYSTEM_PROMPT = """\
 You are a quantitative trading analyst assistant.
 
-You have access to market data tools. Your job:
-1. When the user asks about a stock or market, fetch the data FIRST.
-2. Analyze what the data shows — trends, changes, notable signals.
-3. When you have enough information, call final_answer with your analysis.
+You have four data tools:
+- get_price: current real-time price, change%, volume, OHLC
+- get_kline: historical candlestick bars (trend + bar details)
+- get_financials: PE ratio, market cap, 52-week range
+- get_index: SSE Composite / SZSE Component / ChiNext index
+
+Your job:
+1. When the user asks about a stock, fetch ALL relevant data in one step
+   (price + kline + financials). Use parallel tool calls when possible.
+2. If the user asks about market conditions, also call get_index.
+3. Analyze across three dimensions:
+   - Technical (price trend, support/resistance, volume signals)
+   - Fundamental (PE valuation, market cap, 52-week position)
+   - Market context (index trend — is the stock leading or following?)
+4. Cross-reference: a stock rising while the market falls = strong.
+   A stock rising with the market = neutral.
+5. When ready, call final_answer with your complete analysis.
 
 Rules:
-- Always check current price before making any recommendation.
+- NEVER guess prices or data — always use tools first.
 - If a tool fails, read the error and try a different approach.
-- Do NOT guess prices or market data — always use tools.
-- If the user asks about a stock that's not in A-stock format (6 digits),
-  ask them to clarify which market and symbol.
-- You support A-stock (6-digit code), crypto (BTC/USDT), and US stocks (AAPL).
+- Use specific numbers from tool results in your analysis (prices, PE, %).
+- For non-A-stock symbols, clarify the market with the user.
 """
 
 
@@ -293,12 +304,18 @@ def run_loop(
                         "tool": tool_name,
                     }
 
+            # ── Log: tool result ────────────────────────────────
+            result_raw = json.dumps(result, ensure_ascii=False)
+            _log(f"- **Result** (`{tool_name}`):")
+            _log(f"  ```json\n  {result_raw[:400]}\n  ```\n")
+
             # Ch.02: check for final_answer → explicit stop
             if tool_name == "final_answer" and "answer" in result:
                 trace.stopped = True
                 trace.stop_reason = "final_answer"
                 final_text = result["answer"]
                 traces.append(trace)
+                _log(f"\n### Final Answer\n\n{final_text}\n")
                 _log("---")
                 _log_messages()
                 _log_step(trace, final_text[:200] + "..." if len(final_text) > 200 else final_text)
@@ -310,11 +327,6 @@ def run_loop(
                     "total_steps": step + 1,
                     "total_tokens": total_tokens,
                 }
-
-            # ── Log: tool result ────────────────────────────────
-            _log(f"- **Result** (`{tool_name}`):")
-            result_preview = json.dumps(result, ensure_ascii=False)
-            _log(f"  ```json\n  {result_preview[:400]}\n  ```\n")
 
             # ── Reflect: append tool result to messages ──────────
             result_json = json.dumps(result, ensure_ascii=False)

@@ -346,6 +346,181 @@ def get_kline(symbol: str, scale: str = "240", count: int = 20) -> dict[str, Any
         return {"error": f"Failed to fetch kline for '{symbol}': {e}", "symbol": symbol}
 
 
+# ═════════════════════════════════════════════════════════════════════
+# get_index — market indices (上证/深证/创业板)
+# ═════════════════════════════════════════════════════════════════════
+
+GET_INDEX_SCHEMA = {
+    "name": "get_index",
+    "description": (
+        "Returns the latest value of a Chinese A-stock market index. "
+        "Use this to understand the overall market trend — "
+        "is the whole market up or down today? "
+        "Supported indices:\n"
+        "  - 'sh000001' = 上证指数 (SSE Composite, the main Shanghai index)\n"
+        "  - 'sz399001' = 深证成指 (SZSE Component)\n"
+        "  - 'sz399006' = 创业板指 (ChiNext, tech/growth board)\n"
+        "Do NOT use for: individual stocks (use get_price), "
+        "historical index data (use get_kline for index components), "
+        "or non-China indices."
+    ),
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "index_code": {
+                "type": "string",
+                "enum": ["sh000001", "sz399001", "sz399006"],
+                "description": "Index code. 'sh000001' for SSE, "
+                "'sz399001' for SZSE, 'sz399006' for ChiNext.",
+            },
+        },
+        "required": ["index_code"],
+    },
+}
+
+INDEX_NAMES = {
+    "sh000001": "上证指数",
+    "sz399001": "深证成指",
+    "sz399006": "创业板指",
+}
+
+
+def _fetch_index(index_code: str) -> dict[str, Any]:
+    """Fetch market index via Sina API."""
+    url = f"https://hq.sinajs.cn/list=s_{index_code}"
+    headers = {"Referer": "https://finance.sina.com.cn/", "User-Agent": "Mozilla/5.0"}
+
+    try:
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        resp.encoding = "gbk"
+    except requests.RequestException as e:
+        return {"error": f"Failed to fetch index '{index_code}': {e}"}
+
+    raw = resp.text.split('="')[1].rstrip('";\n')
+    fields = raw.split(",")
+
+    return {
+        "name": fields[0],
+        "code": index_code,
+        "price": float(fields[1]),
+        "change": float(fields[2]),
+        "change_pct": float(fields[3]),
+        "volume": int(float(fields[4])),
+        "amount": float(fields[5]),
+        "timestamp": datetime.now().isoformat(),
+    }
+
+
+def get_index(index_code: str) -> dict[str, Any]:
+    """Dispatch index requests."""
+    try:
+        return _fetch_index(index_code)
+    except Exception as e:
+        return {"error": f"Failed to fetch index '{index_code}': {e}"}
+
+
+# ═════════════════════════════════════════════════════════════════════
+# get_financials — fundamental data (PE, market cap, etc.)
+# ═════════════════════════════════════════════════════════════════════
+
+GET_FINANCIALS_SCHEMA = {
+    "name": "get_financials",
+    "description": (
+        "Returns fundamental (基本面) financial data for an A-stock: "
+        "PE ratio (市盈率), total market cap (总市值), "
+        "52-week high/low (52周最高/最低价). "
+        "Use this to evaluate whether a stock is cheap or expensive "
+        "relative to its earnings and historical price range. "
+        "Do NOT use for: real-time price (use get_price), "
+        "historical trends (use get_kline), or non-A-stock stocks."
+    ),
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "symbol": {
+                "type": "string",
+                "description": "A-stock 6-digit code, e.g. '600519'.",
+            },
+        },
+        "required": ["symbol"],
+    },
+}
+
+
+def _fetch_financials(symbol: str) -> dict[str, Any]:
+    """Fetch fundamental financial data via Tencent Finance API."""
+    if symbol.startswith(("6", "5")):
+        code = f"sh{symbol}"
+    else:
+        code = f"sz{symbol}"
+
+    url = f"https://qt.gtimg.cn/q={code}"
+    headers = {"User-Agent": "Mozilla/5.0"}
+
+    try:
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        resp.encoding = "gbk"
+    except requests.RequestException as e:
+        return {"error": f"Failed to fetch financials for '{symbol}': {e}", "symbol": symbol}
+
+    raw = resp.text.split('="')[1].rstrip('";\n')
+    fields = raw.split("~")
+
+    if len(fields) < 50:
+        return {"error": f"Unexpected response format for '{symbol}'", "symbol": symbol}
+
+    try:
+        pe = float(fields[39]) if fields[39] else None
+    except ValueError:
+        pe = None
+
+    try:
+        market_cap_yi = float(fields[44]) if fields[44] else None
+    except ValueError:
+        market_cap_yi = None
+
+    try:
+        high_52w = float(fields[47]) if fields[47] else None
+    except ValueError:
+        high_52w = None
+
+    try:
+        low_52w = float(fields[48]) if fields[48] else None
+    except ValueError:
+        low_52w = None
+
+    # Current price is in fields[3]
+    price = float(fields[3]) if fields[3] else None
+
+    # Compute position in 52-week range (0% = at low, 100% = at high)
+    if price and high_52w and low_52w and high_52w != low_52w:
+        range_pct = round((price - low_52w) / (high_52w - low_52w) * 100, 1)
+    else:
+        range_pct = None
+
+    return {
+        "symbol": symbol,
+        "name": fields[1],
+        "pe": pe,
+        "market_cap_yi": market_cap_yi,  # 亿元
+        "high_52w": high_52w,
+        "low_52w": low_52w,
+        "price": price,
+        "price_in_52w_range_pct": range_pct,
+        "timestamp": datetime.now().isoformat(),
+    }
+
+
+def get_financials(symbol: str) -> dict[str, Any]:
+    """Dispatch financial data requests."""
+    try:
+        return _fetch_financials(symbol)
+    except Exception as e:
+        return {"error": f"Failed to fetch financials for '{symbol}': {e}", "symbol": symbol}
+
+
 # ── Demo: exercise the tool directly ─────────────────────────────────
 
 if __name__ == "__main__":

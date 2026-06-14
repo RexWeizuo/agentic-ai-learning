@@ -13,7 +13,7 @@ from __future__ import annotations
 import os
 import sys
 
-from src.quant_agent.loop import run_loop
+from src.quant_agent.loop import MODEL, run_loop
 
 
 def main() -> None:
@@ -25,9 +25,7 @@ def main() -> None:
         sys.exit(1)
 
     print("=" * 60)
-    print("Quant Agent — Ch.02 Agent Loop")
-    print("Model: qwen-max (DashScope)")
-    print("=" * 60)
+    print(f"Quant Agent — Ch.02 Agent Loop — {MODEL}")
 
     # ── Demo: ask about a stock ──────────────────────────────────
     user_message = "贵州茅台现在什么价格？最近走势怎么样，值得买吗？"
