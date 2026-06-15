@@ -16,6 +16,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Callable
 
+from .memory import WRITE_MEMORY_SCHEMA, write_memory
 from .prices import (
     GET_FINANCIALS_SCHEMA,
     GET_INDEX_SCHEMA,
@@ -52,12 +53,14 @@ class Tool:
     input_schema: dict[str, Any]
 
     # ── Loop's view (Ch.03 metadata) ───────────────────────────
+    # Defaults are FAIL-CLOSED (Claude Code pattern):
+    #   assume write, assume unsafe, need explicit override.
     handler: Callable[..., dict[str, Any]]
-    read_only: bool = True          # eligible for restricted agents
-    destructive: bool = False       # triggers permission gate (Ch.12)
-    concurrency_safe: bool = True   # can run in parallel worker pool
-    idempotent: bool = True         # safe to retry without side effects
-    open_world: bool = True         # result changes between calls (no cache)
+    read_only: bool = False          # default: assume can mutate
+    destructive: bool = False        # default: not destructive
+    concurrency_safe: bool = False   # default: assume NOT safe
+    idempotent: bool = False         # default: assume NOT idempotent
+    open_world: bool = True          # default: assume result varies
 
     def to_openai_schema(self) -> dict[str, Any]:
         """Convert to OpenAI-compatible tool schema."""
@@ -69,6 +72,37 @@ class Tool:
                 "parameters": self.input_schema,
             },
         }
+
+
+def build_tool(
+    name: str,
+    description: str,
+    input_schema: dict[str, Any],
+    handler: Callable[..., dict[str, Any]],
+    **overrides: Any,
+) -> Tool:
+    """
+    Build a Tool with safe defaults. `overrides` explicitly opt in.
+
+    Claude Code pattern (Tool.ts:757-792): all tools go through
+    a factory that applies fail-closed defaults — no tool ships
+    with undefined safety flags. Each tool that IS safe must
+    explicitly declare it.
+    """
+    defaults: dict[str, Any] = {
+        "name": name,
+        "description": description,
+        "input_schema": input_schema,
+        "handler": handler,
+        # fail-closed: assume unsafe unless explicitly overridden
+        "read_only": False,
+        "destructive": False,
+        "concurrency_safe": False,
+        "idempotent": False,
+        "open_world": True,
+    }
+    defaults.update(overrides)
+    return Tool(**defaults)
 
 
 # ── final_answer — the explicit stop tool ────────────────────────
@@ -96,39 +130,50 @@ def final_answer(text: str) -> dict[str, Any]:
 # ── The registry ─────────────────────────────────────────────────
 
 TOOLS: list[Tool] = [
-    Tool(
+    build_tool(
         name=GET_PRICE_SCHEMA["name"],
         description=GET_PRICE_SCHEMA["description"],
         input_schema=GET_PRICE_SCHEMA["input_schema"],
         handler=get_price,
-        read_only=True, destructive=False,
-        concurrency_safe=True, idempotent=True, open_world=True,
+        read_only=True, concurrency_safe=True, idempotent=True,
+        open_world=True,
     ),
-    Tool(
+    build_tool(
         name=GET_KLINE_SCHEMA["name"],
         description=GET_KLINE_SCHEMA["description"],
         input_schema=GET_KLINE_SCHEMA["input_schema"],
         handler=get_kline,
-        read_only=True, destructive=False,
-        concurrency_safe=True, idempotent=True, open_world=False,
+        read_only=True, concurrency_safe=True, idempotent=True,
+        open_world=False,
     ),
-    Tool(
+    build_tool(
         name=GET_INDEX_SCHEMA["name"],
         description=GET_INDEX_SCHEMA["description"],
         input_schema=GET_INDEX_SCHEMA["input_schema"],
         handler=get_index,
-        read_only=True, destructive=False,
-        concurrency_safe=True, idempotent=True, open_world=True,
+        read_only=True, concurrency_safe=True, idempotent=True,
+        open_world=True,
     ),
-    Tool(
+    build_tool(
         name=GET_FINANCIALS_SCHEMA["name"],
         description=GET_FINANCIALS_SCHEMA["description"],
         input_schema=GET_FINANCIALS_SCHEMA["input_schema"],
         handler=get_financials,
-        read_only=True, destructive=False,
-        concurrency_safe=True, idempotent=True, open_world=False,
+        read_only=True, concurrency_safe=True, idempotent=True,
+        open_world=False,
     ),
-    Tool(
+    build_tool(
+        name=WRITE_MEMORY_SCHEMA["name"],
+        description=WRITE_MEMORY_SCHEMA["description"],
+        input_schema=WRITE_MEMORY_SCHEMA["input_schema"],
+        handler=write_memory,
+        # NOT read_only — writes to disk!
+        destructive=False,
+        concurrency_safe=False,
+        idempotent=False,
+        open_world=True,
+    ),
+    build_tool(
         name="final_answer",
         description=(
             "Call this when you have gathered sufficient data to answer "
@@ -137,13 +182,13 @@ TOOLS: list[Tool] = [
         ),
         input_schema=FINAL_ANSWER_SCHEMA,
         handler=final_answer,
-        read_only=True, destructive=False,
-        concurrency_safe=True, idempotent=True, open_world=True,
+        read_only=True, concurrency_safe=True, idempotent=True,
+        open_world=True,
     ),
     # ── Reserved slots ─────────────────────────────────────────
-    # Tool(name="get_kline",        ...)  # K-line / candlestick history
-    # Tool(name="get_financials",   ...)  # Fundamental data (PE, revenue)
-    # Tool(name="get_index",        ...)  # Market index (上证指数 etc.)
-    # Tool(name="search_news",      ...)  # Sentiment / news search
-    # Tool(name="run_backtest",     ...)  # Strategy backtest engine
+    # build_tool(name="get_kline", ...)
+    # build_tool(name="get_financials", ...)
+    # build_tool(name="get_index", ...)
+    # build_tool(name="search_news", ...)
+    # build_tool(name="run_backtest", ...)
 ]

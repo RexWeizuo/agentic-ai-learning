@@ -68,6 +68,7 @@
 
 ## 求职/项目
 - [Agent 职业路线图](agent-career-roadmap.md) — 量化Agent+AI求职定位+技能对标 三线规划
+- [实现标准](implementation-standard.md) — 讲义优先+Claude Code源码验证
 
 ## 408-计网
 - [第一章总览](study-progress/408-计网-第一章/README.md)

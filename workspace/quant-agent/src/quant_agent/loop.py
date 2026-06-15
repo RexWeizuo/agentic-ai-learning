@@ -20,94 +20,243 @@ from openai import OpenAI
 
 from .tools.registry import TOOLS, Tool
 
+# ── Memory loading (Ch.06: frozen prefix at session start) ────────
+
+def _load_memory_files(
+    base_dir: str = "memory",
+    files: tuple[str, ...] = ("user_profile.md", "quant-agent-memory.md"),
+) -> str:
+    """
+    Load curated memory files into the frozen prefix.
+
+    Ch.06: "Markdown files are frozen at session start into the
+    system prompt." Ch.04: "the cache wants byte-stable bytes."
+
+    Strips YAML frontmatter (--- ... ---) and wraps content in
+    delimited sections the model can identify.
+    """
+    parts: list[str] = []
+    for filename in files:
+        path = os.path.join(base_dir, filename)
+        if not os.path.isfile(path):
+            continue
+        with open(path, encoding="utf-8") as f:
+            raw = f.read()
+        # Strip frontmatter
+        content = raw
+        if content.startswith("---"):
+            end = content.find("---", 3)
+            if end != -1:
+                content = content[end + 3:].strip()
+        parts.append(f"§ {filename}\n{content}")
+    if parts:
+        return "\n\n" + "\n\n".join(parts)
+    return ""
+
+
 # ── Error classification (Ch.03: recoverable vs fatal) ───────────
 
-def _classify_error(error_msg: str) -> tuple[bool, str]:
+def _classify_error(error_msg: str, exc_type: type | None = None) -> tuple[bool, str]:
     """
     Classify a tool error as recoverable or fatal.
 
-    Recoverable = retry might work (network blip, timeout, rate limit).
-    Fatal = retry will never work (bad symbol, invalid params, auth failure).
+    Prefer exception types over string matching — ConnectionError is
+    always recoverable, ValueError is always fatal, etc.
 
     Returns (recoverable: bool, hint: str).
     """
+    # ── Exception-type classification (precise) ──────────────
+    if exc_type is not None:
+        if issubclass(exc_type, (ConnectionError, TimeoutError)):
+            return (True, "Network issue — retry once or try after market reopens")
+        if issubclass(exc_type, ValueError):
+            return (False, "Invalid data format — check the symbol or parameters")
+
+    # ── String fallback (for errors passed through from tools) ──
     msg_lower = error_msg.lower()
 
-    # ── Recoverable patterns ──────────────────────────────────
-    recoverable_patterns = [
-        ("connection", "Network issue — try again in a moment"),
-        ("timeout", "Request timed out — retry with fewer symbols if persistent"),
-        ("timed out", "Request timed out — retry with fewer symbols if persistent"),
-        ("rate limit", "Rate limited — wait a few seconds then retry"),
-        ("too many requests", "Rate limited — wait a few seconds then retry"),
-        ("remote end closed", "Server closed connection — retry once"),
-        ("remote disconnected", "Server disconnected — retry once"),
-    ]
-    for pattern, hint in recoverable_patterns:
-        if pattern in msg_lower:
-            return (True, hint)
-
-    # ── Fatal patterns ───────────────────────────────────────
-    fatal_patterns = [
-        ("not found", "Symbol or resource does not exist — do not retry"),
-        ("invalid", "Invalid input — correct the arguments instead of retrying"),
-        ("cannot auto-detect", "Unrecognized symbol format — ask user to clarify"),
-        ("arrearage", "API quota exhausted — switch model or top up"),
+    # Fatal first: things retry can never fix
+    for keyword, hint in [
+        ("not found", "Resource does not exist — verify the symbol"),
+        ("cannot auto-detect", "Unrecognized symbol format — ask the user to clarify"),
+        ("arrearage", "API quota exhausted — switch to next model"),
         ("access denied", "Authentication failed — check credentials"),
-        ("permission", "Permission denied — cannot fix by retrying"),
-    ]
-    for pattern, hint in fatal_patterns:
-        if pattern in msg_lower:
+        ("parse sina response", "Data format unexpected — try again later"),
+        ("unexpected response format", "Data format unexpected — try again later"),
+    ]:
+        if keyword in msg_lower:
             return (False, hint)
 
-    # ── Default: assume recoverable (let model decide) ───────
-    return (True, "Unknown error — you may retry once or try another approach")
+    # Recoverable: transient issues
+    for keyword, hint in [
+        ("connection", "Network issue — retry once"),
+        ("timeout", "Request timed out — retry with fewer data points"),
+        ("timed out", "Request timed out — retry with fewer data points"),
+        ("rate limit", "Rate limited — wait and retry"),
+        ("too many requests", "Rate limited — wait and retry"),
+        ("remote end closed", "Server disconnected — retry once"),
+        ("remote disconnected", "Server disconnected — retry once"),
+    ]:
+        if keyword in msg_lower:
+            return (True, hint)
+
+    # ── Default: assume recoverable ──────────────────────────
+    return (True, "Error encountered — retry once or try another approach")
 
 
-def _make_error_envelope(error_msg: str) -> dict[str, Any]:
-    """Wrap an error in Ch.03's result envelope."""
-    recoverable, hint = _classify_error(error_msg)
+# Error codes (Ch.03: numeric codes model can reason about)
+_ERROR_CODES = {
+    "unknown_tool": 1,
+    "schema_parse": 2,
+    "network": 3,
+    "not_found": 4,
+    "permission": 5,
+    "quota": 6,
+    "execution": 7,
+}
+
+
+def _error_code_for(recoverable: bool, error_msg: str) -> int:
+    """Map error to a numeric code (Claude Code pattern: ValidationResult.errorCode)."""
+    msg_lower = error_msg.lower()
+    if "not found" in msg_lower or "cannot auto-detect" in msg_lower:
+        return _ERROR_CODES["not_found"]
+    if any(w in msg_lower for w in ("arrearage", "access denied", "quota")):
+        return _ERROR_CODES["quota"]
+    if recoverable:
+        if any(w in msg_lower for w in ("connection", "timeout", "rate limit", "remote")):
+            return _ERROR_CODES["network"]
+        return _ERROR_CODES["execution"]
+    return _ERROR_CODES["execution"]
+
+
+def _make_error_envelope(error_msg: str, exc_type: type | None = None) -> dict[str, Any]:
+    """Wrap an error in Ch.03's result envelope with error code."""
+    recoverable, hint = _classify_error(error_msg, exc_type)
     return {
         "ok": False,
         "error": error_msg,
         "recoverable": recoverable,
         "hint": hint,
+        "error_code": _error_code_for(recoverable, error_msg),
     }
 
 
+# ── Tool output clipping (Ch.05: clip before entering transcript) ──
+
+MAX_RESULT_CHARS = 2_000  # Per Ch.05: cap tool results before model sees them
+
+
+def _clip_result(result_json: str) -> tuple[str, bool]:
+    """
+    Clip oversized tool results with a visible omission marker.
+
+    Ch.05: "Silent truncation teaches the model a false view."
+    Keep head + tail; insert a marker the model can read.
+    Full result stays in the audit log (log file).
+
+    Returns (clipped_str, was_clipped).
+    """
+    if len(result_json) <= MAX_RESULT_CHARS:
+        return result_json, False
+
+    half = MAX_RESULT_CHARS // 2
+    head = result_json[:half]
+    tail = result_json[-half:]
+    omitted = len(result_json) - MAX_RESULT_CHARS
+
+    clipped = (
+        f"{head}\n"
+        f"[... {omitted} chars omitted — use a more specific query "
+        f"or check the full log for details ...]\n"
+        f"{tail}"
+    )
+    return clipped, True
+
+
+# ── Deduplication (Ch.05: latest-wins for repeated reads) ──────────
+
+def _dedupe_tool_results(
+    messages: list[dict[str, Any]], tool_map: dict[str, Tool]
+) -> list[dict[str, Any]]:
+    """
+    Drop earlier duplicates of the same (tool, input) call.
+
+    Ch.05: "latest-wins dedupe — keep only the most recent result
+    per (tool, input) pair."
+
+    Skips open_world tools (get_price, get_index) — their results
+    change between calls so earlier results are not superseded.
+    """
+    # ── Find latest index for each (tool, input) pair ──────────
+    latest: dict[tuple[str, str], int] = {}
+    for i, m in enumerate(messages):
+        if m["role"] != "tool":
+            continue
+        tname = m.get("_tool_name", "")
+        targs = m.get("_tool_args", "")
+        if not tname:
+            continue
+        tool = tool_map.get(tname)
+        if tool is None or tool.open_world:
+            continue  # mutable results: keep all
+        latest[(tname, targs)] = i
+
+    # ── Keep latest only ───────────────────────────────────────
+    kept: list[dict[str, Any]] = []
+    dropped = 0
+    for i, m in enumerate(messages):
+        if m["role"] != "tool":
+            kept.append(m)
+            continue
+        tname = m.get("_tool_name", "")
+        targs = m.get("_tool_args", "")
+        tool = tool_map.get(tname)
+        if tool is None or tool.open_world:
+            kept.append(m)  # always keep mutable results
+        else:
+            if latest.get((tname, targs)) == i:
+                kept.append(m)  # this IS the latest
+            else:
+                dropped += 1
+    if dropped > 0:
+        kept.append({
+            "role": "user",
+            "content": f"[... {dropped} duplicate tool result(s) omitted ...]",
+        })
+    return kept
+
+
+# ── Remaining Ch.05 stubs ─────────────────────────────────────────
+# TODO: asymmetric reduction — keep head 2 + tail 6 turns verbatim, summarize middle
+#   _compact_transcript(messages, keep_head=2, keep_tail=6)
+#
+# TODO: working memory — small mutable scratchpad for current task
+#   working_memory: dict = {"goal": ..., "files_read": [], "open_questions": []}
+#
+# TODO: mid-turn summarization — auxiliary cheap model compresses middle into reference block
+#   summary = await auxiliary_client.summarize(middle_turns)
+#
+# TODO: compaction trigger — proactive token check before Plan phase
+#   if _estimate_tokens(messages) > context_limit - max_output - 4096:
+#       messages = _compact_transcript(messages)
+
+
 # ── Hooks (Ch.03: pre/post dispatch callbacks) ────────────────────
-# Each hook is a function (tool_name, args, result) -> result (may modify).
-# Pre-hooks run in registration order. Post-hooks run in reverse.
-# A hook returning None means "don't modify result".
+# Claude Code pattern (hooks.ts + toolExecution.ts):
+#   Pre-hooks  → execute in registration order
+#   Post-hooks → execute in REVERSE registration order (middleware stack)
+# Each hook is (tool_name, args, result) -> result (may modify).
+# Return None = no modification.
 
 PRE_HOOKS: list[Callable[[str, dict, dict | None], dict | None]] = []
 POST_HOOKS: list[Callable[[str, dict, dict], dict | None]] = []
 
 
-def _hook_trace_input(tool_name: str, args: dict, _result: dict | None) -> dict | None:
-    """Pre-hook: log every tool dispatch with args."""
-    # Already logged via _log() in verbose mode — this is the hook version.
-    return None  # Don't modify args
-
-
-def _hook_add_provenance(tool_name: str, _args: dict, result: dict) -> dict | None:
-    """Post-hook: stamp result with provenance (Ch.03: output metadata)."""
-    result["_provenance"] = {
-        "tool": tool_name,
-        "timestamp": datetime.now().isoformat(),
-    }
-    return result
-
-
 def _hook_scrub_secrets(tool_name: str, _args: dict, result: dict) -> dict | None:
-    """Post-hook: redact any leaked secrets from result text."""
-    # TODO: add secret patterns when real credentials appear in results
-    return None  # Nothing to scrub yet
-
-
-# Register built-in hooks (order matters!)
-POST_HOOKS.append(_hook_add_provenance)
-# POST_HOOKS.append(_hook_scrub_secrets)  # TODO: enable when needed
+    """Post-hook: redact leaked secrets/keys/tokens from result text."""
+    # TODO: enable when tools access authenticated APIs
+    return None
 
 
 # ── Configuration ────────────────────────────────────────────────
@@ -254,8 +403,11 @@ def run_loop(
     tool_schemas = [t.to_openai_schema() for t in TOOLS]
     tool_map = {t.name: t for t in TOOLS}
 
+    # ── Ch.06: load frozen memory into prefix (session start) ──
+    memory_prefix = _load_memory_files()
+
     messages: list[dict[str, Any]] = [
-        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "system", "content": SYSTEM_PROMPT + memory_prefix},
         {"role": "user", "content": user_message},
     ]
 
@@ -269,6 +421,9 @@ def run_loop(
     # ── Loop ─────────────────────────────────────────────────────
     for step in range(max_steps):
         trace = StepTrace(step=step + 1)
+
+        # ── Ch.05: dedupe before Plan (collapse phase) ──────────
+        messages = _dedupe_tool_results(messages, tool_map)
 
         # ── Plan: call the model ─────────────────────────────────
         response = client.chat.completions.create(
@@ -390,7 +545,8 @@ def run_loop(
                 except Exception as e:
                     # Ch.01 + Ch.02: wrap exception as tool_result
                     result = _make_error_envelope(
-                        f"Tool '{tool_name}' execution failed: {e}"
+                        f"Tool '{tool_name}' execution failed: {e}",
+                        exc_type=type(e),
                     )
 
             # ════════════ Step Boundary (Ch.02) ════════════
@@ -416,17 +572,17 @@ def run_loop(
             _log(f"  ```json\n  {result_raw[:400]}\n  ```\n")
 
             # ════════ Hook pipeline (Ch.03) ════════
-            # Pre-hooks (registration order)
+            # Claude Code pattern (toolExecution.ts: checkPermissionsAndCallTool):
+            #   Pre-hooks → validateInput → Permission → Execute → Post-hooks
             for hook in PRE_HOOKS:
                 modified = hook(tool_name, args, None)
                 if modified is not None:
-                    args = modified  # Hook transformed the input args
+                    args = modified
 
-            # Post-hooks (reverse registration order)
             for hook in reversed(POST_HOOKS):
                 modified = hook(tool_name, args, result)
                 if modified is not None:
-                    result = modified  # Hook transformed the output
+                    result = modified
 
             # ── Wrap tool-native errors in Ch.03 envelope ───────
             if "error" in result and "ok" not in result:
@@ -451,13 +607,18 @@ def run_loop(
                     "total_tokens": total_tokens,
                 }
 
-            # ── Reflect: append tool result to messages ──────────
+            # ── Reflect: clip then send to model (Ch.05) ────────
             result_json = json.dumps(result, ensure_ascii=False)
+            clipped_json, was_clipped = _clip_result(result_json)
             messages.append({
                 "role": "tool",
                 "tool_call_id": tc.id,
-                "content": result_json,
+                "content": clipped_json,
+                "_tool_name": tool_name,        # for dedupe
+                "_tool_args": args_str,          # for dedupe
             })
+            if was_clipped and verbose:
+                _log(f"         └─ Clipped: {len(result_json)} → {len(clipped_json)} chars")
 
             if verbose and "error" in result:
                 _log(f"         └─ Error: {result['error'][:120]}")
