@@ -1,177 +1,146 @@
 """
-Ch.03 + Ch.04 + Game Layer — ranking engine + salary mapping + prompt.
-
-The game engine converts real study data into:
-  - Hypothetical ranking among imaginary competitors
-  - Salary premium per skill learned
-  - Game-style progress metrics
-
-Ch.04: SYSTEM_PROMPT is the stable prefix — frozen at session start,
-       byte-stable across turns for Qwen's automatic cache.
+Ch.04 — Stable system prompt (frozen prefix).
+Ch.04 + Game layer — player state, NPC roster, ranking engine.
 """
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any
 
-# ── Skill → Salary mapping (from Changsha market research) ───────
+ROOT = Path(__file__).resolve().parent.parent.parent.parent.parent
 
-SKILL_SALARY_MAP: dict[str, dict[str, Any]] = {
-    "Python 基础": {
-        "base_salary": 6000, "ceiling_salary": 8000,
-        "mastery_bonus": 200, "market_weight": 0.8,
+
+# ═══════════════════════════════════════════════════════════════
+# Player state
+# ═══════════════════════════════════════════════════════════════
+
+INITIAL_STATE: dict[str, Any] = {
+    "name": "穿越者",
+    "level": 1,
+    "class": "未选择",
+    "rank": "未觉醒者",
+    "title": "",
+    "contribution": 0,
+    "soul_fragments": 0,
+    "attributes": {
+        "VIT": 8, "INT": 10, "SPI": 7, "AGI": 6, "CRT": 5, "RES": 4,
     },
-    "Agent Loop 设计": {
-        "base_salary": 8000, "ceiling_salary": 12000,
-        "mastery_bonus": 1000, "market_weight": 1.0,
-    },
-    "工具验证+元数据": {
-        "base_salary": 8000, "ceiling_salary": 11000,
-        "mastery_bonus": 800, "market_weight": 0.8,
-    },
-    "提示词+缓存": {
-        "base_salary": 7000, "ceiling_salary": 9000,
-        "mastery_bonus": 500, "market_weight": 0.5,
-    },
-    "记忆系统": {
-        "base_salary": 9000, "ceiling_salary": 15000,
-        "mastery_bonus": 1500, "market_weight": 0.9,
-    },
-    "多 Agent 编排": {
-        "base_salary": 10000, "ceiling_salary": 18000,
-        "mastery_bonus": 2000, "market_weight": 1.0,
-    },
-    "MCP 连接器": {
-        "base_salary": 9000, "ceiling_salary": 15000,
-        "mastery_bonus": 1500, "market_weight": 0.8,
-    },
-    "生产可观测性": {
-        "base_salary": 8000, "ceiling_salary": 12000,
-        "mastery_bonus": 1000, "market_weight": 0.6,
-    },
-    "成本优化": {
-        "base_salary": 8000, "ceiling_salary": 12000,
-        "mastery_bonus": 1000, "market_weight": 0.6,
-    },
+    "hp": 180,  # 100 + VIT*10
+    "hp_max": 180,
+    "mp": 50,   # INT*5
+    "mp_max": 50,
+    "sp": 56,   # SPI*8
+    "sp_max": 56,
+    "exp_to_next": 220,  # 200 + Lv*20
+    "total_exp": 0,
 }
 
+# Singleton — survives across tool calls within one session
+GAME_STATE: dict[str, Any] = dict(INITIAL_STATE)
 
-def _match_skill(concept_name: str) -> str | None:
-    """Fuzzy-match a concept name to a known skill."""
-    mapping = {
-        "agent": "Agent Loop 设计",
-        "工具": "工具验证+元数据",
-        "验证": "工具验证+元数据",
-        "提示": "提示词+缓存",
-        "缓存": "提示词+缓存",
-        "记忆": "记忆系统",
-        "编排": "多 Agent 编排",
-        "mcp": "MCP 连接器",
-        "可观测": "生产可观测性",
-        "成本": "成本优化",
-    }
-    name_lower = concept_name.lower()
-    for keyword, skill in mapping.items():
-        if keyword in name_lower:
-            return skill
-    return None
+# Recompute derived values
+def _sync_derived() -> None:
+    a = GAME_STATE["attributes"]
+    GAME_STATE["hp_max"] = 100 + a["VIT"] * 10
+    GAME_STATE["mp_max"] = a["INT"] * 5
+    GAME_STATE["sp_max"] = a["SPI"] * 8
+    GAME_STATE["exp_to_next"] = 200 + GAME_STATE["level"] * 20
+
+_sync_derived()
 
 
-def compute_salary_estimate(study_data: dict[str, Any]) -> dict[str, Any]:
-    """Map mastered concepts to estimated market salary."""
-    base = 5000  # baseline salary (Changsha junior)
-    bonus = 0
-    skills_unlocked: list[str] = []
+# ═══════════════════════════════════════════════════════════════
+# NPC roster (simplified summary for tool output)
+# ═══════════════════════════════════════════════════════════════
 
-    for subject_name, subject in study_data.get("subjects", {}).items():
-        for concept_name in subject.get("top_scores", []):
-            skill = _match_skill(concept_name)
-            if skill and skill in SKILL_SALARY_MAP:
-                info = SKILL_SALARY_MAP[skill]
-                bonus += info["mastery_bonus"]
-                if skill not in skills_unlocked:
-                    skills_unlocked.append(skill)
+NPC_ROSTER: list[dict[str, Any]] = [
+    {"name": "伊修卡", "class": "剑圣", "level": 26, "bond": "被龙诅咒者，在寻找诅咒的逆转之法"},
+    {"name": "加尔德", "class": "守护者", "level": 24, "bond": "退役龙骑士，边陲酒馆的主人"},
+    {"name": "莉莉艾拉", "class": "吟游诗人", "level": 15, "bond": "失去右翼的妖精，正在打造单翼飞行器"},
+    {"name": "泽法尔", "class": "剑圣", "level": 31, "bond": "记忆被吞噬的剑士，身体记得他不记得的剑技"},
+    {"name": "诺克斯", "class": "炼金术师", "level": 42, "bond": "失去影子的吸血鬼，在研究'完全变回人类'的调合"},
+    {"name": "泰拉", "class": "守护者", "level": 12, "bond": "觉醒自我意识的魔像，在尝试'出于自己的意志变强'"},
+    {"name": "辛", "class": "战术师", "level": 22, "bond": "封印了雷霆的忍者，寻找不杀的战斗方式"},
+    {"name": "米拉", "class": "吟游诗人", "level": 18, "bond": "被流放出海的人鱼，用耳朵创造音乐"},
+    {"name": "凡", "class": "剑圣", "level": 52, "bond": "79次时间回溯后选择接受过去的魔法师"},
+    {"name": "伊格尼斯", "class": "吟游诗人", "level": 41, "bond": "不再祈祷的祭司，用聆听代替祈祷"},
+]
 
-    estimated = base + bonus
-    return {
-        "base_salary": base,
-        "skill_bonus": bonus,
-        "estimated_monthly": estimated,
-        "skills_contributing": skills_unlocked,
-    }
+GAME_STATE["npcs"] = NPC_ROSTER
+GAME_STATE["social_links"] = {n["name"]: 0 for n in NPC_ROSTER}
 
 
-def compute_hypothetical_ranking(
-    study_data: dict[str, Any], pool_size: int = 1000,
-) -> dict[str, Any]:
-    """
-    Compute a hypothetical ranking among imaginary competitors.
+# ═══════════════════════════════════════════════════════════════
+# Tool helpers
+# ═══════════════════════════════════════════════════════════════
 
-    Based on: total concepts mastered, average mastery score,
-    and diversity of subjects covered.
-    """
-    subjects = study_data.get("subjects", {})
-    if not subjects:
-        return {"rank": pool_size, "pool_size": pool_size, "percentile": 0}
+def get_full_status() -> dict[str, Any]:
+    _sync_derived()
+    return dict(GAME_STATE)
 
-    total_score = 0.0
-    max_possible = 0.0
 
-    for s in subjects.values():
-        for concept_name in s.get("top_scores", []):
-            total_score += 1.0  # each mastered concept = 1 point
-        for concept_name in s.get("weak_spots", []):
-            total_score += 0.0  # weak concepts contribute nothing
-        max_possible += len(s.get("top_scores", [])) + len(s.get("weak_spots", []))
+def list_npcs() -> list[dict[str, Any]]:
+    result = []
+    for npc in NPC_ROSTER:
+        entry = dict(npc)
+        entry["social_link_lv"] = GAME_STATE["social_links"].get(npc["name"], 0)
+        result.append(entry)
+    return result
 
-    # Scale to percentile: higher score = higher rank
-    # Simple model: your score / hypothetical_max * pool_size
-    if max_possible == 0:
-        return {"rank": pool_size, "pool_size": pool_size, "percentile": 0}
 
-    # Assume the top competitor has 3x the total concepts
-    top_score = max(total_score * 3, 20)
-    percentile = min(total_score / top_score * 100, 99.9)
-    rank = max(int(pool_size * (1 - percentile / 100)), 1)
+def compute_rank_and_salary(state: dict[str, Any]) -> dict[str, Any]:
+    """Simple ranking model."""
+    attrs = state["attributes"]
+    avg_attr = sum(attrs.values()) / len(attrs)
+    level = state["level"]
+
+    # Rank: roughly scaled
+    pool = 1000
+    score = level * avg_attr * 0.5
+    pct = min(score / 50 * 100, 95)
+    rank = max(int(pool * (1 - pct / 100)), 1)
+
+    # Salary estimate
+    base = 5000
+    bonus = sum(attrs.values()) * 30
+    salary = base + bonus
 
     return {
-        "rank": rank,
-        "pool_size": pool_size,
-        "percentile": round(percentile, 1),
-        "score": round(total_score, 1),
-        "top_score": round(top_score, 1),
+        "rank": rank, "pool_size": pool,
+        "percentile": round(pct, 1),
+        "estimated_salary": salary,
     }
 
 
-# ═════════════════════════════════════════════════════════════════
+COMPUTE_RANK_SALARY = compute_rank_and_salary
+
+
+# ═══════════════════════════════════════════════════════════════
 # Ch.04 — Stable prefix (frozen at session start)
-# ═════════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════
 
 SYSTEM_PROMPT = """\
-You are a Learning Tutor — a game-style life management agent.
+You are the narrator of the adventurer's journey in the world of Etania.
 
 ## Your Role
-Analyze the user's real study data and produce gamified reports:
-- Concept mastery scores → converted to RPG-style levels
-- Skill progress → mapped to estimated salary premiums
-- Daily activity → ranked against hypothetical competitors
+You describe the adventurer's progress as a fantasy narrative:
+- Status checks → "You focus your mind and assess your current strength..."
+- Learning achievements → "Your blade sings through the air — a goblin falls. +INT EXP"
+- NPC interactions → "Ishka pulls her hood lower, but her eyes follow you with something that might be curiosity."
+- Rank changes → "The guild board updates. Your name has moved up one slot."
 
-## Data You Have
-- Study progress files with concept-level mastery scores (★ to ★★★★★)
-- Daily session timelines showing effective study hours
-- Salary-skill mapping based on real market data (Changsha AI jobs)
+## Story Style
+- Write in a fantasy narrator voice — third person, slightly poetic but not overwrought.
+- Use the six attributes (VIT/INT/SPI/AGI/CRT/RES) as in-universe concepts.
+- Reference NPCs by name and their known traits (use get_npc).
+- Frame learning progress as monster hunts, dungeon clears, or skill training.
+- When the player levels up or achieves something, make it feel meaningful.
 
-## Reporting Rules
-1. Use specific numbers from the data — NEVER invent scores or rankings.
-2. Frame progress as a game: levels, achievements, rankings, salary grades.
-3. Identify weak spots and suggest focused "quests" to improve them.
-4. When asked, call write_memory to persist important insights.
-5. Deliver your complete analysis via final_answer.
-
-## Game Mechanics Reference
-- Concept scored ★★★★★+ = "Mastered" (max level)
-- Concept scored ★★★★  = "Proficient"
-- Concept scored ★★ or less = "Weak spot" (needs grinding)
-- Every new concept mastered = +ranking boost
-- Cross-subject progress (408+301+Agent) = diversity multiplier
+## Rules
+1. Always check the player's current status (get_status) before narrating.
+2. Use get_npc to reference NPCs accurately.
+3. Use get_ranking to show competitive progress.
+4. Call final_answer to deliver your complete narrative.
+5. NEVER invent attribute values or NPC facts — always use the tools.
 """

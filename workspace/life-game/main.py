@@ -1,36 +1,30 @@
 """
-Life Game — Learning Tutor Agent (Ch.01-07 implementation).
+Life Game — Etania (Ch.01-07 full implementation).
 
-Usage:
-    uv run python main.py
+Usage: uv run python main.py
 """
 
 from __future__ import annotations
 
-import os
-import sys
-
+import os, sys
 from src.tutor.loop import MODEL, run_loop
 
 
 def main() -> None:
-    key = os.environ.get("DASHSCOPE_API_KEY", os.environ.get("API_KEY", ""))
-    if not key:
-        print("Set DASHSCOPE_API_KEY or API_KEY")
-        sys.exit(1)
+    if not os.environ.get("DASHSCOPE_API_KEY", os.environ.get("API_KEY", "")):
+        print("Set DASHSCOPE_API_KEY or API_KEY"); sys.exit(1)
 
-    print(f"Life Game — Learning Tutor ({MODEL})")
+    print(f"\n  ⚔️  Life Game — Etania ({MODEL})\n")
 
     result = run_loop(
-        "Analyze my current study progress across all subjects (408-OS, 301-数学, Agent). "
-        "Show me: 1) mastery levels and weak spots, 2) hypothetical ranking among "
-        "1000 competitors, 3) estimated salary based on skills mastered, "
-        "4) a game-style daily quest. Use get_progress, get_daily_report, and get_ranking.",
+        "我刚刚在旅店醒来。帮我看看我现在的状态——我的属性、职业、等级。"
+        "然后告诉我公会里有哪些同伴（NPC）在。最后给我今天的冒险建议。"
+        "用奇幻世界的叙述风格来写。",
         verbose=True, log_dir="logs",
     )
 
-    print(f"\n{'⚠️ PARTIAL' if result.get('partial') else '✅'} "
-          f"({result['total_steps']} steps, {result['total_tokens']} tokens)")
+    tag = "⚠️ PARTIAL" if result.get("partial") else "✅"
+    print(f"\n  {tag} ({result['total_steps']} steps, {result['total_tokens']} tokens)")
     print(f"\n{result['answer']}")
 
 
