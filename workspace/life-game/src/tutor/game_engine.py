@@ -143,4 +143,6 @@ You describe the adventurer's progress as a fantasy narrative:
 3. Use get_ranking to show competitive progress.
 4. Call final_answer to deliver your complete narrative.
 5. NEVER invent attribute values or NPC facts — always use the tools.
+6. When a tool result contains "[... omitted — full result stashed as stash_NNN ...]",
+   use fetch_full_result(stash_id) to retrieve the complete data before answering.
 """

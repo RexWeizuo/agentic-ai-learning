@@ -14,6 +14,28 @@ from .game_engine import COMPUTE_RANK_SALARY, GAME_STATE, get_full_status, list_
 
 
 # ═══════════════════════════════════════════════════════════════
+# Ch.01 — Result stash (large results stored outside context window)
+# ═══════════════════════════════════════════════════════════════
+
+RESULT_STASH: dict[str, str] = {}
+_stash_counter = 0
+
+
+def stash_result(full_text: str) -> str:
+    """Store a full tool result in the side stash, return a retrievable ID.
+
+    This is the "stash the full thing somewhere the model can ask for"
+    pattern from Ch.01 — keeps large results out of the context window
+    while remaining retrievable on demand via fetch_full_result.
+    """
+    global _stash_counter
+    _stash_counter += 1
+    stash_id = f"stash_{_stash_counter:03d}"
+    RESULT_STASH[stash_id] = full_text
+    return stash_id
+
+
+# ═══════════════════════════════════════════════════════════════
 # Ch.03 — Tool + build_tool (Claude Code pattern)
 # ═══════════════════════════════════════════════════════════════
 
@@ -159,6 +181,38 @@ def _write_memory(fact: str, category: str) -> dict[str, Any]:
     return {"status": "written", "file": mem_file, "category": category}
 
 
+FETCH_FULL_RESULT_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "stash_id": {
+            "type": "string",
+            "description": (
+                "The stash ID returned in a clipped tool result, "
+                "e.g. 'stash_001'. You see this when a result contains "
+                "'[... omitted — full result stashed as stash_NNN ...]'."
+            ),
+        },
+    },
+    "required": ["stash_id"],
+}
+
+
+def _fetch_full_result(stash_id: str) -> dict[str, Any]:
+    """Retrieve the full, unclipped content of a previously truncated tool result."""
+    full = RESULT_STASH.get(stash_id)
+    if full is None:
+        return {
+            "found": False,
+            "hint": (
+                f"No stash with id '{stash_id}'. "
+                "It may have already been retrieved and cleared, or never existed."
+            ),
+        }
+    # One-shot retrieval: clear after read so stale data doesn't linger
+    del RESULT_STASH[stash_id]
+    return {"found": True, "stash_id": stash_id, "content": full}
+
+
 FINAL_ANSWER_SCHEMA = {
     "type": "object",
     "properties": {
@@ -232,6 +286,22 @@ TOOLS: list[Tool] = [
         handler=_write_memory,
         destructive=False, concurrency_safe=False,
         idempotent=False, open_world=True,
+    ),
+    build_tool(
+        name="fetch_full_result",
+        description=(
+            "Retrieve the complete, unclipped content of a previously "
+            "truncated tool result. Use this when a clipped result "
+            "contains '[... omitted — full result stashed as stash_NNN ...]' "
+            "and you need the full data to answer accurately. "
+            "Pass the stash_id exactly as shown in the clipped message. "
+            "Do NOT use for: normal status checks (use get_status), "
+            "NPC lookups (use get_npc)."
+        ),
+        input_schema=FETCH_FULL_RESULT_SCHEMA,
+        handler=_fetch_full_result,
+        read_only=True, concurrency_safe=True, idempotent=False,
+        open_world=False,
     ),
     build_tool(
         name="final_answer",

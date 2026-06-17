@@ -17,7 +17,7 @@ from typing import Any, Callable
 from openai import OpenAI
 
 from .game_engine import SYSTEM_PROMPT
-from .tools import TOOLS, Tool
+from .tools import TOOLS, Tool, stash_result
 
 MODEL = "qwen3.7-max-2026-05-17"
 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
@@ -54,11 +54,24 @@ def _make_error_envelope(msg: str) -> dict[str, Any]:
 
 MAX_RESULT = 2_000
 
-def _clip(text: str) -> tuple[str, bool]:
-    if len(text) <= MAX_RESULT: return text, False
+def _clip(text: str) -> tuple[str, bool, str | None]:
+    """Clip oversized results. Returns (clipped_text, was_clipped, stash_id_or_none).
+
+    When clipping occurs, the full text is stashed via stash_result() and a
+    pointer is embedded in the clipped message so the model can retrieve it
+    on demand with fetch_full_result(stash_id).
+    """
+    if len(text) <= MAX_RESULT: return text, False, None
     half = MAX_RESULT // 2
     omitted = len(text) - MAX_RESULT
-    return f"{text[:half]}\n[... {omitted} chars omitted ...]\n{text[-half:]}", True
+    sid = stash_result(text)
+    return (
+        f"{text[:half]}\n"
+        f"[... {omitted} chars omitted — full result stashed as '{sid}', "
+        f"use fetch_full_result('{sid}') to retrieve ...]\n"
+        f"{text[-half:]}",
+        True, sid,
+    )
 
 
 def _dedupe(msgs: list[dict], tool_map: dict[str, Tool]) -> list[dict]:
@@ -242,7 +255,7 @@ def run_loop(
 
             # Ch.05 — clip + Reflect
             result_json = json.dumps(result, ensure_ascii=False)
-            clipped, was = _clip(result_json)
+            clipped, was, _sid = _clip(result_json)
             messages.append({
                 "role": "tool", "tool_call_id": tc.id,
                 "content": clipped, "_tn": tool_name, "_ta": args_str,
