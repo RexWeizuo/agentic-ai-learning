@@ -84,7 +84,7 @@ json.dump(
     indent=2,
 )
 
-print(f"✅ {len(picked_words)} words ({len(picked_words)-needed} group + {needed} random) → memory/next_50.json")
+print(f"OK: {len(picked_words)} words ({len(picked_words)-needed} group + {needed} random)")
 for w in output[:5]:
     print(f"  {w['word']}")
 if len(output) > 5:

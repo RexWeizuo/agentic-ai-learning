@@ -1,302 +1,182 @@
 [
   {
-    "word": "overall",
-    "root": "over(全部)+all(所有)→全部的",
-    "meaning": "a. 全部的, 全体的, 从头至尾的, 一切在内的\\nadv. 从头到尾, 总的说来\\nn. 罩衫, 工作服",
-    "example": "- Overall, the study's findings challenge the traditional assumptions about cognitive development."
+    "word": "assume",
+    "root": "as(加强)+sume(拿)→拿住→假设；承担",
+    "meaning": "假设，假定；承担；呈现",
+    "example": "- I assume you have read the report."
   },
   {
-    "word": "overcome",
-    "root": "over(超过)+come(来)→克服",
-    "meaning": "vt. 战胜, 克服, 胜过\\nvi. 得胜",
-    "example": "- She overcame her fear of public speaking through persistent practice."
+    "word": "assumption",
+    "root": "as(to)+sum(take)+ption(noun)→take to→假设",
+    "meaning": "n. 假定, 自负, 担任, 假装\\n[经] 假定, 承担",
+    "example": "- The argument rests on the questionable assumption that economic growth always leads to improved well-being."
   },
   {
-    "word": "overflow",
-    "root": "over(超过)+flow(流)→溢出",
-    "meaning": "n. 溢值, 超值, 泛滥\\nv. (使)泛滥, (使)溢出, (使)充溢\\n[计] 上溢; 溢出",
-    "example": "- The heavy rain caused the river to overflow its banks, flooding nearby villages."
+    "word": "assure",
+    "root": "as(加强)+sure(确定)→使确定→保证",
+    "meaning": "保证，确保；使确信",
+    "example": "- I can assure you of the quality."
   },
   {
-    "word": "overhaul",
-    "root": "over(彻底)+haul(拉)→彻底检修",
-    "meaning": "vt. 分解检查, 翻修, 精细检查, 彻底革新\\nn. 分解检查, 精细检查, 大检修",
-    "example": "- The aging power plant underwent a complete overhaul to meet new environmental standards."
+    "word": "assurance",
+    "root": "assur(保证)+ance→保证",
+    "meaning": "n. 保证, 把握, 信心, 保险\\n[经] 保证, 担保, 保险",
+    "example": "- Her calm demeanor gave the investors assurance that the project would be completed on time."
   },
   {
-    "word": "overhead",
-    "root": "over(在...上)+head(头)→头顶的",
-    "meaning": "n. 经常开支, 普通用费, 天花板\\na. 在头上的, 高架的\\nadv. 在头顶上, 在空中, 在高处, 从头到脚全部没入地\\n[计] 总开销; 额外开销",
-    "example": "- Reducing overhead is essential for improving profit margins in competitive markets."
+    "word": "assign",
+    "root": "as(朝向)+sign(标记)→标记给某人→分配",
+    "meaning": "vt. 分配, 指派, 赋值\\n[计] 赋值",
+    "example": "- The professor assigned each student a research topic for the term paper."
   },
   {
-    "word": "overhear",
-    "root": "over(超过)+hear(听)→听到不该听的→偷听",
-    "meaning": "vt. 无意中听到, 偷听",
-    "example": "- She overheard her colleagues discussing the upcoming merger in the break room."
+    "word": "assignment",
+    "root": "as(to)+sign(mark)+ment(noun)→mark to→分配,任务",
+    "meaning": "n. 分配, 功课, 任务, 转让, 归因, 陈述\\n[计] 赋值",
+    "example": "- The professor announced a challenging research assignment due next Friday."
   },
   {
-    "word": "overlap",
-    "root": "over(在...上)+lap(重叠)→部分重叠→重叠",
-    "meaning": "n. 重叠, 重复, 部分的同时发生\\nvt. 重叠, 重复, 与...同时发生\\nvi. 迭盖, 部分的同时发生\\n[计] 重叠",
-    "example": "- There is a significant overlap between the responsibilities of the two departments."
+    "word": "assist",
+    "root": "as(加强)+sist(站立)→站在一旁帮助→协助",
+    "meaning": "n. 帮助, 协助\\nvt. 帮助, 促进\\nvi. 协助, 参加",
+    "example": "- The research assistant will assist the professor in collecting and analyzing data."
   },
   {
-    "word": "overlook",
-    "root": "over(超过)+look(看)→从上面看→忽视；俯瞰",
-    "meaning": "vt. 俯瞰, 远眺, 没注意到\\nn. 眺望, 俯瞰到的景色",
-    "example": "- The hotel room overlooks the Mediterranean Sea, offering breathtaking views at sunrise."
+    "word": "assistance",
+    "root": "as(to)+sist(stand)+ance(noun)→stand by→援助",
+    "meaning": "n. 协助, 援助\\n[经] 援助, 帮助",
+    "example": "- The research project was completed with the assistance of several graduate students."
   },
   {
-    "word": "outbreak",
-    "root": "out(向外)+break(打破)→爆发",
-    "meaning": "n. 爆发, 暴动\\n[医] 暴发",
-    "example": "- The government imposed strict quarantine measures following the outbreak of avian flu in the region."
+    "word": "underestimate",
+    "root": "under(低于)+estimate(估计)→低估",
+    "meaning": "n. 低估\\nvt. 低估, 看轻",
+    "example": "- Many investors underestimated the long-term impact of regulatory changes on the tech sector."
   },
   {
-    "word": "outcome",
-    "root": "out(向外)+come(来)→结果",
-    "meaning": "n. 结果, 出口",
-    "example": "- The outcome of the clinical trial was highly encouraging, showing significant improvement in patient recovery rates."
+    "word": "undergo",
+    "root": "under(在...下)+go(走)→在下面走→经历",
+    "meaning": "vt. 遭受, 经历, 忍受\\n[法] 经受, 经历, 忍受",
+    "example": "- All candidates must undergo a rigorous background check before employment."
   },
   {
-    "word": "outfit",
-    "root": "out(外)+fit(适合)→装备",
-    "meaning": "n. 用具, 配备, 机构\\nvt. 配备, 供应\\nvi. 得到装备",
-    "example": "- The research team brought a sophisticated scientific outfit to study the remote glacier."
+    "word": "undergraduate",
+    "root": "under(低于)+graduate(毕业生)→尚未毕业的学生→本科生",
+    "meaning": "n. 大学本科生, 大学肄业生\\na. 大学生的",
+    "example": "- Many undergraduates participate in research projects alongside faculty members."
   },
   {
-    "word": "outing",
-    "root": "out(外)+ing(名词)→外出",
-    "meaning": "n. 郊游, 远足\\na. 远足适用的",
-    "example": "- The school organized an outing to the national park to enhance students' understanding of ecology."
+    "word": "underlie",
+    "root": "under(在...下)+lie(躺)→躺在下面→构成基础",
+    "meaning": "vt. 位于...之下, 成为...的基础",
+    "example": "- Economic inequality underlies many social problems in modern societies."
   },
   {
-    "word": "outlet",
-    "root": "out(外)+let(小)→出口",
-    "meaning": "n. 出口, 发泄方法, 市场\\n[医] 出口",
-    "example": "- Regular exercise serves as a healthy outlet for stress and anxiety."
+    "word": "underline",
+    "root": "under(在...下)+line(线)→在下面划线→强调",
+    "meaning": "vt. 在...下面划线, 作...的衬里, 强调\\nn. 下划线, 图下说明文字\\n[计] 加下划线; 下划线",
+    "example": "- The author underlines the urgency of climate action in the concluding paragraph."
   },
   {
-    "word": "outline",
-    "root": "out(外)+line(线)→轮廓",
-    "meaning": "n. 大纲, 轮廓, 概要\\nvt. 描画轮廓, 描述要点\\nn. 大纲, 分级, 轮廓\\n[计] 大纲, 分级, 轮廓",
-    "example": "- The professor asked students to submit a detailed outline before writing the final essay."
+    "word": "underlying",
+    "root": "under(在下/不足)+ly+-ing(正在…/…的动作/…的)",
+    "meaning": "a. 在下面的\\n[经] 优先的, 基础的, 放在下面的",
+    "example": "- The underlying cause of the economic crisis was a lack of regulatory oversight."
   },
   {
-    "word": "outlook",
-    "root": "out(外)+look(看)→展望",
-    "meaning": "n. 观点, 景色, 前途, 了望\\n[经] 展望",
-    "example": "- Her optimistic outlook on economic recovery influenced the team's strategic planning."
+    "word": "undermine",
+    "root": "under(在...下)+mine(挖)→在下面挖→削弱",
+    "meaning": "vt. 在...下面挖, 渐渐破坏, 暗地里破坏\\n[法] 暗中破坏, 以阴谋中伤伤害",
+    "example": "- His constant criticism undermined her confidence before the presentation."
   },
   {
-    "word": "output",
-    "root": "out(外)+put(放)→输出",
-    "meaning": "n. 输出, 产品, 产量\\n[计] 输出",
-    "example": "- The factory's annual output increased by 12% after the introduction of automated machinery."
+    "word": "underneath",
+    "root": "under(在...下)+neath(下面)→在下面",
+    "meaning": "adv. 在下面\\nprep. 在...的下面",
+    "example": "- The keys were hidden underneath the floorboard."
   },
   {
-    "word": "zeal",
-    "root": "zeal(热情)→热情",
-    "meaning": "n. 热心, 热衷, 热诚",
-    "example": "- Her zeal for environmental conservation inspired the entire team to adopt sustainable practices."
+    "word": "royal",
+    "root": "roy(国王)+al(形容词后缀)→国王的",
+    "meaning": "n. 王室, 皇族\\na. 王室的, 皇家的, 盛大的, 庄严的",
+    "example": "- The royal family attended the ceremony at Westminster Abbey."
   },
   {
-    "word": "knowledge",
-    "root": "know(知道)+ledge(名词)→知识",
-    "meaning": "n. 知识, 学问, 认识, 知道",
-    "example": "- Her profound knowledge of classical literature impressed the examiners."
+    "word": "vulnerable",
+    "root": "vulner(受伤)+able(能)→能受伤的→易受伤害的",
+    "meaning": "a. 易受伤害的, 有弱点的, 易受影响的, 脆弱的, 成局的\\n[医] 易损的",
+    "example": "- Children in war zones are especially vulnerable to psychological trauma."
   },
   {
-    "word": "debate",
-    "root": "de(向下)+bate(打)→打倒对方→辩论",
-    "meaning": "n. 辩论, 讨论\\nv. 争论, 辩论",
-    "example": "- The candidates engaged in a heated debate on climate policy ahead of the election."
+    "word": "rake",
+    "root": "rake(耙子)→耙子",
+    "meaning": "n. 耙子, 钱耙, 斜度, 浪子\\nv. 搜索, 掠过, (用耙子)耙, (使)倾斜",
+    "example": "- He used a rake to gather the fallen autumn leaves into neat piles."
   },
   {
-    "word": "idle",
-    "root": "idle(空闲)→空闲的",
-    "meaning": "a. 懒惰的, 闲散的, 停顿的, 空闲的, 无用的\\nvi. 无所事事, 闲散, 浪费, 空转\\nvt. 虚度, 使闲散, 使空转\\nn. 空转, 空闲时间\\n[计] 空闲时间",
-    "example": "- He spent the summer idling away his time instead of preparing for the graduate entrance exam."
+    "word": "wrench",
+    "root": "wrench(扭伤)→扭伤",
+    "meaning": "n. 扳钳, 扳手, 扭伤, 歪曲, 痛苦\\nvt. 猛扭, 扭伤, 曲解, 折磨\\nvi. 猛扭, 猛绞",
+    "example": "- He tightened the loose bolt with a wrench."
   },
   {
-    "word": "attitude",
-    "root": "attitud(态度)+e→态度",
-    "meaning": "n. 态度, 看法, 姿势\\n[医] 体态, 姿势, 态度",
-    "example": "- Her positive attitude toward challenges contributed significantly to the team's success."
+    "word": "courtesy",
+    "root": "court(宫廷)+esy(名词)→宫廷礼仪→礼貌",
+    "meaning": "n. 礼貌, 谦恭, 好意\\n[法] 优待, 礼貌, 恩惠",
+    "example": "- It is common courtesy to hold the door open for the person behind you."
   },
   {
-    "word": "suite",
-    "root": "suit(跟随)+e→套房",
-    "meaning": "n. 随员, 套房, (一)组, (一)套, 组曲, 继之而来的事\\n[电] 程序组",
-    "example": "- The CEO arrived with a suite of senior advisors and legal counsel."
+    "word": "suffice",
+    "root": "suf(在…之下)+fic(做)+e→足够",
+    "meaning": "vi. 足够, 有能力\\nvt. 满足",
+    "example": "- A brief explanation will suffice for now."
   },
   {
-    "word": "wrinkle",
-    "root": "wrink(弯曲)+le(反复)→反复弯曲→皱纹",
-    "meaning": "n. 皱纹, 妙计, 方法, 技巧\\nvi. 起皱\\nvt. 使起皱纹",
-    "example": "- Her forehead bore deep wrinkles from years of intense concentration."
+    "word": "technician",
+    "root": "techn(技术)+ic(形容词)+ian(人)→技术员",
+    "meaning": "n. 技师\\n[化] 技师",
+    "example": "- The laboratory technician calibrated the equipment before the experiment began."
   },
   {
-    "word": "robot",
-    "root": "robot(机器人)→机器人",
-    "meaning": "n. 机械人, 自动机械, 机械般工作的人\\n[计] 机器人; 自动机",
-    "example": "- Modern industrial robots can assemble cars with remarkable precision and speed."
+    "word": "mend",
+    "root": "mend(修理)→修理",
+    "meaning": "n. 改进, 修补, 好转\\nvt. 修改, 改进, 加快, 修理\\nvi. 好转, 改善",
+    "example": "- The government has introduced new policies to mend the strained relations with neighboring countries."
   },
   {
-    "word": "briefcase",
-    "root": "brief(短)+case(箱子)→装文件的箱子→公文包",
-    "meaning": "n. 公事包",
-    "example": "- She placed her laptop and presentation slides into the briefcase before heading to the board meeting."
+    "word": "imperative",
+    "root": "im(加强)+per(命令)+ative(形容词)→命令的→必要的",
+    "meaning": "n. 命令, 必要的事, 规则, 祈使语气\\na. 命令式的, 急需的, 势在必行的, 强制的",
+    "example": "- It is imperative that we address climate change before its effects become irreversible."
   },
   {
-    "word": "orphan",
-    "root": "orph(孤儿)+an(名词后缀)→孤儿",
-    "meaning": "n. 孤儿\\na. 无双亲的, 孤儿的\\nvt. 使成孤儿\\n[计] 弧体",
-    "example": "- The charity provides education and shelter for orphans in war-torn regions."
+    "word": "endeavor",
+    "root": "en(使)+deavor(义务)→使有义务→努力",
+    "meaning": "n. 努力, 尽力\\nvi. 努力, 尽力",
+    "example": "- Her endeavor to bridge cultural gaps through education has earned widespread recognition."
   },
   {
-    "word": "tone",
-    "root": "tone→音调",
-    "meaning": "n. 音调, 音质, 语调, 语气, 色调, 气氛, 状况, 思想状态\\nvt. 给...定色调, 增强, 使...的声调和谐, 定音调\\nvi. 颜色调和\\n[计] 双音频",
-    "example": "- The speaker's calm tone helped ease the tension in the room."
+    "word": "curriculum",
+    "root": "curr(跑)+iculum(小)→小跑道→课程",
+    "meaning": "n. 课程\\n[医] 课程, 学程",
+    "example": "- The university has revised its curriculum to include more interdisciplinary courses."
   },
   {
-    "word": "shake",
-    "root": "shake(摇动)→摇动",
-    "meaning": "n. 摇动, 震动\\nvt. 摇动, 动摇, 使震动, 挥舞\\nvi. 震动, 发抖, 动摇",
-    "example": "- The earthquake made the windows shake violently."
+    "word": "fragrant",
+    "root": "frag(break)+r+-ant(…的人/…的)",
+    "meaning": "a. 芬香的, 馥郁的, 愉快的",
+    "example": "- The garden was filled with fragrant roses blooming in early summer."
   },
   {
-    "word": "abandon",
-    "root": "a(加强)+band(带子)+on→带子被丢弃→抛弃",
-    "meaning": "抛弃，遗弃；放弃",
-    "example": "- Those who abandon hope will never achieve their goals."
+    "word": "crew",
+    "root": "crew(增加)→全体船员",
+    "meaning": "n. 全体人员, 一群人, 全体队员\\ncrow的过去式",
+    "example": "- The film crew spent three months shooting on location in Iceland."
   },
   {
-    "word": "ignorance",
-    "root": "ignor(不知道)+ance(名词)→无知",
-    "meaning": "n. 无知, 愚味\\n[法] 无知, 不知情, 愚昧",
-    "example": "- His refusal to acknowledge climate change stems from sheer ignorance rather than deliberate denial."
-  },
-  {
-    "word": "verb",
-    "root": "verb(词)→动词",
-    "meaning": "n. 动词\\n[计] 动词",
-    "example": "- In the sentence 'She writes novels', 'writes' is the main verb."
-  },
-  {
-    "word": "spite",
-    "root": "spite→恶意",
-    "meaning": "n. 恶意, 怨恨, 使人烦恼的事物\\nvt. 故意刁难, 欺侮",
-    "example": "- She married him out of spite, not love."
-  },
-  {
-    "word": "sincere",
-    "root": "sin(一起)+cere(生长)→一起生长→真诚的",
-    "meaning": "a. 诚实的, 正直的, 真挚的, 纯净的",
-    "example": "- Her sincere apology helped rebuild the trust between the two departments."
-  },
-  {
-    "word": "drought",
-    "root": "drought→干旱",
-    "meaning": "n. 干旱, 缺乏",
-    "example": "- The region has been suffering from a severe drought for over two years, causing widespread crop failure."
-  },
-  {
-    "word": "focus",
-    "root": "focus(焦点)→焦点",
-    "meaning": "n. 焦点, 焦距\\nvi. 聚焦, 注视\\nvt. 使聚焦, 调焦, 集中\\n[计] 焦点",
-    "example": "- The conference focused on sustainable development as the key priority."
-  },
-  {
-    "word": "lantern",
-    "root": "lantern(词根:灯笼)→灯笼",
-    "meaning": "n. 灯笼, 提灯, 航标灯\\nvt. 装上提灯",
-    "example": "- During the Mid-Autumn Festival, children carry colorful lanterns while walking through the streets."
-  },
-  {
-    "word": "likelihood",
-    "root": "like(相似)+lihood(状态)→相似的状态→可能性",
-    "meaning": "n. 可能, 可能性",
-    "example": "- There is a high likelihood that the policy will be revised in the next quarter."
-  },
-  {
-    "word": "slot",
-    "root": "slot(词根)→狭槽",
-    "meaning": "n. 水沟, 细长孔, 硬币投币口, 缝, 狭槽, 狭通道, 位置, 一档(广播节目等)\\nvt. 开槽于, 把...纳入机构\\n[计] 槽; 存储槽",
-    "example": "- The technician inserted the memory card into the slot on the laptop's side."
-  },
-  {
-    "word": "width",
-    "root": "wide(宽)+th(名词)→宽度",
-    "meaning": "n. 宽度, 宽广, 广博\\n[医] 宽度",
-    "example": "- The width of the river varies from 20 to 50 meters depending on the season."
-  },
-  {
-    "word": "arrange",
-    "root": "ar(加强)+range(排列)→排列",
-    "meaning": "v. 安排, 排列, 达成协议\\n[计] 重排",
-    "example": "- The committee arranged a series of lectures on climate change for graduate students."
-  },
-  {
-    "word": "eloquent",
-    "root": "e(出)+loqu(说)+ent(形容词)→说出的→雄辩的",
-    "meaning": "a. 雄辩的, 有口才的, 有说服力的",
-    "example": "- Her eloquent speech convinced the committee to approve the funding."
-  },
-  {
-    "word": "doctrine",
-    "root": "doc(教)+trine(名词)→教义",
-    "meaning": "n. 教条, 学说\\n[医] 学说",
-    "example": "- The Monroe Doctrine declared that the United States would oppose European colonialism in the Americas."
-  },
-  {
-    "word": "pave",
-    "root": "pav(词根：铺)→铺路",
-    "meaning": "vt. 铺设, 安排, 铺满, 为...铺路\\n[化] 铺设",
-    "example": "- The city council plans to pave the old cobblestone streets with eco-friendly asphalt."
-  },
-  {
-    "word": "shape",
-    "root": "shape(形状)→形状",
-    "meaning": "n. 形状, 形态, 外形, 形式, 身材\\nvt. 定形, 使成形, 塑造, 计划, 使符合\\nvi. 成形, 形成, 成长\\n[计] 形状",
-    "example": "- The future of the industry is being shaped by rapid technological advances."
-  },
-  {
-    "word": "rule",
-    "root": "rul(统治)+e→规则",
-    "meaning": "n. 规则, 统治, 控制, 支配, 规律, 标准, 章程, 破折号, 铅线\\nvt. 规定, 统治, 管理, 控制, 支配, 裁决\\nvi. 统治, 管辖, 裁定\\n[计] 规则, 水线",
-    "example": "- The university has strict rules regarding academic integrity, and violations may result in expulsion."
-  },
-  {
-    "word": "convey",
-    "root": "con(一起)+vey(路)→一起上路→传达",
-    "meaning": "vt. 传达, 运输, 转让\\n[经] 转让(财产等), 搬运",
-    "example": "- The author's tone effectively conveys a sense of urgency and moral responsibility."
-  },
-  {
-    "word": "situate",
-    "root": "situ(位置)+ate(动词)→使位于→安置",
-    "meaning": "vt. 使位于, 使处于",
-    "example": "- The university is situated in the heart of the historic city."
-  },
-  {
-    "word": "warfare",
-    "root": "war(战争)+fare(进行)→进行战争→战争",
-    "meaning": "n. 战争, 战斗, 交战, 斗争, 竞争\\n[法] 战事, 作战, 交战",
-    "example": "- Cyber warfare has become a critical component of modern national security strategy."
-  },
-  {
-    "word": "herself",
-    "root": "her(她)+self(自己)→她自己",
-    "meaning": "pron. 她自己, 她亲自",
-    "example": "- She taught herself advanced calculus during the summer break."
-  },
-  {
-    "word": "branch",
-    "root": "branc(爪子)+h→像爪子一样分叉→树枝",
-    "meaning": "n. 树枝, 支店, 支流, 分部\\nvi. 分支, 出枝\\nvt. 分割, 用枝状叶脉刺绣花纹装饰\\n[计] 分支, 目录分支",
-    "example": "- The company opened a new branch in Shanghai to expand its market presence."
+    "word": "shaft",
+    "root": "shaft(杆)→杆",
+    "meaning": "n. 轴, 箭杆, 矛, 矿井\\nvt. 装杆于, 利用",
+    "example": "- The engineer inspected the drive shaft for signs of wear before the machine was restarted."
   }
 ]
